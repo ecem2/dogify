@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="gray">#989797</color>
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#03DAC5</color>
+    <color name="colorPrimaryVariant">#3700B3</color>
+    <color name="colorOnPrimary">#FFFFFF</color>
+    <color name="colorSecondary">#03DAC6</color>
+    <color name="colorOnSecondary">#000000</color>
+    <color name="selectIcon">#FF563F</color>
+    <color name= "firstColor">#FFC121</color>
+    <color name= "firstTextColor">#FFB800</color>
+    <color name= "secondColor">#21F2FF</color>
+    <color name= "secondTextColor">#00E6F4</color>
+    <color name= "thirdColor">#21AFFF</color>
+    <color name= "thirdTextColor">#00A2FD</color>
+    <color name="fourthColor">#FF7575</color>
+    <color name="fourthTextColor">#FF6363</color>
+    <color name="fifthColor">#7583FF</color>
+    <color name="fifthTextColor">#5D6CF8</color>
+    <color name="sixthColor">#FF8E4F</color>
+    <color name="sixTextColor">#FE8643</color>
+    <color name="seventhTextColor">#FFD009</color>
+    <color name="eighthTextColor">#FFA423</color>
+    <color name="ninthTextColor">#FFA700</color>
+    <color name="tenthTextColor">#00EDDF</color>
+    <color name="eleventhTextColor">#FF904B</color>
+    <color name="twelthTextColor">#45C8F5</color>
+    <color name="thirteenthTextColor">#C936FF</color>
+    <color name="fourteenthTextColor">#FFD009</color>
+    <color name="fifteenthTextColor">#3BADDA</color>
+    <color name="sixteenthTextColor">#FBC800</color>
+    <color name="seventeenthTextColor">#29B5CE</color>
+
+</resources>

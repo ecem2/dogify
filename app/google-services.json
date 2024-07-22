@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "470403280811",
+    "project_id": "dogify-2485f",
+    "storage_bucket": "dogify-2485f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:470403280811:android:13054a833e5a4160e3acee",
+        "android_client_info": {
+          "package_name": "com.melo.dogify"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyARE5Hr4IwL02flC8vocy22_jCZgGrykZU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/soundsFragment"
+        android:icon="@drawable/ic_dog"
+        android:title="@string/sounds" />
+    <item
+        android:id="@+id/translatorFragment"
+        android:icon="@mipmap/ic_launcher_talks"
+        android:title="@string/translator" />
+
+    <item
+        android:id="@+id/trainingFragment"
+        android:icon="@drawable/ic_training"
+        android:title="@string/training" />
+
+    <item
+        android:id="@+id/whistleFragment"
+        android:icon="@drawable/ic_whistle"
+        android:title="@string/whistle" />
+
+</menu>

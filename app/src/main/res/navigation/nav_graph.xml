@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/soundsFragment">
+
+    <fragment
+        android:id="@+id/soundsFragment"
+        android:name="com.melo.dogify.fragment.SoundsFragment"
+        android:label="fragment_sounds"
+        tools:layout="@layout/fragment_sounds" />
+    <fragment
+        android:id="@+id/translatorFragment"
+        android:name="com.melo.dogify.fragment.TranslatorFragment"
+        android:label="fragment_translator"
+        tools:layout="@layout/fragment_translator" />
+    <fragment
+        android:id="@+id/trainingFragment"
+        android:name="com.melo.dogify.fragment.TrainingFragment"
+        android:label="fragment_training"
+        tools:layout="@layout/fragment_training" />
+    <fragment
+        android:id="@+id/whistleFragment"
+        android:name="com.melo.dogify.fragment.WhistleFragment"
+        android:label="fragment_whistle"
+        tools:layout="@layout/fragment_whistle" />
+</navigation>
