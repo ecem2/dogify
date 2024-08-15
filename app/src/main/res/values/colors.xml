@@ -39,5 +39,6 @@
     <color name="fifteenthTextColor">#3BADDA</color>
     <color name="sixteenthTextColor">#FBC800</color>
     <color name="seventeenthTextColor">#29B5CE</color>
-
+    <color name="colorThumb">#3FAEFF</color>
+    <color name="colorTrack">#015694</color>
 </resources>

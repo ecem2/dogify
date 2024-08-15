@@ -4,6 +4,10 @@ plugins {
     id("kotlin-parcelize")
     id("androidx.navigation.safeargs.kotlin")
     id("com.google.gms.google-services")
+    id("kotlin-kapt")
+    id ("dagger.hilt.android.plugin")
+
+
 }
 
 android {
@@ -55,13 +59,11 @@ android {
 }
 
 dependencies {
-    val lifecycleVersion = "2.7.0"
-    val navVersion = "2.7.7"
-    implementation("org.jetbrains.kotlin:kotlin-stdlib:1.9.0")
+    implementation("org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.9.0")
     implementation("org.jetbrains.compose.ui:ui:1.5.1")
     implementation("androidx.fragment:fragment-ktx:1.8.1")
     implementation ("com.google.android.material:material:1.12.0")
-    implementation("androidx.appcompat:appcompat:1.6.1")
+    implementation("androidx.appcompat:appcompat:1.7.0")
     implementation ("androidx.cardview:cardview:1.0.0")
 
     // Serialization
@@ -89,19 +91,42 @@ dependencies {
     implementation("com.google.firebase:firebase-analytics")
     debugImplementation("androidx.compose.ui:ui-test-manifest")
 
+    //HILT
+    implementation("com.google.dagger:hilt-android:2.49")
+    kapt("com.google.dagger:hilt-android-compiler:2.48")
+
+    
+
+    //GSON
+    implementation("com.google.code.gson:gson:2.10.1")
+    // Retrofit dependencies
+    implementation ("com.squareup.retrofit2:retrofit:2.9.0")
+    implementation ("com.squareup.retrofit2:converter-gson:2.9.0")
+
+    // Splash screen
+    implementation("androidx.core:core-splashscreen:1.0.1")
+    // Testing dependencies
+    testImplementation ("junit:junit:4.13.2")
+    androidTestImplementation ("androidx.test.ext:junit:1.1.3")
+    androidTestImplementation ("androidx.test.espresso:espresso-core:3.4.0")
+
     // ViewModel
-    implementation("androidx.lifecycle:lifecycle-viewmodel-ktx:$lifecycleVersion")
+    implementation("androidx.lifecycle:lifecycle-viewmodel-ktx:2.8.3")
+
     // LiveData
-    implementation("androidx.lifecycle:lifecycle-livedata-ktx:$lifecycleVersion")
+    implementation("androidx.lifecycle:lifecycle-livedata-ktx:2.8.3")
     // Lifecycles only (without ViewModel or LiveData)
-    implementation("androidx.lifecycle:lifecycle-runtime-ktx:$lifecycleVersion")
+    implementation("androidx.lifecycle:lifecycle-runtime-ktx:2.8.3")
     // Saved state module for ViewModel
-    implementation("androidx.lifecycle:lifecycle-viewmodel-savedstate:$lifecycleVersion")
+    implementation("androidx.lifecycle:lifecycle-viewmodel-savedstate:2.8.3")
     // alternately - if using Java8, use the following instead of lifecycle-compiler
-    implementation("androidx.lifecycle:lifecycle-common-java8:$lifecycleVersion")
-    implementation("androidx.activity:activity-ktx:1.8.2")
-    implementation("androidx.fragment:fragment-ktx:1.7.0-alpha09")
+    implementation("androidx.lifecycle:lifecycle-common-java8:2.8.3")
+    implementation("androidx.activity:activity-ktx:1.9.0")
+    implementation("androidx.fragment:fragment-ktx:1.8.1")
     // Navigation
     implementation("androidx.navigation:navigation-fragment-ktx:2.7.7")
     implementation("androidx.navigation:navigation-ui-ktx:2.7.7")
+}
+kapt {
+    correctErrorTypes = true
 }

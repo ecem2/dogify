@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/view_pager"
+    app:startDestination="@id/harmfulOnesFragment">
+
+    <fragment
+        android:id="@+id/harmfulOnesFragment"
+        android:name="com.melo.dogify.viewpagerfragment.HarmfulOnesFragment"
+        android:label="fragment_harmful_ones"
+        tools:layout="@layout/fragment_harmful_ones" >
+        <action
+            android:id="@+id/action_harmfulOnesFragment_to_carefulWithTheseFragment"
+            app:destination="@id/carefulWithTheseFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/carefulWithTheseFragment"
+        android:name="com.melo.dogify.viewpagerfragment.CarefulWithTheseFragment"
+        android:label="fragment_careful_with_these"
+        tools:layout="@layout/fragment_careful_with_these" />
+    <fragment
+        android:id="@+id/safeOnesFragment"
+        android:name="com.melo.dogify.viewpagerfragment.SafeOnesFragment"
+        android:label="fragment_safe_ones"
+        tools:layout="@layout/fragment_safe_ones" >
+        <action
+            android:id="@+id/action_safeOnesFragment_to_harmfulOnesFragment"
+            app:destination="@id/harmfulOnesFragment" />
+    </fragment>
+</navigation>

@@ -7,7 +7,11 @@ import com.melo.dogify.adapter.SoundsAdapter
 import com.melo.dogify.core.fragments.BaseFragment
 import com.melo.dogify.databinding.FragmentSoundsBinding
 import com.melo.dogify.model.CardModel
-import com.melo.dogify.viewmodel.SoundsViewModel
+import com.melo.dogify.viewmodel. SoundsViewModel
+import dagger.hilt.android.AndroidEntryPoint
+
+
+@AndroidEntryPoint
 
 class SoundsFragment : BaseFragment<SoundsViewModel, FragmentSoundsBinding>(),
     SoundsAdapter.ItemClickListener {
@@ -30,7 +34,6 @@ class SoundsFragment : BaseFragment<SoundsViewModel, FragmentSoundsBinding>(),
 
     override fun onInitDataBinding() {
         setupCardStyle()
-        soundsAdapter.submitList(viewModel.cardList)
     }
 
     private fun setupCardStyle() {
@@ -39,6 +42,8 @@ class SoundsFragment : BaseFragment<SoundsViewModel, FragmentSoundsBinding>(),
             layoutManager = GridLayoutManager(requireContext(), 3)
             setHasFixedSize(true)
         }
+        soundsAdapter.submitList(viewModel.cardList)
+
     }
 
     override fun onResume() {
@@ -48,7 +53,6 @@ class SoundsFragment : BaseFragment<SoundsViewModel, FragmentSoundsBinding>(),
     override fun onItemClick(item: CardModel) {
         selectedItemPosition = viewModel.cardList.indexOf(item)
         selectedCard = item
-        // item.isSelected = true
         soundsAdapter.notifyDataSetChanged()
     }
 }

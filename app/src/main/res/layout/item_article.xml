@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <data>
+        <variable
+            name="trainingModel"
+            type="com.melo.dogify.model.ArticleModel" />
+    </data>
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/card"
+        android:layout_marginTop="14dp"
+        android:background="@drawable/bg_article"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/gl"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            app:layout_constraintGuide_percent="0.06"/>
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/image_one"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:cardImage="@{trainingModel.image}"
+            app:layout_constraintStart_toEndOf="@+id/gl"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"/>
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginHorizontal="8dp"
+            app:layout_constraintStart_toEndOf="@+id/image_one"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="@+id/image_one">
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/text_one"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@{trainingModel.textTitle}"
+            android:fontFamily="@font/tt_firs_neue_trial_medium"
+            android:textColor="@android:color/black"
+            android:textSize="22sp"
+            android:layout_marginTop="30dp"
+            />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/text_view_bottom"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@{trainingModel.text}"
+            android:fontFamily="@font/tt_firs_neue_trial_regular"
+            android:textColor="@android:color/black"
+            android:textSize="14sp"
+            android:padding="2dp"
+            android:layout_marginTop="4dp" />
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</layout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="CustomTabLayout" parent="Widget.MaterialComponents.TabLayout">
+        <item name="tabPaddingStart">@dimen/tab_padding</item>
+        <item name="tabPaddingEnd">@dimen/tab_padding</item>
+    </style>
+</resources>

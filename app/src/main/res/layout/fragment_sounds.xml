@@ -22,7 +22,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        android:layout_marginTop="65dp"
+        android:layout_marginTop="25dp"
         android:fontFamily="@font/clashdisplay_semibold"
         android:textColor="@color/black"
         android:text="Dogi." />
@@ -38,13 +38,14 @@
         android:textSize="45sp"
         android:textAllCaps="false"
         android:textColor="@color/black"
-        android:fontFamily="@font/tt_firs_neue_trial_bold"
+        android:fontFamily="@font/clashdisplay_semibold"
         android:layout_marginHorizontal="40dp"/>
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/rv_dog"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="0dp"
+        android:layout_marginHorizontal="8dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:spanCount="3"

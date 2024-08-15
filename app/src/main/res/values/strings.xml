@@ -5,4 +5,7 @@
     <string name="translator">Translator</string>
     <string name="training">Training</string>
     <string name="whistle">Whistle</string>
+    <string name="read_now"><u>Read now</u></string>
+
+
 </resources>

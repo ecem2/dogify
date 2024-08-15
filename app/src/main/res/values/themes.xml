@@ -5,12 +5,22 @@
         <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
+
         <!-- Other theme attributes -->
         <item name="colorPrimaryVariant">@color/colorPrimaryVariant</item>
         <item name="colorOnPrimary">@color/colorOnPrimary</item>
         <item name="colorSecondary">@color/colorSecondary</item>
         <item name="colorOnSecondary">@color/colorOnSecondary</item>
     </style>
+    <style name="Theme.Artai" parent="Theme.Dogify" />
+
+    <style name="Theme.App.Starting" parent="Theme.SplashScreen">
+    <item name="windowSplashScreenAnimatedIcon">@mipmap/ic_launcher_round</item>
+    <item name="windowSplashScreenBackground">@color/black</item>
+    <item name="windowSplashScreenAnimationDuration">2000</item>
+    <item name="postSplashScreenTheme">@style/Theme.Artai</item>
+    </style>
+
     <style name="CustomBottomNavigationView" parent="Widget.MaterialComponents.BottomNavigationView.PrimarySurface">
         <item name="itemIconTint">@drawable/bottom_nav_color</item>
         <item name="itemTextColor">@color/black</item>

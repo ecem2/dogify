@@ -24,10 +24,4 @@ class WhistleFragment : Fragment() {
         return inflater.inflate(R.layout.fragment_whistle, container, false)
     }
 
-    override fun onActivityCreated(savedInstanceState: Bundle?) {
-        super.onActivityCreated(savedInstanceState)
-        viewModel = ViewModelProvider(this).get(WhistleViewModel::class.java)
-        // TODO: Use the ViewModel
-    }
-
 }

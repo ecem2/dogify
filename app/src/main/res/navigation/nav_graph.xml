@@ -3,7 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/nav_graph"
-    app:startDestination="@id/soundsFragment">
+    app:startDestination="@id/splashFragment">
 
     <fragment
         android:id="@+id/soundsFragment"
@@ -19,10 +19,47 @@
         android:id="@+id/trainingFragment"
         android:name="com.melo.dogify.fragment.TrainingFragment"
         android:label="fragment_training"
-        tools:layout="@layout/fragment_training" />
+        tools:layout="@layout/fragment_training" >
+        <action
+            android:id="@+id/action_trainingFragment_to_foodFragment"
+            app:destination="@id/foodFragment" />
+        <action
+            android:id="@+id/action_trainingFragment_to_appleFragment"
+            app:destination="@id/appleFragment" />
+        <action
+            android:id="@+id/action_trainingFragment_to_articleFragment"
+            app:destination="@id/articleFragment" />
+    </fragment>
     <fragment
         android:id="@+id/whistleFragment"
         android:name="com.melo.dogify.fragment.WhistleFragment"
         android:label="fragment_whistle"
         tools:layout="@layout/fragment_whistle" />
+    <fragment
+        android:id="@+id/foodFragment"
+        android:name="com.melo.dogify.fragment.FoodFragment"
+        android:label="fragment_food"
+        tools:layout="@layout/fragment_food" />
+    <fragment
+        android:id="@+id/appleFragment"
+        android:name="com.melo.dogify.fragment.AppleFragment"
+        android:label="AppleFragment" />
+    <fragment
+        android:id="@+id/articleFragment"
+        android:name="com.melo.dogify.fragment.ArticleFragment"
+        android:label="fragment_article"
+        tools:layout="@layout/fragment_article" />
+    <fragment
+        android:id="@+id/splashFragment"
+        android:name="com.melo.dogify.splash.SplashFragment"
+        android:label="SplashFragment" >
+        <action
+            android:id="@+id/action_splashFragment_to_soundsFragment"
+            app:destination="@id/soundsFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/onboardFragment"
+        android:name="com.melo.dogify.onboard.OnboardFragment"
+        android:label="fragment_onboard_two"
+        tools:layout="@layout/fragment_onboard_two" />
 </navigation>

@@ -19,11 +19,13 @@ import androidx.core.view.WindowInsetsControllerCompat
 import androidx.databinding.ViewDataBinding
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
+import com.melo.dogify.activities.DogBaseVmDbActivity
 import com.melo.dogify.core.viewmodel.BaseViewModel
+import com.melo.dogify.viewmodel.DogBaseViewModel
+import com.melo.dogify.viewmodel.SoundsViewModel
 
-abstract class BaseFragment<VM : BaseViewModel, DB : ViewDataBinding> :
+abstract class BaseFragment<VM : DogBaseViewModel, DB : ViewDataBinding> :
     SoundsVmDbFragment<VM, DB>() {
-
     var dialog: Dialog? = null
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {

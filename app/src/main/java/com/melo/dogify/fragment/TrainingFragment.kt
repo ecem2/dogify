@@ -1,33 +1,75 @@
 package com.melo.dogify.fragment
 
-import androidx.lifecycle.ViewModelProvider
-import android.os.Bundle
-import androidx.fragment.app.Fragment
-import android.view.LayoutInflater
-import android.view.View
-import android.view.ViewGroup
+
+import androidx.recyclerview.widget.GridLayoutManager
 import com.melo.dogify.R
-import com.melo.dogify.viewmodel.TrainingViewModel
+import com.melo.dogify.adapter.TrainingAdapter
+import com.melo.dogify.core.fragments.BaseFragment
+import com.melo.dogify.databinding.FragmentTrainingBinding
+import com.melo.dogify.extensions.navigate
+import com.melo.dogify.model.TrainingModel
+import com.melo.dogify.viewmodel. SoundsViewModel
+import dagger.hilt.android.AndroidEntryPoint
 
-class TrainingFragment : Fragment() {
 
-    companion object {
-        fun newInstance() = TrainingFragment()
+@AndroidEntryPoint
+
+class TrainingFragment : BaseFragment<SoundsViewModel, FragmentTrainingBinding>(),
+    TrainingAdapter.ItemClickListener {
+
+    private val trainingAdapter: TrainingAdapter by lazy {
+        TrainingAdapter(
+            requireContext(),
+            this@TrainingFragment
+
+        )
     }
 
-    private lateinit var viewModel: TrainingViewModel
+    private var selectedTraining: TrainingModel? = null
+    private var selectedItemPosition: Int = 0
 
-    override fun onCreateView(
-        inflater: LayoutInflater, container: ViewGroup?,
-        savedInstanceState: Bundle?,
-    ): View? {
-        return inflater.inflate(R.layout.fragment_training, container, false)
+
+    override fun viewModelClass() = SoundsViewModel::class.java
+
+    override fun getResourceLayoutId() = R.layout.fragment_training
+
+    override fun onInitDataBinding() {
+        setupTrainingStyle()
     }
 
-    override fun onActivityCreated(savedInstanceState: Bundle?) {
-        super.onActivityCreated(savedInstanceState)
-        viewModel = ViewModelProvider(this).get(TrainingViewModel::class.java)
-        // TODO: Use the ViewModel
+    private fun setupTrainingStyle() {
+        viewBinding.rvTraining.apply {
+            adapter = trainingAdapter
+            layoutManager = GridLayoutManager(requireContext(), 1)
+            setHasFixedSize(true)
+        }
+        trainingAdapter.submitList(viewModel.trainingList)
+
     }
+    override fun onItemClick(item: TrainingModel) {
+        selectedItemPosition = viewModel.trainingList.indexOf(item)
+        selectedTraining = item
+
+        if (selectedItemPosition == 0) {
+            navigate(TrainingFragmentDirections.actionTrainingFragmentToFoodFragment())
+        }
+        if(selectedItemPosition == 1){
+            navigate(TrainingFragmentDirections.actionTrainingFragmentToArticleFragment())
+        }
+        if(selectedItemPosition == 2){
+            navigate(TrainingFragmentDirections.actionTrainingFragmentToAppleFragment())
+        }
+        if(selectedItemPosition == 3){
+            navigate(TrainingFragmentDirections.actionTrainingFragmentToAppleFragment())
+        }
+        if(selectedItemPosition == 4){
+            navigate(TrainingFragmentDirections.actionTrainingFragmentToAppleFragment())
+        }
+        trainingAdapter.notifyDataSetChanged()
+    }
+    override fun onResume() {
+        super.onResume()
+    }
+
 
 }
