@@ -204,47 +204,58 @@
                 android:textSize="14sp" />
         </androidx.appcompat.widget.LinearLayoutCompat>
 
-            <androidx.appcompat.widget.AppCompatTextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="32dp"
-                android:layout_marginTop="28dp"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/ll_ads_free"
-                android:fontFamily="@font/red_hat_display_regular"
-                android:text="Start 3 days Free Trial"
-                android:textColor="@color/white"
-                android:textSize="18sp" />
-            <Switch
-                android:id="@+id/ic_switch"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:thumb="@drawable/thumb"
-                android:track="@drawable/track"
-                tools:ignore="UseSwitchCompatOrMaterialXml"
-                app:layout_constraintEnd_toEndOf="parent"
-                android:layout_marginTop="28dp"
-                android:padding="4dp"
-                android:layout_marginEnd="30dp"
-                app:layout_constraintTop_toBottomOf="@+id/ll_ads_free" />
-
-        <androidx.appcompat.widget.AppCompatImageView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:src="@drawable/bg_premium_continue"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/ic_switch"/>
         <androidx.appcompat.widget.AppCompatTextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintBottom_toBottomOf="parent"
-            android:text="Continue"
-            android:textColor="#080C1E"
+            android:layout_marginStart="32dp"
+            android:layout_marginTop="28dp"
+            android:fontFamily="@font/red_hat_display_regular"
+            android:text="Start 3 days Free Trial"
+            android:textColor="@color/white"
             android:textSize="18sp"
-            android:fontFamily="@font/red_hat_display_bold"
-            android:layout_marginBottom="32dp"/>
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/ll_ads_free" />
+
+        <Switch
+            android:id="@+id/ic_switch"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="28dp"
+            android:layout_marginEnd="30dp"
+            android:padding="4dp"
+            android:thumb="@drawable/thumb"
+            android:track="@drawable/track"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/ll_ads_free"
+            tools:ignore="UseSwitchCompatOrMaterialXml" />
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_gravity="center"
+            android:layout_marginHorizontal="20dp"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/bg_continue"
+            android:gravity="center"
+            android:orientation="horizontal"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/ic_switch">
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/red_hat_display_bold"
+                android:text="Continue"
+                android:textAllCaps="false"
+                android:textColor="#080C1E"
+                android:textSize="18sp" />
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="18dp"
+                android:src="@drawable/ic_arrow" />
+        </androidx.appcompat.widget.LinearLayoutCompat>
     </androidx.constraintlayout.widget.ConstraintLayout>
 </layout>

@@ -6,7 +6,7 @@ import com.melo.dogify.model.ArticleModel
 import com.melo.dogify.model.CardModel
 import com.melo.dogify.model.TrainingModel
 import dagger.hilt.android.lifecycle.HiltViewModel
-import java.util.prefs.Preferences
+import com.melo.dogify.preferences.Preferences
 import javax.inject.Inject
 
 @HiltViewModel

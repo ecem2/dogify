@@ -6,6 +6,6 @@
     <string name="training">Training</string>
     <string name="whistle">Whistle</string>
     <string name="read_now"><u>Read now</u></string>
-
-
+    <string name="terms"><u>Terms</u></string>
+    <string name="privacy"><u>Privacy</u></string>
 </resources>

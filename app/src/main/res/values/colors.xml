@@ -41,4 +41,8 @@
     <color name="seventeenthTextColor">#29B5CE</color>
     <color name="colorThumb">#3FAEFF</color>
     <color name="colorTrack">#015694</color>
+    <color name="premiumColorThumb">#3FAEFF</color>
+    <color name="premiumColorTrack">#D4EDFF</color>
+    <color name="sliderBg">#171717</color>
+    <color name="slider">#FFC90C</color>
 </resources>

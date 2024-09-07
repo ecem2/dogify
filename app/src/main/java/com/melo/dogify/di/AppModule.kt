@@ -6,16 +6,18 @@ import com.melo.dogify.preferences.DogSharedPreferences
 import dagger.Module
 import dagger.Provides
 import dagger.hilt.InstallIn
+import dagger.hilt.android.qualifiers.ApplicationContext
 import dagger.hilt.components.SingletonComponent
 import javax.inject.Singleton
 
-@InstallIn(SingletonComponent::class)
 @Module
+@InstallIn(SingletonComponent::class)
+
 object AppModule {
 
-    @Singleton
     @Provides
-    fun providePreferences(context: Context): DogSharedPreferences =
-        DogPreferenceManager(context)
+    @Singleton
+
+    fun provideContext(@ApplicationContext context: Context): Context = context
 
 }

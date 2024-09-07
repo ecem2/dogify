@@ -5,12 +5,13 @@ import dagger.Binds
 import dagger.Module
 import dagger.hilt.InstallIn
 import dagger.hilt.components.SingletonComponent
-import java.util.prefs.Preferences
-import javax.inject.Singleton
+import com.melo.dogify.preferences.Preferences
 
 @Module
 @InstallIn(SingletonComponent::class)
-abstract class PreferenceModule {
+ abstract class PreferenceModule {
+
+
 
     @Binds
     abstract fun providePreferences(preferences: DogPreferenceManager): Preferences

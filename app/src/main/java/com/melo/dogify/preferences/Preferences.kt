@@ -6,5 +6,5 @@ interface Preferences {
 
     fun getFirstLaunch(): Boolean
 
-
+    fun getToken(): String
 }

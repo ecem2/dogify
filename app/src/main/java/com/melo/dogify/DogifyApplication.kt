@@ -6,4 +6,12 @@ import dagger.hilt.android.HiltAndroidApp
 @HiltAndroidApp
 
 class DogifyApplication: Application() {
+    override fun onCreate() {
+        super.onCreate()
+
+    }
+
+    companion object {
+        var hasSubscription : Boolean = true //false olacak
+    }
 }

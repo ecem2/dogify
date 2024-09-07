@@ -1,3 +1,5 @@
+@file:Suppress("DEPRECATION")
+
 package com.melo.dogify.adapter
 
 import androidx.fragment.app.Fragment
