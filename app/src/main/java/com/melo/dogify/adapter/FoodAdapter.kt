@@ -9,17 +9,17 @@ import androidx.recyclerview.widget.DiffUtil
 import androidx.recyclerview.widget.ListAdapter
 import androidx.recyclerview.widget.RecyclerView
 import com.melo.dogify.databinding.ItemFoodBinding
-import com.melo.dogify.model.CardModel
+import com.melo.dogify.model.FoodModel
 import com.melo.dogify.viewmodel.SoundsViewModel
 
 
 class FoodAdapter(
     private val context: Context,
     private val itemClickListener: ItemClickListener
-) : ListAdapter<CardModel, FoodAdapter.FoodViewHolder>(DiffCallback()) {
+) : ListAdapter<FoodModel, FoodAdapter.FoodViewHolder>(DiffCallback()) {
 
     interface ItemClickListener {
-        fun onItemClick(item: CardModel)
+        fun onItemClick(item: FoodModel)
     }
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): FoodViewHolder {
@@ -28,30 +28,30 @@ class FoodAdapter(
     }
 
     override fun onBindViewHolder(holder: FoodViewHolder, position: Int) {
-        val cardModel = getItem(position)
-        holder.bind(cardModel)
+        val foodModel = getItem(position)
+        holder.bind(foodModel)
     }
 
     inner class FoodViewHolder(private val binding: ItemFoodBinding) :
         RecyclerView.ViewHolder(binding.root) {
-        fun bind(cardModel: CardModel) {
-            binding.cardModel = cardModel
-            // binding.textView.text = cardModel.text
+        fun bind(foodModel: FoodModel) {
+            binding.foodModel = foodModel
+            // binding.textView.text = foodModel.text
 
 
             binding.root.setOnClickListener {
-                itemClickListener.onItemClick(cardModel)
+                itemClickListener.onItemClick(foodModel)
 
             }
         }
     }
 
-    class DiffCallback : DiffUtil.ItemCallback<CardModel>() {
-        override fun areItemsTheSame(oldItem: CardModel, newItem: CardModel): Boolean {
+    class DiffCallback : DiffUtil.ItemCallback<FoodModel>() {
+        override fun areItemsTheSame(oldItem: FoodModel, newItem: FoodModel): Boolean {
             return oldItem == newItem
         }
 
-        override fun areContentsTheSame(oldItem: CardModel, newItem: CardModel): Boolean {
+        override fun areContentsTheSame(oldItem: FoodModel, newItem: FoodModel): Boolean {
             return oldItem == newItem
         }
     }

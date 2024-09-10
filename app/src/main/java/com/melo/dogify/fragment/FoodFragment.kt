@@ -14,7 +14,7 @@ import com.melo.dogify.adapter.FoodAdapter
 import com.melo.dogify.adapter.FoodViewPagerAdapter
 import com.melo.dogify.core.fragments.BaseFragment
 import com.melo.dogify.databinding.FragmentFoodBinding
-import com.melo.dogify.model.CardModel
+import com.melo.dogify.model.FoodModel
 import com.melo.dogify.viewmodel. SoundsViewModel
 import dagger.hilt.android.AndroidEntryPoint
 
@@ -32,7 +32,7 @@ class FoodFragment : BaseFragment<SoundsViewModel, FragmentFoodBinding>(),
         )
     }
 
-    private var selectedCard: CardModel? = null
+    private var selectedCard: FoodModel? = null
     private var selectedItemPosition: Int = 0
 
 
@@ -112,7 +112,7 @@ class FoodFragment : BaseFragment<SoundsViewModel, FragmentFoodBinding>(),
             override fun onPageScrollStateChanged(state: Int) {}
         })
     }
-    override fun onItemClick(item: CardModel) {
+    override fun onItemClick(item: FoodModel) {
         selectedItemPosition = viewModel.foodCardList.indexOf(item)
         selectedCard = item
         foodAdapter.notifyDataSetChanged()

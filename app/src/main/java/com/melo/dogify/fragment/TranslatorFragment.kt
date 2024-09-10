@@ -1,18 +1,21 @@
 package com.melo.dogify.fragment
 
 import android.Manifest
-import android.app.Activity
 import android.content.ActivityNotFoundException
 import android.content.Context
 import android.content.Intent
 import android.content.pm.PackageManager
 import android.media.MediaPlayer
 import android.media.MediaRecorder
+import android.os.Bundle
+import android.speech.RecognitionListener
 import android.speech.RecognizerIntent
+import android.speech.SpeechRecognizer
 import android.speech.tts.TextToSpeech
 import android.util.Log
 import android.view.View
 import android.widget.Toast
+import androidx.constraintlayout.widget.ConstraintLayout
 import androidx.core.app.ActivityCompat
 import com.google.gson.Gson
 import com.melo.dogify.R
@@ -29,25 +32,20 @@ import kotlin.random.Random
 @AndroidEntryPoint
 class TranslatorFragment : BaseFragment<SoundsViewModel, FragmentTranslatorBinding>() {
 
-    private var mediaRecorder: MediaRecorder? = null
     private val REQUEST_RECORD_AUDIO_PERMISSION = 200
-    private var permissionToRecordAccepted = false
     private val permissions: Array<String> = arrayOf(Manifest.permission.RECORD_AUDIO)
-    private var tts: TextToSpeech? = null
-
+    private lateinit var speechRecognizer: SpeechRecognizer
+    private lateinit var speechIntent: Intent
+    private lateinit var recognizedText: String
     override fun viewModelClass() = SoundsViewModel::class.java
 
     override fun getResourceLayoutId() = R.layout.fragment_translator
 
     override fun onInitDataBinding() {
-        tts = TextToSpeech(context) { status ->
-            if (status == TextToSpeech.SUCCESS) {
-                tts?.language = Locale.US
-            } else {
-                Log.e("ecemm", "TTS initialization failed.")
-            }
-        }
         viewBinding.sound.setOnClickListener {
+            translatorPp()  // Mikrofonu başlatan fonksiyonu çağır
+            recognizedText = ""
+
             if (ActivityCompat.checkSelfPermission(
                     requireContext(),
                     Manifest.permission.RECORD_AUDIO
@@ -59,9 +57,15 @@ class TranslatorFragment : BaseFragment<SoundsViewModel, FragmentTranslatorBindi
                     REQUEST_RECORD_AUDIO_PERMISSION
                 )
             } else {
-                startRecordingProcess()
+                speechRecognizer.startListening(speechIntent)
             }
+
+            viewBinding.sound.visibility = View.GONE
+            viewBinding.pause.visibility = View.VISIBLE
+            viewBinding.exit.visibility = View.VISIBLE
+            viewBinding.tick.visibility = View.VISIBLE
         }
+
         viewBinding.pause.setOnClickListener {
             viewBinding.sound.visibility = View.VISIBLE
             viewBinding.pause.visibility = View.GONE
@@ -74,189 +78,98 @@ class TranslatorFragment : BaseFragment<SoundsViewModel, FragmentTranslatorBindi
             viewBinding.pause.visibility = View.GONE
             viewBinding.exit.visibility = View.GONE
             viewBinding.tick.visibility = View.GONE
+            viewBinding.txtRecord.text = ""
+            recognizedText = ""
+
         }
+
         viewBinding.tick.setOnClickListener {
-            stopRecording()
-            stopRecordingProcess()
-            processRecordedSound()
-            playDogSound()
+            viewBinding.txtRecord.text = recognizedText
+            // Tanınan cümle varsa txtRecord TextView'ine yaz
+//            if (recognizedText.isNotEmpty()) {
+//                viewBinding.txtRecord.text = recognizedText
+//            } else {
+//                Toast.makeText(requireContext(), "Henüz bir cümle tanımlanmadı.", Toast.LENGTH_SHORT).show()
+//            }
         }
     }
 
-    private fun processRecordedSound() {
-        val jsonString = context?.let { loadJsonFromAssets(it, "dog_words.json") }
-        val gson = Gson()
-        val dogSounds: List<DogSound> = gson.fromJson(jsonString, Array<DogSound>::class.java).toList()
 
-        val randomIndex = Random.nextInt(dogSounds.size)
-        val randomWord = dogSounds[randomIndex].word
-        val foundSound = dogSounds.find { it.word.equals(randomWord, ignoreCase = true) }
+    fun translatorPp() {
+        speechRecognizer = SpeechRecognizer.createSpeechRecognizer(requireContext())
+        speechIntent = Intent(RecognizerIntent.ACTION_RECOGNIZE_SPEECH)
+        speechIntent.putExtra(
+            RecognizerIntent.EXTRA_LANGUAGE_MODEL,
+            RecognizerIntent.LANGUAGE_MODEL_FREE_FORM
+        )
+        // Burada Türkçe dilini belirtiyoruz
+        speechIntent.putExtra(RecognizerIntent.EXTRA_LANGUAGE, "tr-TR")
+        val isTranslatorOnLeft =
+            viewBinding.translatorPp.layoutParams is ConstraintLayout.LayoutParams &&
+                    (viewBinding.translatorPp.layoutParams as ConstraintLayout.LayoutParams).startToStart == ConstraintLayout.LayoutParams.PARENT_ID
 
-        if (foundSound != null) {
-            Log.d("ecemm", "Word: ${foundSound.word}")
-            Log.d("ecemm", "Meaning: ${foundSound.meaning}")
-            Log.d("ecemm", "Turkish: ${foundSound.turkish}")
-
-            matchTurkishPhraseAndPlaySound(foundSound.turkish)
-        } else {
-            Log.d("ecemm", "Ses bulunamadı.")
+        if (isTranslatorOnLeft) {
+            viewBinding.translatorPp.setOnClickListener {
+                if (ActivityCompat.checkSelfPermission(
+                        requireContext(),
+                        Manifest.permission.RECORD_AUDIO
+                    ) == PackageManager.PERMISSION_GRANTED
+                ) {
+                    speechRecognizer.startListening(speechIntent)
+                } else {
+                    ActivityCompat.requestPermissions(
+                        requireActivity(),
+                        permissions,
+                        REQUEST_RECORD_AUDIO_PERMISSION
+                    )
+                }
+            }
         }
+
+        speechRecognizer.setRecognitionListener(object : RecognitionListener {
+            override fun onResults(results: Bundle?) {
+                val matches = results?.getStringArrayList(SpeechRecognizer.RESULTS_RECOGNITION)
+                if (!matches.isNullOrEmpty()) {
+                    recognizedText = matches[0]
+                    Log.d("SpeechRecognition", "Recognized Text: $recognizedText")
+                } else {
+                    Log.d("SpeechRecognition", "No matches found.")
+                }
+            }
+
+            override fun onError(error: Int) {
+                Log.e("ecemm", "Error occurred: $error")
+            }
+
+            override fun onReadyForSpeech(params: Bundle?) {
+                Log.d("ecemm", "Ready for speech.")
+            }
+
+            override fun onBeginningOfSpeech() {
+                Log.d("ecemm", "Speech started.")
+            }
+
+            override fun onRmsChanged(rmsdB: Float) {}
+            override fun onBufferReceived(buffer: ByteArray?) {}
+            override fun onEndOfSpeech() {
+                Log.d("ecemm", "Speech ended.")
+            }
+
+            override fun onPartialResults(partialResults: Bundle?) {}
+            override fun onEvent(eventType: Int, params: Bundle?) {}
+        })
     }
 
-    @Deprecated("Deprecated in Java")
-    override fun onRequestPermissionsResult(
-        requestCode: Int,
-        permissions: Array<String>,
-        grantResults: IntArray
-    ) {
+
+        // İzin sonucu burada kontrol edilecek
+    override fun onRequestPermissionsResult(requestCode: Int, permissions: Array<out String>, grantResults: IntArray) {
         if (requestCode == REQUEST_RECORD_AUDIO_PERMISSION) {
-            permissionToRecordAccepted = grantResults.isNotEmpty() &&
-                    grantResults[0] == PackageManager.PERMISSION_GRANTED
-
-            if (permissionToRecordAccepted) {
-                startRecordingProcess()
+            if (grantResults.isNotEmpty() && grantResults[0] == PackageManager.PERMISSION_GRANTED) {
+                // İzin verildiyse konuşmayı başlat
+                speechRecognizer.startListening(speechIntent)
             } else {
-                Toast.makeText(
-                    requireContext(),
-                    "Ses kaydetme izni gerekli!",
-                    Toast.LENGTH_SHORT
-                ).show()
+                Toast.makeText(requireContext(), "Mikrofon izni reddedildi.", Toast.LENGTH_SHORT).show()
             }
         }
-    }
-
-
-    private fun startRecordingProcess() {
-        viewBinding.sound.visibility = View.GONE
-        viewBinding.exit.visibility = View.VISIBLE
-        viewBinding.pause.visibility = View.VISIBLE
-        viewBinding.tick.visibility = View.VISIBLE
-
-        startRecording()
-
-
-       // stopRecording()
-
-//        val jsonString = context?.let { loadJsonFromAssets(it, "dog_words.json") }
-//        val gson = Gson()
-//        val dogSounds: List<DogSound> = gson.fromJson(jsonString, Array<DogSound>::class.java).toList()
-//
-//        val randomIndex = Random.nextInt(dogSounds.size)
-//        val randomWord = dogSounds[randomIndex].word
-//        val foundSound = dogSounds.find { it.word.equals(randomWord, ignoreCase = true) }
-//
-//        if (foundSound != null) {
-//            Log.d("ecemm", "Word: ${foundSound.word}")
-//            Log.d("ecemm", "Meaning: ${foundSound.meaning}")
-//            Log.d("ecemm", "Turkish: ${foundSound.turkish}")
-//
-//        } else {
-//            Log.d("ecemm", "Ses bulunamadı.")
-//        }
-    }
-    private fun stopRecordingProcess() {
-        stopRecording()
-        processRecordedSound()
-    }
-    private fun startRecording() {
-        try {
-            mediaRecorder = MediaRecorder().apply {
-                setAudioSource(MediaRecorder.AudioSource.MIC)
-                setOutputFormat(MediaRecorder.OutputFormat.THREE_GPP)
-                setAudioEncoder(MediaRecorder.AudioEncoder.AMR_NB)
-                setOutputFile(context?.externalCacheDir?.absolutePath + "/audiorecordtest.3gp")
-                prepare()
-                start()
-            }
-            Log.d("ecemm", "Recording started")
-        } catch (e: Exception) {
-            Log.e("ecemm", "Recording failed to start: ${e.message}")
-        }
-    }
-
-    private fun playDogSound(word: String) {
-        tts?.speak(word, TextToSpeech.QUEUE_FLUSH, null, null)
-    }
-
-    override fun onDestroy() {
-        super.onDestroy()
-        tts?.stop()
-        tts?.shutdown()
-    }
-
-    private fun generateSoundFileFromWord(word: String) {
-        val filePath = context?.externalCacheDir?.absolutePath + "/${word}.wav"
-        val file = File(filePath)
-
-        tts?.synthesizeToFile(word, null, file, word) // Text'i dosyaya çeviriyoruz
-
-        // Daha sonra bu dosyayı çalabilirsiniz:
-        playGeneratedSound(filePath)
-    }
-
-    private fun playGeneratedSound(filePath: String) {
-        val mediaPlayer = MediaPlayer().apply {
-            try {
-                setDataSource(filePath)
-                prepare()
-                start()
-            } catch (e: Exception) {
-                Log.e("ecemm", "Sound playback failed: ${e.message}")
-            }
-        }
-    }
-
-    fun matchTurkishPhraseAndPlaySound(turkishPhrase: String) {
-        val jsonString = context?.let { loadJsonFromAssets(it, "dog_words.json") }
-        val gson = Gson()
-        val dogSounds: List<DogSound> = gson.fromJson(jsonString, Array<DogSound>::class.java).toList()
-
-        // "turkish" ile eşleşen kayıt bulunuyor
-        val foundSound = dogSounds.find { it.turkish.equals(turkishPhrase, ignoreCase = true) }
-
-        if (foundSound != null) {
-            Log.d("ecemm", "Eşleşen kelime: ${foundSound.word}")
-            playDogSound(foundSound.word) // Kelimeyi seslendiriyoruz
-        } else {
-            Log.d("ecemm", "Eşleşen ses bulunamadı.")
-        }
-    }
-
-
-    private fun stopRecording() {
-        try {
-            mediaRecorder?.apply {
-                stop()
-                release()
-            }
-            mediaRecorder = null
-            Log.d("ecemm", "Recording stopped")
-        } catch (e: RuntimeException) {
-            Log.e("ecemm", "stopRecording failed: ${e.message}")
-        }
-    }
-    private fun playDogSound() {
-        val recordedFilePath = context?.externalCacheDir?.absolutePath + "/audiorecordtest.3gp"
-        val mediaPlayer = MediaPlayer().apply {
-            try {
-                setDataSource(recordedFilePath)
-                prepare()
-                start()
-            } catch (e: Exception) {
-                Log.e("ecemm", "Dog sound playback failed: ${e.message}")
-            }
-        }
-    }
-
-    fun loadJsonFromAssets(context: Context, fileName: String): String? {
-        val json: String?
-        try {
-            val inputStream = context.assets.open(fileName)
-            json = inputStream.bufferedReader().use { it.readText() }
-        } catch (ex: Exception) {
-            ex.printStackTrace()
-            return null
-        }
-        return json
     }
 }

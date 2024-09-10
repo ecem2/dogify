@@ -1,6 +1,8 @@
 package com.melo.dogify.fragment
 
 
+import android.media.MediaPlayer
+import android.util.Log
 import androidx.recyclerview.widget.GridLayoutManager
 import com.melo.dogify.R
 import com.melo.dogify.adapter.SoundsAdapter
@@ -26,6 +28,7 @@ class SoundsFragment : BaseFragment<SoundsViewModel, FragmentSoundsBinding>(),
 
     private var selectedCard: CardModel? = null
     private var selectedItemPosition: Int = 0
+    private var mediaPlayer: MediaPlayer? = null
 
 
     override fun viewModelClass() = SoundsViewModel::class.java
@@ -34,6 +37,7 @@ class SoundsFragment : BaseFragment<SoundsViewModel, FragmentSoundsBinding>(),
 
     override fun onInitDataBinding() {
         setupCardStyle()
+
     }
 
     private fun setupCardStyle() {
@@ -49,10 +53,38 @@ class SoundsFragment : BaseFragment<SoundsViewModel, FragmentSoundsBinding>(),
     override fun onResume() {
         super.onResume()
     }
+    private fun playSound() {
+        try {
+            mediaPlayer?.release()
+            mediaPlayer = MediaPlayer.create(requireContext(), R.raw.dog_sound)
+            Log.d("ecemm", "$mediaPlayer")
+
+            if (mediaPlayer == null) {
+                Log.d("ecemm", "MediaPlayer null, dosya bulunamadı!")
+                return
+            }
+            mediaPlayer?.start()
+            mediaPlayer?.setOnCompletionListener {
+                mediaPlayer?.release()
+                mediaPlayer = null
+            }
+        } catch (e: Exception) {
+            e.printStackTrace()
+        }
+    }
+
 
     override fun onItemClick(item: CardModel) {
+        val previousPosition = selectedItemPosition
         selectedItemPosition = viewModel.cardList.indexOf(item)
         selectedCard = item
-        soundsAdapter.notifyDataSetChanged()
+
+        // Sadece değişiklik olan item'ları güncelle
+        soundsAdapter.notifyItemChanged(previousPosition)
+        soundsAdapter.notifyItemChanged(selectedItemPosition)
+
+        playSound()
     }
+
+
 }

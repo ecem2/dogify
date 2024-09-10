@@ -11,6 +11,8 @@ import kotlinx.parcelize.Parcelize
 @Parcelize
 data class CardModel(
     val image: Int,
-    val text: String
+    val text: String,
+    val mp3Title: Int,
+    val isPremium: Boolean
 ) : Parcelable
 

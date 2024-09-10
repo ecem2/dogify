@@ -4,8 +4,8 @@
 
     <data>
         <variable
-            name="cardModel"
-            type="com.melo.dogify.model.CardModel" />
+            name="foodModel"
+            type="com.melo.dogify.model.FoodModel" />
     </data>
 
     <androidx.constraintlayout.widget.ConstraintLayout
@@ -18,7 +18,7 @@
             android:id="@+id/image_view"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            app:cardImage="@{cardModel.image}"
+            app:cardImage="@{foodModel.image}"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintBottom_toBottomOf="parent" />
@@ -29,7 +29,7 @@
             android:layout_height="wrap_content"
             android:layout_margin="16dp"
             android:padding="2dp"
-            android:text="@{cardModel.text}"
+            android:text="@{foodModel.text}"
             android:textSize="16sp"
             android:gravity="center"
             app:layout_constraintBottom_toBottomOf="parent"

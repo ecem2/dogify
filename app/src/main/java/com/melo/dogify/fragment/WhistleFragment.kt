@@ -29,7 +29,7 @@ import kotlin.math.sin
 class WhistleFragment : BaseFragment<SoundsViewModel, FragmentWhistleBinding>() {
 
 
-    private var duration = 3 // seconds
+    private var duration = 3
     private var sampleRate = 8000
     private var freqOfTone =
         15000.0 // Köpeklerin duyabileceği en düşük frekans olarak başlatılıyor.
