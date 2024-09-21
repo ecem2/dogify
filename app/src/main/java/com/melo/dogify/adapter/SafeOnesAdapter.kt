@@ -13,6 +13,7 @@ import androidx.recyclerview.widget.RecyclerView
 import com.melo.dogify.R
 import com.melo.dogify.databinding.ItemFoodBinding
 import com.melo.dogify.databinding.ItemListBinding
+import com.melo.dogify.databinding.ItemSafeOnesBinding
 import com.melo.dogify.model.CardModel
 import com.melo.dogify.model.FoodModel
 import com.melo.dogify.viewmodel.SoundsViewModel
@@ -28,7 +29,7 @@ class SafeOnesAdapter(
     }
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): SafeOnesViewHolder {
-        val binding = ItemFoodBinding.inflate(LayoutInflater.from(context), parent, false)
+        val binding = ItemSafeOnesBinding.inflate(LayoutInflater.from(context), parent, false)
         return SafeOnesViewHolder(binding)
     }
 
@@ -37,7 +38,7 @@ class SafeOnesAdapter(
         holder.bind(foodModel)
     }
 
-    inner class SafeOnesViewHolder(private val binding: ItemFoodBinding) :
+    inner class SafeOnesViewHolder(private val binding: ItemSafeOnesBinding) :
         RecyclerView.ViewHolder(binding.root) {
         fun bind(foodModel: FoodModel) {
             binding.foodModel = foodModel

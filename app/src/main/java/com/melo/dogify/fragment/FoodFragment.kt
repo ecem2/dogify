@@ -15,20 +15,7 @@ import dagger.hilt.android.AndroidEntryPoint
 
 @AndroidEntryPoint
 
-class FoodFragment : BaseFragment<SoundsViewModel, FragmentFoodBinding>(),
-    FoodAdapter.ItemClickListener {
-
-    private val foodAdapter: FoodAdapter by lazy {
-        FoodAdapter(
-            requireContext(),
-            this@FoodFragment
-
-        )
-    }
-
-    private var selectedCard: FoodModel? = null
-    private var selectedItemPosition: Int = 0
-
+class FoodFragment : BaseFragment<SoundsViewModel, FragmentFoodBinding>() {
 
     override fun viewModelClass() = SoundsViewModel::class.java
 
@@ -74,16 +61,5 @@ class FoodFragment : BaseFragment<SoundsViewModel, FragmentFoodBinding>(),
             override fun onTabReselected(tab: TabLayout.Tab) {
             }
         })
-    }
-
-
-    override fun onResume() {
-        super.onResume()
-    }
-
-    override fun onItemClick(item: FoodModel) {
-        selectedItemPosition = viewModel.foodCardList.indexOf(item)
-        selectedCard = item
-        foodAdapter.notifyDataSetChanged()
     }
 }
