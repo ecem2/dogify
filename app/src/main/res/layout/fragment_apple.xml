@@ -7,19 +7,7 @@
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent">
-    <androidx.appcompat.widget.AppCompatTextView
-        android:id="@+id/dogi"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textSize="24sp"
-        android:textAllCaps="false"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        android:layout_marginTop="20dp"
-        android:fontFamily="@font/tt_firs_neue_trial_demibold"
-        android:textColor="@color/black"
-        android:text="Dogi." />
+
     <androidx.appcompat.widget.AppCompatTextView
         android:id="@+id/dogi_apple"
         android:layout_width="wrap_content"
@@ -28,9 +16,9 @@
         android:textAllCaps="false"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/dogi"
+        app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintBottom_toTopOf="@+id/apple_img"
-        android:layout_marginTop="28dp"
+        android:layout_marginTop="16dp"
         android:fontFamily="@font/tt_firs_neue_trial_demibold"
         android:textColor="@color/black"
         android:text="Apple" />

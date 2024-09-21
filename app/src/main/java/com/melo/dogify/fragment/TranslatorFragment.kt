@@ -1,22 +1,19 @@
 package com.melo.dogify.fragment
 
 import android.Manifest
-import android.content.ActivityNotFoundException
-import android.content.Context
 import android.content.Intent
 import android.content.pm.PackageManager
-import android.media.MediaPlayer
-import android.media.MediaRecorder
 import android.os.Bundle
+import android.os.Handler
+import android.os.Looper
 import android.speech.RecognitionListener
 import android.speech.RecognizerIntent
 import android.speech.SpeechRecognizer
-import android.speech.tts.TextToSpeech
 import android.util.Log
 import android.view.View
 import android.widget.Toast
-import androidx.constraintlayout.widget.ConstraintLayout
 import androidx.core.app.ActivityCompat
+import com.github.hariprasanths.bounceview.BounceView
 import com.google.gson.Gson
 import com.melo.dogify.R
 import com.melo.dogify.core.fragments.BaseFragment
@@ -24,108 +21,128 @@ import com.melo.dogify.databinding.FragmentTranslatorBinding
 import com.melo.dogify.model.DogSound
 import com.melo.dogify.viewmodel.SoundsViewModel
 import dagger.hilt.android.AndroidEntryPoint
-import java.io.File
 import java.util.Locale
-import kotlin.random.Random
 
-@Suppress("DEPRECATION")
 @AndroidEntryPoint
 class TranslatorFragment : BaseFragment<SoundsViewModel, FragmentTranslatorBinding>() {
 
-    private val REQUEST_RECORD_AUDIO_PERMISSION = 200
     private val permissions: Array<String> = arrayOf(Manifest.permission.RECORD_AUDIO)
     private lateinit var speechRecognizer: SpeechRecognizer
     private lateinit var speechIntent: Intent
-    private lateinit var recognizedText: String
+    private var recognizedText: String? = null
+    private var switchActive = false
+
     override fun viewModelClass() = SoundsViewModel::class.java
 
     override fun getResourceLayoutId() = R.layout.fragment_translator
 
     override fun onInitDataBinding() {
-        viewBinding.sound.setOnClickListener {
-            translatorPp()  // Mikrofonu başlatan fonksiyonu çağır
-            recognizedText = ""
+        with(viewBinding) {
+            BounceView.addAnimTo(leftRight)
 
-            if (ActivityCompat.checkSelfPermission(
-                    requireContext(),
-                    Manifest.permission.RECORD_AUDIO
-                ) != PackageManager.PERMISSION_GRANTED
-            ) {
-                ActivityCompat.requestPermissions(
-                    requireActivity(),
-                    permissions,
-                    REQUEST_RECORD_AUDIO_PERMISSION
-                )
-            } else {
-                speechRecognizer.startListening(speechIntent)
+            sound.setOnClickListener {
+                if (ActivityCompat.checkSelfPermission(
+                        requireContext(),
+                        Manifest.permission.RECORD_AUDIO
+                    ) != PackageManager.PERMISSION_GRANTED
+                ) {
+                    ActivityCompat.requestPermissions(
+                        requireActivity(),
+                        permissions,
+                        REQUEST_RECORD_AUDIO_PERMISSION
+                    )
+                } else {
+                    setupListening()
+                }
             }
 
-            viewBinding.sound.visibility = View.GONE
-            viewBinding.pause.visibility = View.VISIBLE
-            viewBinding.exit.visibility = View.VISIBLE
-            viewBinding.tick.visibility = View.VISIBLE
-        }
+            pause.setOnClickListener {
+                sound.visibility = View.VISIBLE
+                pause.visibility = View.GONE
+                exit.visibility = View.GONE
+                tick.visibility = View.GONE
+            }
 
-        viewBinding.pause.setOnClickListener {
-            viewBinding.sound.visibility = View.VISIBLE
-            viewBinding.pause.visibility = View.GONE
-            viewBinding.exit.visibility = View.GONE
-            viewBinding.tick.visibility = View.GONE
-        }
+            exit.setOnClickListener {
+                disableButtons()
+                txtRecord.text = ""
+                recognizedText = null
+            }
 
-        viewBinding.exit.setOnClickListener {
-            viewBinding.sound.visibility = View.VISIBLE
-            viewBinding.pause.visibility = View.GONE
-            viewBinding.exit.visibility = View.GONE
-            viewBinding.tick.visibility = View.GONE
-            viewBinding.txtRecord.text = ""
-            recognizedText = ""
+            leftRight.setOnClickListener {
+                disableButtons()
+                txtRecord.text = null
+                switchTranslatorPositions()
+            }
 
-        }
-
-        viewBinding.tick.setOnClickListener {
-            viewBinding.txtRecord.text = recognizedText
-            // Tanınan cümle varsa txtRecord TextView'ine yaz
-//            if (recognizedText.isNotEmpty()) {
-//                viewBinding.txtRecord.text = recognizedText
-//            } else {
-//                Toast.makeText(requireContext(), "Henüz bir cümle tanımlanmadı.", Toast.LENGTH_SHORT).show()
-//            }
+            tick.setOnClickListener {
+                disableButtons()
+                checkTranslator()
+            }
         }
     }
 
+    private fun checkTranslator() {
+        Log.d("SpeechRecognition", "reccc $recognizedText")
+        if (!switchActive) {
+            Handler(Looper.getMainLooper()).postDelayed({
+                viewBinding.txtRecord.text = recognizedText
+            },400)
+        } else {
+            val randomTurkishWord = getRandomTurkishWord()
+            viewBinding.txtRecord.text = randomTurkishWord
+        }
+    }
 
-    fun translatorPp() {
+    private fun switchTranslatorPositions() {
+        with(viewBinding) {
+            if (switchActive) {
+                switchActive = false
+                translatorPp.setImageResource(R.drawable.translator_pp)
+                translatorDogPp.setImageResource(R.drawable.translator_dog_pp)
+            } else {
+                switchActive = true
+                translatorPp.setImageResource(R.drawable.translator_dog_pp)
+                translatorDogPp.setImageResource(R.drawable.translator_pp)
+            }
+        }
+    }
+
+    private fun loadDogWords(): List<DogSound> {
+        return try {
+            val inputStream = requireContext().assets.open("dog_words.json")
+            val size = inputStream.available()
+            val buffer = ByteArray(size)
+            inputStream.read(buffer)
+            inputStream.close()
+
+            val json = String(buffer, Charsets.UTF_8)
+            Gson().fromJson(json, Array<DogSound>::class.java).toList()
+        } catch (e: Exception) {
+            Log.e("LoadDogWords", "Error loading dog words: ${e.message}")
+            emptyList()
+        }
+    }
+
+    private fun getRandomTurkishWord(): String {
+        val dogWords = loadDogWords()
+        return if (dogWords.isNotEmpty()) {
+            val randomWord = dogWords.random()
+            randomWord.turkish
+        } else {
+            "Kelime bulunamadı."
+        }
+    }
+
+    private fun setupSpeechRecognizer() {
         speechRecognizer = SpeechRecognizer.createSpeechRecognizer(requireContext())
         speechIntent = Intent(RecognizerIntent.ACTION_RECOGNIZE_SPEECH)
         speechIntent.putExtra(
             RecognizerIntent.EXTRA_LANGUAGE_MODEL,
             RecognizerIntent.LANGUAGE_MODEL_FREE_FORM
         )
-        // Burada Türkçe dilini belirtiyoruz
-        speechIntent.putExtra(RecognizerIntent.EXTRA_LANGUAGE, "tr-TR")
-        val isTranslatorOnLeft =
-            viewBinding.translatorPp.layoutParams is ConstraintLayout.LayoutParams &&
-                    (viewBinding.translatorPp.layoutParams as ConstraintLayout.LayoutParams).startToStart == ConstraintLayout.LayoutParams.PARENT_ID
-
-        if (isTranslatorOnLeft) {
-            viewBinding.translatorPp.setOnClickListener {
-                if (ActivityCompat.checkSelfPermission(
-                        requireContext(),
-                        Manifest.permission.RECORD_AUDIO
-                    ) == PackageManager.PERMISSION_GRANTED
-                ) {
-                    speechRecognizer.startListening(speechIntent)
-                } else {
-                    ActivityCompat.requestPermissions(
-                        requireActivity(),
-                        permissions,
-                        REQUEST_RECORD_AUDIO_PERMISSION
-                    )
-                }
-            }
-        }
-
+        speechIntent.putExtra(RecognizerIntent.EXTRA_LANGUAGE, Locale.getDefault())
+        Log.d("SpeechRecognition", "Locale: ${Locale.getDefault()}")
         speechRecognizer.setRecognitionListener(object : RecognitionListener {
             override fun onResults(results: Bundle?) {
                 val matches = results?.getStringArrayList(SpeechRecognizer.RESULTS_RECOGNITION)
@@ -138,38 +155,68 @@ class TranslatorFragment : BaseFragment<SoundsViewModel, FragmentTranslatorBindi
             }
 
             override fun onError(error: Int) {
-                Log.e("ecemm", "Error occurred: $error")
+                Log.e("SpeechRecognition", "Error occurred: $error")
             }
 
             override fun onReadyForSpeech(params: Bundle?) {
-                Log.d("ecemm", "Ready for speech.")
+                Log.d("SpeechRecognition", "Ready for speech.")
             }
 
             override fun onBeginningOfSpeech() {
-                Log.d("ecemm", "Speech started.")
+                Log.d("SpeechRecognition", "Speech started.")
+            }
+
+            override fun onEndOfSpeech() {
+                Log.d("SpeechRecognition", "Speech ended.")
             }
 
             override fun onRmsChanged(rmsdB: Float) {}
             override fun onBufferReceived(buffer: ByteArray?) {}
-            override fun onEndOfSpeech() {
-                Log.d("ecemm", "Speech ended.")
-            }
-
             override fun onPartialResults(partialResults: Bundle?) {}
             override fun onEvent(eventType: Int, params: Bundle?) {}
         })
     }
 
+    private fun activateButtons() {
+        with(viewBinding) {
+            sound.visibility = View.GONE
+            pause.visibility = View.VISIBLE
+            exit.visibility = View.VISIBLE
+            tick.visibility = View.VISIBLE
+        }
+    }
 
-        // İzin sonucu burada kontrol edilecek
-    override fun onRequestPermissionsResult(requestCode: Int, permissions: Array<out String>, grantResults: IntArray) {
-        if (requestCode == REQUEST_RECORD_AUDIO_PERMISSION) {
+    private fun disableButtons() {
+        with(viewBinding) {
+            sound.visibility = View.VISIBLE
+            pause.visibility = View.GONE
+            exit.visibility = View.GONE
+            tick.visibility = View.GONE
+        }
+    }
+
+    private fun setupListening() {
+        activateButtons()
+        setupSpeechRecognizer()
+        speechRecognizer.startListening(speechIntent)
+    }
+
+    @Deprecated("Deprecated in Java")
+    override fun onRequestPermissionsResult(
+        requestCode: Int,
+        permissions: Array<out String>,
+        grantResults: IntArray,
+    ) {
+        if (requestCode == Companion.REQUEST_RECORD_AUDIO_PERMISSION) {
             if (grantResults.isNotEmpty() && grantResults[0] == PackageManager.PERMISSION_GRANTED) {
-                // İzin verildiyse konuşmayı başlat
-                speechRecognizer.startListening(speechIntent)
+                setupListening()
             } else {
                 Toast.makeText(requireContext(), "Mikrofon izni reddedildi.", Toast.LENGTH_SHORT).show()
             }
         }
+    }
+
+    companion object {
+        private const val REQUEST_RECORD_AUDIO_PERMISSION = 200
     }
 }

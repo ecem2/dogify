@@ -36,7 +36,6 @@ class FoodAdapter(
         RecyclerView.ViewHolder(binding.root) {
         fun bind(foodModel: FoodModel) {
             binding.foodModel = foodModel
-            // binding.textView.text = foodModel.text
 
 
             binding.root.setOnClickListener {

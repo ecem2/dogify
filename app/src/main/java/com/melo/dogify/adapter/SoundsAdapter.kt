@@ -38,7 +38,6 @@ class SoundsAdapter(
         RecyclerView.ViewHolder(binding.root) {
         fun bind(cardModel: CardModel) {
             binding.cardModel = cardModel
-           // binding.textView.text = cardModel.text
 
 
             binding.root.setOnClickListener {

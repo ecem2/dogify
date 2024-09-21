@@ -1,60 +1,69 @@
 package com.melo.dogify.viewpagerfragment
 
+
 import android.os.Bundle
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import androidx.recyclerview.widget.GridLayoutManager
 import com.melo.dogify.R
+import com.melo.dogify.adapter.ArticleAdapter
+import com.melo.dogify.adapter.SafeOnesAdapter
+import com.melo.dogify.adapter.SoundsAdapter
+import com.melo.dogify.core.fragments.BaseFragment
+import com.melo.dogify.databinding.FragmentArticleBinding
+import com.melo.dogify.databinding.FragmentSafeOnesBinding
+import com.melo.dogify.databinding.FragmentSoundsBinding
+import com.melo.dogify.model.ArticleModel
+import com.melo.dogify.model.CardModel
+import com.melo.dogify.model.FoodModel
+import com.melo.dogify.model.TrainingModel
+import com.melo.dogify.viewmodel.SoundsViewModel
+import dagger.hilt.android.AndroidEntryPoint
 
-// TODO: Rename parameter arguments, choose names that match
-// the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
-private const val ARG_PARAM1 = "param1"
-private const val ARG_PARAM2 = "param2"
 
-/**
- * A simple [Fragment] subclass.
- * Use the [SafeOnesFragment.newInstance] factory method to
- * create an instance of this fragment.
- */
-class SafeOnesFragment : Fragment() {
-    // TODO: Rename and change types of parameters
-    private var param1: String? = null
-    private var param2: String? = null
+@AndroidEntryPoint
 
-    override fun onCreate(savedInstanceState: Bundle?) {
-        super.onCreate(savedInstanceState)
-        arguments?.let {
-            param1 = it.getString(ARG_PARAM1)
-            param2 = it.getString(ARG_PARAM2)
+class SafeOnesFragment : BaseFragment<SoundsViewModel, FragmentSafeOnesBinding>(),
+    SafeOnesAdapter.ItemClickListener {
+
+    private val safeOnesAdapter: SafeOnesAdapter by lazy {
+        SafeOnesAdapter(
+            requireContext(),
+            this@SafeOnesFragment
+
+        )
+    }
+
+    private var selectedFood: FoodModel? = null
+    private var selectedItemPosition: Int = 0
+
+
+    override fun viewModelClass() = SoundsViewModel::class.java
+
+    override fun getResourceLayoutId() = R.layout.fragment_safe_ones
+
+    override fun onInitDataBinding() {
+        setupFoodStyle()
+    }
+
+    private fun setupFoodStyle() {
+        viewBinding.rvSafeOnes.apply {
+            adapter = safeOnesAdapter
+            setHasFixedSize(true)
         }
+        safeOnesAdapter.submitList(viewModel.foodCardList)
+
     }
 
-    override fun onCreateView(
-        inflater: LayoutInflater, container: ViewGroup?,
-        savedInstanceState: Bundle?,
-    ): View? {
-        // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_safe_ones, container, false)
+    override fun onResume() {
+        super.onResume()
     }
 
-    companion object {
-        /**
-         * Use this factory method to create a new instance of
-         * this fragment using the provided parameters.
-         *
-         * @param param1 Parameter 1.
-         * @param param2 Parameter 2.
-         * @return A new instance of fragment SafeOnesFragment.
-         */
-        // TODO: Rename and change types and number of parameters
-        @JvmStatic
-        fun newInstance(param1: String, param2: String) =
-            SafeOnesFragment().apply {
-                arguments = Bundle().apply {
-                    putString(ARG_PARAM1, param1)
-                    putString(ARG_PARAM2, param2)
-                }
-            }
+    override fun onItemClick(item: FoodModel) {
+        selectedItemPosition = viewModel.foodCardList.indexOf(item)
+        selectedFood = item
+        safeOnesAdapter.notifyDataSetChanged()
     }
 }

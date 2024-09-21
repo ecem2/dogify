@@ -5,6 +5,7 @@ import android.os.Bundle
 import androidx.annotation.RequiresApi
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.splashscreen.SplashScreen.Companion.installSplashScreen
+import androidx.core.view.isVisible
 import androidx.navigation.NavController
 import androidx.navigation.fragment.NavHostFragment
 import androidx.navigation.ui.NavigationUI.setupWithNavController
@@ -22,7 +23,6 @@ class MainActivity : AppCompatActivity() {
     private lateinit var navController: NavController
     private var isSplashScreenActive = false
 
-    @RequiresApi(Build.VERSION_CODES.R)
     override fun onCreate(savedInstanceState: Bundle?) {
         val splashScreen = installSplashScreen()
         super.onCreate(savedInstanceState)
@@ -32,11 +32,22 @@ class MainActivity : AppCompatActivity() {
         }
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
+
+        isSplashScreenActive = false
+
+
         val navHostFragment = supportFragmentManager.findFragmentById(R.id.nav_host_fragment) as NavHostFragment
         navController = navHostFragment.navController
         setupWithNavController(binding.bottomNavigationView, navController)
 
-        isSplashScreenActive = false
+        navController.addOnDestinationChangedListener { _, destination, _ ->
+            binding.bottomNavigationView.isVisible = (
+                    destination.id == R.id.soundsFragment ||
+                            destination.id == R.id.translatorFragment ||
+                            destination.id == R.id.trainingFragment ||
+                            destination.id == R.id.whistleFragment
+                    )
+        }
     }
 
 }

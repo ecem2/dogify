@@ -9,7 +9,7 @@ import com.melo.dogify.adapter.SoundsAdapter
 import com.melo.dogify.core.fragments.BaseFragment
 import com.melo.dogify.databinding.FragmentSoundsBinding
 import com.melo.dogify.model.CardModel
-import com.melo.dogify.viewmodel. SoundsViewModel
+import com.melo.dogify.viewmodel.SoundsViewModel
 import dagger.hilt.android.AndroidEntryPoint
 
 
@@ -53,6 +53,7 @@ class SoundsFragment : BaseFragment<SoundsViewModel, FragmentSoundsBinding>(),
     override fun onResume() {
         super.onResume()
     }
+
     private fun playSound() {
         try {
             mediaPlayer?.release()
@@ -79,7 +80,6 @@ class SoundsFragment : BaseFragment<SoundsViewModel, FragmentSoundsBinding>(),
         selectedItemPosition = viewModel.cardList.indexOf(item)
         selectedCard = item
 
-        // Sadece değişiklik olan item'ları güncelle
         soundsAdapter.notifyItemChanged(previousPosition)
         soundsAdapter.notifyItemChanged(selectedItemPosition)
 
