@@ -1,5 +1,6 @@
 package com.melo.dogify
 
+import android.content.res.Resources
 import android.media.MediaPlayer
 import android.os.Bundle
 import android.util.Log
@@ -23,39 +24,36 @@ class DogFragment : Fragment() {
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
-        // Play a random dog sound when the fragment is initialized
         playRandomDogSound()
     }
 
     private fun playRandomDogSound() {
-        // Create a list of sound resource IDs
-        val soundResIds = listOf(
-            R.raw.sound_anxious_dog, // Add your actual sound file names
-            R.raw.sound_call_dog,
-            R.raw.sound_feeding_dog
-            // Add more sounds as needed
-        )
+        // raw klasöründen tüm ses dosyalarını almak için refleksiyon kullanıyoruz
+        val rawFields = R.raw::class.java.fields
+        val soundResIds = rawFields.mapNotNull { field ->
+            try {
+                field.getInt(null) // raw dosyasındaki kaynak id'lerini alıyoruz
+            } catch (e: Exception) {
+                Log.e("DogFragment", "Error getting resource id", e)
+                null
+            }
+        }
 
-        // Generate a random index to select a sound
+        // Rastgele bir ses dosyasını seçip çalıyoruz
         val randomSoundIndex = Random.nextInt(soundResIds.size)
-
-        // Get the selected sound resource ID
         val soundResId = soundResIds[randomSoundIndex]
 
-        // Play the sound
         mediaPlayer = MediaPlayer.create(requireContext(), soundResId)
         mediaPlayer?.start()
         mediaPlayer?.setOnCompletionListener {
-            // Release the MediaPlayer when done
             it.release()
         }
     }
 
     override fun onDestroyView() {
         super.onDestroyView()
-        // Release the MediaPlayer if it is not null
         mediaPlayer?.release()
         mediaPlayer = null
-        _binding = null // Clear binding reference
+        _binding = null
     }
 }

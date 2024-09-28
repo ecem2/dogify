@@ -4,8 +4,6 @@ import android.Manifest
 import android.content.Intent
 import android.content.pm.PackageManager
 import android.os.Bundle
-import android.os.Handler
-import android.os.Looper
 import android.speech.RecognitionListener
 import android.speech.RecognizerIntent
 import android.speech.SpeechRecognizer
@@ -77,7 +75,7 @@ class TranslatorFragment : BaseFragment<SoundsViewModel, FragmentTranslatorBindi
             }
 
             tick.setOnClickListener {
-               // disableButtons()
+                // disableButtons()
                 checkTranslator()
 
             }
@@ -86,22 +84,18 @@ class TranslatorFragment : BaseFragment<SoundsViewModel, FragmentTranslatorBindi
 
     private fun checkTranslator() {
         Log.d("SpeechRecognition", "reccc $recognizedText")
-        // Delay the navigation after setting the text
-        Handler(Looper.getMainLooper()).postDelayed({
-            if (!switchActive) {
-                viewBinding.txtRecord.text = recognizedText
-            } else {
-                val randomTurkishWord = getRandomTurkishWord()
-                viewBinding.txtRecord.text = randomTurkishWord
-            }
-            navigateToDogFragment() // Navigate after updating the text
-        }, 1000) // 2000 milliseconds = 2 seconds delay
+        if (switchActive) {
+            viewBinding.txtRecord.text = getRandomTurkishWord()
+        } else {
+            navigateToDogFragment()
+        }
     }
 
     private fun navigateToDogFragment() {
         val action = TranslatorFragmentDirections.actionTranslatorFragmentToDogFragment()
         findNavController().navigate(action)
     }
+
     private fun switchTranslatorPositions() {
         with(viewBinding) {
             if (switchActive) {
@@ -136,7 +130,7 @@ class TranslatorFragment : BaseFragment<SoundsViewModel, FragmentTranslatorBindi
         val dogWords = loadDogWords()
         return if (dogWords.isNotEmpty()) {
             val randomWord = dogWords.random()
-            randomWord.turkish
+            randomWord.meaning
         } else {
             "Kelime bulunamadı."
         }
@@ -157,7 +151,7 @@ class TranslatorFragment : BaseFragment<SoundsViewModel, FragmentTranslatorBindi
                 if (!matches.isNullOrEmpty()) {
                     recognizedText = matches[0]
                     Log.d("SpeechRecognition", "Recognized Text: $recognizedText")
-                    viewBinding.txtRecord.text = recognizedText
+                    // viewBinding.txtRecord.text = recognizedText
 
                 } else {
                     Log.d("SpeechRecognition", "No matches found.")
@@ -221,7 +215,8 @@ class TranslatorFragment : BaseFragment<SoundsViewModel, FragmentTranslatorBindi
             if (grantResults.isNotEmpty() && grantResults[0] == PackageManager.PERMISSION_GRANTED) {
                 setupListening()
             } else {
-                Toast.makeText(requireContext(), "Mikrofon izni reddedildi.", Toast.LENGTH_SHORT).show()
+                Toast.makeText(requireContext(), "Mikrofon izni reddedildi.", Toast.LENGTH_SHORT)
+                    .show()
             }
         }
     }
