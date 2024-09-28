@@ -13,6 +13,7 @@ import android.util.Log
 import android.view.View
 import android.widget.Toast
 import androidx.core.app.ActivityCompat
+import androidx.navigation.fragment.findNavController
 import com.github.hariprasanths.bounceview.BounceView
 import com.google.gson.Gson
 import com.melo.dogify.R
@@ -76,24 +77,31 @@ class TranslatorFragment : BaseFragment<SoundsViewModel, FragmentTranslatorBindi
             }
 
             tick.setOnClickListener {
-                disableButtons()
+               // disableButtons()
                 checkTranslator()
+
             }
         }
     }
 
     private fun checkTranslator() {
         Log.d("SpeechRecognition", "reccc $recognizedText")
-        if (!switchActive) {
-            Handler(Looper.getMainLooper()).postDelayed({
+        // Delay the navigation after setting the text
+        Handler(Looper.getMainLooper()).postDelayed({
+            if (!switchActive) {
                 viewBinding.txtRecord.text = recognizedText
-            },400)
-        } else {
-            val randomTurkishWord = getRandomTurkishWord()
-            viewBinding.txtRecord.text = randomTurkishWord
-        }
+            } else {
+                val randomTurkishWord = getRandomTurkishWord()
+                viewBinding.txtRecord.text = randomTurkishWord
+            }
+            navigateToDogFragment() // Navigate after updating the text
+        }, 1000) // 2000 milliseconds = 2 seconds delay
     }
 
+    private fun navigateToDogFragment() {
+        val action = TranslatorFragmentDirections.actionTranslatorFragmentToDogFragment()
+        findNavController().navigate(action)
+    }
     private fun switchTranslatorPositions() {
         with(viewBinding) {
             if (switchActive) {
@@ -149,6 +157,8 @@ class TranslatorFragment : BaseFragment<SoundsViewModel, FragmentTranslatorBindi
                 if (!matches.isNullOrEmpty()) {
                     recognizedText = matches[0]
                     Log.d("SpeechRecognition", "Recognized Text: $recognizedText")
+                    viewBinding.txtRecord.text = recognizedText
+
                 } else {
                     Log.d("SpeechRecognition", "No matches found.")
                 }

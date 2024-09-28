@@ -1,60 +1,159 @@
 package com.melo.dogify.viewpagerfragment
 
 import android.os.Bundle
-import androidx.fragment.app.Fragment
-import android.view.LayoutInflater
-import android.view.View
-import android.view.ViewGroup
+import android.util.Log
+import android.widget.AdapterView
+import androidx.navigation.findNavController
+import androidx.navigation.fragment.findNavController
+import androidx.recyclerview.widget.GridLayoutManager
 import com.melo.dogify.R
+import com.melo.dogify.adapter.SafeOnesAdapter
+import com.melo.dogify.core.fragments.BaseFragment
+import com.melo.dogify.databinding.FragmentCarefulWithTheseBinding
+import com.melo.dogify.databinding.FragmentHarmfulOnesBinding
+import com.melo.dogify.databinding.FragmentSafeOnesBinding
+import com.melo.dogify.extensions.navigate
+import com.melo.dogify.fragment.AppleFragment
+import com.melo.dogify.model.FoodDescriptionModel
+import com.melo.dogify.model.FoodModel
+import com.melo.dogify.viewmodel.SoundsViewModel
+import dagger.hilt.android.AndroidEntryPoint
 
-// TODO: Rename parameter arguments, choose names that match
-// the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
-private const val ARG_PARAM1 = "param1"
-private const val ARG_PARAM2 = "param2"
+@AndroidEntryPoint
 
-/**
- * A simple [Fragment] subclass.
- * Use the [CarefulWithTheseFragment.newInstance] factory method to
- * create an instance of this fragment.
- */
-class CarefulWithTheseFragment : Fragment() {
-    // TODO: Rename and change types of parameters
-    private var param1: String? = null
-    private var param2: String? = null
+class CarefulWithTheseFragment : BaseFragment<SoundsViewModel, FragmentCarefulWithTheseBinding>(),
+    SafeOnesAdapter.ItemClickListener {
 
-    override fun onCreate(savedInstanceState: Bundle?) {
-        super.onCreate(savedInstanceState)
-        arguments?.let {
-            param1 = it.getString(ARG_PARAM1)
-            param2 = it.getString(ARG_PARAM2)
+    private val safeOnesAdapter: SafeOnesAdapter by lazy {
+        SafeOnesAdapter(
+            requireContext(),
+            this@CarefulWithTheseFragment
+        )
+    }
+
+    override fun viewModelClass() = SoundsViewModel::class.java
+
+    override fun getResourceLayoutId() = R.layout.fragment_careful_with_these
+
+    override fun onInitDataBinding() {
+        setupFoodStyle()
+    }
+
+    private fun setupFoodStyle() {
+        viewBinding.rvCarefulOnes.apply {
+            adapter = safeOnesAdapter
+            layoutManager = GridLayoutManager(requireContext(), 3)
+            setHasFixedSize(true)
         }
+        safeOnesAdapter.submitList(viewModel.carefulOnesList)
     }
 
-    override fun onCreateView(
-        inflater: LayoutInflater, container: ViewGroup?,
-        savedInstanceState: Bundle?,
-    ): View? {
-        // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_careful_with_these, container, false)
-    }
 
-    companion object {
-        /**
-         * Use this factory method to create a new instance of
-         * this fragment using the provided parameters.
-         *
-         * @param param1 Parameter 1.
-         * @param param2 Parameter 2.
-         * @return A new instance of fragment CarefulWithTheseFragment.
-         */
-        // TODO: Rename and change types and number of parameters
-        @JvmStatic
-        fun newInstance(param1: String, param2: String) =
-            CarefulWithTheseFragment().apply {
-                arguments = Bundle().apply {
-                    putString(ARG_PARAM1, param1)
-                    putString(ARG_PARAM2, param2)
-                }
+    override fun onItemClick(item: FoodModel) {
+        val foodDescription = when (item) {
+            viewModel.carefulOnesList.getOrNull(0) -> FoodDescriptionModel(
+                image = R.drawable.cheese_blurry,
+                titleText = R.string.cheese,
+                text = R.string.cheese_article
+            )
+
+            viewModel.carefulOnesList.getOrNull(1) -> FoodDescriptionModel(
+                image = R.drawable.cherries_blurry,
+                titleText = R.string.cherries,
+                text = R.string.cherries_article
+            )
+
+            viewModel.carefulOnesList.getOrNull(2) -> FoodDescriptionModel(
+                image = R.drawable.egg_blurry,
+                titleText = R.string.egg,
+                text = R.string.egg_article
+            )
+
+            viewModel.carefulOnesList.getOrNull(3) -> FoodDescriptionModel(
+                image = R.drawable.honey_blurry,
+                titleText = R.string.honey,
+                text = R.string.honey_article
+
+            )
+
+            viewModel.carefulOnesList.getOrNull(4) -> FoodDescriptionModel(
+                image = R.drawable.ice_cream_blurry,
+                titleText = R.string.ice_cream,
+                text = R.string.ice_cream_article
+
+            )
+
+            viewModel.carefulOnesList.getOrNull(5) -> FoodDescriptionModel(
+                image = R.drawable.juice_blurry,
+                titleText = R.string.juice,
+                text = R.string.juice_article
+
+
+            )
+
+            viewModel.carefulOnesList.getOrNull(6) -> FoodDescriptionModel(
+                image = R.drawable.milk_blurry,
+                titleText = R.string.milk,
+                text = R.string.milk_article
+
+            )
+
+            viewModel.carefulOnesList.getOrNull(7) -> FoodDescriptionModel(
+                image = R.drawable.peanut_blurry,
+                titleText = R.string.peanut,
+                text = R.string.peanut_article
+
+
+            )
+
+            viewModel.carefulOnesList.getOrNull(8) -> FoodDescriptionModel(
+                image = R.drawable.pomegranate_blurry,
+                titleText = R.string.pomegranate,
+                text = R.string.pomegranate_article
+
+
+            )
+
+            viewModel.carefulOnesList.getOrNull(9) -> FoodDescriptionModel(
+                image = R.drawable.tomato_blurry,
+                titleText = R.string.tomato,
+                text = R.string.tomato_article
+
+            )
+
+            viewModel.carefulOnesList.getOrNull(10) -> FoodDescriptionModel(
+                image = R.drawable.yogurt_blurry,
+                titleText = R.string.yogurt,
+                text = R.string.yogurt_article
+
+
+            )
+
+
+            else -> null
+        }
+
+        Log.d("ecemm", "Item clicked: $item")
+        Log.d("ecemm", "FoodDescription created: ${foodDescription?.text}")
+
+        foodDescription?.let {
+            val bundle = Bundle().apply {
+                putParcelable("foodDescription", it)
             }
+
+            // FragmentTransaction ile geçiş yapıyoruz
+            val appleFragment = AppleFragment().apply {
+                arguments = bundle
+            }
+
+            requireActivity().supportFragmentManager.beginTransaction()
+                .replace(R.id.nav_host_fragment, appleFragment)
+                .addToBackStack(null) // Geri tuşuyla geri dönmek için
+                .commit() // Fragment state kayıplarını önle
+            Log.d("ecemm", "Navigated to AppleFragment manually")
+
+        } ?: Log.e("ecemm", "FoodDescription is null!")
     }
+
 }
+

@@ -14,7 +14,11 @@
         android:id="@+id/translatorFragment"
         android:name="com.melo.dogify.fragment.TranslatorFragment"
         android:label="fragment_translator"
-        tools:layout="@layout/fragment_translator" />
+        tools:layout="@layout/fragment_translator" >
+        <action
+            android:id="@+id/action_translatorFragment_to_dogFragment"
+            app:destination="@id/dogFragment" />
+    </fragment>
     <fragment
         android:id="@+id/trainingFragment"
         android:name="com.melo.dogify.fragment.TrainingFragment"
@@ -24,11 +28,17 @@
             android:id="@+id/action_trainingFragment_to_foodFragment"
             app:destination="@id/foodFragment" />
         <action
-            android:id="@+id/action_trainingFragment_to_appleFragment"
-            app:destination="@id/appleFragment" />
-        <action
             android:id="@+id/action_trainingFragment_to_articleFragment"
             app:destination="@id/articleFragment" />
+        <action
+            android:id="@+id/action_trainingFragment_to_trainingBitingFragment"
+            app:destination="@id/trainingBitingFragment" />
+        <action
+            android:id="@+id/action_trainingFragment_to_obidenceFragment"
+            app:destination="@id/obidenceFragment" />
+        <action
+            android:id="@+id/action_trainingFragment_to_barkingFragment"
+            app:destination="@id/barkingFragment" />
     </fragment>
     <fragment
         android:id="@+id/whistleFragment"
@@ -38,12 +48,29 @@
     <fragment
         android:id="@+id/foodFragment"
         android:name="com.melo.dogify.fragment.FoodFragment"
-        android:label="fragment_food"
-        tools:layout="@layout/fragment_food" />
+        tools:layout="@layout/fragment_food">
+        <action
+            android:id="@+id/action_foodFragment_to_safeOnesFragment"
+            app:destination="@id/safeOnesFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/safeOnesFragment"
+        android:name="com.melo.dogify.viewpagerfragment.SafeOnesFragment"
+        android:label="Safe Ones" >
+        <action
+            android:id="@+id/action_safeOnesFragment_to_appleFragment"
+            app:destination="@id/appleFragment" >
+        </action>
+    </fragment>
     <fragment
         android:id="@+id/appleFragment"
         android:name="com.melo.dogify.fragment.AppleFragment"
-        android:label="AppleFragment" />
+        android:label="AppleFragment" >
+        <argument
+            android:name="foodDescription"
+            app:argType="com.melo.dogify.model.FoodDescriptionModel"
+            app:nullable="false" />
+    </fragment>
     <fragment
         android:id="@+id/articleFragment"
         android:name="com.melo.dogify.fragment.ArticleFragment"
@@ -62,4 +89,22 @@
         android:name="com.melo.dogify.onboard.OnboardFragment"
         android:label="fragment_onboard_two"
         tools:layout="@layout/fragment_onboard_two" />
+    <fragment
+        android:id="@+id/dogFragment"
+        android:name="com.melo.dogify.DogFragment"
+        android:label="fragment_dog"
+        tools:layout="@layout/fragment_dog" />
+    <fragment
+        android:id="@+id/trainingBitingFragment"
+        android:name="com.melo.dogify.fragment.TrainingBitingFragment"
+        android:label="TrainingBitingFragment" />
+    <fragment
+        android:id="@+id/obidenceFragment"
+        android:name="com.melo.dogify.fragment.ObidenceFragment"
+        android:label="ObidenceFragment" />
+    <fragment
+        android:id="@+id/barkingFragment"
+        android:name="com.melo.dogify.fragment.BarkingFragment"
+        android:label="BarkingFragment" />
+
 </navigation>

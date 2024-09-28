@@ -10,7 +10,7 @@ import com.melo.dogify.core.fragments.BaseFragment
 import com.melo.dogify.databinding.FragmentFoodBinding
 import com.melo.dogify.databinding.TabItemBinding
 import com.melo.dogify.model.FoodModel
-import com.melo.dogify.viewmodel. SoundsViewModel
+import com.melo.dogify.viewmodel.SoundsViewModel
 import dagger.hilt.android.AndroidEntryPoint
 
 @AndroidEntryPoint
@@ -27,7 +27,7 @@ class FoodFragment : BaseFragment<SoundsViewModel, FragmentFoodBinding>() {
 
     private fun foodViewPager() {
         val viewPager = viewBinding.foodViewPager
-        viewPager.adapter = FoodViewPagerAdapter(requireActivity().supportFragmentManager)
+        viewPager.adapter = FoodViewPagerAdapter(childFragmentManager)
         viewPager.currentItem = 0
 
         val tabLayout = viewBinding.tabLayout
@@ -44,6 +44,12 @@ class FoodFragment : BaseFragment<SoundsViewModel, FragmentFoodBinding>() {
             }
         }
 
+        val firstTab = tabLayout.getTabAt(0)
+        if (firstTab != null) {
+            val selectedTabBinding = TabItemBinding.bind(firstTab.customView!!)
+            selectedTabBinding.tabTitle.setTextColor(Color.WHITE)
+            selectedTabBinding.tabTitle.setBackgroundResource(R.drawable.bg_tab_layout)
+        }
 
         tabLayout.addOnTabSelectedListener(object : TabLayout.OnTabSelectedListener {
             override fun onTabSelected(tab: TabLayout.Tab) {

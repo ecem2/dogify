@@ -57,13 +57,13 @@ class TrainingFragment : BaseFragment<SoundsViewModel, FragmentTrainingBinding>(
             navigate(TrainingFragmentDirections.actionTrainingFragmentToArticleFragment())
         }
         if(selectedItemPosition == 2){
-            navigate(TrainingFragmentDirections.actionTrainingFragmentToAppleFragment())
+            navigate(TrainingFragmentDirections.actionTrainingFragmentToTrainingBitingFragment())
         }
         if(selectedItemPosition == 3){
-            navigate(TrainingFragmentDirections.actionTrainingFragmentToAppleFragment())
+            navigate(TrainingFragmentDirections.actionTrainingFragmentToObidenceFragment())
         }
         if(selectedItemPosition == 4){
-            navigate(TrainingFragmentDirections.actionTrainingFragmentToAppleFragment())
+            navigate(TrainingFragmentDirections.actionTrainingFragmentToBarkingFragment())
         }
         trainingAdapter.notifyDataSetChanged()
     }

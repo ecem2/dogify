@@ -6,5 +6,5 @@ import kotlinx.parcelize.Parcelize
 @Parcelize
 data class FoodModel(
     val image: Int,
-    val text: String
+    val text: Int
 ) : Parcelable

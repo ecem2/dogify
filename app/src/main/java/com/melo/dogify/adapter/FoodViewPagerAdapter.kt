@@ -24,7 +24,8 @@ class FoodViewPagerAdapter(fm: FragmentManager) : FragmentPagerAdapter(fm) {
                 CarefulWithTheseFragment()
             }
             else -> {
-                SafeOnesFragment()
+               throw IllegalArgumentException("Invalid position")
+
             }
         }
     }

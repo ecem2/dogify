@@ -7,7 +7,7 @@
         android:title="@string/sounds" />
     <item
         android:id="@+id/translatorFragment"
-        android:icon="@drawable/ic_dog"
+        android:icon="@drawable/talks"
         android:title="@string/translator" />
 
     <item

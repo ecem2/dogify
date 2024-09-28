@@ -30,12 +30,12 @@ class ArticleAdapter(
 
     inner class ArticleViewHolder(private val binding: ItemArticleBinding) :
         RecyclerView.ViewHolder(binding.root) {
-        fun bind(trainingModel: ArticleModel) {
-            binding.trainingModel = trainingModel
+        fun bind(articleModel: ArticleModel) {
+            binding.articleModel = articleModel
 
 
             binding.root.setOnClickListener {
-                itemClickListener.onItemClick(trainingModel)
+                itemClickListener.onItemClick(articleModel)
 
             }
         }

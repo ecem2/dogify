@@ -55,22 +55,26 @@ class SoundsFragment : BaseFragment<SoundsViewModel, FragmentSoundsBinding>(),
     }
 
     private fun playSound() {
-        try {
-            mediaPlayer?.release()
-            mediaPlayer = MediaPlayer.create(requireContext(), R.raw.dog_sound)
-            Log.d("ecemm", "$mediaPlayer")
-
-            if (mediaPlayer == null) {
-                Log.d("ecemm", "MediaPlayer null, dosya bulunamadı!")
-                return
-            }
-            mediaPlayer?.start()
-            mediaPlayer?.setOnCompletionListener {
+        selectedCard?.let { card ->
+            try {
                 mediaPlayer?.release()
-                mediaPlayer = null
+                mediaPlayer = MediaPlayer.create(requireContext(), card.mp3Title)
+                Log.d("ecemm", "Playing sound: ${card.text}")
+
+                if (mediaPlayer == null) {
+                    Log.d("ecemm", "MediaPlayer null, sound file not found!")
+                    return
+                }
+                mediaPlayer?.start()
+                mediaPlayer?.setOnCompletionListener {
+                    mediaPlayer?.release()
+                    mediaPlayer = null
+                }
+            } catch (e: Exception) {
+                e.printStackTrace()
             }
-        } catch (e: Exception) {
-            e.printStackTrace()
+        } ?: run {
+            Log.d("ecemm", "No card selected!")
         }
     }
 

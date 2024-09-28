@@ -8,4 +8,294 @@
     <string name="read_now"><u>Read now</u></string>
     <string name="terms"><u>Terms</u></string>
     <string name="privacy"><u>Privacy</u></string>
+
+    <!--SAFE ONES-->
+    <string name="apple">Apple</string>
+    <string name="apple_article">As long as its seeds are removed (to avoid cyanide poisoning), apple is safe and healthy for doggies.Apple is a fruit full of vitamins, minerals, antioxidants and fiber. It is also a great snack for doggies. However, it contains lots of sugar like banana so watch out for weight gain.Please make sure to cut it into small pieces to avoid choking.</string>
+
+    <string name="banana">Banana</string>
+    <string name="banana_article">Banana is safe and healthy for doggies.It is full of potassium, which is good for kidneys and heart. But it also contains high carbs and sugar so watch out for weight gain. Although it\'s not scientifically proven, it is said that banana helps with doggie\'s nausea. Please make sure to cut it into tiny slices to avoid choking.</string>
+
+    <string name="beet">Beet</string>
+    <string name="beet_article">It is a great food source. Beets have many positive effects on health. However, it is especially effective in regenerating liver cells and maintaining health.</string>
+
+    <string name="blueberry">Blueberry</string>
+    <string name="blueberry_article">Blueberries are recommended for dogs\' diets. Blueberries are rich in antioxidants, selenium zinc and iron, as well as vitamins C, E, A and B.</string>
+
+    <string name="bread">Bread</string>
+    <string name="bread_article">White or whole-grain bread is safe for doggies. (Please make sure there are not any dry grapes inside though.) If consumed frequently, you should watch out for your doggie\'s weight gain.</string>
+
+    <string name="broccoli">Broccoli</string>
+    <string name="broccoli_article">Broccoli is one of the most important vegetables for the vitamins dogs can eat. Rich in a, c, e and carotene. When broccoli is boiled, cancer-fighting enzymes are released. Therefore, it helps  prevent cancer. Broccoli contains 33 different anti-cancer structures. In addition, some of the structures it contains contain photo chemicals that prevent carcinogenic cells from forming and attacking healthy cells. Strengthens the body\'s defense system. It is necessary to see the benefits of broccoli and not to overdo it. Excessive consumption of broccoli causes decreased thyroid function in dogs.</string>
+
+    <string name="carrot">Carrot</string>
+    <string name="carrot_article">Carrot(raw or cooked) is safe and healthy for doggies. It is a low-calorie vegetable full of vitamins, minerals, and fiber. It can also help with digestion. Please make sure to cut it into tiny slices to avoid choking.</string>
+
+    <string name="cucumber">Cucumber</string>
+    <string name="cucumber_article">Cucumber is a very useful, low-calorie and easily digested snack for dogs\' digestive system. but when consumed in excess, it can cause stomach pain. Slice your dog before giving cucumber to avoid choking</string>
+
+    <string name="green_peas">Green Peas</string>
+    <string name="green_peas_article">If you are feeding your dog a diet, you should definitely add peas to the list. It is rich in thiamine, phosphorus and potassium. You can increase the nutritional value by adding some boiled peas to your dog\'s daily meal. She or he will love her food better when boiled with a piece of meat and natural and unsalted broth.</string>
+
+    <string name="kiwi">Kiwi</string>
+    <string name="kiwi_article">More than a slice of the tiny kiwi, which contains fiber potassium and high amounts of vitamin C can harm your dog.</string>
+
+    <string name="lettuce">Lettuce</string>
+    <string name="lettuce_article">Your dog will like it because lettuce is crispy. Giving too much can cause your dog to have diarrhea. Take care to give such vegetables as they are a source of fiber and rich food.</string>
+
+    <string name="mango">Mango</string>
+    <string name="mango_article">The main fruit part of mango contains vitamins A, B6, C and E. It is very useful for dogs.</string>
+
+    <string name="orange">Orange</string>
+    <string name="orange_article">As long as it is peeled, orange is safe and healthy for doggies. It is a low-calorie and nutritious fruit, but please avoid giving too much of it so that your doggie doesn\'t get a stomach ache. Please make sure to cut it into tiny slices to avoid choking.</string>
+
+    <string name="parsley">Parsley</string>
+    <string name="parsley_article">Provides your dog with calcium, potassium and  beta-carotene. It reduces bad breath in dogs. If your dog has bad breath, you can add a few pieces of parsley to his food. or you can add it to dog biscuits you make at home.</string>
+
+    <string name="pear">Pear</string>
+    <string name="pear_article">Helps digestive system health in dogs. You can chop pears containing vitamins A, C, E, B1 and B2, as well as fiber, folic acid, potassium and copper into cubes to your dog.</string>
+
+    <string name="pineapple">Pineapple</string>
+    <string name="pineapple_article">As long as it is fresh, pineapple is safe and healthy for doggies. It is full of vitamins, minerals, and fiber. It is also a great snack for doggies. Please make sure to cut it into tiny slices to avoid choking. Also, don\'t give too much of it your doggie so he/she doesn not get nausea.</string>
+
+    <string name="spinach">Spinach</string>
+    <string name="spinach_article">Spinach is rich in vitamins K, A, C, E and B, as well as calcium, iron, magnesium, phosphorus, manganese, potassium, folate, copper and fiber. If your dog consumes excessive amounts of spinach, his/her kidneys can be damaged However, feeding your dog a handful of spinach a month is healthy. It contains fiber, vitamins and antioxidants. Your dog will love spinach so much that you will name it the Popeye.</string>
+
+    <string name="strawberry">Strawberry</string>
+    <string name="strawberry_article">Strawberry is safe and healthy for doggies. It is a low-calorie fruit which contains fiber and antioxidants. Please make sure to cut it into two or three pieces to avoid choking.</string>
+
+    <string name="turnip">Turnip</string>
+    <string name="turnip_article">It is a vegetable that you can add to the diet list. Turnip keeps your dogs fit with its high nutritional source and toxic cleaning feature.</string>
+
+    <string name="watermelon">Watermelon</string>
+    <string name="watermelon_article">As long as it is peeled and its seeds are removed, watermelon is safe and healthy for doggies. It\'s a low-calorie fruit full of vitamins A and C. It is also a great snack for doggies. Please make sure to cut it into tiny slices to avoid choking.</string>
+    <!--HARMFUL ONES-->
+    <string name="alcohol">Alcohol</string>
+    <string name="alcohol_article">Alcohol contains a chemical compound called ethanol, which is toxic for doggies. If consumed, it can cause stomach discomfort, coordination problems, vomiting, diarrhea, and dehydration. If consumed a lot, it might lead to lung failure, coma, and death.</string>
+
+    <string name="avocado">Avocado</string>
+    <string name="avocado_article">Avocado(including its leaves) contains a chemical compound called persin, which is toxic for doggies. If consumed, it can cause stomach discomfort. Its seed might also block your doggie\'s intestines. If consumed a lot, it can cause respiratory issues and damage your doggie\'s heart and liver.</string>
+
+    <string name="candy">Candy</string>
+    <string name="candy_article">Many sugar contains artificial sweeteners, raisins, which are harmful to your dog. even artificial sweeteners are toxic to your dog. When consumed in small amounts, vomiting, diarrhea and loss of appetite are seen. If the  amount consumed increases, it can be fatal.</string>
+
+    <string name="chocolate">Chocolate</string>
+    <string name="chocolate_article">Chocolate contains caffeine and theobromine. And doggies can\'t digest these stimulants. (Theobromine levels are especially high in black and bitter chocolates.) If consumed a little, it will probably only cause stomach discomfort. As the consumed amount goes up, it might cause symptoms like hyperactivity, vomiting, diarrhea, irregular heart rhythm, muscle tremors, and dehydration. If consumed a lot, caffeine might lead to lung deficiency or death; theobromine might lead to  internal bleeding, heart attack, or death.</string>
+
+    <string name="coffee">Coffee</string>
+    <string name="coffee_article">Coffee contains caffeine and theobromine. And doggies can\'t digest these stimulants. If consumed a little, it will probably only cause stomach discomfort. As the consumed amount goes up, it might cause symptoms like hyperactivity, vomiting, diarrhea, irregular heart rhythm, muscle tremors, and dehydration. If consumed a lot, caffeine might lead to lung deficiency or death; theobromine might lead to internal bleeding, heart attack, or death.</string>
+
+    <string name="bones">Cooked Bone</string>
+    <string name="bones_article">Always choose the largest bones and remember that they should always be raw. cooked lamb bones break quickly and splinters are problematic</string>
+
+    <string name="fishbones">Fish Bone</string>
+    <string name="fishbones_article">The bones and fishbones eaten by your dog travel around the digestive tract like a piece of glass. As a result, tears can be seen in the esophagus and stomach of dogs.</string>
+
+    <string name="garlic">Garlic</string>
+    <string name="garlic_article">Garlic is harmful to dogs. According to the American Veterinary Association, while the benefits of garlic have not been proven, its harms and toxic effects have been proven. Orange or red urine when consumed can cause vomiting, diarrhea, increased breathing, weakness, loss of appetite or palpitations. When consumed in excess, it may cause damage to red blood cells and deterioration of the natural mucosa structure.</string>
+
+    <string name="grapes">Grapes</string>
+    <string name="grapes_article">Grapes(fresh or dry) contains some chemical compounds that are toxic for doggies. (The exact substances that cause the toxic reaction are not yet known.) If consumed, it might cause vomiting, numbness, diarrhea and muscle tremors. If consumed a lot, it might lead to increased urination, long-term kidney diseases, or death.</string>
+
+    <string name="leek">Leek</string>
+    <string name="leek_article">For dogs, foods such as leeks and onions cause disease even if they eat small amounts. Consuming large quantities can cause anemia.</string>
+
+    <string name="lemon">Lemon</string>
+    <string name="lemon_article">Lemon contains chemical compounds like linalool and limonene which are toxic for doggies. If consumed a little, it might only cause stomach and bowel discomfort.
+P.S.: Doggies don\'t really enjoy the taste of it anyways.</string>
+
+    <string name="mushroom">Mushroom</string>
+    <string name="mushroom_article">If the mushroom is consumed by dogs, it can cause abdominal pain, vomiting and diarrhea. When consumed in excess, it may result in kidney disease, liver damage, coma or death.</string>
+
+    <string name="onion">Onion</string>
+    <string name="onion_article">onions are harmful to dogs. Orange or red urine when consumed can cause vomiting, diarrhea, increased breathing, weakness, loss of appetite or palpitations. When consumed in excess, it may cause damage tored blood cells and deterioration of the natural mucosa structure.</string>
+
+    <string name="tea">Tea</string>
+    <string name="tea_article">Tea contains caffeine and theobromine. And doggies can\'t digest these stimulants. If consumed a little, it will probably only cause stomach discomfort. As the consumed amount goes up, it might cause symptoms like hyperactivity, vomiting, diarrhea, irregular heart rhythm, muscle tremors, and dehydration. If consumed a lot, caffeine might lead to lung deficiency or death; theobromine might lead to internal bleeding, heart attack, or death.</string>
+
+    <string name="tobacco">Tobacco</string>
+    <string name="tobacco_article">Tobacco can cause twitches or strokes, drooling, constricted pupils, visual and sound hallucinations, rapid heartbeat, vomiting, and diarrhea in dogs.</string>
+    <!--CAREFUL WITH THESE-->
+    <string name="cheese">Cheese</string>
+    <string name="cheese_article">It\'s usually okay for doggies to eat small amounts of cheese. However, the amount of fat and lactose varies greatly among different types of cheese. In fact, some cheeses might discomfort your doggie\'s digestive tract and cause stomach pain and diarrhea. Thus, we suggest the ones with low-fat content like mozzarella. If you are so willing to give some to your doggie you can start with small pieces so he/she gets used to it.</string>
+
+    <string name="cherries">Cherries</string>
+    <string name="cherries_article">Cherry doesn\'t have any nutritional benefits for doggies that are scientifically proven. If you are so willing to give some to your doggie you shouldn\'t give more than a few at once. Please keep in mind that you should always remove the seeds to avoid choking and cyanide(a chemical compound found in the seeds) poisoning. If consumed a lot, your doggie might have a stomach ache and diarrhea.</string>
+
+    <string name="egg">Egg</string>
+    <string name="egg_article">The avidin enzyme in raw eggs prevents the absorption of vitamin B7 (biotin). In case of deficiency of B7, your dog\'s skin and coat health deteriorates. Also, salmonella bacteria found in raw eggs can cause poisoning in dogs. eggs cause vomiting in dogs.</string>
+
+    <string name="honey">Honey</string>
+    <string name="honey_article">Honey contains lots of sugar so we don\'t suggest giving too much of it to your doggie. If consumed a lot, it might cause weight gain.</string>
+
+    <string name="ice_cream">Ice cream</string>
+    <string name="ice_cream_article">Ice creams on the market shelves contain lots of sugar (and obviously milk) so it\'s not very healthy to share your ice cream with your doggie. (Especially if your doggie is lactose intolerant) But if you are so willing, you can make or buy dog-safe ice creams.</string>
+
+    <string name="juice">Juice</string>
+    <string name="juice_article">Doggies can drink most fruit juices, but they shouldn\'t drink any since fruit juices contain lots of sugar and chemical food preservatives, which might harm their health. Thus, you should give fresh and delicious fruits to your doggie rather than fruit juice.</string>
+
+    <string name="milk">Milk</string>
+    <string name="milk_article">Some doggies are lactose-intolerant so you should be careful giving milk/milk derivatives to your doggie. If you are so willing, you can try soy milk instead so he/she doesn\'t get a stomach ache. Please note that if your dog is a puppy, soy milk is not a substitute for mother\'s milk.</string>
+
+    <string name="peanut">Peanut</string>
+    <string name="peanut_article">Toxic to your dog. therefore you should definitely not give.</string>
+
+    <string name="pomegranate">Pomegranate</string>
+    <string name="pomegranate_article">Whether dogs should eat pomegranate or not is often a matter of debate among veterinarians. Pomegranate is not toxic to dogs. It is also very healthy in terms of antioxidant, vitamin C potassium and fiber levels. However, pomegranate can cause digestive problems (eg stomach pain, vomiting) or diarrhea due to its seeds when consumed too much in dogs. Therefore, giving your dog a small amount of pomegranate would be the most logical decision.</string>
+
+    <string name="tomato">Tomato</string>
+    <string name="tomato_article">As long as they are mature/red, you can occasionally give tomatoes to your doggie However, immature/green tomatoes contain tomatine, which is harmful to doggies: it causes stomach ache, abnormal heart rhythm, and trouble in breathing. If consumed a lot, it might affect your doggie\'s digestive and nervous system badly.</string>
+
+    <string name="yogurt">Yogurt</string>
+    <string name="yogurt_article">Some doggies can not digest yogurt easily so they can get a stomach ache. But if you are so willing to give some to your doggie, please make sure it is not a fruit yogurt and doesn\'t contain sugar/sweetener.</string>
+
+    <!--BITING ARTICLE-->
+    <string name="biting_text">My Dog is Biting</string>
+    <string name="biting_text_article"> - Managing and controlling puppy biting problems can be a major challenge for us dog lovers. Puppy biting or nipping starts out as a bit of fun, but needs to be controlled quickly to avoid ongoing problems.\n\n
+        - For most young puppies biting is a perfectly natural and essential phase to go through, especially when they are teething.\n\n
+        - Puppies love to sink their sharp little fangs into just about anything during this teething stage, including the hands and feet of their owners. In some cases it\'s like you\'ve brought a snappy alligator into your home, instead of the cuddly little puppy you had hoped for.\n\n
+        - The good news is that most puppies can be trained to regulate and minimize the biting pretty easily. The sooner you start to educate your puppy in bite inhibition (having a soft mouth) the easier it will be - for all concerned.\n\n
+        How To Stop Puppy Biting Problems- There a lots of proven training methods to help correct your puppy\'s behavioral problems. Before I get into the specific techniques you can use to stop your puppy from biting, always keep these general dog behavior training rules in mind:\n\n
+        - Puppy socialization and bite inhibition training go hand in hand.\n\n
+        - Never slap or hit your puppy in the face. This does not work! Your puppy will just think you are playing or could become afraid of you. This may even lead to some much bigger problems than simple puppy nipping.\n\n
+        - The general rule to stop puppy biting problems is to always encourage acceptable behavior and always discourage unacceptable behavior. To learn more about this fundamental rule of dog obedience training (including how to stop biting problems) visit Secrets of a Professional Dog Trainer.\n\n
+        - While you are trying to stop your puppies from biting, never play tug of war, wrestling or chase type games with them. This only encourages the biting and nipping.\n\n
+        - Whichever method you choose to train your puppy the golden rule is be consistent. This means that you and anyone else who comes into contact with your puppy must enforce your chosen strategy every time your pup takes a nip.\n\n
+        - If you don\'t clearly communicate to your dog that the biting is unacceptable, he will not know he is doing anything wrong. It\'s up to you to show him what is acceptable behavior, don\'t just expect your puppy to know this! (You are really taking on the role of his littermates for this task).\n\n
+        - Another (extreme) reason puppies can bite is if they are trying to assert their dominance over you. If this is the case with your puppy, it must be stopped immediately. When you have a dominant puppy his biting will only be the beginning of many behavioral problems.\n\n
+        Stop Your Puppy From Biting - Proven TechniquesYour goal to start with is to teach your puppy how to control the force of his/her biting. Your puppy\'s littermates will initiate this process and then it is up to you to continue on with it when your new puppy arrives home. This will ensure (not guarantee) that if your dog does bite someone in the future the damage will be minimized. When you have given your puppy sufficient feedback regarding the strength of his bite only then can you begin to reduce the prevalence of the biting behavior.\n\n
+        - If you catch the biting problem early on it may be easy to rectify. Just try to redirect the biting from your flesh to a toy or chew bone. For very young puppies this method is often all you\'ll need do. As soon as your pup starts to bite your hands just let out a firm "No!" and replace your fingers with the chew toy (or ice cube if your puppy is teething).\n\n
+        - This is probably the most popular method and my personal favorite. Make your puppy think he is hurting you each time he has a nip at you. This method replicates the way dogs sort out this biting amongst themselves. When puppies are biting and nipping each other it only stops when one puppy lets out a yelp. We can use this natural way dogs learn by letting out an Ouch! or an Arrr! every time one of our puppy\'s bite. The trick is to startle your dog with your voice, and then pull away and stop playing with your puppy for a while. Your pup will soon learn that when he starts to bite, his playmate (you) goes away.\n\n
+        - Teach your puppy the obedience training command "Leave It!". This method works great but is more suitable for older puppies.\n\n
+        In bad biting cases as soon as your puppy latches onto your hand say "No!" and quickly put your thumb inside his mouth under his tongue, and your other finger under his chin. Hold it there for about 10 seconds (not too tightly). This will feel uncomfortable to your puppy plus he won\'t be able to bite you.\n\n
+        - In bad biting cases as soon as your puppy latches onto your hand say "No!" and quickly put your thumb inside his mouth under his tongue, and your other finger under his chin. Hold it there for about 10 seconds (not too tightly). This will feel uncomfortable to your puppy plus he won\'t be able to bite you.\n\n
+        \'Always Praise And Reward A Gentle Mouth And Ignore Or Withdraw From Inappropriate Nipping\'\n\n
+        - Again if your puppy has a severe biting problem you can try this training technique. Put on a pair of gloves and apply a foul tasting substance to them (something your dog doesn\'t like). Your dog will soon learn that if he bites you, it won\'t be tasty! This method produces a strong negative association to your dog every time he decides to bite you. Some dogs are smart enough to realize that when you take your foul tasting gloves off, it is fine to sink their fangs into you again!\n\n
+        - For older puppies (around 6 months) this is a sure fire technique to stop puppy mouthing. Put a pinch or choke collar on your puppy and each time he bites you give the lead a short sharp tug. This correction will form an unpleasant association to your dog every time he bites you. It won\'t take him long to stop. Some trainers believe this method to be fairly extreme, and I agree that you would only need to call on it in very rare circumstances - I have never needed to go to this level. I believe it\'s far more effective to educate your puppy rather than inflicting punishment or trying to extinquish a behavior altogether.\n\n
+        How to stop a puppy from bitingThese methods have been recommended to me, but I have never tried them myself:- Spray your puppy with water every time he starts nipping.\n\n
+        -Fill up an empty can with rocks or coins. Each time your puppy starts biting say No! and give the can a shake. Apparently puppies hate this rattling noise.\n\n
+        - If you\'re worried that you may have an overly aggressive puppy on your hands, please seek the advice of an experienced animal behaviorist or dog trainer.\n\n
+        - Like I mentioned earlier, the most important piece of advice regardless of which training method you choose is to be consistent and provide the clear feedback your puppy needs to learn.\n\n
+    </string>
+
+    <!--OBEDIENCE ARTICLE-->
+    <string name="obedience_text">Obedience</string>
+    <string name="obedience_text_article"> What Is Dog Training For Obedience Purposes? I, like most of us dog owners believe that dog training for obedience is an essential ingredient in any healthy human-dog relationship. But what exactly is dog obedience training, and why is it so important for you and your dog? Obedience training is a general term which can be achieved through the many various dog training techniques. Regardless of which training technique you choose to employ or which dog training schools you frequent, this is what proper dog obedience training should accomplish:\n\n
+        - Build or strengthen a close, healthy and appropriate relationship between you and your dog.\n\n
+        - Opens up a clear line of communication between you and your dog. This includes you knowing what to expect of your dog in all circumstances, and your dog clearly understanding and respecting what is expected of him/her.\n\n
+        - Dog Training for Obedience lays down a set of rules or boundaries which educates your dog to become a responsible member of society. Including how to relate to other dogs, animals and people, basic manners and how to behave in any situation.\n\n
+        - Establishes the groundwork which assists in preventing the development of unacceptable problem behavior - such as jumping up, barking, chewing, digging etc.\n\n
+        The Benefits Of Dog Training For Obedience\n\n
+        - Basic obedience training makes life simple to your dog and eliminates confusion. Your dog will know his place in the world and understand right from wrong. Dogs seem to really appreciate and thrive onthis black and white view of the world.\n\n
+        - Fun and rewarding for both you and your dog - for me, this is what it\'s all about!\n\n
+        - You\'ll have a happy, relaxed and confident dog who you can take anywhere and will be a pleasure to be around.dog training schools Greater freedom can also be extended to your dog, as he\'ll be more trustworthy when obedience trained.\n\n
+        - An obedience trained puppy or dog is a much safer dog. If your dog dashes out the front door you will still have voice control over him. You will be able to call on one of your obedience training commands such as \'come\' \'down\', \'sit\' or \'go to your spot\'. This is very reassuring for any dog lover.\n\n
+        - You gain trust and mutual respect with your dog. He understands what is expected of him and knows that you will always be fair and consistent with this.\n\n
+        - When your dog is trained in obedience he will be fine around family, friends and kids under supervision.\n\n
+        - Dog obedience training fulfills some crucial needs in your dog\'s life including exercise, mental stimulation,
+        spending time with you and providing your dog with a \'job\'.\n\n
+        - Dog training for obedience greatly reduces the risk of being locked in a dominance struggle with your dog.
+        You\'ll be his strong and always fair leader, who he\'ll respect and look to for guidance.\n\n
+        - Obedience training is a step by step process which you build upon over time. It creates a solid foundation
+        for your dog to learn additional skills and training commands. Throughout this process your dog will be gaining confidence along the way.
+        The Danger In Not Giving Dog Training For Obedience- It\'s an unfortunate reality that untrained dogs are the major cause
+        for puppies and dogs ending up in animal shelters all over the world.\n\n
+        - This is good for nobody, especially the poor dogs.\n\n
+        - Your dog can\'t ever be really close with you and your family. By this I mean that your dog won\'t
+        be involved in family outings, instead spending much of his time alone in the yard. This can bring on
+        numerous behavioral problems and can be a real pest for you, and even your neighbours.\n\n
+        - Your dog will be more unsafe around people, other animals and on the roads.\n\n
+        - It is a common trait for untrained dogs to challenge your leadership or authority. Obedience trained dogs
+        will also try to test you out in this manner. But when you are proficient in obedience training you\'ll have the tools to deal with it.\n\n
+        - Constantly (but not effectively) your dog will be yelled at and pushed further away from his pack (you and your family).
+        This is no way for you and your dog to live, and is totally avoidable with some simple obedience training.\n\n
+        General Rules For Effective Dog Obedience Training\n\n
+        You\'ll find proven training techniques for specific obedience commands by selecting from the list below. These are some general tips to keep in mind that hold true in any dog training for obedience situation:\n\n
+        - Praise and reward your dog when he does what you ask of him, give an appropriate correction when he doesn\'t do what he has been taught to do. The key is to find the right balance for your dog. Don\'t expect your dog to just know this stuff straight away. Repetition of the command and the action is crucial. Believe in what you are doing and stick to it.\n\n
+        - Always be consistent (this includes everybody who lives with your dog), make it easy for your dog. Give him a simple decision to make and make it clear to him which choice is acceptable and which choice is unacceptable - provide instant feedback.\n\n
+        - Never correct or punish your dog for not doing something he has not been properly taught to do - be realistic and fair.\n\n
+        - Make your training sessions short, sharp and fun - for you and your dog. This is where many dog training schools fall down.\n\n
+        - Take it slow, master one easy command to start with then move on and build upon it. Continue to mentally challenge and stimulate your dog throughout the training process.\n\n
+        - You\'re the best person to perform these tasks with your dog. Your dog has to live with you, you are his pack and you must be the person he looks to for leadership and who he respects.\n\n
+        - Test or proof the obedience commands in different situations, places and with added distractions. Incorporate obedience training into your daily routine - your dog could perform a \'sit\' before you give him his dinner, or a \'down stay\' when you go get the mail.\n\n
+        - Never try to correct your dog if you don\'t catch him in the act of doing wrong, timing your correction is all important. A late correction only confuses your dog and doesn\'t make any sense to him.\n\n
+        - Find out what motivates your dog, this will be an important tool in your training sessions. My dogs love cheese, liver treats and a throw of the ball.\n\n
+        - Work with the natural drives and instincts of your dog - this is explained further within the articles below.\n\n
+    </string>
+
+    <!--BARKING ARTICLE-->
+    <string name="barking_text">Barking</string>
+    <string name="barking_text_article"> Working out how to stop your dog from barking can be a difficult and time consuming task. Dogs love to bark. It\'s a perfectly natural thing for your dog to do, just as it\'s normal for us humans to speak.\n\n
+    - It\'s when our dogs bark excessively that it becomes a problem for all concerned - including our cranky neighbors.\n\n
+    - Considering this, our goal really isn\'t to stop dog barking altogether, but rather to control the excessive barking. Keep in mind that there are situations when we want our dogs to bark (and I guess there are also times when I like my chatty aunty to speak!;)\n\n
+    - The first step in modifying the behavior of an excessive barker is to determine the reason why the dog is barking in the first place. Once you\'ve identified this cause or trigger, you can then plan the correct training solution.\n\n
+    Why Do Dogs Bark?Stop Your Dog From Barking Now!- To express their needs (being bossy).\n\n
+    - Some dogs are bred to bark (some terriers and hounds). stop dogs barking\n\n
+    - They are staking out their territory.\n\n
+    - To alert other members of their pack (that\'s you and your family) of impending danger.\n\n
+    - When playing, just through sheer excitement - this is a very common type of puppy barking.\n\n
+    - Barking at other animals. Depending on where you are in the world, it could be squirrels or possums (I\'m in Australia - my dogs go crazy at possums).\n\n
+    - If they are isolated.\n\n
+    - Some dogs bark excessively when separated from their pack (you and your family).\n\n
+    - If they are trapped behind some type of barrier like a fence or window.\n\n
+    - Just for fun!\n\n
+    - To express dominance (puppies normally test you out at some stage with a display of dominance barking).\n\n
+    - They bark because their owners have inadvertently rewarded excessive barking in the past (this is crucial to understand)\n\n
+    - Through boredom or a lack of physical and mental stimulation.\n\n
+    - May feel stressed or uncomfortable for some reason. Things like feeling threatened or if they don\'t have an appropriate place to sleep can cause excessive barking problems.\n\n
+    - Dogs that haven\'t been properly socialized often become nuisance barkers.\n\n
+    - May be looking for a response or some attention from their pack.\n\n
+    - Another thing to keep in mind is that even though it may appear to you that your dog is barking at nothing, this is not necessarily the case. This is due to the fact that your dog has a much more acute sense of hearing, smell and sight than us humans. Your dog\'s excessive barking is most probably being triggered by something.\n\n
+    Dog Barks When You Are Not Home- I\'m not going to pretend this type of barking will be easy for you to control, because in reality it is often a difficult and lengthy process.\n\n
+    - Always remember that dogs are social creatures, when they are separated from their pack (you) they can become stressed, vulnerable and frustrated. This type of excessive barking is often caused by separation anxiety.\n\n
+    - Firstly I\'d say just use your common sense and get these dog ownership basics right. Keep your dog well exercised (physical and mental) and provide fresh water, chewing toys and a nice comfortable place to sleep. You can also try to block your dogs view of the street and other distractions/triggers. Basically, make sure your dog is happy.\n\n
+    - If you know your dog has been barking while you have been away, you must ignore him for a while when you return home. I understand this is difficult for lots of owners, but otherwise your dog believes that his barking is the reason you came back home to him. Just go about your business for a little while when you arrive home, ignoring your dog. When your dog has settled down, you then initiate contact with him. Please note this method applies to dogs who were barking at the moment you arrived home.\n\n
+    You Must Convey A Clear and Consistent Message To Your Dog At All Times"- This next technique takes time and patience, but can be a very effective way to stop your dog from barking. It\'s based on that important rule applicable to all dog training situations. Praise or reward when your dog does something you want to encourage and create a negative association when he does something you don\'t like.\n\n
+    - Leave the house as you normally would, but just hide somewhere nearby. When your dog starts to bark, spray him with water or throw a tin can full of coins or rocks in his direction (this is the negative association). Try to keep out of your dog\'s sight while doing this if possible. Go and hide again, if he is quiet for a while, go in and reward his good behavior with some praise and maybe a treat. This process may need to be repeated over and over until you have broken the excessive barking habit.\n\n
+    - The above techniques have proven to be successful with my own dogs, but if they don\'t work for you, maybe you could try a Citronella no bark collar. Again this method uses the power of negative association. Every time your dog barks, a fine mist of citronella is sprayed into the air. Most dogs hate the smell, and soon realize if they don\'t bark, the smell isn\'t there to bother them. *If you have more than one dog this method is not really a suitable solution. I always advocate some proper training before even considering an option such as a citronella no bark collar.\n\n
+    Dog Barks For Attention Or To Demand SomethingThis is one excessive barking problem that can be corrected very quickly.- If you establish yourself as your dog\'s leader in the owner-dog relationship you share, this type of barking problem won\'t occur. In the process of training you\'ll also form a strong bond together based on trust and mutual respect. To learn the best way to obedience train your dog.\n\n
+    - You can also teach your dog the \'Stop\' or \'Quiet\' command to help prevent this annoying type of problem barking. When your dog is barking simply say "QUIET!" at the same time as you wave a tasty treat in front of your dog\'s nose. After you dog is quiet for a few seconds you can then give him/her the treat. Eventually you will only need to say "QUIET!", without the need for a treat.\n\n
+    </string>
+    <!--ARTICLES-->
+    <string name="first_article">My Doggies Cries When I Leave Him / Her Alone</string>
+    <string name="first_article_description"> When you leave the room/house, your dogie starts crying,barking, and scratching the door. Sounds familiar? No need to worry, here is what you need to do:\n\n
+        Step 1: Leave the room/house and move away from the door.\n\n
+        Step 2: Get inside after 2 minutes and don\'t communicate with your dogie. (Don\'t call, praise or look at your dogie-Just pretend you forgot something.)\n\n
+        Step 3: Spend 10 to 15 seconds inside and leave the room/house again.\n\n
+        Step 4: Wait outside longer each time you leave(e.g. 5/15/30 minutes) the room/house and repeat the steps. After a while, your dogie will understand you won\'t leave him/her alone.\n\n
+        P.S: You need to be patient so that your dogie stops crying more quickly.\n\n</string>
+
+    <string name="second_article">My Dog is Gnawing</string>
+    <string name="second_article_description"> His habit of nibbling on things happens for several reasons. For the solution, we only need a light and loud thing. For example a keychain it could be. He may be afraid or may show aggression when he sees another item. Don\'t worry, this item not to scare your dog, just to startle for you. The stages you need to follow are as follows:\n\n
+        - When your dog is scratching or gnawing, stand behind or next to it.\n\n
+        -Take the keychain in your hand and throw them kindly towards their feet. (We don\'t want your dog to get hurt either. The important thing here is to put the feet a little touch and make sounds.)\n\n
+        -Do not make eye contact with your dog after throwing the key. (You can to look up to the ceiling.) This is because of your dog should not know the questions like where did it come from, who threw the key, what is it like.\n\n
+        -After a few repetitions, your dog will give up with this behavior when you apply this method without hurting him/her.\n\n</string>
+
+    <string name="third_article">My Puppy Cries</string>
+    <string name="third_article_description"> Puppies mostly cry because they are not with their mommies. If that\'s the case, there isn\'t much you can do but, you can try covering your puppy with a blanket.\n\n
+        (The blanket will keep your puppy warm and make him/her feel like he/she is with mom.)</string>
+
+    <string name="fourth_article">My Doggie Cries If I Close The Door At Night</string>
+    <string name="fourth_article_description"> If you don\'t sleep in the same room with your doggie and close the door at night, he/she might cry, bark, or scratch the door/cushions. Here is what you need to do:\n\n -Be stubborn and ignore your doggie. Even if you make a one-time exception, he/she will think you\'d open the door anytime he/she behaves this way.\n\n
+        You can leave one of your clothes in the room your doggie sleeps in so he/she can smell your scent and feel less anxious.\n\n
+        P.S: You should let your doggie in only when he/she is calm and well-behaved.</string>
+
+    <string name="fifth_article">My Dog Barks When The Bell Rings</string>
+    <string name="fifth_article_description"> If your dog just barks it\'s an alarm not bark. This behavior can be seen in several different ways. You can avoid:\n\n
+        1-) Put a few coins in a glass or jar. Shake it every time there\'s a knock on the door to distract your dog. After a certain time he will be disturbed by the sound and stop barking.\n\n
+        2-) Every time the doorbell rings throw the keychain to your hips kindly and you can say HEY. (Make eye contact with your dog, It will not cause any harm.) If your dog starts to run and barks at the door when the bell rings, this is a more serious problem. The solution is as follows: When the bell rings, go to your dog and nudge kindly. Then slowly walk towards it. In this way, your dogs energy will drop and it will give upt o own the door.\n\n</string>
+
+    <string name="sixth_article">My Dog eats poop</string>
+    <string name="sixth_article_description"> If your dog eats poop then you may wonder why they do it, if it\’s a normal behaviour and whetherit could make them sick. Your dog may enjoy dining on their own dung, eating cat litter tray treats or they may prefer snacking onstools on their daily walks. It may be disgusting to us, but it\’s actually a relatively normal behaviour for many dogs, particularly puppies.\n\n
+        The question is, is it bad for them and should we stop them? How can I stop my dog eating poo?\n\n
+        If your dog regularly pigs out on poo then you should consider speaking to your local vet or behaviouristfor advice. To help you manage this behaviour you could try:\n\n
+        -Teaching them a good recall or to leave it, as these commands can help keep them away from poo when you\'re out on walks. Stay patient and keep using positive reinforcement. Make sure you give them plenty of praise to encourage them to behave differently.\n\n
+        -If you\’re having trouble with training, keep them on a lead when out for walks\n\n
+        -Wearing a basket style muzzle when out on a walk will help break the habit while still allowing your dog to pant\n\n
+        -If they choose not to eat a poo give them lots of praise and attention\n\n
+        -Make sure you always pick up your dog\’s stools as soon as possible and keep them on the lead when they\'re going to the toilet\n\n
+        -Try feeding them more regularly or try a diet that fills them up for longer. Always speak to your vet before changing your dog\’s diet\n\n
+        -Some people recommend feeding dogs food that makes their faces taste unpleasant, such as pineapple or courgette, but there is littlescientific evidence to suggest these work.\n\n</string>
+
 </resources>
