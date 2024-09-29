@@ -21,6 +21,13 @@ class BarkingFragment : Fragment() {
         return binding.root
     }
 
+    override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
+        super.onViewCreated(view, savedInstanceState)
+        binding.barkingBack.setOnClickListener {
+            parentFragmentManager.popBackStack()
+        }
+    }
+
 
     override fun onDestroyView() {
         super.onDestroyView()

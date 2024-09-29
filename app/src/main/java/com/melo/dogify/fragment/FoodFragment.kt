@@ -1,15 +1,12 @@
 package com.melo.dogify.fragment
 
 import android.graphics.Color
-import android.view.Gravity
 import com.google.android.material.tabs.TabLayout
 import com.melo.dogify.R
-import com.melo.dogify.adapter.FoodAdapter
 import com.melo.dogify.adapter.FoodViewPagerAdapter
 import com.melo.dogify.core.fragments.BaseFragment
 import com.melo.dogify.databinding.FragmentFoodBinding
 import com.melo.dogify.databinding.TabItemBinding
-import com.melo.dogify.model.FoodModel
 import com.melo.dogify.viewmodel.SoundsViewModel
 import dagger.hilt.android.AndroidEntryPoint
 
@@ -23,6 +20,9 @@ class FoodFragment : BaseFragment<SoundsViewModel, FragmentFoodBinding>() {
 
     override fun onInitDataBinding() {
         foodViewPager()
+        viewBinding.foodBack.setOnClickListener {
+            parentFragmentManager.popBackStack()
+        }
     }
 
     private fun foodViewPager() {

@@ -10,14 +10,13 @@ import dagger.hilt.android.qualifiers.ApplicationContext
 import dagger.hilt.components.SingletonComponent
 import javax.inject.Singleton
 
-@Module
 @InstallIn(SingletonComponent::class)
-
+@Module
 object AppModule {
 
-    @Provides
     @Singleton
-
-    fun provideContext(@ApplicationContext context: Context): Context = context
+    @Provides
+    fun providePreferences(context: Context): DogSharedPreferences =
+        DogPreferenceManager(context)
 
 }

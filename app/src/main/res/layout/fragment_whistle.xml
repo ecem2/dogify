@@ -17,7 +17,7 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            android:layout_marginTop="16dp"
+            android:layout_marginTop="28dp"
             android:fontFamily="@font/tt_firs_neue_trial_black"
             android:textColor="@color/black"
             android:text="Dog Whistle" />
@@ -37,6 +37,7 @@
             android:background="@null"
             android:progressDrawable="@drawable/custom_seekbar"
             android:thumb="@drawable/ic_whistle_seekbar"
+            android:splitTrack="false"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintBottom_toBottomOf="parent"

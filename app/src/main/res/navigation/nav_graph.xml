@@ -3,13 +3,17 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/nav_graph"
-    app:startDestination="@id/soundsFragment">
+    app:startDestination="@id/splashFragment">
 
     <fragment
         android:id="@+id/soundsFragment"
         android:name="com.melo.dogify.fragment.SoundsFragment"
         android:label="fragment_sounds"
-        tools:layout="@layout/fragment_sounds" />
+        tools:layout="@layout/fragment_sounds" >
+        <action
+            android:id="@+id/action_soundsFragment_to_premiumScreenPurchaseFragment"
+            app:destination="@id/premiumScreenPurchaseFragment" />
+    </fragment>
     <fragment
         android:id="@+id/translatorFragment"
         android:name="com.melo.dogify.fragment.TranslatorFragment"
@@ -83,12 +87,19 @@
         <action
             android:id="@+id/action_splashFragment_to_soundsFragment"
             app:destination="@id/soundsFragment" />
+        <action
+            android:id="@+id/action_splashFragment_to_onboardFragment"
+            app:destination="@id/onboardFragment" />
     </fragment>
     <fragment
         android:id="@+id/onboardFragment"
         android:name="com.melo.dogify.onboard.OnboardFragment"
         android:label="fragment_onboard_two"
-        tools:layout="@layout/fragment_onboard_two" />
+        tools:layout="@layout/fragment_onboard_two" >
+        <action
+            android:id="@+id/action_onboardFragment_to_onboardTwoFragment"
+            app:destination="@id/onboardTwoFragment" />
+    </fragment>
     <fragment
         android:id="@+id/dogFragment"
         android:name="com.melo.dogify.DogFragment"
@@ -106,5 +117,18 @@
         android:id="@+id/barkingFragment"
         android:name="com.melo.dogify.fragment.BarkingFragment"
         android:label="BarkingFragment" />
+    <fragment
+        android:id="@+id/premiumScreenPurchaseFragment"
+        android:name="com.melo.dogify.subscription.PremiumScreenPurchaseFragment"
+        android:label="fragment_premium_screen_purchase"
+        tools:layout="@layout/fragment_premium_screen_purchase" />
+    <fragment
+        android:id="@+id/onboardTwoFragment"
+        android:name="com.melo.dogify.onboard.OnboardTwoFragment"
+        android:label="OnboardTwoFragment" >
+        <action
+            android:id="@+id/action_onboardTwoFragment_to_soundsFragment"
+            app:destination="@id/soundsFragment" />
+    </fragment>
 
 </navigation>

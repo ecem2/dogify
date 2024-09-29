@@ -8,7 +8,16 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
-
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/article_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:src="@drawable/ic_back"
+            android:padding="4dp"
+            app:layout_constraintBottom_toBottomOf="@+id/dogi_article"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/dogi_article" />
         <androidx.appcompat.widget.AppCompatTextView
             android:id="@+id/dogi_article"
             android:layout_width="wrap_content"
@@ -29,6 +38,7 @@
             android:layout_height="0dp"
             android:layout_marginTop="12dp"
             app:layoutManager="androidx.recyclerview.widget.GridLayoutManager"
+            android:layout_marginBottom="50dp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"

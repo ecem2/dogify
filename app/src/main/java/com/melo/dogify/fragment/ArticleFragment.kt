@@ -35,16 +35,15 @@ class ArticleFragment : BaseFragment<SoundsViewModel, FragmentArticleBinding>(),
         )
     }
 
-    private var selectedArticle: ArticleModel? = null
-    private var selectedItemPosition: Int = 0
-
-
     override fun viewModelClass() = SoundsViewModel::class.java
 
     override fun getResourceLayoutId() = R.layout.fragment_article
 
     override fun onInitDataBinding() {
         setupArticleStyle()
+        viewBinding.articleBack.setOnClickListener {
+            parentFragmentManager.popBackStack()
+        }
     }
 
     private fun setupArticleStyle() {

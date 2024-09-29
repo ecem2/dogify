@@ -21,6 +21,12 @@ class ObidenceFragment : Fragment() {
         return binding.root
     }
 
+    override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
+        super.onViewCreated(view, savedInstanceState)
+        binding.obidenceBack.setOnClickListener {
+            parentFragmentManager.popBackStack()
+        }
+    }
 
     override fun onDestroyView() {
         super.onDestroyView()

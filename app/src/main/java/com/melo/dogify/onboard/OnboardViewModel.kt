@@ -15,9 +15,9 @@ class OnboardViewModel @Inject constructor(
 ): BaseViewModel() {
 
     fun saveOnBoardingState() {
-        viewModelScope.launch(Dispatchers.IO) {
+       // viewModelScope.launch(Dispatchers.IO) {
             preferences.setFirstLaunch(false)
-        }
+       //z }
     }
 
 }

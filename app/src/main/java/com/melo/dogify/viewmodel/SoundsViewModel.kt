@@ -56,9 +56,6 @@ class SoundsViewModel @Inject constructor(
         getFoodHarmfulList()
         getFoodCarefulList()
     }
-//private fun getArticleDescriptionModel(){
-//
-//}
     private fun getTrainingList() {
         _trainingList.add(
             TrainingModel(
@@ -579,39 +576,32 @@ class SoundsViewModel @Inject constructor(
         _articleList.add(
             ArticleModel(
                 image = R.drawable.article_read,
-                textTitle = "My doggies cries \n" +
-                        "when I leave him/her\n" +
-                        "alone ",
-                text = R.string.read_now,
+                textTitle = R.string.first_article,
+                text = R.string.read_now
             )
         )
         _articleList.add(
             ArticleModel(
                 image = R.drawable.article_read,
-                textTitle = "My doggies cries \n" +
-                        "when I leave him/her\n" +
-                        "alone ",
-                text = R.string.read_now,
+                textTitle = R.string.second_article,
+                text = R.string.read_now
             )
         )
         _articleList.add(
             ArticleModel(
                 image = R.drawable.article_read,
-                textTitle = "My doggies cries \n" +
-                        "when I leave him/her\n" +
-                        "alone ",
-                text = R.string.read_now,
+                textTitle = R.string.third_article,
+                text = R.string.read_now
             )
         )
         _articleList.add(
             ArticleModel(
                 image = R.drawable.article_premium,
-                textTitle = "My doggies cries \n" +
-                        "when I leave him/her\n" +
-                        "alone ",
-                text = R.string.read_now,
+                textTitle = R.string.fourth_article,
+                text = R.string.read_now
             )
         )
     }
 
-    }
+
+}

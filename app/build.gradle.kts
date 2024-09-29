@@ -93,6 +93,7 @@ dependencies {
     implementation("com.google.dagger:hilt-android:2.49")
     kapt("com.google.dagger:hilt-android-compiler:2.48")
 
+    implementation ("com.google.android.gms:play-services-ads:23.3.0")
 
 
     //GSON

@@ -1,6 +1,7 @@
 package com.melo.dogify.splash
 
 
+import android.util.Log
 import com.melo.dogify.R
 import com.melo.dogify.core.fragments.BaseFragment
 import com.melo.dogify.databinding.FragmentSplashBinding
@@ -16,24 +17,13 @@ class SplashFragment : BaseFragment<SoundsViewModel, FragmentSplashBinding>() {
     }
 
     private fun checkFirstLaunch() {
-        //if (viewModel.preferences.getFirstLaunch()) {
-            navigate(SplashFragmentDirections.actionSplashFragmentToSoundsFragment())
-        //}
-//         else {
-//            val artStyleModel = ArtStyleModel(
-//                null,
-//                null,
-//                null
-//            )
-//            navigate(
-//                SplashFragmentDirections.actionSplashFragmentToHomeFragment(
-//                    0,
-//                    artStyleModel,
-//                    false
-//                )
-//            )
-//
-//        }
+        if (viewModel.preferences.getFirstLaunch()) {
+            navigate(SplashFragmentDirections.actionSplashFragmentToOnboardFragment())
+        } else {
+            navigate(
+                SplashFragmentDirections.actionSplashFragmentToSoundsFragment())
+
+        }
     }
 
     override fun viewModelClass() = SoundsViewModel::class.java

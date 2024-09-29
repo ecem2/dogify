@@ -5,6 +5,7 @@ import android.content.Context
 import com.melo.dogify.extensions.set
 import com.melo.dogify.preferences.PreferenceConstants.AND_GPT_TOKEN
 import com.melo.dogify.preferences.PreferenceConstants.IS_FIRST_TIME_LAUNCH
+import com.melo.dogify.preferences.PreferenceConstants.IS_USER_PREMIUM
 import dagger.hilt.android.qualifiers.ApplicationContext
 import javax.inject.Inject
 import javax.inject.Singleton
@@ -12,8 +13,7 @@ import javax.inject.Singleton
 @Singleton
 class DogPreferenceManager @Inject constructor(
     @ApplicationContext
-    private val
-    context: Context
+    private val context: Context
 ): DogSharedPreferences(context), Preferences {
 
     override fun getPrefName() = "DogifyPref"
@@ -31,7 +31,12 @@ class DogPreferenceManager @Inject constructor(
             true
         )
     }
-
+//    override fun setIsUserPremium(isPremium: Boolean) {
+//        prefs.set(
+//            IS_USER_PREMIUM,
+//            isPremium
+//        )
+//    }
     override fun getToken(): String {
         return prefs.getString(
             AND_GPT_TOKEN,

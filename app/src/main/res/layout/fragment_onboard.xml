@@ -16,6 +16,7 @@
             android:layout_width="wrap_content"
             android:layout_height="0dp"
             android:src="@drawable/onboard_first"
+            android:layout_marginTop="20dp"
             app:layout_constraintBottom_toTopOf="@+id/text_one"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
@@ -23,12 +24,16 @@
 
         <androidx.appcompat.widget.AppCompatTextView
             android:id="@+id/text_one"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:fontFamily="@font/tt_firs_neue_trial_demibold"
             android:gravity="center"
+            android:padding="4dp"
+            android:textColor="@color/black"
+            android:layout_marginHorizontal="34dp"
             android:text="Understand the feelings of your dog."
-            android:textSize="36sp"
+            android:textSize="30sp"
+            app:layout_constraintBottom_toTopOf="@+id/text_two"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/img_onboard" />
@@ -39,6 +44,8 @@
             android:layout_height="wrap_content"
             android:fontFamily="@font/tt_firs_neue_trial_regular"
             android:gravity="center"
+            android:padding="4dp"
+            android:textColor="#171717"
             android:text="Do you want to know \n what the dog is thinking?"
             android:textSize="18sp"
             app:layout_constraintBottom_toTopOf="@+id/img_btn"
@@ -48,10 +55,11 @@
 
         <androidx.appcompat.widget.AppCompatImageView
             android:id="@+id/img_btn"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:padding="12dp"
+            android:layout_width="140dp"
+            android:layout_height="140dp"
+            android:padding="6dp"
             android:src="@drawable/onboard_first_btn"
+            android:layout_marginBottom="45dp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
@@ -64,11 +72,13 @@
             android:fontFamily="@font/tt_firs_neue_trial_demibold"
             android:text="Next"
             android:textColor="@color/white"
-            android:textSize="28sp"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/text_two" />
+            android:textSize="22sp"
+            android:padding="4dp"
+            android:src="@drawable/onboard_first_btn"
+            app:layout_constraintBottom_toBottomOf="@+id/img_btn"
+            app:layout_constraintEnd_toEndOf="@+id/img_btn"
+            app:layout_constraintStart_toStartOf="@+id/img_btn"
+            app:layout_constraintTop_toTopOf="@+id/img_btn" />
     </androidx.constraintlayout.widget.ConstraintLayout>
 
 

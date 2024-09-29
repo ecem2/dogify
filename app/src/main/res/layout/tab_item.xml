@@ -14,8 +14,7 @@
         android:layout_gravity="center"
         android:gravity="center"
         android:layout_marginHorizontal="10dp"
-        android:padding="8dp"
-        android:maxLines="1"
+        android:padding="10dp"
         android:fontFamily="@font/tt_firs_neue_trial_demibold"
-        android:textSize="14sp" />
+        android:textSize="12sp"/>
 </androidx.appcompat.widget.LinearLayoutCompat>

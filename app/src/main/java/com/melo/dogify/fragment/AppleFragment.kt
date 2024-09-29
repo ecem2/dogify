@@ -32,7 +32,9 @@ class AppleFragment : Fragment() {
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
-
+        binding.appleBack.setOnClickListener {
+            parentFragmentManager.popBackStack()
+        }
         val foodDescription = arguments?.getParcelable<FoodDescriptionModel>("foodDescription")
 
         if (foodDescription != null) {
