@@ -1,0 +1,338 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Dogify</string>
+    <string name="hello_blank_fragment">Merhaba boş parça</string>
+    <string name="sounds">Sesler</string>
+    <string name="translator">Çevirmen</string>
+    <string name="training">Eğitim</string>
+    <string name="whistle">İşaret</string>
+    <string name="article">Makaleler</string>
+    <string name="read_now"><u>Şimdi oku</u></string>
+    <string name="terms"><u>Şartlar</u></string>
+    <string name="privacy"><u>Gizlilik</u></string>
+    <string name="repeat_sound">Sesi Tekrar Et</string>
+    <string name="food">Yemek</string>
+    <string name="onboard_first_title">Köpeğinizin duygularını anlayın.</string>
+    <string name="onboard_first_description">Köpeğinizin ne düşündüğünü öğrenmek ister misiniz?</string>
+    <string name="onboard_second_title">Köpeğinizin duygularını keşfedin.</string>
+    <string name="onboard_second_description">Köpeğinizin aklındakileri bilmek heyecan verici olmaz mıydı?</string>
+    <string name="next">Sonraki</string>
+    <string name="get_premium">Premium Al</string>
+    <string name="premium_yearly">Premium - Yıllık</string>
+    <string name="first_year">ilk yıl</string>
+    <string name="upgrade_to_pro">Pro\'ya yükselt</string>
+    <string name="unlimited_translation">Sınırsız Çeviri</string>
+    <string name="ads_free_using">Reklamsız kullanım.</string>
+    <string name="start_3_days_free_trial">3 gün Ücretsiz Deneme Başlat</string>
+    <string name="continue_btn">Devam</string>
+    <string name="your_yearly_plan">Yıllık Planınız</string>
+    <string name="your_weekly_plan">Haftalık Planınız</string>
+    <string name="USD_29">USD 29</string>
+    <string name="USD_09">USD 09</string>
+    <string name="start_weekly_free_trial">Haftalık Ücretsiz Deneme Başlat</string>
+    <string name="purchase">Satın Al</string>
+    <string name="subscription_is_auto">Abonelik otomatik yenilenir. İstediğiniz zaman aboneliğinizi iptal edebilirsiniz.</string>
+    <string name="rate_your_dog">Köpeğinizi Derecelendirin</string>
+    <string name="dog_translator">Köpek Çevirmeni</string>
+    <string name="dog_training">Köpek Eğitimi</string>
+    <string name="record_translate">Kaydet \n &amp; Çevir</string>
+    <string name="dog_whistle">Köpek İşareti</string>
+    <string name="hz">10000 Hz</string>
+    <string name="safe_ones">Güvenli Olanlar</string>
+    <string name="harmful_ones">Zararlı Olanlar</string>
+    <string name="careful_with_these">Bunlara Dikkat Edin</string>
+    <string name="food_description">Köpeğinize evde yemek yaptığınızda, köpeğinizin standartlarınıza uygun bir yemek yediğinden emin olursunuz.</string>
+    <string name="articles">Makaleler</string>
+    <string name="article_description">Köpeğiniz doğru şeyleri yaptığında ona bolca ilgi gösterdiğinizden emin olun.</string>
+    <string name="biting">Isırma</string>
+    <string name="biting_description">Yavru köpeğin ısırması veya ısırarak oynaması başlangıçta eğlenceli olabilir, ancak devam eden sorunları önlemek için hızla kontrol altına alınması gerekir.</string>
+    <string name="obidence">İtaat</string>
+    <string name="obidence_description">Isırma</string>
+    <string name="barking">Havlama</string>
+    <string name="barking_description">Doğru köpek itaat eğitimi, net bir iletişim sağlamalıdır.</string>
+
+    <string name="anxious">Kaygılı</string>
+    <string name="call">Çağır</string>
+    <string name="cold">Soğuk</string>
+    <string name="come_here">Buraya gel</string>
+    <string name="comfortable">Rahat</string>
+    <string name="feeding">Besleme</string>
+    <string name="happy">Mutlu</string>
+    <string name="hug">Kucakla</string>
+    <string name="hot">Sıcak</string>
+    <string name="hungry">Aç</string>
+    <string name="joyful">Neşeli</string>
+    <string name="love">Sevgi</string>
+    <string name="know">Bilmek</string>
+    <string name="playful">Oynak</string>
+    <string name="surprised">Şaşırmış</string>
+    <string name="scared">Korkmuş</string>
+    <string name="i_love_you">Seni seviyorum</string>
+    <string name="no_understand">Anlamıyorum</string>
+    <string name="whining">Inlamak</string>
+    <string name="so_happy">Çok mutlu</string>
+    <string name="uncomfortable">Rahatsız</string>
+    <string name="thirsty">Susuz</string>
+
+    <!--GÜVENLİ OLANLAR-->
+    <string name="apple">Elma</string>
+    <string name="apple_article">Elmasının çekirdekleri çıkarıldığında (siyanür zehirlenmesini önlemek için) elma, köpekler için güvenli ve sağlıklı bir besindir. Elma, vitaminler, mineraller, antioksidanlar ve lif açısından zengin bir meyvedir. Aynı zamanda köpekler için harika bir atıştırmalıktır. Ancak muz gibi bol şeker içerir, bu yüzden kilo alımına dikkat edin. Boğulmayı önlemek için küçük parçalara kesmeyi unutmayın.</string>
+
+    <string name="banana">Muz</string>
+    <string name="banana_article">Muz, köpekler için güvenli ve sağlıklı bir besindir. Potasyum açısından zengindir, bu da böbrekler ve kalp için iyidir. Ancak yüksek karbonhidrat ve şeker içerdiğinden kilo alımına dikkat etmelisiniz. Bilimsel olarak kanıtlanmasa da, muzun köpeklerin bulantısını giderdiği söylenmektedir. Boğulmayı önlemek için küçük dilimlere kesmeyi unutmayın.</string>
+
+    <string name="beet">Pancar</string>
+    <string name="beet_article">Harika bir gıda kaynağıdır. Pancarların sağlık üzerinde birçok olumlu etkisi vardır. Ancak özellikle karaciğer hücrelerini yenilemede ve sağlığın korunmasında etkilidir.</string>
+
+    <string name="blueberry">Yaban Mersini</string>
+    <string name="blueberry_article">Yaban mersinleri köpeklerin diyetinde önerilmektedir. Yaban mersinleri, antioksidanlar, selenyum, çinko ve demir ile birlikte C, E, A ve B vitaminleri açısından zengindir.</string>
+
+    <string name="bread">Ekmek</string>
+    <string name="bread_article">Beyaz veya tam tahıllı ekmek köpekler için güvenlidir. (İçinde kuru üzüm olmadığından emin olun.) Sık tüketildiğinde köpeğinizin kilo alımına dikkat etmelisiniz.</string>
+
+    <string name="broccoli">Brokoli</string>
+    <string name="broccoli_article">Brokoli, köpeklerin tüketebileceği en önemli sebzelerden biridir. A, C, E vitaminleri ve karoten açısından zengindir. Brokoli haşlandığında, kanserle savaşan enzimler serbest bırakılır. Bu nedenle kanseri önlemeye yardımcı olur. Brokoli, 33 farklı kanser önleyici yapı içerir. Ayrıca, bazı yapıları kanserojen hücrelerin oluşumunu ve sağlıklı hücrelere saldırmasını önleyen fotokimyasallar içerir. Vücudun savunma sistemini güçlendirir. Brokolinin faydalarını görmek için aşırıya kaçmamak gerekir. Aşırı brokoli tüketimi köpeklerde tiroid fonksiyonunu azaltır.</string>
+
+    <string name="carrot">Havuç</string>
+    <string name="carrot_article">Havuç (çiğ veya pişmiş) köpekler için güvenli ve sağlıklı bir besindir. Vitaminler, mineraller ve lif açısından zengin, düşük kalorili bir sebzedir. Sindirime yardımcı olabilir. Boğulmayı önlemek için küçük dilimlere kesmeyi unutmayın.</string>
+
+    <string name="cucumber">Salatalık</string>
+    <string name="cucumber_article">Salatalık, köpeklerin sindirim sistemi için çok faydalı, düşük kalorili ve kolay sindirilebilir bir atıştırmalıktır. Ancak aşırı tüketildiğinde mide ağrısına neden olabilir. Salatalığı vermeden önce küçük dilimleyin, boğulmayı önlemek için.</string>
+
+    <string name="green_peas">Bezelye</string>
+    <string name="green_peas_article">Köpeğinize bir diyet verirken, bezelyeyi listenize kesinlikle eklemelisiniz. Thiamin, fosfor ve potasyum açısından zengindir. Köpeğinizin günlük yemeğine biraz haşlanmış bezelye ekleyerek besin değerini artırabilirsiniz. Haşlanmış bezelye, bir parça et ve doğal, tuzsuz et suyu ile daha lezzetli hale gelir.</string>
+
+    <string name="kiwi">Kivi</string>
+    <string name="kiwi_article">Lif, potasyum ve yüksek miktarda C vitamini içeren küçük kivinin bir dilimi köpeğinize zarar verebilir.</string>
+
+    <string name="lettuce">Marul</string>
+    <string name="lettuce_article">Marul, kıtır kıtır olduğu için köpeğinizin hoşuna gidecektir. Aşırı verildiğinde köpeğinizin ishal olmasına neden olabilir. Bu sebzeleri verirken dikkat edin; çünkü lif ve zengin gıda kaynağıdır.</string>
+
+    <string name="mango">Mango</string>
+    <string name="mango_article">Mango\'nun ana meyve kısmı, A, B6, C ve E vitaminleri içerir. Köpekler için çok faydalıdır.</string>
+
+    <string name="orange">Portakal</string>
+    <string name="orange_article">Portakal kabuğu soyulduğunda, köpekler için güvenli ve sağlıklı bir meyvedir. Düşük kalorili ve besleyici bir meyvedir, ancak köpeğinizin mide ağrısı yaşamaması için fazla vermekten kaçının. Boğulmayı önlemek için küçük dilimlere kesmeyi unutmayın.</string>
+
+    <string name="parsley">Maydanoz</string>
+    <string name="parsley_article">Köpeğinize kalsiyum, potasyum ve beta-karoten sağlar. Köpeklerde kötü nefesi azaltır. Eğer köpeğinizin kötü nefesi varsa, yemeğine birkaç parça maydanoz ekleyebilirsiniz. Ya da evde yaptığınız köpek bisküvilerine ekleyebilirsiniz.</string>
+
+    <string name="pear">Armut</string>
+    <string name="pear_article">Köpeklerde sindirim sistemi sağlığına yardımcı olur. A, C, E, B1 ve B2 vitaminleri ile lif, folik asit, potasyum ve bakır içeren armutları küçük küpler halinde keserek köpeğinize verebilirsiniz.</string>
+
+    <string name="pineapple">Ananas</string>
+    <string name="pineapple_article">Taze olduğu sürece, ananas köpekler için güvenli ve sağlıklı bir meyvedir. Vitaminler, mineraller ve lif açısından zengindir. Ayrıca köpekler için harika bir atıştırmalıktır. Boğulmayı önlemek için küçük dilimlere kesmeyi unutmayın. Ayrıca, köpeğinize fazla verirseniz, bulantı yapabilir.</string>
+
+    <string name="spinach">Ispanak</string>
+    <string name="spinach_article">Ispanak, K, A, C, E ve B vitaminleri ile kalsiyum, demir, magnezyum, fosfor, manganez, potasyum, folat, bakır ve lif açısından zengindir. Köpeğiniz aşırı miktarda ıspanak tüketirse böbrekleri zarar görebilir. Ancak, köpeğinize ayda bir avuç ıspanak vermek sağlıklıdır. Lif, vitaminler ve antioksidanlar içerir. Köpeğiniz o kadar çok ıspanak sevecek ki ona Popeye adını vereceksiniz.</string>
+
+    <string name="strawberry">Çilek</string>
+    <string name="strawberry_article">Çilek, köpekler için güvenli ve sağlıklı bir meyvedir. Lif ve antioksidanlar içeren düşük kalorili bir meyvedir. Boğulmayı önlemek için iki veya üç parçaya kesmeyi unutmayın.</string>
+
+    <string name="turnip">Şalgam</string>
+    <string name="turnip_article">Diyet listenize ekleyebileceğiniz bir sebzedir. Şalgam, köpeklerin fit kalmasını sağlamakta yüksek besin kaynağı ve toksin temizleme özelliğine sahiptir.</string>
+
+    <string name="watermelon">Karpuz</string>
+    <string name="watermelon_article">Kabuğu soyulup çekirdekleri çıkarıldığında, karpuz köpekler için güvenli ve sağlıklı bir meyvedir. Düşük kalorili, A ve C vitaminleri ile dolu bir meyvedir. Ayrıca köpekler için harika bir atıştırmalıktır. Boğulmayı önlemek için küçük dilimlere kesmeyi unutmayın.</string>
+
+    <string name="alcohol">Alkol</string>
+    <string name="alcohol_article">Alkol, köpekler için toksik olan etanol adında bir kimyasal bileşen içerir. Tüketilirse, mide rahatsızlığı, koordinasyon problemleri, kusma, ishal ve dehidrasyona neden olabilir. Fazla miktarda tüketilirse, akciğer yetmezliği, koma ve ölüme yol açabilir.</string>
+
+    <string name="avocado">Avokado</string>
+    <string name="avocado_article">Avokado (yaprakları dahil) köpekler için toksik olan persin adında bir kimyasal bileşen içerir. Tüketilirse, mide rahatsızlığına neden olabilir. Çekirdeği, köpeğinizin bağırsaklarını tıkayabilir. Fazla miktarda tüketilirse, solunum sorunlarına ve köpeğinizin kalp ve karaciğerine zarar verebilir.</string>
+
+    <string name="candy">Şekerleme</string>
+    <string name="candy_article">Birçok şeker, köpeğiniz için zararlı olan yapay tatlandırıcılar, kuru üzümler içerir. Hatta yapay tatlandırıcılar köpeğiniz için toksiktir. Küçük miktarlarda tüketildiğinde kusma, ishal ve iştah kaybı görülür. Tüketilen miktar arttıkça, ölümcül olabilir.</string>
+
+    <string name="chocolate">Çikolata</string>
+    <string name="chocolate_article">Çikolata kafein ve teobromin içerir. Köpekler bu uyarıcıları sindiremezler. (Teobromin seviyeleri özellikle siyah ve bitter çikolatalarda yüksektir.) Az miktarda tüketildiğinde muhtemelen sadece mide rahatsızlığına neden olur. Tüketilen miktar arttıkça, hiperaktivite, kusma, ishal, düzensiz kalp ritmi, kas titremeleri ve dehidrasyon gibi belirtiler görülebilir. Fazla miktarda tüketildiğinde kafein akciğer yetmezliğine veya ölüme; teobromin ise iç kanamalara, kalp krizine veya ölüme neden olabilir.</string>
+
+    <string name="coffee">Kahve</string>
+    <string name="coffee_article">Kahve kafein ve teobromin içerir. Köpekler bu uyarıcıları sindiremezler. Az miktarda tüketildiğinde muhtemelen sadece mide rahatsızlığına neden olur. Tüketilen miktar arttıkça, hiperaktivite, kusma, ishal, düzensiz kalp ritmi, kas titremeleri ve dehidrasyon gibi belirtiler görülebilir. Fazla miktarda tüketildiğinde kafein akciğer yetmezliğine veya ölüme; teobromin ise iç kanamalara, kalp krizine veya ölüme neden olabilir.</string>
+
+    <string name="bones">Pişirilmiş Kemik</string>
+    <string name="bones_article">Her zaman en büyük kemikleri seçin ve daima çiğ olmaları gerektiğini unutmayın. Pişirilmiş kuzu kemikleri hızla kırılır ve parçaları sorun yaratabilir.</string>
+
+    <string name="fishbones">Balık Kemiği</string>
+    <string name="fishbones_article">Köpeğinizin yediği balık kemikleri, sindirim sisteminde cam parçası gibi hareket eder. Sonuç olarak, köpeklerin özofagus ve midesinde yırtılmalar görülebilir.</string>
+
+    <string name="garlic">Sarımsak</string>
+    <string name="garlic_article">Sarımsak köpekler için zararlıdır. Amerikan Veteriner Derneği\'ne göre, sarımsağın faydaları kanıtlanmamış olsa da, zararları ve toksik etkileri kanıtlanmıştır. Tüketildiğinde turuncu veya kırmızı idrar, kusma, ishal, nefes alma artışı, zayıflık, iştah kaybı veya çarpıntılara neden olabilir. Aşırı tüketildiğinde, kırmızı kan hücrelerine zarar verebilir ve doğal mukoza yapısının bozulmasına neden olabilir.</string>
+
+    <string name="grapes">Üzüm</string>
+    <string name="grapes_article">Üzüm (taze veya kuru) köpekler için toksik olan bazı kimyasal bileşenler içerir. (Toksik reaksiyona neden olan maddelerin kesin olarak ne olduğu henüz bilinmemektedir.) Tüketildiğinde, kusma, uyuşukluk, ishal ve kas titremelerine neden olabilir. Fazla miktarda tüketildiğinde, artan idrara çıkma, uzun süreli böbrek hastalıkları veya ölüme yol açabilir.</string>
+
+    <string name="leek">Pırasa</string>
+    <string name="leek_article">Köpekler için pırasa ve soğan gibi gıdalar, küçük miktarlarda bile hastalığa neden olur. Büyük miktarlarda tüketildiğinde anemiye yol açabilir.</string>
+
+    <string name="lemon">Limon</string>
+    <string name="lemon_article">Limon, köpekler için toksik olan linalool ve limonen gibi kimyasal bileşenler içerir. Az miktarda tüketildiğinde, sadece mide ve bağırsak rahatsızlığına neden olabilir. Not: Köpekler aslında bu tadı pek sevmezler.</string>
+
+    <string name="mushroom">Mantar</string>
+    <string name="mushroom_article">Eğer köpek mantar tüketirse, karın ağrısı, kusma ve ishal gibi belirtiler görülebilir. Aşırı tüketildiğinde, böbrek hastalığı, karaciğer hasarı, koma veya ölüme yol açabilir.</string>
+
+    <string name="onion">Soğan</string>
+    <string name="onion_article">Soğan köpekler için zararlıdır. Tüketildiğinde turuncu veya kırmızı idrar, kusma, ishal, nefes alma artışı, zayıflık, iştah kaybı veya çarpıntılara neden olabilir. Aşırı tüketildiğinde, kırmızı kan hücrelerine zarar verebilir ve doğal mukoza yapısının bozulmasına neden olabilir.</string>
+
+    <string name="tea">Çay</string>
+    <string name="tea_article">Çay, kafein ve teobromin içerir. Köpekler bu uyarıcıları sindiremezler. Az miktarda tüketildiğinde muhtemelen sadece mide rahatsızlığına neden olur. Tüketilen miktar arttıkça, hiperaktivite, kusma, ishal, düzensiz kalp ritmi, kas titremeleri ve dehidrasyon gibi belirtiler görülebilir. Fazla miktarda tüketildiğinde kafein akciğer yetmezliğine veya ölüme; teobromin ise iç kanamalara, kalp krizine veya ölüme neden olabilir.</string>
+
+    <string name="tobacco">Tütün</string>
+    <string name="tobacco_article">Tütün, köpeklerde titreme veya inme, salya akıtma, daralmış pupil, görsel ve işitsel halüsinasyonlar, hızlı kalp atışı, kusma ve ishal gibi belirtilere neden olabilir.</string>
+
+    <!--DİKKATLİ OLUN-->
+    <string name="cheese">Peynir</string>
+    <string name="cheese_article">Köpeklerin küçük miktarlarda peynir yemesinde genellikle bir sakınca yoktur. Ancak, peynir çeşitleri arasında yağ ve laktoz miktarı büyük ölçüde değişiklik gösterir. Bazı peynirler köpeğinizin sindirim sistemini rahatsız edebilir ve mide ağrısı ve ishal yapabilir. Bu nedenle, mozzarella gibi düşük yağ içeriğine sahip olanları tercih etmenizi öneririz. Köpeğinize biraz vermek istiyorsanız, küçük parçalarla başlamanız, onun buna alışması açısından iyi olur.</string>
+
+    <string name="cherries">Kiraz</string>
+    <string name="cherries_article">Kirazın köpekler için bilimsel olarak kanıtlanmış herhangi bir besin faydası yoktur. Eğer köpeğinize vermek istiyorsanız, bir seferde birkaç taneden fazlasını vermemelisiniz. Ayrıca, boğulma ve siyanür (çekirdeklerinde bulunan bir kimyasal bileşik) zehirlenmesini önlemek için çekirdekleri her zaman çıkarmanız gerektiğini unutmayın. Fazla tüketilirse, köpeğinizin karın ağrısı ve ishal yaşaması olasıdır.</string>
+
+    <string name="egg">Yumurta</string>
+    <string name="egg_article">Çiğ yumurtalardaki avidin enzimi, B7 vitamini (biotin) emilimini engeller. B7 eksikliği durumunda, köpeğinizin cilt ve tüy sağlığı bozulur. Ayrıca, çiğ yumurtalarda bulunan salmonella bakterileri köpeklerde zehirlenmelere neden olabilir. Yumurtalar köpeklerde kusmaya yol açabilir.</string>
+
+    <string name="honey">Bal</string>
+    <string name="honey_article">Bal çok fazla şeker içerir, bu nedenle köpeğinize fazla vermemenizi öneririz. Fazla tüketilirse, kilo alımına neden olabilir.</string>
+
+    <string name="ice_cream">Dondurma</string>
+    <string name="ice_cream_article">Marketlerdeki dondurmalar genellikle çok fazla şeker (ve elbette süt) içerir, bu nedenle dondurmanızı köpeğinizle paylaşmak sağlıklı değildir. (Özellikle köpeğiniz laktoz intoleransı varsa) Ancak vermek istiyorsanız, köpekler için güvenli dondurmalar yapabilir veya satın alabilirsiniz.</string>
+
+    <string name="juice">Meyve Suyu</string>
+    <string name="juice_article">Köpekler çoğu meyve suyunu içebilir, ancak meyve suları çok fazla şeker ve kimyasal gıda koruyucusu içerdiği için sağlıklarına zarar verebilir. Bu nedenle, köpeğinize meyve suyu yerine taze ve lezzetli meyveler vermelisiniz.</string>
+
+    <string name="milk">Süt</string>
+    <string name="milk_article">Bazı köpekler laktoz intoleransı yaşar, bu yüzden süt/süt türevlerini verirken dikkatli olmalısınız. Vermek istiyorsanız, köpeğinizin midesinin rahatsız olmaması için soya sütünü deneyebilirsiniz. Ancak, eğer köpeğiniz bir yavruysa, soya sütü anne sütü yerine geçmez.</string>
+
+    <string name="peanut">Fıstık</string>
+    <string name="peanut_article">Köpekler için zehirlidir, bu nedenle kesinlikle vermemelisiniz.</string>
+
+    <string name="pomegranate">Nar</string>
+    <string name="pomegranate_article">Köpeklerin nar yiyip yememesi veterinerler arasında sıkça tartışılan bir konudur. Nar köpekler için zehirli değildir. Ayrıca, antioksidan, C vitamini, potasyum ve lif açısından oldukça sağlıklıdır. Ancak, nar çekirdekleri nedeniyle fazla tüketildiğinde sindirim sorunlarına (örneğin karın ağrısı, kusma) veya ishal sebep olabilir. Bu nedenle, köpeğinize küçük miktarlarda nar vermek en mantıklı karardır.</string>
+
+    <string name="tomato">Domates</string>
+    <string name="tomato_article">Domateslerin olgun/kırmızı olduğu sürece köpeğinize ara sıra verebilirsiniz. Ancak, olgunlaşmamış/yeşil domatesler tomatin içerir, bu da köpekler için zararlıdır: mide ağrısına, anormal kalp ritmine ve nefes alma sorunlarına neden olur. Fazla tüketilirse, köpeğinizin sindirim ve sinir sistemi üzerinde olumsuz etkileri olabilir.</string>
+
+    <string name="yogurt">Yoğurt</string>
+    <string name="yogurt_article">Bazı köpekler yoğurdu kolayca sindiremez, bu da mide ağrısına neden olabilir. Ancak köpeğinize biraz vermek istiyorsanız, meyveli yoğurt olmadığından ve şeker/tatlandırıcı içermediğinden emin olun.</string>
+
+    <!--ISIRMA MAKALASI-->
+    <string name="biting_text">Köpeğim Isırıyor</string>
+    <string name="biting_text_article"> - Yavru köpeklerin ısırma problemlerini yönetmek ve kontrol etmek, biz köpek severler için büyük bir zorluk olabilir. Yavru köpek ısırması veya hırlaması, başlangıçta eğlenceli gibi görünse de, sürekli sorunlar yaşamamak için hızlı bir şekilde kontrol altına alınmalıdır.\n\n
+        - Çoğu genç yavru için ısırma, geçmeleri gereken tamamen doğal ve önemli bir aşamadır, özellikle diş çıkarma dönemlerinde.\n\n
+        - Yavru köpekler, bu diş çıkarma döneminde, sahiplerinin elleri ve ayakları dahil her şeye keskin dişlerini geçirmeyi severler. Bazı durumlarda, evinize sevimli bir yavru köpek yerine, sanki hırlayan bir timsah getirmişsiniz gibi hissedebilirsiniz.\n\n
+        - İyi haber şu ki, çoğu yavru köpek ısırmayı düzenlemek ve azaltmak için oldukça kolay bir şekilde eğitilebilir. Yavru köpeğinizi ısırma inhibisyonu (yumuşak ağız) konusunda eğitmeye ne kadar erken başlarsanız, herkes için o kadar kolay olacaktır.\n\n
+        Yavru Isırma Problemlerini Durdurma Yöntemleri - Yavru köpeğinizin davranış problemlerini düzeltmek için birçok kanıtlanmış eğitim yöntemi vardır. Yavru köpeğinizi ısırmaktan nasıl alıkoyacağınızla ilgili spesifik tekniklere geçmeden önce, her zaman bu genel köpek davranışı eğitim kurallarını aklınızda bulundurun:\n\n
+        - Yavru sosyalleşmesi ve ısırma inhibisyonu eğitimi el ele gider.\n\n
+        - Yavru köpeğinizi yüzünden asla vurmayın veya dövün. Bu işe yaramaz! Yavru köpeğiniz sadece sizinle oynadığınızı düşünecek veya size karşı korku geliştirebilir. Bu, basit yavru ısırmasından çok daha büyük sorunlara yol açabilir.\n\n
+        - Yavru ısırma problemlerini durdurmak için genel kural, her zaman kabul edilebilir davranışları teşvik etmek ve her zaman kabul edilemez davranışları caydırmaktır. Bu temel köpek itaat eğitimi kuralı hakkında daha fazla bilgi için (ısırma problemlerini nasıl durduracağınız dahil) Profesyonel Köpek Eğitmeninin Sırları\'nı ziyaret edin.\n\n
+        - Yavru köpeğinizi ısırmaktan alıkoymaya çalışırken, asla çekiştirip savaşmak veya kovalamaca gibi oyunlar oynamayın. Bu, sadece ısırmayı ve hırlamayı teşvik eder.\n\n
+        - Yavru köpeğinizi eğitmek için hangi yöntemi seçerseniz seçin, altın kural tutarlılık göstermektir. Bu, sizin ve yavru köpeğinizle temasa geçen herkesin, her seferinde seçtiğiniz stratejiyi uygulaması gerektiği anlamına gelir.\n\n
+        - Isırmanın kabul edilemez olduğunu köpeğinize açık bir şekilde iletmezseniz, yanlış bir şey yaptığını bilemeyecektir. Onun için kabul edilebilir davranışları göstermekte sizin üzerinize düşen bir görevdir, sadece yavru köpeğinizin bunu bilmesini beklemeyin! (Bu görevde onun yuvadan arkadaşlarının rolünü üstleniyorsunuz).\n\n
+        - Yavru köpeklerin ısırmasının bir diğer (aşırı) nedeni, sizin üzerinizde baskı kurmaya çalışmaları olabilir. Bu durum yavru köpeğiniz için geçerliyse, derhal durdurulmalıdır. Eğer dominant bir yavru köpeğiniz varsa, ısırması birçok davranış sorununu beraberinde getirecektir.\n\n
+        Yavru Köpeğinizi Isırmaktan Durdurma - Kanıtlanmış TekniklerYavru köpeğinize ısırma gücünü kontrol etmeyi öğretmek, başlangıç noktasıdır. Yavru köpeğinizin kardeşleri bu süreci başlatacak, ardından siz evinize yeni yavru köpeğiniz geldiğinde bunu devam ettireceksiniz. Bu, köpeğinizin gelecekte birine ısırdığı durumda hasarın en aza indirilmesini sağlayacaktır. Yavru köpeğinize ısırma gücü hakkında yeterli geri bildirim sağladığınızda, ısırma davranışının sıklığını azaltmaya başlayabilirsiniz.\n\n
+        - Isırma problemini erken yakalarsanız, düzeltmek kolay olabilir. Isırmayı etinizden bir oyuncak veya çiğneme kemiğine yönlendirmeyi deneyin. Çok genç yavru köpekler için bu yöntem genellikle yeterlidir. Yavru köpeğiniz ellerinizi ısırmaya başladığında, sağlam bir "Hayır!" diyerek parmaklarınızı çiğneme oyuncaklarıyla (veya yavru köpeğiniz diş çıkarıyorsa buz küpleriyle) değiştirin.\n\n
+        - Bu muhtemelen en popüler yöntem ve benim kişisel favorimdir. Yavru köpeğiniz her ısırdığında ona zarar verdiğini düşündürün. Bu yöntem, köpeklerin birbirleriyle ısırmayı nasıl çözdüklerini taklit eder. Yavru köpekler birbirlerini ısırırken, birinin acı bir ses çıkarmasıyla dururlar. Biz de köpeklerin bu doğal öğrenme yolunu kullanarak, yavru köpeğimizin her ısırışında "Auu!" veya "Argh!" diyebiliriz. Kural, sesinizle köpeğinizi şaşırtmak ve ardından geri çekilip onunla oynamayı durdurmaktır. Yavru köpeğiniz çok geçmeden ısırmaya başladığında, oyun arkadaşının (sizin) gittiğini öğrenecektir.\n\n
+        - Yavru köpeğinize "Bırak!" itaat eğitimi komutunu öğretin. Bu yöntem harika çalışır ancak daha büyük yavru köpekler için daha uygundur.\n\n
+        Kötü ısırma durumlarında, yavru köpeğiniz elinize yapıştığında "Hayır!" deyin ve hemen baş parmağınızı dilinin altına, diğer parmağınızı ise çenesinin altına yerleştirin. Bunu yaklaşık 10 saniye tutun (çok sıkı değil). Bu, yavru köpeğiniz için rahatsız edici bir his yaratacak ve sizi ısırmasını engelleyecektir.\n\n
+        - Kötü ısırma durumlarında, yavru köpeğiniz elinize yapıştığında "Hayır!" deyin ve hemen baş parmağınızı dilinin altına, diğer parmağınızı ise çenesinin altına yerleştirin. Bunu yaklaşık 10 saniye tutun (çok sıkı değil). Bu, yavru köpeğiniz için rahatsız edici bir his yaratacak ve sizi ısırmasını engelleyecektir.\n\n
+        \'Her Zaman Nazik Bir Ağız İçin Övgü ve Ödül Verin ve Uygunsuz Hırlamayı Görmezden Gelin veya Uzaklaşın\'\n\n
+        - Yine, eğer yavru köpeğinizin ciddi bir ısırma problemi varsa, bu eğitim tekniğini deneyebilirsiniz. Bir çift eldiven giyin ve bunlara köpeğinizin hoşlanmadığı kötü tat veren bir madde sürün. Yavru köpeğiniz, eğer sizi ısırırsa, bunun tadının hoş olmayacağını çok geçmeden öğrenecektir! Bu yöntem, köpeğiniz ısırmayı seçtiğinde ona güçlü bir olumsuz ilişki kurar. Bazı köpekler, kötü tadın olduğu eldivenleri çıkardığınızda, tekrar sizi ısırmanın sorun olmadığını anlamak için oldukça zeki olabilirler!\n\n
+        - Daha büyük yavru köpekler (yaklaşık 6 aylık) için bu kesin bir tekniktir ve yavru hırlamayı durdurur. Yavru köpeğinizin boynuna bir sıkma veya boğma tasması takın ve her ısırdığında ipi kısa ve sert bir şekilde çekin. Bu düzeltme, yavru köpeğinizin her ısırdığında olumsuz bir ilişki kurmasını sağlayacaktır. Çok uzun sürmeyecektir ki durdurmayı öğrenecektir. Bazı eğitmenler bu yöntemi oldukça aşırı bulmaktadır ve ben de bu yöntemi sadece çok nadir durumlarda kullanmanız gerektiğine katılıyorum - ben asla bu seviyeye gitmek zorunda kalmadım. Yavru köpeğinizi eğitmenin, bir davranışı tamamen ortadan kaldırmaktan daha etkili olduğuna inanıyorum.\n\n
+        Yavru köpeğinizi ısırmaktan alıkoymaBu yöntemler bana tavsiye edildi ve harika sonuçlar aldım. Unutmayın ki, bir yavru köpek büyük bir soruna neden olabileceğinden, eğitimi ve rehberliği asla geçici düşünmemelisiniz.\n\n
+        Eğer yavru köpeğinizin ısırma sorununu çözmekte zorluk çekiyorsanız, eğitiminizi durdurmalısınız ve muhtemelen bir profesyonel eğitmenin yardımını almalısınız. Kısa bir süre sonra yavru köpeğiniz hem size hem de diğer insanlara ısırmaktan uzaklaşacaktır.</string>
+
+    <!-- İTAAT MAKALASI -->
+    <string name="obedience_text">İtaat</string>
+    <string name="obedience_text_article">İtaat Amaçlı Köpek Eğitimi Nedir? Ben, çoğu köpek sahibi gibi, itaat amaçlı köpek eğitiminin sağlıklı bir insan-köpek ilişkisi için temel bir bileşen olduğunu düşünüyorum. Ama itaat eğitimi tam olarak nedir ve sizin ve köpeğiniz için neden bu kadar önemlidir? İtaat eğitimi, çeşitli köpek eğitimi teknikleri aracılığıyla gerçekleştirilebilen genel bir terimdir. Hangi eğitim tekniğini kullanmayı seçerseniz seçin veya hangi köpek okullarına giderseniz gidin, doğru köpek itaat eğitiminin başarması gerekenler şunlardır:\n\n
+        - Siz ve köpeğiniz arasında yakın, sağlıklı ve uygun bir ilişki kurmak veya güçlendirmek.\n\n
+        - Siz ve köpeğiniz arasında net bir iletişim hattı açmak. Bu, her durumda köpeğinizden ne bekleyeceğinizi bilmenizi ve köpeğinizin neyin beklendiğini açıkça anlamasını ve saygı duymasını içerir.\n\n
+        - İtaat amaçlı köpek eğitimi, köpeğinizi toplumun sorumlu bir üyesi olmayı öğreten bir dizi kural veya sınır belirler. Diğer köpekler, hayvanlar ve insanlarla nasıl ilişki kuracağı, temel görgü kuralları ve her durumda nasıl davranması gerektiği dahil.\n\n
+        - Kabul edilemez problem davranışlarının gelişimini önlemeye yardımcı olan temeli oluşturur - zıplama, havlama, çiğneme, kazma vb. gibi.\n\n
+        İtaat Amaçlı Köpek Eğitiminin Faydaları\n\n
+        - Temel itaat eğitimi, köpeğinizin hayatını basit hale getirir ve kafa karışıklığını ortadan kaldırır. Köpeğiniz dünyadaki yerini bilecek ve doğru ile yanlışı anlayacaktır. Köpekler, bu siyah-beyaz dünya görüşünü gerçekten takdir ediyor ve bu görüşte gelişiyor gibi görünüyor.\n\n
+        - Hem sizin hem de köpeğiniz için eğlenceli ve ödüllendirici - benim için, bu her şeyin özü budur!\n\n
+        - Mutlu, rahat ve kendine güvenen bir köpeğe sahip olacaksınız, onu her yere götürebileceksiniz ve yanında olmak keyifli olacaktır. İtaat eğitimi, köpeğinize daha fazla özgürlük sağlamanıza da olanak tanır, çünkü itaat eğitimi almış bir köpek daha güvenilir olacaktır.\n\n
+        - İtaat eğitimi almış bir yavru köpek veya köpek, çok daha güvenli bir köpektir. Köpeğiniz ön kapıdan dışarı fırlarsa, hala ona ses komutlarıyla kontrol sağlayabilirsiniz. \'Gel\', \'yat\', \'otur\' veya \'yerine git\' gibi bir itaat komutunu çağırabileceksiniz. Bu, herhangi bir köpek sahibi için çok rahatlatıcıdır.\n\n
+        - Köpeğinizle güven ve karşılıklı saygı kazanırsınız. O, sizden ne beklediğini anlar ve her zaman adil ve tutarlı olacağınızı bilir.\n\n
+        - Köpeğiniz itaat eğitimi almışsa, aile, arkadaşlar ve çocukların yanında gözetim altında iyi olacaktır.\n\n
+        - İtaat eğitimi, köpeğinizin hayatında bazı önemli ihtiyaçları karşılar; bunlar arasında egzersiz, zihinsel uyarım, sizinle zaman geçirme ve köpeğinize bir \'iş\' verme bulunmaktadır.\n\n
+        - İtaat amaçlı köpek eğitimi, köpeğinizle bir baskınlık mücadelesine girme riskini büyük ölçüde azaltır. Siz, ona saygı göstereceği ve rehberlik için bakacağı güçlü ve her zaman adil lider olursunuz.\n\n
+        - İtaat eğitimi, zamanla üzerine inşa edilen adım adım bir süreçtir. Bu, köpeğinizin ek beceriler ve eğitim komutları öğrenmesi için sağlam bir temel oluşturur. Bu süreç boyunca köpeğiniz, kendine güven kazanacaktır.\n
+        İtaat Eğitimi Vermemenin Tehlikesi - Eğitimsiz köpeklerin, dünyadaki hayvan barınaklarına giden yavru köpekler ve köpeklerin başlıca nedeni olduğu üzücü bir gerçektir.\n\n
+        - Bu, kimseye iyi gelmez, özellikle de zavallı köpeklere.\n\n
+        - Köpeğiniz, sizinle ve ailenizle gerçekten yakın olamaz. Bunu kastettiğim, köpeğinizin aile gezilerine katılmayacağı, bunun yerine çoğu zaman bahçede yalnız geçireceği anlamına gelir. Bu, birçok davranışsal sorunu beraberinde getirebilir ve sizin için, hatta komşularınız için gerçek bir sorun olabilir.\n\n
+        - Köpeğiniz, insanlar, diğer hayvanlar ve yollarda daha güvensiz olacaktır.\n\n
+        - Eğitimsiz köpeklerin liderliğinize veya otoritenize meydan okuma eğiliminde olması yaygın bir özelliktir. İtaat eğitimi almış köpekler de bu şekilde sizi test etmeye çalışacaktır. Ama itaat eğitimi konusunda yetkin olduğunuzda, bununla başa çıkmak için araçlarınız olacak.\n\n
+        - Sürekli (ama etkili bir şekilde değil) köpeğinize bağırılacak ve onu sürüsünden (siz ve aileniz) daha da uzaklaştıracaksınız. Bu, sizin ve köpeğinizin yaşaması gereken bir durum değil ve basit bir itaat eğitimi ile tamamen önlenebilir.\n\n
+        Etkili Köpek İtaat Eğitimi İçin Genel Kurallar\n\n
+        İtaat komutları için kanıtlanmış eğitim tekniklerini aşağıdaki listeden seçerek bulacaksınız. İşte, herhangi bir itaat eğitimi durumu için geçerli olan bazı genel ipuçları:\n\n
+        - Köpeğiniz sizden istediğiniz şeyi yaptığında onu övün ve ödüllendirin, doğru yapmadığında uygun bir düzeltme yapın. Anahtar, köpeğiniz için doğru dengeyi bulmaktır. Köpeğinizin bu şeyleri hemen bilmesini beklemeyin. Komut ve eylemin tekrarı çok önemlidir. Yaptığınız şeye inanın ve buna sadık kalın.\n\n
+        - Her zaman tutarlı olun (bu, köpeğinizle yaşayan herkes için geçerlidir), köpeğiniz için kolaylaştırın. Ona basit bir karar vermesi için fırsat verin ve hangi seçeneğin kabul edilebilir, hangi seçeneğin kabul edilemez olduğunu netleştirin - anında geri bildirim sağlayın.\n\n
+        - Köpeğinizi, düzgün bir şekilde öğretilmemiş bir şeyi yapmadığı için asla düzeltmeyin veya ceza vermeyin - gerçekçi ve adil olun.\n\n
+        - Eğitim seanslarınızı kısa, keskin ve eğlenceli yapın - sizin ve köpeğiniz için. Birçok köpek okulu burada başarısız olur.\n\n
+        - Yavaş gidin, önce bir kolay komutu öğrenip ustalaşın, sonra devam edin ve üzerine inşa edin. Eğitim süreci boyunca köpeğinizi sürekli zihinsel olarak zorlayın ve uyarın.\n\n
+        - Bu görevleri köpeğinizle en iyi şekilde gerçekleştiren kişi sizsiniz. Köpeğiniz sizinle yaşamalı, siz onun sürüsü olmalısınız ve liderlik için bakacağı ve saygı duyacağı kişi siz olmalısınız.\n\n
+        - İtaat komutlarını farklı durumlarda, yerlerde ve ek dikkat dağıtıcılarla test edin veya doğrulayın. İtaat eğitimini günlük rutininize dahil edin - köpeğiniz, akşam yemeğinden önce \'otur\' yapabilir veya postayı almak için gittiğinizde \'yat kal\' komutunu uygulayabilir.\n\n
+        - Köpeğinizin yanlış bir şey yaptığını yakalamadığınızda asla düzeltme yapmayın; düzeltmenizin zamanlaması çok önemlidir. Geç bir düzeltme köpeğinizi sadece kafasını karıştırır ve ona anlam ifade etmez.\n\n
+        - Köpeğinizi neyin motive ettiğini öğrenin, bu eğitim seanslarınızda önemli bir araç olacaktır. Benim köpeklerim peynir, karaciğer ödülleri ve top atmayı çok seviyor.\n\n
+        - Köpeğinizin doğal içgüdülerini ve güdülerini dikkate alarak çalışın - bu, aşağıdaki makalelerde daha ayrıntılı olarak açıklanmaktadır.\n\n
+</string>
+
+    <string name="barking_text">Havlama</string>
+    <string name="barking_text_article">Köpeğinizi havlamaktan nasıl alıkoyacağınızı bulmak zor ve zaman alıcı bir görev olabilir. Köpekler havlamayı sever. Bu, köpeğinizin yaptığı tamamen doğal bir şeydir, tıpkı bizim insanlar olarak konuşmamız gibi.\n\n
+- Köpeklerimizin aşırı havlaması sorun haline geldiğinde, bu herkes için - huysuz komşularımız da dahil - bir problem olur.\n\n
+- Bu durumda, amacımız köpek havlamasını tamamen durdurmak değil, aşırı havlamayı kontrol altına almaktır. Köpeklerimizin havlaması gerektiği durumlar olduğunu unutmayın (ve sanırım bazı zamanlar chatçi teyzemin de konuşmasını seviyorum! ;)\n\n
+- Aşırı havlayan bir köpeğin davranışını değiştirmeye yönelik ilk adım, köpeğin neden havladığını belirlemektir. Bu neden veya tetikleyici belirlendikten sonra, doğru eğitim çözümünü planlayabilirsiniz.\n\n
+Köpekler Neden Havlar? Köpeğinizi Hemen Durdurun! - İhtiyaçlarını ifade etmek için (otoriter olmak).\n\n
+- Bazı köpekler havlamak için yetiştirilmiştir (bazı teriyerler ve av köpekleri). köpeklerin havlamasını durdur\n\n
+- Alanlarını belirlemek için.\n\n
+- Paketin diğer üyelerini (yani sizi ve ailenizi) yaklaşan tehlikeler konusunda uyarmak için.\n\n
+- Oyun oynarken, sadece heyecan nedeniyle - bu, çok yaygın bir yavru havlaması türüdür.\n\n
+- Diğer hayvanlara havlamak. Dünyanın neresinde olduğuna bağlı olarak, bu sincaplar veya opossumlar olabilir (ben Avustralya\'dayım - köpeklerim opossumlara deli oluyor).\n\n
+- İzole olduklarında.\n\n
+- Bazı köpekler, paketlerinden (sizi ve ailenizi) ayrıldıklarında aşırı havlayabilirler.\n\n
+- Bir tür engelin (çit veya pencere gibi) arkasında sıkıştıklarında.\n\n
+- Eğlenmek için!\n\n
+- Dominasyonu ifade etmek için (yavru köpekler, bir aşamada sizi otorite olarak test etme eğilimindedirler ve bunu havlayarak gösterirler).\n\n
+- Sahipleri, geçmişte aşırı havlamayı istemeden ödüllendirdiklerinde havlarlar (bunu anlamak kritik öneme sahiptir).\n\n
+- Can sıkıntısından veya fiziksel ve zihinsel uyarım eksikliğinden.\n\n
+- Bazı nedenlerden ötürü stresli veya rahatsız hissedebilirler. Tehdit altında hissetmek veya uygun bir uyku yeri olmaması gibi durumlar aşırı havlama problemlerine neden olabilir.\n\n
+- Doğru bir şekilde sosyalleşmemiş köpekler genellikle rahatsız edici havlayanlar haline gelir.\n\n
+- Paketten (sizi ve ailenizi) bir yanıt veya biraz dikkat bekliyor olabilirler.\n\n
+- Ayrıca, köpeğinizin hiç havlamıyormuş gibi görünmesi sizi yanıltabilir, ancak bu durum mutlaka böyle değildir. Bunun nedeni, köpeğinizin insanlardan çok daha hassas bir işitme, koku ve görme duyusuna sahip olmasıdır. Köpeğinizin aşırı havlaması büyük olasılıkla bir şey tarafından tetiklenmektedir.\n\n
+Köpekler Evde Olmadığınızda Havlar - Bu tür bir havlamayı kontrol etmenin kolay olacağını iddia etmeyeceğim, çünkü gerçekte bu genellikle zor ve uzun bir süreçtir.\n\n
+- Her zaman unutmayın ki köpekler sosyal canlılardır, eğer paketlerinden (sizi) ayrılırlarsa stresli, savunmasız ve hayal kırıklığına uğramış hale gelebilirler. Bu tür aşırı havlama genellikle ayrılık kaygısından kaynaklanır.\n\n
+- Öncelikle, köpek sahipliği ile ilgili temel konuları doğru bir şekilde yerine getirin. Köpeğinizi iyi bir şekilde egzersiz yaptırın (fiziksel ve zihinsel) ve taze su, çiğneme oyuncakları ve rahat bir uyku yeri sağlayın. Ayrıca köpeğinizin sokağı ve diğer dikkat dağıtıcıları/uyarıcıları görmesini engellemeye çalışabilirsiniz. Temelde, köpeğinizin mutlu olduğundan emin olun.\n\n
+- Eğer köpeğinizin, sizin evde olmadığınız zaman havladığını biliyorsanız, eve döndüğünüzde bir süre onu görmezden gelmelisiniz. Bunun birçok sahibi için zor olduğunu anlıyorum, ancak aksi takdirde köpeğiniz havlamasının sizi eve getirdiğine inanır. Eve döndüğünüzde bir süre işlerinizi yapın, köpeğinizi görmezden gelin. Köpeğiniz sakinleştiğinde, ona dokunmaya başlayabilirsiniz. Lütfen bu yöntemin, eve döndüğünüzde havlayan köpekler için geçerli olduğunu unutmayın.\n\n
+Köpeğinize Her Zaman Açık ve Tutarlı Bir Mesaj Vermelisiniz - Bu sonraki teknik zaman ve sabır gerektirir, ancak köpeğinizin havlamasını durdurmak için çok etkili bir yol olabilir. Bu, tüm köpek eğitim durumları için geçerli olan önemli bir kuraldır. İstediğiniz bir şeyi yaptığında övgü veya ödül verin ve istemediğiniz bir şey yaptığında negatif bir ilişki oluşturun.\n\n
+- Evi normal bir şekilde terk edin, ancak yakında bir yere saklanın. Köpeğiniz havlamaya başladığında, ona su püskürtün veya yanına bir kutu bozuk para ya da taş fırlatın (bu negatif ilişki). Bunu yaparken köpeğinizin görüş alanından çıkmaya çalışın. Eğer bir süre sessiz kalırsa, ona girin ve iyi davranışını ödüllendirin. Bu süreç, aşırı havlama alışkanlığını kırana kadar tekrarlanabilir.\n\n
+- Yukarıdaki teknikler benim köpeklerimle başarılı oldu, ancak işe yaramazsa belki bir Citronella havlama önleyici yakalamayı deneyebilirsiniz. Bu yöntem de negatif ilişki gücünü kullanıyor. Köpeğiniz havladığında, havaya ince bir citronella spreyi püskürtülüyor. Çoğu köpek bu kokuyu sevmez ve yakında havlamazlarsa bu kokunun rahatsız edici olmadığını fark ederler. *Eğer birden fazla köpeğiniz varsa, bu yöntem pek uygun bir çözüm değildir. Ben her zaman, citronella havlama önleyici gibi bir seçeneği düşünmeden önce düzgün bir eğitim almanızı savunuyorum.\n\n
+Köpekler Dikkat İçin Ya Da Bir Şey Talep Etmek İçin Havlar - Bu, çok hızlı bir şekilde düzeltilebilecek bir aşırı havlama problemidir. - Eğer köpeğinizle sahip-köpek ilişkisinde lider konumda olduğunuzu kurarsanız, bu tür bir havlama problemi meydana gelmez. Eğitim sürecinde ayrıca güven ve karşılıklı saygıya dayalı güçlü bir bağ kuracaksınız. Köpeğinizi en iyi şekilde itaat eğitimi vermenin yollarını öğrenin.\n\n
+- Köpeğinize, bu rahatsız edici havlama sorununu önlemeye yardımcı olması için \'Dur\' veya \'Sessiz\' komutunu da öğretebilirsiniz. Köpeğiniz havlarken sadece "SUS!" diyebilir ve aynı zamanda köpeğinizin burnunun önünde lezzetli bir ödül dalı sallayabilirsiniz. Köpeğiniz birkaç saniye sessiz kaldığında, ona ödülü verebilirsiniz. Sonunda sadece "SUS!" demeniz yeterli olacaktır, ödül olmadan.\n\n
+</string>
+    <!--MAKALELER-->
+    <string name="first_article">Köpeğim Yalnız Kaldığında Ağlıyor</string>
+    <string name="first_article_description">Odayı/evinizi terk ettiğinizde, köpeğiniz ağlamaya, havlamaya ve kapıyı kazımaya başlar. Tanıdık mı? Endişelenmeyin, işte yapmanız gerekenler:\n\n
+    Adım 1: Odayı/evinizi terk edin ve kapıdan uzaklaşın.\n\n
+    Adım 2: 2 dakika sonra içeri girin ve köpeğinizle iletişim kurmayın. (Köpeğinizi çağırmayın, övmeyin veya ona bakmayın - sadece bir şeyi unuttuğunuzu varsayın.)\n\n
+    Adım 3: İçeride 10-15 saniye geçirin ve tekrar odayı/evinizi terk edin.\n\n
+    Adım 4: Odayı/evinizi her terk edişinizde dışarıda daha uzun bekleyin (örneğin, 5/15/30 dakika) ve adımları tekrarlayın. Bir süre sonra, köpeğinizin sizi yalnız bırakmayacağınızı anlayacak.\n\n
+    P.S: Köpeğinizin daha hızlı ağlamayı bırakması için sabırlı olmalısınız.\n\n</string>
+
+    <string name="second_article">Köpeğim Çiğniyor</string>
+    <string name="second_article_description">Çiğneme alışkanlığı birkaç nedenden kaynaklanmaktadır. Çözüm için sadece hafif ve yüksek ses çıkaran bir şeye ihtiyacımız var. Örneğin, bir anahtarlık olabilir. Diğer bir nesneyi gördüğünde korkmuş olabilir veya agresif davranabilir. Endişelenmeyin, bu nesne köpeğinizi korkutmak için değil, sizi şaşırtmak içindir. İzlemeniz gereken aşamalar şunlardır:\n\n
+    - Köpeğiniz kazımaya veya çiğnemeye başladığında, arkasında veya yanında durun.\n\n
+    - Anahtarlığı elinize alın ve nazikçe ayaklarının yanına atın. (Köpeğinizin yaralanmamasına dikkat edin. Burada önemli olan, ayaklarına hafif bir dokunuş yapmak ve ses çıkarmaktır.)\n\n
+    - Anahtarı attıktan sonra köpeğinizle göz teması kurmayın. (Tavana bakabilirsiniz.) Bunun nedeni, köpeğinizin bunun nereden geldiğini, kim attığını, ne olduğunu bilmemesidir.\n\n
+    - Birkaç tekrar sonrasında, bu yöntemi onu incitmeden uygularsanız köpeğiniz bu davranışından vazgeçecektir.\n\n</string>
+
+    <string name="third_article">Köpeğim Ağlıyor</string>
+    <string name="third_article_description">Yavrular genellikle anneleriyle olmadıkları için ağlarlar. Eğer durum buysa, yapabileceğiniz çok şey yok ama köpeğinizi bir battaniyeyle örtmeyi deneyebilirsiniz.\n\n
+    (Battaniye, yavrunuzu sıcak tutacak ve ona annesiyle birlikteymiş gibi hissettirecektir.)</string>
+
+    <string name="fourth_article">Köpeğim Gece Kapıyı Kapatınca Ağlıyor</string>
+    <string name="fourth_article_description">Eğer köpeğinizle aynı odada uyumuyorsanız ve gece kapıyı kapatırsanız, o ağlayabilir, havlayabilir veya kapıyı/yastıkları kazıyabilir. İşte yapmanız gerekenler:\n\n -Israrcı olun ve köpeğinizi görmezden gelin. Tek bir istisna bile yaparsanız, bu şekilde davrandığında kapıyı açacağınızı düşünecektir.\n\n
+    Köpeğinizin uyuduğu odada kendi giysilerinizden birini bırakabilirsiniz, böylece sizin kokunuzu alır ve daha az kaygılı hisseder.\n\n
+    P.S: Köpeğinizi yalnızca sakin ve iyi davrandığında içeri almanız gerekir.</string>
+
+</resources>

@@ -9,8 +9,8 @@ import android.speech.RecognizerIntent
 import android.speech.SpeechRecognizer
 import android.util.Log
 import android.view.View
-import android.widget.Toast
 import androidx.core.app.ActivityCompat
+import androidx.lifecycle.lifecycleScope
 import androidx.navigation.fragment.findNavController
 import com.github.hariprasanths.bounceview.BounceView
 import com.google.gson.Gson
@@ -20,8 +20,10 @@ import com.melo.dogify.databinding.FragmentTranslatorBinding
 import com.melo.dogify.model.DogSound
 import com.melo.dogify.viewmodel.SoundsViewModel
 import dagger.hilt.android.AndroidEntryPoint
+import kotlinx.coroutines.launch
 import java.util.Locale
 
+@Suppress("DEPRECATION")
 @AndroidEntryPoint
 class TranslatorFragment : BaseFragment<SoundsViewModel, FragmentTranslatorBinding>() {
 
@@ -30,6 +32,8 @@ class TranslatorFragment : BaseFragment<SoundsViewModel, FragmentTranslatorBindi
     private lateinit var speechIntent: Intent
     private var recognizedText: String? = null
     private var switchActive = false
+    private var lastRandomWord: String? = null
+
 
     override fun viewModelClass() = SoundsViewModel::class.java
 
@@ -82,18 +86,22 @@ class TranslatorFragment : BaseFragment<SoundsViewModel, FragmentTranslatorBindi
         }
     }
 
+
     private fun checkTranslator() {
-        Log.d("SpeechRecognition", "reccc $recognizedText")
-        if (switchActive) {
-            viewBinding.txtRecord.text = getRandomTurkishWord()
-        } else {
-            navigateToDogFragment()
+        if (!switchActive) {
+            // Burada switchActive false olduğunda tanınan kelimeyi göster
+            viewBinding.txtRecord.text = recognizedText
+            viewBinding.txtRecord.postDelayed({
+                navigateToDogFragment()
+            }, 2000)
         }
     }
 
+
     private fun navigateToDogFragment() {
-        val action = TranslatorFragmentDirections.actionTranslatorFragmentToDogFragment()
-        findNavController().navigate(action)
+        lifecycleScope.launch {
+            findNavController().navigate(R.id.action_translatorFragment_to_dogFragment)
+        }
     }
 
     private fun switchTranslatorPositions() {
@@ -121,7 +129,6 @@ class TranslatorFragment : BaseFragment<SoundsViewModel, FragmentTranslatorBindi
             val json = String(buffer, Charsets.UTF_8)
             Gson().fromJson(json, Array<DogSound>::class.java).toList()
         } catch (e: Exception) {
-            Log.e("LoadDogWords", "Error loading dog words: ${e.message}")
             emptyList()
         }
     }
@@ -144,19 +151,26 @@ class TranslatorFragment : BaseFragment<SoundsViewModel, FragmentTranslatorBindi
             RecognizerIntent.LANGUAGE_MODEL_FREE_FORM
         )
         speechIntent.putExtra(RecognizerIntent.EXTRA_LANGUAGE, Locale.getDefault())
-        Log.d("SpeechRecognition", "Locale: ${Locale.getDefault()}")
         speechRecognizer.setRecognitionListener(object : RecognitionListener {
             override fun onResults(results: Bundle?) {
                 val matches = results?.getStringArrayList(SpeechRecognizer.RESULTS_RECOGNITION)
                 if (!matches.isNullOrEmpty()) {
-                    recognizedText = matches[0]
-                    Log.d("SpeechRecognition", "Recognized Text: $recognizedText")
-                    // viewBinding.txtRecord.text = recognizedText
-
-                } else {
-                    Log.d("SpeechRecognition", "No matches found.")
+                    if (switchActive) {
+                        val randomWord = getRandomTurkishWord()
+                        if (viewBinding.txtRecord.text != randomWord) {
+                            viewBinding.txtRecord.text = randomWord
+                            lastRandomWord = randomWord
+                        }
+                        recognizedText = null
+                    } else {
+                        recognizedText = matches[0]
+                        Log.d("SpeechRecognition", "Recognized Text: $recognizedText")
+                        viewBinding.txtRecord.text = recognizedText
+                        lastRandomWord = null
+                    }
                 }
             }
+
 
             override fun onError(error: Int) {
                 Log.e("SpeechRecognition", "Error occurred: $error")
@@ -171,7 +185,7 @@ class TranslatorFragment : BaseFragment<SoundsViewModel, FragmentTranslatorBindi
             }
 
             override fun onEndOfSpeech() {
-                Log.d("SpeechRecognition", "Speech ended.")
+                speechRecognizer.stopListening()
             }
 
             override fun onRmsChanged(rmsdB: Float) {}
@@ -180,6 +194,7 @@ class TranslatorFragment : BaseFragment<SoundsViewModel, FragmentTranslatorBindi
             override fun onEvent(eventType: Int, params: Bundle?) {}
         })
     }
+
 
     private fun activateButtons() {
         with(viewBinding) {
@@ -201,6 +216,8 @@ class TranslatorFragment : BaseFragment<SoundsViewModel, FragmentTranslatorBindi
 
     private fun setupListening() {
         activateButtons()
+        recognizedText = null
+        viewBinding.txtRecord.text = ""
         setupSpeechRecognizer()
         speechRecognizer.startListening(speechIntent)
     }
@@ -214,9 +231,6 @@ class TranslatorFragment : BaseFragment<SoundsViewModel, FragmentTranslatorBindi
         if (requestCode == Companion.REQUEST_RECORD_AUDIO_PERMISSION) {
             if (grantResults.isNotEmpty() && grantResults[0] == PackageManager.PERMISSION_GRANTED) {
                 setupListening()
-            } else {
-                Toast.makeText(requireContext(), "Mikrofon izni reddedildi.", Toast.LENGTH_SHORT)
-                    .show()
             }
         }
     }

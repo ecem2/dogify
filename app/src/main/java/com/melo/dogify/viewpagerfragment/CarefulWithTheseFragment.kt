@@ -132,27 +132,20 @@ class CarefulWithTheseFragment : BaseFragment<SoundsViewModel, FragmentCarefulWi
 
             else -> null
         }
-
-        Log.d("ecemm", "Item clicked: $item")
-        Log.d("ecemm", "FoodDescription created: ${foodDescription?.text}")
-
         foodDescription?.let {
             val bundle = Bundle().apply {
                 putParcelable("foodDescription", it)
             }
-
-            // FragmentTransaction ile geçiş yapıyoruz
             val appleFragment = AppleFragment().apply {
                 arguments = bundle
             }
 
             requireActivity().supportFragmentManager.beginTransaction()
                 .replace(R.id.nav_host_fragment, appleFragment)
-                .addToBackStack(null) // Geri tuşuyla geri dönmek için
-                .commit() // Fragment state kayıplarını önle
-            Log.d("ecemm", "Navigated to AppleFragment manually")
+                .addToBackStack(null)
+                .commit()
 
-        } ?: Log.e("ecemm", "FoodDescription is null!")
+        }
     }
 
 }

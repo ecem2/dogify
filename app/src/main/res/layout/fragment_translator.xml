@@ -16,7 +16,7 @@
             android:layout_marginTop="24dp"
             android:fontFamily="@font/tt_firs_neue_trial_black"
             android:gravity="center"
-            android:text="Record \n &amp; Translate"
+            android:text="@string/record_translate"
             android:textAllCaps="false"
             android:textColor="@color/black"
             android:textSize="36sp"

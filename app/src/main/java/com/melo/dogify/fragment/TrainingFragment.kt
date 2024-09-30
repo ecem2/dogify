@@ -8,7 +8,7 @@ import com.melo.dogify.core.fragments.BaseFragment
 import com.melo.dogify.databinding.FragmentTrainingBinding
 import com.melo.dogify.extensions.navigate
 import com.melo.dogify.model.TrainingModel
-import com.melo.dogify.viewmodel. SoundsViewModel
+import com.melo.dogify.viewmodel.SoundsViewModel
 import dagger.hilt.android.AndroidEntryPoint
 
 
@@ -46,6 +46,7 @@ class TrainingFragment : BaseFragment<SoundsViewModel, FragmentTrainingBinding>(
         trainingAdapter.submitList(viewModel.trainingList)
 
     }
+
     override fun onItemClick(item: TrainingModel) {
         selectedItemPosition = viewModel.trainingList.indexOf(item)
         selectedTraining = item
@@ -53,20 +54,21 @@ class TrainingFragment : BaseFragment<SoundsViewModel, FragmentTrainingBinding>(
         if (selectedItemPosition == 0) {
             navigate(TrainingFragmentDirections.actionTrainingFragmentToFoodFragment())
         }
-        if(selectedItemPosition == 1){
+        if (selectedItemPosition == 1) {
             navigate(TrainingFragmentDirections.actionTrainingFragmentToArticleFragment())
         }
-        if(selectedItemPosition == 2){
+        if (selectedItemPosition == 2) {
             navigate(TrainingFragmentDirections.actionTrainingFragmentToTrainingBitingFragment())
         }
-        if(selectedItemPosition == 3){
+        if (selectedItemPosition == 3) {
             navigate(TrainingFragmentDirections.actionTrainingFragmentToObidenceFragment())
         }
-        if(selectedItemPosition == 4){
+        if (selectedItemPosition == 4) {
             navigate(TrainingFragmentDirections.actionTrainingFragmentToBarkingFragment())
         }
         trainingAdapter.notifyDataSetChanged()
     }
+
     override fun onResume() {
         super.onResume()
     }

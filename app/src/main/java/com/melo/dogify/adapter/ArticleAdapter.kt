@@ -11,7 +11,7 @@ import com.melo.dogify.model.ArticleModel
 
 class ArticleAdapter(
     private val context: Context,
-    private val itemClickListener: ItemClickListener
+    private val itemClickListener: ItemClickListener,
 ) : ListAdapter<ArticleModel, ArticleAdapter.ArticleViewHolder>(DiffCallback()) {
 
     interface ItemClickListener {

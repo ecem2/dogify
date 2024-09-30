@@ -11,11 +11,12 @@
 
         <androidx.appcompat.widget.AppCompatTextView
             android:id="@+id/get_premium"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="40dp"
             android:fontFamily="@font/red_hat_display_medium"
-            android:text="Get Premium"
+            android:gravity="center"
+            android:text="@string/get_premium"
             android:textColor="@color/white"
             android:textSize="18sp"
             app:layout_constraintEnd_toEndOf="parent"
@@ -41,10 +42,11 @@
 
         <androidx.appcompat.widget.AppCompatTextView
             android:id="@+id/get_premium_yearly"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:fontFamily="@font/red_hat_display_regular"
-            android:text="Premium - Yearly"
+            android:gravity="center"
+            android:text="@string/premium_yearly"
             android:textColor="@color/white"
             android:textSize="22sp"
             app:layout_constraintEnd_toEndOf="parent"
@@ -91,7 +93,8 @@
                 android:layout_marginStart="2dp"
                 android:layout_marginBottom="5dp"
                 android:fontFamily="@font/red_hat_display_regular"
-                android:text="first year"
+                android:padding="4dp"
+                android:text="@string/first_year"
                 android:textColor="@color/white"
                 android:textSize="18sp" />
         </androidx.appcompat.widget.LinearLayoutCompat>
@@ -114,11 +117,11 @@
                 android:src="@drawable/ic_pro" />
 
             <androidx.appcompat.widget.AppCompatTextView
-                android:layout_width="wrap_content"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="8dp"
                 android:fontFamily="@font/red_hat_display_semibold"
-                android:text="Upgrade to pro"
+                android:text="@string/upgrade_to_pro"
                 android:textColor="@color/white"
                 android:textSize="20sp" />
         </androidx.appcompat.widget.LinearLayoutCompat>
@@ -141,7 +144,7 @@
                 android:src="@drawable/ic_get_access" />
 
             <androidx.appcompat.widget.AppCompatTextView
-                android:layout_width="wrap_content"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="8dp"
                 android:fontFamily="@font/red_hat_display_regular"
@@ -168,11 +171,11 @@
                 android:src="@drawable/ic_unlimited" />
 
             <androidx.appcompat.widget.AppCompatTextView
-                android:layout_width="wrap_content"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="8dp"
                 android:fontFamily="@font/red_hat_display_regular"
-                android:text="Unlimited Translation"
+                android:text="@string/unlimited_translation"
                 android:textColor="@color/white"
                 android:textSize="14sp" />
         </androidx.appcompat.widget.LinearLayoutCompat>
@@ -195,24 +198,25 @@
                 android:src="@drawable/ic_ads_free" />
 
             <androidx.appcompat.widget.AppCompatTextView
-                android:layout_width="wrap_content"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="8dp"
                 android:fontFamily="@font/red_hat_display_regular"
-                android:text="Ads free using."
+                android:text="@string/ads_free_using"
                 android:textColor="@color/white"
                 android:textSize="14sp" />
         </androidx.appcompat.widget.LinearLayoutCompat>
 
         <androidx.appcompat.widget.AppCompatTextView
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginStart="32dp"
             android:layout_marginTop="28dp"
             android:fontFamily="@font/red_hat_display_regular"
-            android:text="Start 3 days Free Trial"
+            android:text="@string/start_3_days_free_trial"
             android:textColor="@color/white"
             android:textSize="18sp"
+            app:layout_constraintEnd_toStartOf="@+id/ic_switch"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/ll_ads_free" />
 
@@ -246,7 +250,8 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/red_hat_display_bold"
-                android:text="Continue"
+                android:padding="4dp"
+                android:text="@string/continue_btn"
                 android:textAllCaps="false"
                 android:textColor="#080C1E"
                 android:textSize="18sp" />

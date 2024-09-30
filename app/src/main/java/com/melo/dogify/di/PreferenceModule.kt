@@ -9,8 +9,7 @@ import com.melo.dogify.preferences.Preferences
 
 @Module
 @InstallIn(SingletonComponent::class)
- abstract class PreferenceModule {
-
+abstract class PreferenceModule {
 
 
     @Binds

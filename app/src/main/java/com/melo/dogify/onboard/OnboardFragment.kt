@@ -1,7 +1,6 @@
 package com.melo.dogify.onboard
 
 
-import androidx.fragment.app.viewModels
 import com.melo.dogify.R
 import com.melo.dogify.core.fragments.BaseFragment
 import com.melo.dogify.databinding.FragmentOnboardBinding

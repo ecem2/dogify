@@ -1,0 +1,343 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Dogify</string>
+    <string name="hello_blank_fragment">Olá, fragmento em branco</string>
+    <string name="sounds">Sons</string>
+    <string name="translator">Tradutor</string>
+    <string name="training">Treinamento</string>
+    <string name="whistle">Apito</string>
+    <string name="article">Artigo</string>
+    <string name="read_now"><u>Leia agora</u></string>
+    <string name="terms"><u>Termos</u></string>
+    <string name="privacy"><u>Privacidade</u></string>
+    <string name="repeat_sound">Repetir Som</string>
+    <string name="food">Comida</string>
+    <string name="onboard_first_title">Entenda os sentimentos do seu cachorro.</string>
+    <string name="onboard_first_description">Você quer saber \n o que o cachorro está pensando?</string>
+    <string name="onboard_second_title">Explore os sentimentos do seu cachorro.</string>
+    <string name="onboard_second_description">Não seria emocionante saber o que está passando pela mente do seu cachorro?</string>
+    <string name="next">Próximo</string>
+    <string name="get_premium">Obter Premium</string>
+    <string name="premium_yearly">Premium - Anual</string>
+    <string name="first_year">primeiro ano</string>
+    <string name="upgrade_to_pro">Atualizar para pro</string>
+    <string name="unlimited_translation">Tradução Ilimitada</string>
+    <string name="ads_free_using">Uso sem anúncios.</string>
+    <string name="start_3_days_free_trial">Comece um teste gratuito de 3 dias</string>
+    <string name="continue_btn">Continuar</string>
+    <string name="your_yearly_plan">Seu \nPlano Anual</string>
+    <string name="your_weekly_plan">Seu \nPlano Semanal</string>
+    <string name="USD_29">USD 29</string>
+    <string name="USD_09">USD 09</string>
+    <string name="start_weekly_free_trial">Comece um teste gratuito semanal</string>
+    <string name="purchase">Comprar</string>
+    <string name="subscription_is_auto">A assinatura é renovável automaticamente. Você pode cancelar\n sua assinatura a qualquer momento</string>
+    <string name="rate_your_dog">Avalie seu cachorro</string>
+    <string name="dog_translator">Tradutor de Cachorros</string>
+    <string name="dog_training">Treinamento de Cachorros</string>
+    <string name="record_translate">Gravar \n &amp; Traduzir</string>
+    <string name="dog_whistle">Apito de Cachorro</string>
+    <string name="hz">10000 Hz</string>
+    <string name="safe_ones">Os seguros</string>
+    <string name="harmful_ones">Os prejudiciais</string>
+    <string name="careful_with_these">Cuidado com estes</string>
+    <string name="food_description">Quando você faz comida em casa para seu cachorro, você garante que seu cachorro está comendo comida que atende aos seus padrões.</string>
+    <string name="articles">Artigos</string>
+    <string name="article_description">Certifique-se de dar muita atenção ao seu cachorro quando ele/ela estiver fazendo a coisa certa.</string>
+    <string name="biting">Mordendo</string>
+    <string name="biting_description">Mordidas ou pinçadas de filhotes começam como uma diversão, mas precisam ser controladas rapidamente para evitar problemas contínuos.</string>
+    <string name="obidence">Obediência</string>
+    <string name="obidence_description">Mordendo</string>
+    <string name="barking">Latindo</string>
+    <string name="barking_description">Um treinamento adequado de obediência para cães deve abrir uma linha clara de.</string>
+
+    <string name="anxious">Ansioso</string>
+    <string name="call">Chamar</string>
+    <string name="cold">Frio</string>
+    <string name="come_here">Venha aqui</string>
+    <string name="comfortable">Confortável</string>
+    <string name="feeding">Alimentação</string>
+    <string name="happy">Feliz</string>
+    <string name="hug">Abraço</string>
+    <string name="hot">Quente</string>
+    <string name="hungry">Faminto</string>
+    <string name="joyful">Alegre</string>
+    <string name="love">Amor</string>
+    <string name="know">Saber</string>
+    <string name="playful">Brincalhão</string>
+    <string name="surprised">Surpreso</string>
+    <string name="scared">Assustado</string>
+    <string name="i_love_you">Eu te amo</string>
+    <string name="no_understand">Não entendo</string>
+    <string name="whining">Lamentando</string>
+    <string name="so_happy">Tão feliz</string>
+    <string name="uncomfortable">Desconfortável</string>
+    <string name="thirsty">Sede</string>
+
+    <!--SAFE ONES-->
+    <string name="apple">Maçã</string>
+    <string name="apple_article">Desde que suas sementes sejam removidas (para evitar envenenamento por cianeto), a maçã é segura e saudável para os cães. A maçã é uma fruta cheia de vitaminas, minerais, antioxidantes e fibras. Também é um ótimo lanche para os cães. No entanto, contém muito açúcar, como a banana, então tenha cuidado com o ganho de peso. Certifique-se de cortá-la em pedaços pequenos para evitar engasgos.</string>
+
+    <string name="banana">Banana</string>
+    <string name="banana_article">A banana é segura e saudável para os cães. É rica em potássio, que é bom para os rins e o coração. Mas também contém muitos carboidratos e açúcar, então tenha cuidado com o ganho de peso. Embora não seja cientificamente comprovado, diz-se que a banana ajuda com a náusea dos cães. Certifique-se de cortá-la em fatias pequenas para evitar engasgos.</string>
+
+    <string name="beet">Beterraba</string>
+    <string name="beet_article">É uma excelente fonte de alimento. A beterraba tem muitos efeitos positivos na saúde. No entanto, é especialmente eficaz na regeneração das células do fígado e na manutenção da saúde.</string>
+
+    <string name="blueberry">Mirtilo</string>
+    <string name="blueberry_article">Os mirtilos são recomendados para a dieta dos cães. Os mirtilos são ricos em antioxidantes, selênio, zinco e ferro, além de vitaminas C, E, A e B.</string>
+
+    <string name="bread">Pão</string>
+    <string name="bread_article">Pão branco ou integral é seguro para os cães. (Certifique-se de que não haja uvas secas dentro.) Se consumido com frequência, você deve ter cuidado com o ganho de peso do seu cão.</string>
+
+    <string name="broccoli">Brócolis</string>
+    <string name="broccoli_article">O brócolis é um dos vegetais mais importantes que os cães podem comer. Rico em vitaminas A, C, E e carotenoides. Quando o brócolis é cozido, enzimas anticâncer são liberadas. Portanto, ajuda a prevenir o câncer. O brócolis contém 33 estruturas anticâncer diferentes. Além disso, algumas das estruturas que contém possuem fitocamicais que previnem a formação de células cancerígenas e atacam células saudáveis. Fortalece o sistema de defesa do corpo. Para ver os benefícios do brócolis, não exagere. O consumo excessivo de brócolis pode causar diminuição da função da tireoide nos cães.</string>
+
+    <string name="carrot">Cenoura</string>
+    <string name="carrot_article">Cenoura (crua ou cozida) é segura e saudável para os cães. É um vegetal de baixa caloria cheio de vitaminas, minerais e fibras. Também pode ajudar na digestão. Certifique-se de cortá-la em fatias pequenas para evitar engasgos.</string>
+
+    <string name="cucumber">Pepino</string>
+    <string name="cucumber_article">O pepino é um lanche muito útil, de baixa caloria e facilmente digerido pelo sistema digestivo dos cães. Mas quando consumido em excesso, pode causar dor de estômago. Corte o pepino em pedaços pequenos antes de dar ao seu cão para evitar engasgos.</string>
+
+    <string name="green_peas">Ervilhas Verdes</string>
+    <string name="green_peas_article">Se você está alimentando seu cão com uma dieta, você definitivamente deve adicionar ervilhas à lista. Elas são ricas em tiamina, fósforo e potássio. Você pode aumentar o valor nutricional adicionando algumas ervilhas cozidas à refeição diária do seu cão. Ela ou ele vai adorar a comida ainda mais quando cozida com um pedaço de carne e caldo natural e sem sal.</string>
+
+    <string name="kiwi">Kiwi</string>
+    <string name="kiwi_article">Mais do que uma fatia do pequeno kiwi, que contém fibras, potássio e altas quantidades de vitamina C, pode prejudicar seu cão.</string>
+
+    <string name="lettuce">Alface</string>
+    <string name="lettuce_article">Seu cão vai gostar porque a alface é crocante. Dar em excesso pode causar diarreia no seu cão. Tenha cuidado ao dar esses vegetais, pois eles são uma fonte de fibras e alimentos ricos.</string>
+
+    <string name="mango">Manga</string>
+    <string name="mango_article">A parte principal da fruta da manga contém vitaminas A, B6, C e E. É muito útil para os cães.</string>
+
+    <string name="orange">Laranja</string>
+    <string name="orange_article">Desde que seja descascada, a laranja é segura e saudável para os cães. É uma fruta baixa em calorias e nutritiva, mas evite dar muito para que seu cão não tenha dor de estômago. Certifique-se de cortá-la em fatias pequenas para evitar engasgos.</string>
+
+    <string name="parsley">Salsa</string>
+    <string name="parsley_article">Fornece ao seu cão cálcio, potássio e beta-caroteno. Reduz o mau hálito nos cães. Se o seu cão tem mau hálito, você pode adicionar alguns pedaços de salsa à comida dele. Ou você pode adicioná-la a biscoitos para cães que você faz em casa.</string>
+
+    <string name="pear">Pera</string>
+    <string name="pear_article">Ajuda na saúde do sistema digestivo dos cães. Você pode cortar peras que contêm vitaminas A, C, E, B1 e B2, além de fibras, ácido fólico, potássio e cobre em cubos para o seu cão.</string>
+
+    <string name="pineapple">Abacaxi</string>
+    <string name="pineapple_article">Desde que esteja fresco, o abacaxi é seguro e saudável para os cães. É cheio de vitaminas, minerais e fibras. Também é um ótimo lanche para os cães. Certifique-se de cortá-lo em fatias pequenas para evitar engasgos. Além disso, não dê demais ao seu cão para que ele não fique enjoado.</string>
+
+    <string name="spinach">Espinafre</string>
+    <string name="spinach_article">O espinafre é rico em vitaminas K, A, C, E e B, além de cálcio, ferro, magnésio, fósforo, manganês, potássio, folato, cobre e fibras. Se seu cão consumir quantidades excessivas de espinafre, seus rins podem ser danificados. No entanto, alimentar seu cão com um punhado de espinafre por mês é saudável. Contém fibras, vitaminas e antioxidantes. Seu cão vai adorar espinafre tanto que você vai nomeá-lo de Popeye.</string>
+
+    <string name="strawberry">Morango</string>
+    <string name="strawberry_article">O morango é seguro e saudável para os cães. É uma fruta de baixa caloria que contém fibras e antioxidantes. Certifique-se de cortá-lo em duas ou três partes para evitar engasgos.</string>
+
+    <string name="turnip">Nabo</string>
+    <string name="turnip_article">É um vegetal que você pode adicionar à lista de dietas. O nabo mantém seus cães em forma com sua alta fonte nutricional e característica de limpeza tóxica.</string>
+
+    <string name="watermelon">Melancia</string>
+    <string name="watermelon_article">Desde que esteja descascada e suas sementes sejam removidas, a melancia é segura e saudável para os cães. É uma fruta baixa em calorias cheia de vitaminas A e C. Também é um ótimo lanche para os cães. Certifique-se de cortá-la em fatias pequenas para evitar engasgos.</string>
+
+    <!--HARMFUL ONES-->
+    <string name="alcohol">Álcool</string>
+    <string name="alcohol_article">O álcool contém um composto químico chamado etanol, que é tóxico para os cães. Se consumido, pode causar desconforto estomacal, problemas de coordenação, vômito, diarreia e desidratação. Se consumido em grande quantidade, pode levar a insuficiência pulmonar, coma e morte.</string>
+
+    <string name="avocado">Abacate</string>
+    <string name="avocado_article">O abacate (incluindo suas folhas) contém um composto químico chamado persina, que é tóxico para os cães. Se consumido, pode causar desconforto estomacal. Sua semente também pode bloquear os intestinos do seu cão. Se consumido em grande quantidade, pode causar problemas respiratórios e danos ao coração e fígado do seu cão.</string>
+
+    <string name="candy">Doces</string>
+    <string name="candy_article">Muitos açúcares contêm adoçantes artificiais, passas, que são prejudiciais para o seu cão. Até mesmo adoçantes artificiais são tóxicos para o seu cão. Quando consumidos em pequenas quantidades, causam vômito, diarreia e perda de apetite. Se a quantidade consumida aumentar, pode ser fatal.</string>
+
+    <string name="chocolate">Chocolate</string>
+    <string name="chocolate_article">O chocolate contém cafeína e teobromina. E os cães não conseguem digerir esses estimulantes. (Os níveis de teobromina são especialmente altos em chocolates amargos e escuros.) Se consumido em pequenas quantidades, provavelmente causará apenas desconforto estomacal. À medida que a quantidade consumida aumenta, pode causar sintomas como hiperatividade, vômito, diarreia, ritmo cardíaco irregular, tremores musculares e desidratação. Se consumido em grande quantidade, a cafeína pode levar a insuficiência pulmonar ou morte; a teobromina pode levar a hemorragia interna, ataque cardíaco ou morte.</string>
+
+    <string name="coffee">Café</string>
+    <string name="coffee_article">O café contém cafeína e teobromina. E os cães não conseguem digerir esses estimulantes. Se consumido em pequenas quantidades, provavelmente causará apenas desconforto estomacal. À medida que a quantidade consumida aumenta, pode causar sintomas como hiperatividade, vômito, diarreia, ritmo cardíaco irregular, tremores musculares e desidratação. Se consumido em grande quantidade, a cafeína pode levar a insuficiência pulmonar ou morte; a teobromina pode levar a hemorragia interna, ataque cardíaco ou morte.</string>
+
+    <string name="bones">Osso Cozido</string>
+    <string name="bones_article">Escolha sempre os ossos maiores e lembre-se de que eles devem sempre ser crus. Ossos de cordeiro cozidos quebram rapidamente e as lascas são problemáticas.</string>
+
+    <string name="fishbones">Espinha de Peixe</string>
+    <string name="fishbones_article">Os ossos e espinhas de peixe que seu cão come viajam pelo trato digestivo como um pedaço de vidro. Como resultado, podem ocorrer lacerações no esôfago e no estômago dos cães.</string>
+
+    <string name="garlic">Alho</string>
+    <string name="garlic_article">O alho é prejudicial para os cães. De acordo com a Associação Veterinária Americana, embora os benefícios do alho não tenham sido comprovados, seus danos e efeitos tóxicos foram comprovados. A urina laranja ou vermelha, quando consumida, pode causar vômito, diarreia, aumento da respiração, fraqueza, perda de apetite ou palpitações. Quando consumido em excesso, pode causar danos às células vermelhas do sangue e deterioração da estrutura da mucosa natural.</string>
+
+    <string name="grapes">Uvas</string>
+    <string name="grapes_article">Uvas (frescas ou secas) contêm alguns compostos químicos que são tóxicos para os cães. (Substâncias exatas que causam a reação tóxica ainda não são conhecidas.) Se consumidas, podem causar vômito, dormência, diarreia e tremores musculares. Se consumidas em grande quantidade, podem levar a aumento da micção, doenças renais a longo prazo ou morte.</string>
+
+    <string name="leek">Alho-poró</string>
+    <string name="leek_article">Para os cães, alimentos como alho-poró e cebolas causam doenças mesmo se comerem pequenas quantidades. Consumir grandes quantidades pode causar anemia.</string>
+
+    <string name="lemon">Limão</string>
+    <string name="lemon_article">O limão contém compostos químicos como linalol e limoneno que são tóxicos para os cães. Se consumido em pequenas quantidades, pode causar apenas desconforto estomacal e intestinal. P.S.: Os cães não costumam gostar do sabor, de qualquer forma.</string>
+
+    <string name="mushroom">Cogumelo</string>
+    <string name="mushroom_article">Se o cogumelo for consumido pelos cães, pode causar dor abdominal, vômito e diarreia. Quando consumido em excesso, pode resultar em doença renal, danos ao fígado, coma ou morte.</string>
+
+    <string name="onion">Cebola</string>
+    <string name="onion_article">As cebolas são prejudiciais para os cães. A urina laranja ou vermelha, quando consumida, pode causar vômito, diarreia, aumento da respiração, fraqueza, perda de apetite ou palpitações. Quando consumida em excesso, pode causar danos às células vermelhas do sangue e deterioração da estrutura da mucosa natural.</string>
+
+    <string name="tea">Chá</string>
+    <string name="tea_article">O chá contém cafeína e teobromina. E os cães não conseguem digerir esses estimulantes. Se consumido em pequenas quantidades, provavelmente causará apenas desconforto estomacal. À medida que a quantidade consumida aumenta, pode causar sintomas como hiperatividade, vômito, diarreia, ritmo cardíaco irregular, tremores musculares e desidratação. Se consumido em grande quantidade, a cafeína pode levar a insuficiência pulmonar ou morte; a teobromina pode levar a hemorragia interna, ataque cardíaco ou morte.</string>
+
+    <string name="tobacco">Tabaco</string>
+    <string name="tobacco_article">O tabaco pode causar espasmos ou derrames, salivação, pupilas contraídas, alucinações visuais e sonoras, batimento cardíaco acelerado, vômito e diarreia em cães.</string>
+
+    <!--CAREFUL WITH THESE-->
+    <string name="cheese">Queijo</string>
+    <string name="cheese_article">Geralmente, é aceitável que os cães comam pequenas quantidades de queijo. No entanto, a quantidade de gordura e lactose varia muito entre os diferentes tipos de queijo. De fato, alguns queijos podem causar desconforto no trato digestivo do seu cão e causar dor de estômago e diarreia. Assim, sugerimos que você ofereça queijos com baixo teor de gordura, como a mozzarella. Se você estiver disposto a dar um pouco ao seu cão, comece com pequenos pedaços para que ele se acostume.</string>
+
+    <string name="cherries">Cerejas</string>
+    <string name="cherries_article">A cereja não possui benefícios nutricionais para os cães que sejam cientificamente comprovados. Se você estiver disposto a dar algumas ao seu cão, não deve oferecer mais do que algumas de uma vez. Lembre-se sempre de remover os caroços para evitar asfixia e envenenamento por cianeto (um composto químico encontrado nos caroços). Se consumidas em grande quantidade, seu cão pode ter dor de estômago e diarreia.</string>
+
+    <string name="egg">Ovo</string>
+    <string name="egg_article">A enzima avidina presente em ovos crus impede a absorção da vitamina B7 (biotina). Em caso de deficiência de B7, a saúde da pele e do pelo do seu cão se deteriora. Além disso, a bactéria salmonela encontrada em ovos crus pode causar envenenamento em cães. Os ovos também podem causar vômito nos cães.</string>
+
+    <string name="honey">Mel</string>
+    <string name="honey_article">O mel contém muito açúcar, por isso não sugerimos dar muita quantidade ao seu cão. Se consumido em excesso, pode causar ganho de peso.</string>
+
+    <string name="ice_cream">Sorvete</string>
+    <string name="ice_cream_article">Os sorvetes disponíveis no mercado contêm muito açúcar (e, obviamente, leite), então não é muito saudável compartilhar seu sorvete com seu cão. (Especialmente se seu cão for intolerante à lactose) Mas se você estiver disposto, pode fazer ou comprar sorvetes seguros para cães.</string>
+
+    <string name="juice">Suco</string>
+    <string name="juice_article">Os cães podem beber a maioria dos sucos de frutas, mas não devem consumir qualquer um, pois os sucos de frutas contêm muito açúcar e conservantes alimentares químicos, que podem prejudicar sua saúde. Portanto, você deve dar frutas frescas e deliciosas ao seu cão em vez de suco de fruta.</string>
+
+    <string name="milk">Leite</string>
+    <string name="milk_article">Alguns cães são intolerantes à lactose, por isso você deve ter cuidado ao dar leite/derivados do leite ao seu cão. Se você estiver disposto, pode tentar leite de soja, para que ele não tenha dor de estômago. Observe que, se seu cão for um filhote, o leite de soja não é um substituto para o leite materno.</string>
+
+    <string name="peanut">Amendoim</string>
+    <string name="peanut_article">Tóxico para o seu cão, portanto, você definitivamente não deve dar.</string>
+
+    <string name="pomegranate">Romã</string>
+    <string name="pomegranate_article">Se os cães devem comer romã ou não é frequentemente uma questão debatida entre os veterinários. A romã não é tóxica para os cães. Também é muito saudável em termos de antioxidantes, vitamina C, potássio e fibras. No entanto, a romã pode causar problemas digestivos (por exemplo, dor de estômago, vômito) ou diarreia devido às suas sementes quando consumida em excesso. Portanto, dar ao seu cão uma pequena quantidade de romã seria a decisão mais lógica.</string>
+
+    <string name="tomato">Tomate</string>
+    <string name="tomato_article">Enquanto estiver maduro/vermelho, você pode ocasionalmente dar tomates ao seu cão. No entanto, tomates imaturos/Verdes contêm tomatina, que é prejudicial para os cães: pode causar dor de estômago, ritmo cardíaco anormal e dificuldades respiratórias. Se consumidos em grande quantidade, podem afetar gravemente o sistema digestivo e nervoso do seu cão.</string>
+
+    <string name="yogurt">Iogurte</string>
+    <string name="yogurt_article">Alguns cães não conseguem digerir iogurte facilmente, então podem ter dor de estômago. Mas se você estiver disposto a dar um pouco ao seu cão, certifique-se de que não seja um iogurte de frutas e que não contenha açúcar/adoçante.</string>
+
+    <!--ARTIGO SOBRE MORDIDAS-->
+    <string name="biting_text">Meu Cachorro Está Mordendo</string>
+    <string name="biting_text_article"> - Gerenciar e controlar os problemas de mordidas de filhotes pode ser um grande desafio para nós, amantes de cães. As mordidas ou beliscões dos filhotes começam como uma diversão, mas precisam ser controlados rapidamente para evitar problemas contínuos.\n\n
+        - Para a maioria dos filhotes, morder é uma fase perfeitamente natural e essencial a ser vivida, especialmente quando estão trocando os dentes.\n\n
+        - Os filhotes adoram afundar suas pequenas e afiadas presas em quase tudo durante essa fase de troca de dentes, incluindo as mãos e pés de seus donos. Em alguns casos, é como se você tivesse trazido um jacaré mordedor para sua casa, em vez do adorável filhote que esperava.\n\n
+        - A boa notícia é que a maioria dos filhotes pode ser treinada para regular e minimizar as mordidas com bastante facilidade. Quanto mais cedo você começar a educar seu filhote sobre a inibição de mordidas (ter uma boca suave), mais fácil será - para todos os envolvidos.\n\n
+        Como Parar os Problemas de Mordidas de Filhotes - Existem muitos métodos de treinamento comprovados para ajudar a corrigir os problemas comportamentais do seu filhote. Antes de entrar nas técnicas específicas que você pode usar para impedir que seu filhote morda, sempre mantenha essas regras gerais de treinamento de comportamento canino em mente:\n\n
+        - A socialização do filhote e o treinamento de inibição de mordidas andam de mãos dadas.\n\n
+        - Nunca dê tapas ou golpeie seu filhote na cara. Isso não funciona! Seu filhote apenas achará que você está brincando ou poderá ficar com medo de você. Isso pode até levar a problemas muito maiores do que simples beliscões de filhotes.\n\n
+        - A regra geral para parar os problemas de mordidas de filhotes é sempre encorajar o comportamento aceitável e desencorajar sempre o comportamento inaceitável. Para saber mais sobre esta regra fundamental do treinamento de obediência canina (incluindo como parar os problemas de mordidas), visite Segredos de um Treinador Profissional de Cães.\n\n
+        - Enquanto você tenta impedir que seus filhotes mordam, nunca brinque de puxar corda, lutar ou jogos de perseguição com eles. Isso só incentiva as mordidas e os beliscões.\n\n
+        - Qualquer que seja o método que você escolha para treinar seu filhote, a regra de ouro é ser consistente. Isso significa que você e qualquer outra pessoa que tenha contato com seu filhote devem aplicar sua estratégia escolhida toda vez que seu filhote der uma mordida.\n\n
+        - Se você não comunicar claramente ao seu cão que a mordida é inaceitável, ele não saberá que está fazendo algo errado. Cabe a você mostrar a ele qual é o comportamento aceitável, não apenas esperar que seu filhote saiba disso! (Você realmente está assumindo o papel de seus irmãos de ninhada para essa tarefa).\n\n
+        - Outra razão (extrema) pela qual os filhotes podem morder é se estiverem tentando afirmar sua dominância sobre você. Se esse for o caso do seu filhote, isso deve ser interrompido imediatamente. Quando você tem um filhote dominante, suas mordidas serão apenas o começo de muitos problemas comportamentais.\n\n
+        Impedir que seu filhote morda - Técnicas Comprovadas Seu objetivo, para começar, é ensinar seu filhote a controlar a força de suas mordidas. Os irmãos de ninhada do seu filhote iniciarão esse processo e, em seguida, cabe a você continuar quando seu novo filhote chegar em casa. Isso garantirá (não garantirá) que, se seu cão morder alguém no futuro, o dano será minimizado. Quando você der ao seu filhote um feedback suficiente sobre a força de sua mordida, só então você pode começar a reduzir a prevalência do comportamento de mordida.\n\n
+        - Se você pegar o problema de mordidas cedo, pode ser fácil retificá-lo. Basta tentar redirecionar a mordida de sua carne para um brinquedo ou osso de mastigar. Para filhotes muito jovens, esse método é frequentemente tudo o que você precisará fazer. Assim que seu filhote começar a morder suas mãos, basta soltar um firme "Não!" e substituir seus dedos pelo brinquedo de mastigar (ou cubo de gelo se seu filhote estiver trocando os dentes).\n\n
+        - Este é provavelmente o método mais popular e meu favorito pessoal. Faça seu filhote pensar que ele está te machucando toda vez que ele te belisca. Esse método replica a maneira como os cães resolvem essas mordidas entre si. Quando os filhotes estão mordendo e beliscando uns aos outros, isso só para quando um filhote solta um grito. Podemos usar essa maneira natural que os cães aprendem soltando um "Ai!" ou "Argh!" toda vez que um dos nossos filhotes morde. O truque é surpreender seu cão com sua voz e, em seguida, se afastar e parar de brincar com seu filhote por um tempo. Seu filhote logo aprenderá que quando ele começa a morder, seu companheiro de brincadeira (você) vai embora.\n\n
+        - Ensine seu filhote o comando de treinamento de obediência "Deixe!". Este método funciona muito bem, mas é mais adequado para filhotes mais velhos.\n\n
+        Em casos de mordidas graves, assim que seu filhote se agarrar à sua mão, diga "Não!" e rapidamente coloque seu polegar dentro da boca dele sob a língua, e seu outro dedo sob o queixo dele. Segure lá por cerca de 10 segundos (não muito apertado). Isso parecerá desconfortável para seu filhote e, além disso, ele não conseguirá te morder.\n\n
+        - Em casos de mordidas graves, assim que seu filhote se agarrar à sua mão, diga "Não!" e rapidamente coloque seu polegar dentro da boca dele sob a língua, e seu outro dedo sob o queixo dele. Segure lá por cerca de 10 segundos (não muito apertado). Isso parecerá desconfortável para seu filhote e, além disso, ele não conseguirá te morder.\n\n
+        \'Sempre Elogie e Recompense uma Boca Suave e Ignore ou Afaste-se de Beliscões Inadequados\'\n\n
+        - Novamente, se seu filhote tem um problema severo de mordidas, você pode tentar esta técnica de treinamento. Coloque um par de luvas e aplique uma substância de gosto ruim nelas (algo que seu cão não gosta). Seu cão logo aprenderá que, se ele morder você, não será gostoso! Esse método produz uma forte associação negativa para seu cão toda vez que ele decide morder você. Alguns cães são espertos o suficiente para perceber que, quando você tira suas luvas de gosto ruim, está tudo bem em afundar as presas em você novamente!\n\n
+        - Para filhotes mais velhos (cerca de 6 meses), esta é uma técnica infalível para parar a mordida de filhotes. Coloque uma coleira de pinça ou estrangulamento em seu filhote e, cada vez que ele te morder, dê um puxão curto e rápido na guia. Essa correção formará uma associação desagradável para seu cão toda vez que ele morder você. Não levará muito tempo para ele parar. Alguns treinadores acreditam que esse método é bastante extremo, e eu concordo que você só precisaria usá-lo em circunstâncias muito raras - nunca precisei chegar a esse nível. Acredito que é muito mais eficaz educar seu filhote do que infligir punições ou tentar extinguir um comportamento completamente.\n\n
+        Como parar um filhote de morder Esses métodos foram recomendados para mim, mas nunca os experimentei pessoalmente:\n- Borrife seu filhote com água toda vez que ele começar a beliscar.\n\n
+        - Encha uma lata vazia com pedras ou moedas. Cada vez que seu filhote começar a morder, diga Não! e sacuda a lata. Aparentemente, os filhotes odeiam esse barulho de chacoalhar.\n\n
+        - Se você está preocupado que pode ter um filhote excessivamente agressivo em suas mãos, por favor, procure o conselho de um especialista em comportamento animal experiente ou treinador de cães.\n\n
+        - Como mencionei anteriormente, a parte mais importante do conselho, independentemente de qual método de treinamento você escolha, é ser consistente e fornecer o feedback claro de que seu filhote precisa para aprender.\n\n
+</string>
+
+    <string name="obedience_text">Obediência</string>
+    <string name="obedience_text_article">O que é o treinamento de cães para fins de obediência? Eu, como a maioria dos donos de cães, acredito que o treinamento de cães para obediência é um ingrediente essencial em qualquer relacionamento saudável entre humanos e cães. Mas o que exatamente é o treinamento de obediência para cães e por que é tão importante para você e seu cão? O treinamento de obediência é um termo geral que pode ser alcançado através de várias técnicas de treinamento de cães. Independentemente da técnica de treinamento que você escolher empregar ou das escolas de treinamento de cães que você frequentar, é isso que um treinamento adequado de obediência deve realizar:\n\n
+        - Construir ou fortalecer um relacionamento próximo, saudável e apropriado entre você e seu cão.\n\n
+        - Abrir uma linha clara de comunicação entre você e seu cão. Isso inclui você saber o que esperar do seu cão em todas as circunstâncias e seu cão entender claramente e respeitar o que se espera dele.\n\n
+        - O treinamento de cães para obediência estabelece um conjunto de regras ou limites que educa seu cão para se tornar um membro responsável da sociedade. Isso inclui como se relacionar com outros cães, animais e pessoas, boas maneiras e como se comportar em qualquer situação.\n\n
+        - Estabelecer a base que ajuda a prevenir o desenvolvimento de comportamentos problemáticos inaceitáveis - como pular, latir, mastigar, cavar, etc.\n\n
+        Os Benefícios do Treinamento de Cães para Obediência\n\n
+        - O treinamento básico de obediência torna a vida mais simples para seu cão e elimina confusões. Seu cão saberá seu lugar no mundo e entenderá o certo do errado. Os cães parecem realmente apreciar e prosperar nesta visão clara do mundo.\n\n
+        - Divertido e gratificante para você e seu cão - para mim, isso é o que realmente importa!\n\n
+        - Você terá um cão feliz, relaxado e confiante que pode levar a qualquer lugar e será um prazer estar por perto. A maior liberdade também pode ser estendida ao seu cão, pois ele será mais confiável quando treinado para obediência.\n\n
+        - Um cachorro ou filhote treinado para obediência é um cão muito mais seguro. Se seu cão sair correndo pela porta da frente, você ainda terá controle de voz sobre ele. Você poderá chamar um de seus comandos de treinamento de obediência, como \'vem\', \'deita\', \'senta\' ou \'vai para o seu lugar\'. Isso é muito tranquilizador para qualquer amante de cães.\n\n
+        - Você ganha confiança e respeito mútuo com seu cão. Ele entende o que se espera dele e sabe que você sempre será justo e consistente com isso.\n\n
+        - Quando seu cão é treinado para obediência, ele ficará bem ao redor da família, amigos e crianças sob supervisão.\n\n
+        - O treinamento de obediência para cães atende a algumas necessidades cruciais na vida do seu cão, incluindo exercício, estimulação mental, passar tempo com você e fornecer ao seu cão um \'trabalho\'.\n\n
+        - O treinamento de cães para obediência reduz muito o risco de entrar em uma luta de dominância com seu cão. Você será seu líder forte e sempre justo, a quem ele respeitará e procurará orientação.\n\n
+        - O treinamento de obediência é um processo passo a passo que você constrói ao longo do tempo. Ele cria uma base sólida para seu cão aprender habilidades e comandos adicionais. Ao longo deste processo, seu cão ganhará confiança.\n
+        O Perigo de Não Dar Treinamento de Obediência para Cães - É uma realidade triste que cães não treinados são a principal causa de filhotes e cães acabando em abrigos de animais em todo o mundo.\n\n
+        - Isso não é bom para ninguém, especialmente para os pobres cães.\n\n
+        - Seu cão nunca poderá ser realmente próximo de você e sua família. Com isso quero dizer que seu cão não estará envolvido em passeios em família, passando muito do seu tempo sozinho no quintal. Isso pode trazer inúmeros problemas comportamentais e pode ser um verdadeiro incômodo para você e até mesmo para seus vizinhos.\n\n
+        - Seu cão estará mais inseguro ao redor de pessoas, outros animais e nas estradas.\n\n
+        - É um traço comum para cães não treinados desafiar sua liderança ou autoridade. Cães treinados para obediência também tentarão testá-lo dessa maneira. Mas quando você é proficiente em treinamento de obediência, terá as ferramentas para lidar com isso.\n\n
+        - Constantemente (mas não de forma eficaz), seu cão será gritado e afastado ainda mais de seu grupo (você e sua família). Esta não é uma maneira de você e seu cão viverem, e é totalmente evitável com um simples treinamento de obediência.\n\n
+        Regras Gerais para um Treinamento de Obediência Canina Eficaz\n\n
+        Você encontrará técnicas de treinamento comprovadas para comandos específicos de obediência selecionando da lista abaixo. Estas são algumas dicas gerais a serem lembradas que são verdadeiras em qualquer situação de treinamento de cães para obediência:\n\n
+        - Elogie e recompense seu cão quando ele fizer o que você pediu, dê uma correção apropriada quando ele não fizer o que foi ensinado. A chave é encontrar o equilíbrio certo para seu cão. Não espere que seu cão simplesmente saiba disso imediatamente. A repetição do comando e da ação é crucial. Acredite no que você está fazendo e mantenha-se firme.\n\n
+        - Sempre seja consistente (isso inclui todos que moram com seu cão), torne mais fácil para seu cão. Dê a ele uma decisão simples a tomar e deixe claro para ele qual escolha é aceitável e qual é inaceitável - forneça feedback instantâneo.\n\n
+        - Nunca corrija ou puna seu cão por não fazer algo que não foi ensinado adequadamente - seja realista e justo.\n\n
+        - Faça suas sessões de treinamento curtas, objetivas e divertidas - para você e seu cão. É aqui que muitas escolas de treinamento de cães falham.\n\n
+        - Vá devagar, domine um comando fácil para começar e depois siga em frente, construindo sobre isso. Continue a desafiar e estimular mentalmente seu cão ao longo do processo de treinamento.\n\n
+        - Você é a melhor pessoa para realizar essas tarefas com seu cão. Seu cão tem que viver com você, você é seu grupo e deve ser a pessoa a quem ele olha em busca de liderança e quem ele respeita.\n\n
+        - Teste ou comprove os comandos de obediência em diferentes situações, lugares e com distrações adicionais. Incorpore o treinamento de obediência em sua rotina diária - seu cão pode executar um \'senta\' antes de você dar a comida a ele, ou um \'deita e fica\' quando você vai pegar o correio.\n\n
+        - Nunca tente corrigir seu cão se você não pegá-lo no ato de errar, o tempo da sua correção é muito importante. Uma correção tardia só confunde seu cão e não faz sentido para ele.\n\n
+        - Descubra o que motiva seu cão, isso será uma ferramenta importante em suas sessões de treinamento. Meus cães adoram queijo, petiscos de fígado e uma bola para jogar.\n\n
+        - Trabalhe com os instintos e drives naturais de seu cão - isso é explicado mais adiante nos artigos abaixo.\n\n
+</string>
+
+    <!--ARTIGO SOBRE LATIDOS-->
+    <string name="barking_text">Latidos</string>
+    <string name="barking_text_article"> Descobrir como parar o seu cachorro de latir pode ser uma tarefa difícil e demorada. Os cães adoram latir. É uma coisa perfeitamente natural para o seu cachorro fazer, assim como é normal para nós, humanos, falar.\n\n
+- É quando nossos cães latem excessivamente que isso se torna um problema para todos os envolvidos - incluindo nossos vizinhos irritados.\n\n
+- Considerando isso, nosso objetivo realmente não é parar o latido do cachorro totalmente, mas sim controlar os latidos excessivos. Lembre-se de que há situações em que queremos que nossos cães latam (e eu acho que também há momentos em que gosto que minha tia faladora fale!;)\n\n
+- O primeiro passo para modificar o comportamento de um latidor excessivo é determinar a razão pela qual o cachorro está latindo em primeiro lugar. Uma vez que você tenha identificado essa causa ou gatilho, poderá planejar a solução de treinamento correta.\n\n
+Por que os cães latem? Pare seu cachorro de latir agora! - Para expressar suas necessidades (sendo autoritário).\n\n
+- Alguns cães foram criados para latir (alguns terriers e hounds). pare os latidos dos cães\n\n
+- Eles estão marcando seu território.\n\n
+- Para alertar outros membros de seu grupo (que é você e sua família) sobre um perigo iminente.\n\n
+- Ao brincar, apenas por pura excitação - esse é um tipo muito comum de latido de filhote.\n\n
+- Latindo para outros animais. Dependendo de onde você está no mundo, pode ser esquilos ou gambás (eu estou na Austrália - meus cães ficam loucos com gambás).\n\n
+- Se estiverem isolados.\n\n
+- Alguns cães latem excessivamente quando estão separados de seu grupo (você e sua família).\n\n
+- Se estiverem presos atrás de algum tipo de barreira, como uma cerca ou janela.\n\n
+- Apenas por diversão!\n\n
+- Para expressar dominância (filhotes normalmente testam você em algum momento com uma exibição de latido de dominância).\n\n
+- Eles latem porque seus donos, inadvertidamente, recompensaram latidos excessivos no passado (isso é crucial para entender).\n\n
+- Por tédio ou falta de estímulo físico e mental.\n\n
+- Podem se sentir estressados ou desconfortáveis por algum motivo. Coisas como se sentir ameaçado ou se não tiver um lugar apropriado para dormir podem causar problemas de latidos excessivos.\n\n
+- Cães que não foram devidamente socializados muitas vezes se tornam latidores incômodos.\n\n
+- Podem estar procurando uma resposta ou alguma atenção de seu grupo.\n\n
+- Outra coisa a ter em mente é que, mesmo que possa parecer para você que seu cachorro está latindo para nada, isso não é necessariamente o caso. Isso se deve ao fato de que seu cachorro tem um sentido de audição, olfato e visão muito mais aguçado do que nós, humanos. O latido excessivo do seu cachorro está provavelmente sendo desencadeado por algo.\n\n
+Cachorro late quando você não está em casa - Não vou fingir que esse tipo de latido será fácil para você controlar, porque na realidade é muitas vezes um processo difícil e demorado.\n\n
+- Lembre-se sempre de que os cães são criaturas sociais; quando estão separados de seu grupo (você), podem se sentir estressados, vulneráveis e frustrados. Esse tipo de latido excessivo é frequentemente causado por ansiedade de separação.\n\n
+- Primeiramente, eu diria para você apenas usar o bom senso e acertar essas noções básicas de posse de cães. Mantenha seu cachorro bem exercitado (fisicamente e mentalmente) e forneça água fresca, brinquedos para mastigar e um lugar confortável para dormir. Você também pode tentar bloquear a visão do seu cachorro da rua e outras distrações/gatilhos. Basicamente, certifique-se de que seu cachorro está feliz.\n\n
+- Se você sabe que seu cachorro tem latido enquanto você estava fora, deve ignorá-lo por um tempo quando voltar para casa. Eu entendo que isso é difícil para muitos donos, mas caso contrário, seu cachorro acredita que seu latido é a razão pela qual você voltou para casa. Apenas vá cuidar de seus afazeres por um tempo quando chegar em casa, ignorando seu cachorro. Quando seu cachorro se acalmar, você inicia o contato com ele. Observe que esse método se aplica a cães que estavam latindo no momento em que você chegou em casa.\n\n
+Você deve transmitir uma mensagem clara e consistente ao seu cachorro em todos os momentos - Essa próxima técnica leva tempo e paciência, mas pode ser uma maneira muito eficaz de parar seu cachorro de latir. É baseada naquela regra importante aplicável a todas as situações de treinamento de cães. Elogie ou recompense quando seu cachorro faz algo que você deseja encorajar e crie uma associação negativa quando ele faz algo que você não gosta.\n\n
+- Saia de casa como normalmente faria, mas apenas se esconda em algum lugar próximo. Quando seu cachorro começar a latir, borrife água nele ou jogue uma lata cheia de moedas ou pedras em sua direção (essa é a associação negativa). Tente se manter fora da vista do seu cachorro enquanto faz isso, se possível. Vá se esconder novamente; se ele ficar quieto por um tempo, entre e recompense seu bom comportamento com um elogio e talvez um petisco. Esse processo pode precisar ser repetido várias vezes até que você tenha quebrado o hábito de latir excessivamente.\n\n
+- As técnicas acima se mostraram bem-sucedidas com meus próprios cães, mas se não funcionarem para você, talvez você possa tentar um colar anti-latido de citronela. Novamente, esse método usa o poder da associação negativa. Cada vez que seu cachorro late, um fino spray de citronela é borrifado no ar. A maioria dos cães odeia o cheiro, e logo percebe que, se não latir, o cheiro não está lá para incomodá-los. *Se você tem mais de um cachorro, esse método não é realmente uma solução adequada. Eu sempre defendo um treinamento adequado antes de considerar uma opção como um colar anti-latido de citronela.\n\n
+Cachorro late por atenção ou para exigir algo - Esse é um problema de latido excessivo que pode ser corrigido muito rapidamente. - Se você se estabelecer como o líder do seu cachorro na relação dono-cachorro que compartilha, esse tipo de problema de latido não ocorrerá. No processo de treinamento, você também formará um forte vínculo baseado em confiança e respeito mútuo. Para aprender a melhor maneira de treinar seu cachorro para obedecer.\n\n
+- Você também pode ensinar seu cachorro o comando \'Pare\' ou \'Quieto\' para ajudar a evitar esse tipo de problema de latido irritante. Quando seu cachorro estiver latindo, basta dizer "QUIETO!" ao mesmo tempo em que acena um petisco saboroso na frente do nariz do seu cachorro. Depois que seu cachorro ficar quieto por alguns segundos, você pode dar o petisco a ele/ela. Eventualmente, você só precisará dizer "QUIETO!", sem a necessidade de um petisco.\n\n
+</string>
+
+    <!--ARTIGOS-->
+    <string name="first_article">Meu Cachorrinho Chora Quando Eu Deixo Ele / Ela Sozinho(a)</string>
+    <string name="first_article_description"> Quando você sai do quarto/casa, seu cachorrinho começa a chorar, latir e arranhar a porta. Soa familiar? Não se preocupe, aqui está o que você precisa fazer:\n\n
+    Passo 1: Saia do quarto/casa e afaste-se da porta.\n\n
+    Passo 2: Volte depois de 2 minutos e não se comunique com seu cachorrinho. (Não chame, elogie ou olhe para seu cachorrinho - apenas finja que esqueceu algo.)\n\n
+    Passo 3: Passe de 10 a 15 segundos dentro e saia do quarto/casa novamente.\n\n
+    Passo 4: Espere mais tempo fora toda vez que você sair (por exemplo, 5/15/30 minutos) do quarto/casa e repita os passos. Depois de um tempo, seu cachorrinho entenderá que você não vai deixá-lo sozinho(a).\n\n
+    P.S: Você precisa ter paciência para que seu cachorrinho pare de chorar mais rapidamente.\n\n</string>
+
+    <string name="second_article">Meu Cachorro Está Raspando</string>
+    <string name="second_article_description"> O hábito dele de roer as coisas acontece por várias razões. Para a solução, precisamos apenas de algo leve e barulhento. Por exemplo, um chaveiro pode servir. Ele pode estar com medo ou mostrar agressão ao ver outro item. Não se preocupe, este item não deve assustar seu cachorro, apenas surpreendê-lo. As etapas que você precisa seguir são as seguintes:\n\n
+    - Quando seu cachorro estiver arranhando ou roendo, fique atrás ou ao lado dele.\n\n
+    - Pegue o chaveiro na sua mão e jogue gentilmente em direção aos pés dele. (Não queremos que seu cachorro se machuque também. O importante aqui é dar um leve toque nos pés e fazer barulho.)\n\n
+    - Não faça contato visual com seu cachorro após jogar a chave. (Você pode olhar para o teto.) Isso porque seu cachorro não deve saber de perguntas como de onde veio, quem jogou a chave, o que é isso.\n\n
+    - Após algumas repetições, seu cachorro desistirá desse comportamento quando você aplicar esse método sem machucá-lo(a).\n\n</string>
+
+    <string name="third_article">Meu Filhote Chora</string>
+    <string name="third_article_description"> Filhotes geralmente choram porque não estão com suas mamães. Se esse for o caso, não há muito o que você possa fazer, mas você pode tentar cobrir seu filhote com um cobertor.\n\n
+    (O cobertor manterá seu filhote aquecido e fará com que ele(a) se sinta como se estivesse com a mamãe.)</string>
+
+    <string name="fourth_article">Meu Cachorrinho Chora Se Eu Fechar a Porta à Noite</string>
+    <string name="fourth_article_description"> Se você não dormir no mesmo quarto que seu cachorrinho e fechar a porta à noite, ele(a) pode chorar, latir ou arranhar a porta/almofadas. Aqui está o que você precisa fazer:\n\n - Seja firme e ignore seu cachorrinho. Mesmo que você faça uma exceção uma vez, ele(a) pensará que você abrirá a porta sempre que ele(a) se comportar dessa maneira.\n\n
+    Você pode deixar uma de suas roupas no quarto onde seu cachorrinho dorme para que ele(a) possa sentir seu cheiro e ficar menos ansioso(a).\n\n
+    P.S: Você deve deixar seu cachorrinho entrar apenas quando ele(a) estiver calmo(a) e bem-comportado(a).</string>
+
+</resources>

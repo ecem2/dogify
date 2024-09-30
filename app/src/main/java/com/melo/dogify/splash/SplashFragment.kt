@@ -1,7 +1,6 @@
 package com.melo.dogify.splash
 
 
-import android.util.Log
 import com.melo.dogify.R
 import com.melo.dogify.core.fragments.BaseFragment
 import com.melo.dogify.databinding.FragmentSplashBinding

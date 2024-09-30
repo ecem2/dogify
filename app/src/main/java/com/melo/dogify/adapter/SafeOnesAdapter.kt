@@ -4,24 +4,16 @@ package com.melo.dogify.adapter
 import android.content.Context
 import android.view.LayoutInflater
 import android.view.ViewGroup
-import androidx.core.content.ContextCompat
-import androidx.databinding.DataBindingUtil
-import androidx.databinding.ViewDataBinding
 import androidx.recyclerview.widget.DiffUtil
 import androidx.recyclerview.widget.ListAdapter
 import androidx.recyclerview.widget.RecyclerView
-import com.melo.dogify.R
-import com.melo.dogify.databinding.ItemFoodBinding
-import com.melo.dogify.databinding.ItemListBinding
 import com.melo.dogify.databinding.ItemSafeOnesBinding
-import com.melo.dogify.model.CardModel
 import com.melo.dogify.model.FoodModel
-import com.melo.dogify.viewmodel.SoundsViewModel
 
 
 class SafeOnesAdapter(
     private val context: Context,
-    private val itemClickListener: ItemClickListener
+    private val itemClickListener: ItemClickListener,
 ) : ListAdapter<FoodModel, SafeOnesAdapter.SafeOnesViewHolder>(DiffCallback()) {
 
     interface ItemClickListener {

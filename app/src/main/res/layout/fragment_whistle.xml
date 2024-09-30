@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <layout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     tools:context=".fragment.WhistleFragment">
 
     <androidx.constraintlayout.widget.ConstraintLayout
@@ -12,37 +12,38 @@
             android:id="@+id/dogi_whistle"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:textSize="36sp"
-            android:textAllCaps="false"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            android:layout_marginTop="28dp"
+            android:layout_marginTop="30dp"
             android:fontFamily="@font/tt_firs_neue_trial_black"
+            android:text="@string/dog_whistle"
+            android:textAllCaps="false"
             android:textColor="@color/black"
-            android:text="Dog Whistle" />
+            android:textSize="36sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
         <androidx.constraintlayout.widget.ConstraintLayout
             android:id="@+id/cl_seekbar"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            app:layout_constraintTop_toBottomOf="@+id/dogi_whistle"
-            app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginTop="35dp"
             app:layout_constraintEnd_toEndOf="parent"
-            android:layout_marginTop="35dp">
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/dogi_whistle">
 
-        <androidx.appcompat.widget.AppCompatSeekBar
-            android:id="@+id/seekBar"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:background="@null"
-            android:progressDrawable="@drawable/custom_seekbar"
-            android:thumb="@drawable/ic_whistle_seekbar"
-            android:splitTrack="false"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            android:layout_marginHorizontal="28dp" />
+            <androidx.appcompat.widget.AppCompatSeekBar
+                android:id="@+id/seekBar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="28dp"
+                android:background="@null"
+                android:progressDrawable="@drawable/custom_seekbar"
+                android:splitTrack="false"
+                android:thumb="@drawable/ic_whistle_seekbar"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
 
         </androidx.constraintlayout.widget.ConstraintLayout>
 
@@ -50,33 +51,35 @@
             android:id="@+id/text_whistle"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/cl_seekbar"
-            android:text="10000 Hz"
+            android:layout_marginTop="26dp"
             android:fontFamily="@font/tt_firs_neue_trial_demibold"
-            android:textSize="36sp"
+            android:text="@string/hz"
             android:textColor="@color/black"
-            android:layout_marginTop="22dp"/>
+            android:textSize="36sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/cl_seekbar" />
+
         <androidx.appcompat.widget.AppCompatImageView
             android:id="@+id/whistle"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/text_whistle"
+            android:layout_marginTop="40dp"
             android:src="@drawable/whistle"
             android:visibility="visible"
-            android:layout_marginTop="40dp"/>
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/text_whistle" />
+
         <androidx.appcompat.widget.AppCompatImageView
             android:id="@+id/play_whistle"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/text_whistle"
-            android:visibility="gone"
+            android:layout_marginTop="40dp"
             android:src="@drawable/play_whistle"
-            android:layout_marginTop="40dp"/>
+            android:visibility="gone"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/text_whistle" />
     </androidx.constraintlayout.widget.ConstraintLayout>
 </layout>

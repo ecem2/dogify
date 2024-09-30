@@ -16,7 +16,7 @@ abstract class SoundsVmDbFragment<VM : DogBaseViewModel, DB : ViewDataBinding> :
     override fun onCreateView(
         inflater: LayoutInflater,
         container: ViewGroup?,
-        savedInstanceState: Bundle?
+        savedInstanceState: Bundle?,
     ): View? {
         viewBinding = DataBindingUtil.inflate(inflater, getResourceLayoutId(), container, false)
         viewBinding.lifecycleOwner = viewLifecycleOwner

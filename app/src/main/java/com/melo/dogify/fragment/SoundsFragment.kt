@@ -3,6 +3,8 @@ package com.melo.dogify.fragment
 
 import android.content.Context
 import android.media.MediaPlayer
+import android.os.Handler
+import android.os.Looper
 import android.util.Log
 import androidx.navigation.fragment.findNavController
 import androidx.recyclerview.widget.GridLayoutManager
@@ -26,15 +28,10 @@ import java.util.TimerTask
 
 @AndroidEntryPoint
 
-class SoundsFragment : BaseFragment<SoundsViewModel, FragmentSoundsBinding>(),
-    SoundsAdapter.ItemClickListener {
+class SoundsFragment : BaseFragment<SoundsViewModel, FragmentSoundsBinding>(), SoundsAdapter.ItemClickListener {
 
     private val soundsAdapter: SoundsAdapter by lazy {
-        SoundsAdapter(
-            requireContext(),
-            this@SoundsFragment
-
-        )
+        SoundsAdapter(requireContext(), this@SoundsFragment)
     }
 
     private var selectedCard: CardModel? = null
@@ -42,14 +39,12 @@ class SoundsFragment : BaseFragment<SoundsViewModel, FragmentSoundsBinding>(),
     private var mediaPlayer: MediaPlayer? = null
     private var mInterstitialAd: InterstitialAd? = null
 
-
     override fun viewModelClass() = SoundsViewModel::class.java
-
     override fun getResourceLayoutId() = R.layout.fragment_sounds
 
     override fun onInitDataBinding() {
         setupCardStyle()
-
+        soundsAdapter.submitList(viewModel.cardList)
     }
 
     private fun setupCardStyle() {
@@ -60,12 +55,10 @@ class SoundsFragment : BaseFragment<SoundsViewModel, FragmentSoundsBinding>(),
         }
 
         viewModel.cardList.forEach { card ->
-            card.isPremium = hasAccessToSound(card.mp3Title)
-            card.premiumPhoto = when {
-                card.isPremium -> R.drawable.ic_free
-                card.premiumPhoto == R.drawable.ic_premium -> R.drawable.ic_premium
-                card.premiumPhoto == R.drawable.ic_free -> R.drawable.ic_free
-                else -> R.drawable.ic_advert
+            card.isPremium = when {
+                card.premiumPhoto == R.drawable.ic_free -> true
+                hasAccessToSound(card.mp3Title) -> true // Süresi dolmamışsa premium olarak kabul et
+                else -> false // Diğer durumlar için premium değil
             }
         }
 
@@ -74,77 +67,40 @@ class SoundsFragment : BaseFragment<SoundsViewModel, FragmentSoundsBinding>(),
 
     private fun loadInterAd() {
         val adRequest = AdRequest.Builder().build()
-        InterstitialAd.load(
-            requireContext(),
-            INTERSTITIAL_ID,
-            adRequest,
-            object : InterstitialAdLoadCallback() {
-                override fun onAdFailedToLoad(adError: LoadAdError) {
-                    Log.d("AdMob", "Ad failed to load: ${adError.message}")
-                    mInterstitialAd = null
-                }
-
-                override fun onAdLoaded(interstitialAd: InterstitialAd) {
-                    Log.d("AdMob", "Ad loaded successfully.")
-                    mInterstitialAd = interstitialAd
-                    showVideoAd {
-                        selectedCard?.let { card ->
-                            allowSoundFor24Hours(card.mp3Title)
-                        }
-                    }
-                }
+        InterstitialAd.load(requireContext(), INTERSTITIAL_ID, adRequest, object : InterstitialAdLoadCallback() {
+            override fun onAdFailedToLoad(adError: LoadAdError) {
+                mInterstitialAd = null
             }
-        )
+
+            override fun onAdLoaded(interstitialAd: InterstitialAd) {
+                mInterstitialAd = interstitialAd
+            }
+        })
     }
 
     private fun showVideoAd(onAdCompleted: () -> Unit) {
-        if (mInterstitialAd != null) {
-            mInterstitialAd?.fullScreenContentCallback = object : FullScreenContentCallback() {
-                override fun onAdDismissedFullScreenContent() {
-                    Log.d("AdMob", "Ad was dismissed.")
-                    onAdCompleted()
-                }
-
-                override fun onAdFailedToShowFullScreenContent(p0: AdError) {
-                    Log.d("AdMob", "Ad failed to show.")
-                    mInterstitialAd = null
-                }
-
-                override fun onAdShowedFullScreenContent() {
-                    Log.d("AdMob", "Ad showed fullscreen content.")
-                    mInterstitialAd = null
-                }
-            }
-            mInterstitialAd?.show(requireActivity())
-        } else {
-            Log.d("AdMob", "The interstitial ad wasn't ready yet.")
-        }
-    }
-
-    private fun handleCardClick(card: CardModel) {
-        when (card.premiumPhoto) {
-            R.drawable.ic_advert -> {
-                if (!hasAccessToSound(card.mp3Title)) {
-                    showAdForSound(card)
-                } else {
-                    playSound(card.mp3Title)
-                }
+        mInterstitialAd?.fullScreenContentCallback = object : FullScreenContentCallback() {
+            override fun onAdDismissedFullScreenContent() {
+                onAdCompleted()
+                mInterstitialAd = null
+                loadInterAd()
             }
 
-            R.drawable.ic_premium -> {
-                navigateToSubscriptionScreen()
+            override fun onAdFailedToShowFullScreenContent(adError: AdError) {
+                mInterstitialAd = null
+                loadInterAd()
             }
 
-            else -> {
-                playSound(card.mp3Title)
+            override fun onAdShowedFullScreenContent() {
+                mInterstitialAd = null
             }
         }
+        mInterstitialAd?.show(requireActivity())
     }
 
     private fun hasAccessToSound(mp3Title: Int): Boolean {
         val currentTime = System.currentTimeMillis()
-        val sharedPreferences =
-            requireContext().getSharedPreferences("sound_prefs", Context.MODE_PRIVATE)
+        val sharedPreferences = requireContext().getSharedPreferences("sound_prefs", Context.MODE_PRIVATE)
         val expirationTime = sharedPreferences.getLong("sound_$mp3Title", 0)
         return currentTime <= expirationTime
     }
@@ -165,85 +121,70 @@ class SoundsFragment : BaseFragment<SoundsViewModel, FragmentSoundsBinding>(),
         saveExpirationTimeForSound(mp3Title, expirationTime)
 
         val card = viewModel.cardList.find { it.mp3Title == mp3Title }
-        card?.let {
-            it.isPremium = true
-            it.premiumPhoto = R.drawable.ic_free
+        card?.apply {
+            isPremium = true
+            premiumPhoto = R.drawable.ic_free
         }
         soundsAdapter.notifyDataSetChanged()
 
-        playSound(mp3Title)
-
-        Timer().schedule(object : TimerTask() {
-            override fun run() {
-                requireActivity().runOnUiThread {
-                    card?.let {
-                        it.isPremium = false
-                        it.premiumPhoto = R.drawable.ic_advert
-                    }
-                    soundsAdapter.notifyDataSetChanged()
-                }
+        Handler(Looper.getMainLooper()).postDelayed({
+            card?.apply {
+                isPremium = false
+                premiumPhoto = R.drawable.ic_advert
             }
+            soundsAdapter.notifyDataSetChanged()
         }, 24 * 60 * 60 * 1000)
     }
 
-
     private fun saveExpirationTimeForSound(mp3Title: Int, expirationTime: Long) {
-        val sharedPreferences =
-            requireContext().getSharedPreferences("sound_prefs", Context.MODE_PRIVATE)
+        val sharedPreferences = requireContext().getSharedPreferences("sound_prefs", Context.MODE_PRIVATE)
         sharedPreferences.edit().putLong("sound_$mp3Title", expirationTime).apply()
-    }
-
-
-    override fun onResume() {
-        super.onResume()
-        soundsAdapter.notifyDataSetChanged()
     }
 
     private fun playSound(mp3Title: Int) {
         val card = viewModel.cardList.find { it.mp3Title == mp3Title }
-        if (card != null) {
-            if (hasAccessToSound(mp3Title)) {
-                mediaPlayer?.let {
-                    if (it.isPlaying) {
-                        it.stop()
-                    }
-                    it.release()
+        card?.let {
+            // Sadece sesi çal
+            mediaPlayer?.apply {
+                if (isPlaying) {
+                    stop()
                 }
-
-                mediaPlayer = MediaPlayer.create(requireContext(), mp3Title)
-                mediaPlayer?.start()
-            } else {
-                card.isPremium = false
-                card.premiumPhoto = R.drawable.ic_advert
-                soundsAdapter.notifyDataSetChanged()
+                release()
             }
+
+            mediaPlayer = MediaPlayer.create(requireContext(), mp3Title)
+            mediaPlayer?.start()
         }
     }
-
 
     private fun navigateToSubscriptionScreen() {
         findNavController().navigate(R.id.action_soundsFragment_to_premiumScreenPurchaseFragment)
     }
 
     override fun onItemClick(item: CardModel) {
-        val previousPosition = selectedItemPosition
         selectedItemPosition = viewModel.cardList.indexOf(item)
         selectedCard = item
-
-        soundsAdapter.notifyItemChanged(previousPosition)
         soundsAdapter.notifyItemChanged(selectedItemPosition)
 
-        handleCardClick(item)
+        when {
+            item.isPremium -> playSound(item.mp3Title)
+            item.premiumPhoto == R.drawable.ic_advert -> showAdForSound(item)
+            item.premiumPhoto == R.drawable.ic_free -> {
+                // Eğer kart zaten free ise, sadece sesi çal
+                playSound(item.mp3Title)
+            }
+            item.premiumPhoto == R.drawable.ic_premium -> navigateToSubscriptionScreen()
+        }
     }
-
 
     override fun onDestroyView() {
         super.onDestroyView()
         mediaPlayer?.release()
         mediaPlayer = null
     }
-
 }
+
+
 //class SoundsFragment : BaseFragment<SoundsViewModel, FragmentSoundsBinding>(),
 //    SoundsAdapter.ItemClickListener {
 //

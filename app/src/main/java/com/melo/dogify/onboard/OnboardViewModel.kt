@@ -3,7 +3,6 @@ package com.melo.dogify.onboard
 import androidx.lifecycle.viewModelScope
 import com.melo.dogify.core.viewmodel.BaseViewModel
 import com.melo.dogify.preferences.Preferences
-import com.melo.dogify.viewmodel.DogBaseViewModel
 import dagger.hilt.android.lifecycle.HiltViewModel
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
@@ -15,9 +14,9 @@ class OnboardViewModel @Inject constructor(
 ): BaseViewModel() {
 
     fun saveOnBoardingState() {
-       // viewModelScope.launch(Dispatchers.IO) {
+        viewModelScope.launch(Dispatchers.IO) {
             preferences.setFirstLaunch(false)
-       //z }
+        }
     }
 
 }

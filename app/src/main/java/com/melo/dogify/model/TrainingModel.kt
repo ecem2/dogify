@@ -6,7 +6,7 @@ import kotlinx.parcelize.Parcelize
 @Parcelize
 data class TrainingModel(
     val image: Int,
-    val textTitle: String,
-    val text: String
+    val textTitle: Int,
+    val text: Int
 ) : Parcelable
 

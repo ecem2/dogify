@@ -1,6 +1,5 @@
 package com.melo.dogify
 
-import android.content.res.Resources
 import android.media.MediaPlayer
 import android.os.Bundle
 import android.util.Log
@@ -30,25 +29,26 @@ class DogFragment : Fragment() {
                 playSound(soundResId)
             }
         }
+        binding.dogBack.setOnClickListener {
+            parentFragmentManager.popBackStack()
+        }
     }
 
     private fun playRandomDogSound() {
-        // raw klasöründen tüm ses dosyalarını almak için refleksiyon kullanıyoruz
         val rawFields = R.raw::class.java.fields
         val soundResIds = rawFields.mapNotNull { field ->
             try {
-                field.getInt(null) // raw dosyasındaki kaynak id'lerini alıyoruz
+                field.getInt(null)
             } catch (e: Exception) {
                 Log.e("DogFragment", "Error getting resource id", e)
                 null
             }
         }
 
-        // Rastgele bir ses dosyasını seçip çalıyoruz
         val randomSoundIndex = Random.nextInt(soundResIds.size)
         val soundResId = soundResIds[randomSoundIndex]
 
-        lastPlayedSoundResId = soundResId // En son oynatılan ses kaynağını saklıyoruz
+        lastPlayedSoundResId = soundResId
         playSound(soundResId)
     }
 

@@ -3,21 +3,16 @@ package com.melo.dogify.adapter
 import android.content.Context
 import android.view.LayoutInflater
 import android.view.ViewGroup
-import androidx.core.content.ContextCompat
-import androidx.databinding.DataBindingUtil
-import androidx.databinding.ViewDataBinding
 import androidx.recyclerview.widget.DiffUtil
 import androidx.recyclerview.widget.ListAdapter
 import androidx.recyclerview.widget.RecyclerView
-import com.melo.dogify.R
 import com.melo.dogify.databinding.ItemListBinding
 import com.melo.dogify.model.CardModel
-import com.melo.dogify.viewmodel.SoundsViewModel
 
 
 class SoundsAdapter(
     private val context: Context,
-    private val itemClickListener: ItemClickListener
+    private val itemClickListener: ItemClickListener,
 ) : ListAdapter<CardModel, SoundsAdapter.SoundsViewHolder>(DiffCallback()) {
 
     interface ItemClickListener {

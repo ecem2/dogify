@@ -3,12 +3,14 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     tools:context=".onboard.OnboardFragment">
+
     <data>
 
         <variable
             name="viewModel"
             type="com.melo.dogify.onboard.OnboardViewModel" />
     </data>
+
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent">
@@ -28,12 +30,12 @@
             android:id="@+id/text_one"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginHorizontal="34dp"
             android:fontFamily="@font/tt_firs_neue_trial_demibold"
             android:gravity="center"
             android:padding="4dp"
+            android:text="@string/onboard_second_title"
             android:textColor="@color/black"
-            android:layout_marginHorizontal="34dp"
-            android:text="Understand the feelings of your dog."
             android:textSize="30sp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
@@ -41,13 +43,14 @@
 
         <androidx.appcompat.widget.AppCompatTextView
             android:id="@+id/text_two"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginHorizontal="26dp"
             android:fontFamily="@font/tt_firs_neue_trial_regular"
             android:gravity="center"
             android:padding="4dp"
+            android:text="@string/onboard_second_description"
             android:textColor="#171717"
-            android:text="Do you want to know \n what the dog is thinking?"
             android:textSize="18sp"
             app:layout_constraintBottom_toTopOf="@+id/img_btn"
             app:layout_constraintEnd_toEndOf="parent"
@@ -58,8 +61,8 @@
             android:id="@+id/img_btn"
             android:layout_width="140dp"
             android:layout_height="140dp"
-            android:padding="6dp"
             android:layout_marginBottom="45dp"
+            android:padding="6dp"
             android:src="@drawable/onboard_two_btn"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
@@ -71,10 +74,10 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:fontFamily="@font/tt_firs_neue_trial_demibold"
-            android:text="Next"
+            android:padding="4dp"
+            android:text="@string/next"
             android:textColor="@color/white"
             android:textSize="22sp"
-            android:padding="4dp"
             app:layout_constraintBottom_toBottomOf="@+id/img_btn"
             app:layout_constraintEnd_toEndOf="@+id/img_btn"
             app:layout_constraintStart_toStartOf="@+id/img_btn"

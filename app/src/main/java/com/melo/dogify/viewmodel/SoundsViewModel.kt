@@ -56,47 +56,44 @@ class SoundsViewModel @Inject constructor(
         getFoodHarmfulList()
         getFoodCarefulList()
     }
+
     private fun getTrainingList() {
         _trainingList.add(
             TrainingModel(
                 image = R.drawable.training_one,
-                textTitle = "Food",
-                text = "When you make food at home for your dog, you are ensured that your dog is eating food tat meets your standards."
+                textTitle = R.string.food,
+                text = R.string.food_description
             )
         )
         _trainingList.add(
             TrainingModel(
                 image = R.drawable.training_two,
-                textTitle = "Articles",
-                text = "Make sure you give your dog lot’s of attention when she/he’s doing the right thing."
+                textTitle = R.string.articles,
+                text = R.string.article_description
             )
         )
         _trainingList.add(
             TrainingModel(
                 image = R.drawable.training_three,
-                textTitle = "Biting",
-                text = "Puppy biting or nipping starts out as a bit of fun, but needs to be controllled quickly to avoid ongoing problems."
+                textTitle = R.string.biting,
+                text = R.string.biting_description
             )
         )
         _trainingList.add(
             TrainingModel(
                 image = R.drawable.training_four,
-                textTitle = "Obidence",
-                text = "Propper dog obedience tarining Should accomplish opens up a clear line of.",
+                textTitle = R.string.obidence,
+                text = R.string.obidence_description,
             )
         )
         _trainingList.add(
             TrainingModel(
                 image = R.drawable.training_five,
-                textTitle = "Barking",
-                text = "Propper dog obedience tarining Should accomplish opens up a clear line of.",
+                textTitle = R.string.barking,
+                text = R.string.barking_description,
             )
         )
 
-    }
-
-    class FoodViewModel : ViewModel() {
-        var selectedText: String? = null
     }
 
     private fun getCardList() {
@@ -104,7 +101,7 @@ class SoundsViewModel @Inject constructor(
             CardModel(
                 image = R.drawable.dog_first,
                 premiumPhoto = R.drawable.ic_advert,
-                text = "Anxious",
+                text = R.string.anxious,
                 mp3Title = R.raw.sound_anxious_dog,
                 isPremium = false
             )
@@ -113,7 +110,7 @@ class SoundsViewModel @Inject constructor(
             CardModel(
                 image = R.drawable.second_dog,
                 premiumPhoto = R.drawable.ic_free,
-                text = "Call",
+                text = R.string.call,
                 mp3Title = R.raw.sound_call_dog,
                 isPremium = true
             )
@@ -122,7 +119,7 @@ class SoundsViewModel @Inject constructor(
             CardModel(
                 image = R.drawable.third_dog,
                 premiumPhoto = R.drawable.ic_advert,
-                text = "Cold",
+                text = R.string.cold,
                 mp3Title = R.raw.sound_cold_dog,
                 isPremium = false
             )
@@ -131,7 +128,7 @@ class SoundsViewModel @Inject constructor(
             CardModel(
                 image = R.drawable.fourth_dog,
                 premiumPhoto = R.drawable.ic_premium,
-                text = "Come here",
+                text = R.string.come_here,
                 mp3Title = R.raw.sound_come_here_dog,
                 isPremium = false
             )
@@ -140,7 +137,7 @@ class SoundsViewModel @Inject constructor(
             CardModel(
                 image = R.drawable.fifth_dog,
                 premiumPhoto = R.drawable.ic_premium,
-                text = "Comfortable",
+                text = R.string.comfortable,
                 mp3Title = R.raw.sound_comfortable_dog,
                 isPremium = false
             )
@@ -149,7 +146,7 @@ class SoundsViewModel @Inject constructor(
             CardModel(
                 image = R.drawable.sixth_dog,
                 premiumPhoto = R.drawable.ic_advert,
-                text = "Feeding",
+                text = R.string.feeding,
                 mp3Title = R.raw.sound_feeding_dog,
                 isPremium = false
             )
@@ -158,7 +155,7 @@ class SoundsViewModel @Inject constructor(
             CardModel(
                 image = R.drawable.seventh_dog,
                 premiumPhoto = R.drawable.ic_free,
-                text = "Happy",
+                text = R.string.happy,
                 mp3Title = R.raw.sound_happy_dog,
                 isPremium = true
             )
@@ -167,7 +164,7 @@ class SoundsViewModel @Inject constructor(
             CardModel(
                 image = R.drawable.eighth_dog,
                 premiumPhoto = R.drawable.ic_premium,
-                text = "Hug",
+                text = R.string.hug,
                 mp3Title = R.raw.sound_hug_dog,
                 isPremium = false
             )
@@ -176,7 +173,7 @@ class SoundsViewModel @Inject constructor(
             CardModel(
                 image = R.drawable.ninth_dog,
                 premiumPhoto = R.drawable.ic_advert,
-                text = "Hot",
+                text = R.string.hot,
                 mp3Title = R.raw.sound_hot_dog,
                 isPremium = false
             )
@@ -185,7 +182,7 @@ class SoundsViewModel @Inject constructor(
             CardModel(
                 image = R.drawable.tenth_dog,
                 premiumPhoto = R.drawable.ic_advert,
-                text = "Hungry",
+                text = R.string.hungry,
                 mp3Title = R.raw.sound_hungry_dog,
                 isPremium = false
             )
@@ -194,17 +191,16 @@ class SoundsViewModel @Inject constructor(
             CardModel(
                 image = R.drawable.eleventh_dog,
                 premiumPhoto = R.drawable.ic_premium,
-                text = "Joyful",
+                text = R.string.joyful,
                 mp3Title = R.raw.sound_joyful_dog,
                 isPremium = false
             )
         )
-
         _cardList.add(
             CardModel(
                 image = R.drawable.twelfth_dog,
                 premiumPhoto = R.drawable.ic_premium,
-                text = "Love",
+                text = R.string.love,
                 mp3Title = R.raw.sound_lovely_dog,
                 isPremium = false
             )
@@ -213,7 +209,7 @@ class SoundsViewModel @Inject constructor(
             CardModel(
                 image = R.drawable.thirteenth_dog,
                 premiumPhoto = R.drawable.ic_premium,
-                text = "Know",
+                text = R.string.know,
                 mp3Title = R.raw.sound_know_me_dog,
                 isPremium = false
             )
@@ -222,7 +218,7 @@ class SoundsViewModel @Inject constructor(
             CardModel(
                 image = R.drawable.fourteenth_dog,
                 premiumPhoto = R.drawable.ic_advert,
-                text = "Playful",
+                text = R.string.playful,
                 mp3Title = R.raw.sound_lets_play_dog,
                 isPremium = false
             )
@@ -231,7 +227,7 @@ class SoundsViewModel @Inject constructor(
             CardModel(
                 image = R.drawable.fifteenth_dog,
                 premiumPhoto = R.drawable.ic_advert,
-                text = "Surprised",
+                text = R.string.surprised,
                 mp3Title = R.raw.sound_feeding_dog,
                 isPremium = true
             )
@@ -240,7 +236,7 @@ class SoundsViewModel @Inject constructor(
             CardModel(
                 image = R.drawable.sixteenth_dog,
                 premiumPhoto = R.drawable.ic_premium,
-                text = "Scared",
+                text = R.string.scared,
                 mp3Title = R.raw.sound_scared_dog,
                 isPremium = false
             )
@@ -249,7 +245,7 @@ class SoundsViewModel @Inject constructor(
             CardModel(
                 image = R.drawable.seventeenth_dog,
                 premiumPhoto = R.drawable.ic_premium,
-                text = "I love you",
+                text = R.string.i_love_you,
                 mp3Title = R.raw.sound_i_love_you_dog,
                 isPremium = false
             )
@@ -258,7 +254,7 @@ class SoundsViewModel @Inject constructor(
             CardModel(
                 image = R.drawable.eighteenth_dog,
                 premiumPhoto = R.drawable.ic_premium,
-                text = "No understand",
+                text = R.string.no_understand,
                 mp3Title = R.raw.sound_no_understand,
                 isPremium = false
             )
@@ -267,7 +263,7 @@ class SoundsViewModel @Inject constructor(
             CardModel(
                 image = R.drawable.nineteenth_dog,
                 premiumPhoto = R.drawable.ic_premium,
-                text = "Whining",
+                text = R.string.whining,
                 mp3Title = R.raw.sound_whining_dog,
                 isPremium = false
             )
@@ -276,7 +272,7 @@ class SoundsViewModel @Inject constructor(
             CardModel(
                 image = R.drawable.twentieth_dog,
                 premiumPhoto = R.drawable.ic_premium,
-                text = "So happy",
+                text = R.string.so_happy,
                 mp3Title = R.raw.sound_so_happy_dog,
                 isPremium = false
             )
@@ -285,7 +281,7 @@ class SoundsViewModel @Inject constructor(
             CardModel(
                 image = R.drawable.twenty_first_dog,
                 premiumPhoto = R.drawable.ic_premium,
-                text = "Uncomfortable",
+                text = R.string.uncomfortable,
                 mp3Title = R.raw.sound_uncomfortable_dog,
                 isPremium = false
             )
@@ -294,12 +290,13 @@ class SoundsViewModel @Inject constructor(
             CardModel(
                 image = R.drawable.twenty_second_dog,
                 premiumPhoto = R.drawable.ic_advert,
-                text = "Thirsty",
+                text = R.string.thirsty,
                 mp3Title = R.raw.sound_thirsty_dog,
                 isPremium = false
             )
         )
     }
+
 
     private fun getFoodCardList() {
         _foodCardList.add(
@@ -411,6 +408,7 @@ class SoundsViewModel @Inject constructor(
             )
         )
     }
+
     private fun getFoodCarefulList() {
         _carefulOnesList.add(
             FoodModel(
@@ -479,6 +477,7 @@ class SoundsViewModel @Inject constructor(
             )
         )
     }
+
     private fun getFoodHarmfulList() {
         _harmfulOnesList.add(
             FoodModel(

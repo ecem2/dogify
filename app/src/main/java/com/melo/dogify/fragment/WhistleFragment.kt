@@ -51,6 +51,7 @@ class WhistleFragment : BaseFragment<SoundsViewModel, FragmentWhistleBinding>() 
                     val currentHz = viewBinding.seekBar.progress + minHz
                     playWhistle(currentHz)
                 }
+
                 MotionEvent.ACTION_UP, MotionEvent.ACTION_CANCEL -> {
                     stopWhistle()
                 }
@@ -58,6 +59,7 @@ class WhistleFragment : BaseFragment<SoundsViewModel, FragmentWhistleBinding>() 
             true
         }
     }
+
     private fun playWhistle(hertz: Int) {
         if (isPlaying) return
 

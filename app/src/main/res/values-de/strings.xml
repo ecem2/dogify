@@ -1,0 +1,350 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Dogify</string>
+    <string name="hello_blank_fragment">Hallo leeres Fragment</string>
+    <string name="sounds">Geräusche</string>
+    <string name="translator">Übersetzer</string>
+    <string name="training">Training</string>
+    <string name="whistle">Pfeife</string>
+    <string name="article">Artikel</string>
+    <string name="read_now"><u>Jetzt lesen</u></string>
+    <string name="terms"><u>Allgemeine Geschäftsbedingungen</u></string>
+    <string name="privacy"><u>Datenschutz</u></string>
+    <string name="repeat_sound">Geräusch wiederholen</string>
+    <string name="food">Essen</string>
+    <string name="onboard_first_title">Verstehe die Gefühle deines Hundes.</string>
+    <string name="onboard_first_description">Möchtest du wissen, was der Hund denkt?</string>
+    <string name="onboard_second_title">Erforsche die Gefühle deines Hundes.</string>
+    <string name="onboard_second_description">Wäre es nicht spannend zu wissen, was in deinem Hund vorgeht?</string>
+    <string name="next">Nächster</string>
+    <string name="get_premium">Premium erhalten</string>
+    <string name="premium_yearly">Premium - Jährlich</string>
+    <string name="first_year">erstes Jahr</string>
+    <string name="upgrade_to_pro">Upgrade auf Pro</string>
+    <string name="unlimited_translation">Unbegrenzte Übersetzung</string>
+    <string name="ads_free_using">Werbefreies Nutzen.</string>
+    <string name="start_3_days_free_trial">Starte 3 Tage kostenlose Testversion</string>
+    <string name="continue_btn">Fortsetzen</string>
+    <string name="your_yearly_plan">Dein \nJahresplan</string>
+    <string name="your_weekly_plan">Dein \nWöchentlicher Plan</string>
+    <string name="USD_29">USD 29</string>
+    <string name="USD_09">USD 09</string>
+    <string name="start_weekly_free_trial">Starte wöchentliche kostenlose Testversion</string>
+    <string name="purchase">Kauf</string>
+    <string name="subscription_is_auto">Abonnement ist automatisch verlängerbar. Du kannst\n dein Abonnement jederzeit kündigen.</string>
+    <string name="rate_your_dog">Bewerte deinen Hund</string>
+    <string name="dog_translator">Hund Translator</string>
+    <string name="dog_training">Hundetraining</string>
+    <string name="record_translate">Aufnehmen \n &amp; Übersetzen</string>
+    <string name="dog_whistle">Hundepfeife</string>
+    <string name="hz">10000 Hz</string>
+    <string name="safe_ones">Sichere Lebensmittel</string>
+    <string name="harmful_ones">Schädliche Lebensmittel</string>
+    <string name="careful_with_these">Vorsicht mit diesen</string>
+    <string name="food_description">Wenn du zu Hause Futter für deinen Hund zubereitest, bist du dir sicher, dass dein Hund Futter erhält, das deinen Standards entspricht.</string>
+    <string name="articles">Artikel</string>
+    <string name="article_description">Stelle sicher, dass du deinem Hund viel Aufmerksamkeit schenkst, wenn er/sie das Richtige tut.</string>
+    <string name="biting">Beißen</string>
+    <string name="biting_description">Welpenbeißen oder Knabbern beginnt oft als Spaß, muss aber schnell kontrolliert werden, um anhaltende Probleme zu vermeiden.</string>
+    <string name="obidence">Gehorsam</string>
+    <string name="obidence_description">Beißen</string>
+    <string name="barking">Bellen</string>
+    <string name="barking_description">Richtiges Hundetraining sollte eine klare Kommunikation ermöglichen.</string>
+
+    <string name="anxious">Ängstlich</string>
+    <string name="call">Ruf</string>
+    <string name="cold">Kalt</string>
+    <string name="come_here">Komm her</string>
+    <string name="comfortable">Bequem</string>
+    <string name="feeding">Füttern</string>
+    <string name="happy">Glücklich</string>
+    <string name="hug">Umarmung</string>
+    <string name="hot">Heiß</string>
+    <string name="hungry">Hungrig</string>
+    <string name="joyful">Freudig</string>
+    <string name="love">Liebe</string>
+    <string name="know">Wissen</string>
+    <string name="playful">Verspielt</string>
+    <string name="surprised">Überrascht</string>
+    <string name="scared">Ängstlich</string>
+    <string name="i_love_you">Ich liebe dich</string>
+    <string name="no_understand">Ich verstehe nicht</string>
+    <string name="whining">Jaulen</string>
+    <string name="so_happy">So glücklich</string>
+    <string name="uncomfortable">Unbequem</string>
+    <string name="thirsty">Durstig</string>
+
+    <!--SICHERE DINGE-->
+    <string name="apple">Apfel</string>
+    <string name="apple_article">Solange die Kerne entfernt sind (um eine Cyanidvergiftung zu vermeiden), ist der Apfel sicher und gesund für Hunde. Äpfel sind eine Frucht voller Vitamine, Mineralstoffe, Antioxidantien und Ballaststoffe. Sie sind auch ein großartiger Snack für Hunde. Allerdings enthalten sie viel Zucker wie Bananen, also achte auf Gewichtszunahme. Bitte schneide ihn in kleine Stücke, um Ersticken zu vermeiden.</string>
+
+    <string name="banana">Banane</string>
+    <string name="banana_article">Bananen sind sicher und gesund für Hunde. Sie sind reich an Kalium, was gut für Nieren und Herz ist. Aber sie enthalten auch viele Kohlenhydrate und Zucker, also achte auf Gewichtszunahme. Obwohl es wissenschaftlich nicht bewiesen ist, wird gesagt, dass Bananen bei Übelkeit bei Hunden helfen. Bitte schneide sie in kleine Scheiben, um Ersticken zu vermeiden.</string>
+
+    <string name="beet">Rübe</string>
+    <string name="beet_article">Es ist eine großartige Nahrungsquelle. Rüben haben viele positive Effekte auf die Gesundheit. Besonders effektiv ist es bei der Regeneration von Leberzellen und der Erhaltung der Gesundheit.</string>
+
+    <string name="blueberry">Heidelbeere</string>
+    <string name="blueberry_article">Heidelbeeren werden für die Ernährung von Hunden empfohlen. Heidelbeeren sind reich an Antioxidantien, Selen, Zink und Eisen sowie an den Vitaminen C, E, A und B.</string>
+
+    <string name="bread">Brot</string>
+    <string name="bread_article">Weißes oder Vollkornbrot ist sicher für Hunde. (Stelle sicher, dass keine trockenen Trauben enthalten sind.) Wenn es häufig konsumiert wird, solltest du auf die Gewichtszunahme deines Hundes achten.</string>
+
+    <string name="broccoli">Brokkoli</string>
+    <string name="broccoli_article">Brokkoli ist eines der wichtigsten Gemüse für die Vitamine, die Hunde essen können. Reich an A, C, E und Carotinen. Wenn Brokkoli gekocht wird, werden krebsbekämpfende Enzyme freigesetzt. Daher hilft er, Krebs zu verhindern. Brokkoli enthält 33 verschiedene krebsvorbeugende Strukturen. Darüber hinaus enthalten einige der enthaltenen Strukturen chemische Stoffe, die die Bildung von krebserregenden Zellen verhindern und gesunde Zellen angreifen. Stärkt das Abwehrsystem des Körpers. Um die Vorteile von Brokkoli zu sehen, sollte man nicht übertreiben. Übermäßiger Verzehr von Brokkoli kann die Schilddrüsenfunktion bei Hunden verringern.</string>
+
+    <string name="carrot">Karotte</string>
+    <string name="carrot_article">Karotten (roh oder gekocht) sind sicher und gesund für Hunde. Sie sind ein kalorienarmes Gemüse, das voller Vitamine, Mineralstoffe und Ballaststoffe ist. Sie können auch bei der Verdauung helfen. Bitte schneide sie in kleine Scheiben, um Ersticken zu vermeiden.</string>
+
+    <string name="cucumber">Gurke</string>
+    <string name="cucumber_article">Die Gurke ist ein sehr nützlicher, kalorienarmer und leicht verdaulicher Snack für das Verdauungssystem von Hunden. Aber wenn sie übermäßig konsumiert wird, kann sie Bauchschmerzen verursachen. Schneide deine Gurke, bevor du sie gibst, um Ersticken zu vermeiden.</string>
+
+    <string name="green_peas">Erbsen</string>
+    <string name="green_peas_article">Wenn du deinem Hund eine Diät fütterst, solltest du auf jeden Fall Erbsen zur Liste hinzufügen. Sie sind reich an Thiamin, Phosphor und Kalium. Du kannst den Nährwert erhöhen, indem du etwas gekochte Erbsen zu den täglichen Mahlzeiten deines Hundes hinzufügst. Er wird sein Futter besser lieben, wenn es mit einem Stück Fleisch und natürlicher, ungesalzener Brühe gekocht wird.</string>
+
+    <string name="kiwi">Kiwi</string>
+    <string name="kiwi_article">Mehr als eine Scheibe der kleinen Kiwi, die Ballaststoffe, Kalium und hohe Mengen an Vitamin C enthält, kann deinem Hund schaden.</string>
+
+    <string name="lettuce">Salat</string>
+    <string name="lettuce_article">Dein Hund wird ihn mögen, weil Salat knusprig ist. Zu viel kann dazu führen, dass dein Hund Durchfall bekommt. Achte darauf, solche Gemüse zu geben, da sie eine Ballaststoffquelle und reichhaltiges Futter sind.</string>
+
+    <string name="mango">Mango</string>
+    <string name="mango_article">Der Hauptfruchtteil der Mango enthält die Vitamine A, B6, C und E. Es ist sehr nützlich für Hunde.</string>
+
+    <string name="orange">Orange</string>
+    <string name="orange_article">Solange sie geschält ist, ist die Orange sicher und gesund für Hunde. Sie ist eine kalorienarme und nahrhafte Frucht, aber bitte vermeide es, zu viel davon zu geben, damit dein Hund keinen Bauchschmerzen bekommt. Bitte schneide sie in kleine Stücke, um Ersticken zu vermeiden.</string>
+
+    <string name="parsley">Petersilie</string>
+    <string name="parsley_article">Sie bietet deinem Hund Kalzium, Kalium und Beta-Carotin. Sie reduziert den schlechten Atem bei Hunden. Wenn dein Hund schlechten Atem hat, kannst du ein paar Stücke Petersilie zu seinem Futter hinzufügen oder du kannst sie zu den Hundekeksen geben, die du selbst machst.</string>
+
+    <string name="pear">Birne</string>
+    <string name="pear_article">Hilft der Gesundheit des Verdauungssystems bei Hunden. Du kannst Birnen, die die Vitamine A, C, E, B1 und B2 sowie Ballaststoffe, Folsäure, Kalium und Kupfer enthalten, in Würfel schneiden und deinem Hund geben.</string>
+
+    <string name="pineapple">Ananas</string>
+    <string name="pineapple_article">Solange sie frisch ist, ist die Ananas sicher und gesund für Hunde. Sie ist voller Vitamine, Mineralstoffe und Ballaststoffe. Sie ist auch ein großartiger Snack für Hunde. Bitte schneide sie in kleine Stücke, um Ersticken zu vermeiden. Gib deinem Hund auch nicht zu viel, damit er keine Übelkeit bekommt.</string>
+
+    <string name="spinach">Spinat</string>
+    <string name="spinach_article">Spinat ist reich an den Vitaminen K, A, C, E und B sowie Kalzium, Eisen, Magnesium, Phosphor, Mangan, Kalium, Folsäure, Kupfer und Ballaststoffen. Wenn dein Hund übermäßige Mengen Spinat konsumiert, können seine Nieren geschädigt werden. Dennoch ist es gesund, deinem Hund einmal im Monat eine Handvoll Spinat zu füttern. Er enthält Ballaststoffe, Vitamine und Antioxidantien. Dein Hund wird Spinat so sehr lieben, dass du ihm den Namen Popeye geben wirst.</string>
+
+    <string name="strawberry">Erdbeere</string>
+    <string name="strawberry_article">Erdbeeren sind sicher und gesund für Hunde. Sie sind eine kalorienarme Frucht, die Ballaststoffe und Antioxidantien enthält. Bitte schneide sie in zwei oder drei Stücke, um Ersticken zu vermeiden.</string>
+
+    <string name="turnip">Rübe</string>
+    <string name="turnip_article">Es ist ein Gemüse, das du zur Diätliste hinzufügen kannst. Rüben halten deinen Hund fit mit ihrer hohen Nährstoffquelle und reinigenden Eigenschaft gegen Giftstoffe.</string>
+
+    <string name="watermelon">Wassermelone</string>
+    <string name="watermelon_article">Solange sie geschält und die Kerne entfernt sind, ist die Wassermelone sicher und gesund für Hunde. Sie ist eine kalorienarme Frucht, die voller Vitamine A und C ist. Sie ist auch ein großartiger Snack für Hunde. Bitte schneide sie in kleine Stücke, um Ersticken zu vermeiden.</string>
+
+    <!--HARMFUL ONES-->
+    <string name="alcohol">Alkohol</string>
+    <string name="alcohol_article">Alkohol enthält eine chemische Verbindung namens Ethanol, die für Hunde giftig ist. Wenn konsumiert, kann es zu Magenbeschwerden, Koordinationsproblemen, Erbrechen, Durchfall und Dehydration führen. Bei übermäßigem Konsum kann es zu Atemversagen, Koma und Tod führen.</string>
+
+    <string name="avocado">Avocado</string>
+    <string name="avocado_article">Avocado (einschließlich der Blätter) enthält eine chemische Verbindung namens Persin, die für Hunde giftig ist. Bei Verzehr kann es zu Magenbeschwerden kommen. Der Kern kann auch die Därme Ihres Hundes blockieren. Bei übermäßigem Konsum kann es zu Atemproblemen sowie Schäden am Herzen und der Leber Ihres Hundes führen.</string>
+
+    <string name="candy">Süßigkeiten</string>
+    <string name="candy_article">Viele Zuckersorten enthalten künstliche Süßstoffe und Rosinen, die für Ihren Hund schädlich sind. Künstliche Süßstoffe sind ebenfalls giftig für Ihren Hund. Bei kleinem Verzehr treten Erbrechen, Durchfall und Appetitlosigkeit auf. Bei steigendem Konsum kann es tödlich sein.</string>
+
+    <string name="chocolate">Schokolade</string>
+    <string name="chocolate_article">Schokolade enthält Koffein und Theobromin, die Hunde nicht verdauen können. (Der Theobromingehalt ist besonders hoch in schwarzer und bitterer Schokolade.) Bei geringem Verzehr wird es wahrscheinlich nur zu Magenbeschwerden führen. Mit steigendem Konsum können Symptome wie Hyperaktivität, Erbrechen, Durchfall, unregelmäßiger Herzschlag, Muskelzuckungen und Dehydration auftreten. Bei hohem Konsum kann Koffein zu Ateminsuffizienz oder Tod führen; Theobromin kann zu inneren Blutungen, Herzinfarkten oder Tod führen.</string>
+
+    <string name="coffee">Kaffee</string>
+    <string name="coffee_article">Kaffee enthält Koffein und Theobromin, die Hunde nicht verdauen können. Bei geringem Verzehr wird es wahrscheinlich nur zu Magenbeschwerden führen. Mit steigendem Konsum können Symptome wie Hyperaktivität, Erbrechen, Durchfall, unregelmäßiger Herzschlag, Muskelzuckungen und Dehydration auftreten. Bei hohem Konsum kann Koffein zu Ateminsuffizienz oder Tod führen; Theobromin kann zu inneren Blutungen, Herzinfarkten oder Tod führen.</string>
+
+    <string name="bones">Gekochte Knochen</string>
+    <string name="bones_article">Wählen Sie immer die größten Knochen und denken Sie daran, dass sie immer roh sein sollten. Gekochte Lammknochen brechen schnell und Splitter sind problematisch.</string>
+
+    <string name="fishbones">Fischgräten</string>
+    <string name="fishbones_article">Die von Ihrem Hund gefressenen Knochen und Fischgräten reisen durch den Verdauungstrakt wie ein Stück Glas. Infolgedessen können Risse in der Speiseröhre und dem Magen des Hundes entstehen.</string>
+
+    <string name="garlic">Knoblauch</string>
+    <string name="garlic_article">Knoblauch ist schädlich für Hunde. Laut der American Veterinary Association sind die Vorteile von Knoblauch nicht bewiesen, aber seine Schäden und toxischen Wirkungen sind nachgewiesen. Orange- oder roter Urin bei Verzehr kann Erbrechen, Durchfall, erhöhte Atemfrequenz, Schwäche, Appetitlosigkeit oder Herzklopfen verursachen. Bei übermäßigem Verzehr kann es zu Schäden an roten Blutkörperchen und einer Verschlechterung der natürlichen Schleimhautstruktur führen.</string>
+
+    <string name="grapes">Trauben</string>
+    <string name="grapes_article">Trauben (frisch oder getrocknet) enthalten chemische Verbindungen, die für Hunde giftig sind. (Die genauen Substanzen, die die toxische Reaktion verursachen, sind noch nicht bekannt.) Bei Verzehr kann es zu Erbrechen, Taubheit, Durchfall und Muskelzittern kommen. Bei übermäßigem Verzehr kann es zu vermehrtem Wasserlassen, langfristigen Nierenerkrankungen oder Tod führen.</string>
+
+    <string name="leek">Lauch</string>
+    <string name="leek_article">Für Hunde verursachen Lebensmittel wie Lauch und Zwiebeln bereits bei kleinen Mengen Krankheiten. Der Verzehr großer Mengen kann Anämie verursachen.</string>
+
+    <string name="lemon">Zitrone</string>
+    <string name="lemon_article">Zitrone enthält chemische Verbindungen wie Linalool und Limonen, die für Hunde giftig sind. Bei geringem Verzehr kann es nur zu Magen- und Darmbeschwerden führen. P.S.: Hunde mögen den Geschmack sowieso nicht wirklich.</string>
+
+    <string name="mushroom">Pilz</string>
+    <string name="mushroom_article">Wenn ein Pilz von Hunden verzehrt wird, kann es zu Bauchschmerzen, Erbrechen und Durchfall führen. Bei übermäßigem Verzehr kann es zu Nierenerkrankungen, Leberschäden, Koma oder Tod führen.</string>
+
+    <string name="onion">Zwiebel</string>
+    <string name="onion_article">Zwiebeln sind schädlich für Hunde. Orange- oder roter Urin bei Verzehr kann Erbrechen, Durchfall, erhöhte Atemfrequenz, Schwäche, Appetitlosigkeit oder Herzklopfen verursachen. Bei übermäßigem Verzehr kann es zu Schäden an roten Blutkörperchen und einer Verschlechterung der natürlichen Schleimhautstruktur führen.</string>
+
+    <string name="tea">Tee</string>
+    <string name="tea_article">Tee enthält Koffein und Theobromin, die Hunde nicht verdauen können. Bei geringem Verzehr wird es wahrscheinlich nur zu Magenbeschwerden führen. Mit steigendem Konsum können Symptome wie Hyperaktivität, Erbrechen, Durchfall, unregelmäßiger Herzschlag, Muskelzuckungen und Dehydration auftreten. Bei hohem Konsum kann Koffein zu Ateminsuffizienz oder Tod führen; Theobromin kann zu inneren Blutungen, Herzinfarkten oder Tod führen.</string>
+
+    <string name="tobacco">Tabak</string>
+    <string name="tobacco_article">Tabak kann bei Hunden zu Zuckungen oder Schlaganfällen, Speichelfluss, verengten Pupillen, visuellen und akustischen Halluzinationen, schnellem Herzschlag, Erbrechen und Durchfall führen.</string>
+
+    <!--VORSICHT MIT DIESEN-->
+    <string name="cheese">Käse</string>
+    <string name="cheese_article">Es ist normalerweise in Ordnung, Hunden kleine Mengen Käse zu füttern. Der Fett- und Laktosegehalt variiert jedoch stark zwischen verschiedenen Käsesorten. Tatsächlich können einige Käsesorten den Verdauungstrakt Ihres Hundes belasten und Bauchschmerzen sowie Durchfall verursachen. Daher empfehlen wir Käse mit geringem Fettgehalt wie Mozzarella. Wenn Sie Ihrem Hund etwas geben möchten, können Sie mit kleinen Stücken beginnen, damit er/sie sich daran gewöhnt.</string>
+
+    <string name="cherries">Kirschen</string>
+    <string name="cherries_article">Kirschen haben keine nachweislichen ernährungsphysiologischen Vorteile für Hunde. Wenn Sie Ihrem Hund einige Kirschen geben möchten, sollten Sie nicht mehr als ein paar auf einmal füttern. Bitte beachten Sie, dass Sie die Kerne immer entfernen sollten, um Ersticken und Zyanidvergiftungen (ein chemischer Stoff in den Kernen) zu vermeiden. Bei übermäßigem Verzehr könnte Ihr Hund Bauchschmerzen und Durchfall bekommen.</string>
+
+    <string name="egg">Ei</string>
+    <string name="egg_article">Das Avidin-Enzym in rohen Eiern verhindert die Aufnahme von Vitamin B7 (Biotin). Bei einem Mangel an B7 kann sich die Haut- und Fellgesundheit Ihres Hundes verschlechtern. Außerdem können Salmonellenbakterien in rohen Eiern eine Vergiftung bei Hunden verursachen. Eier können Erbrechen bei Hunden auslösen.</string>
+
+    <string name="honey">Honig</string>
+    <string name="honey_article">Honig enthält viel Zucker, daher empfehlen wir, Ihrem Hund nicht zu viel davon zu geben. Bei übermäßigem Verzehr kann es zu Gewichtszunahme führen.</string>
+
+    <string name="ice_cream">Eiscreme</string>
+    <string name="ice_cream_article">Eiscremes aus dem Handel enthalten viel Zucker (und offensichtlich Milch), daher ist es nicht sehr gesund, Ihr Eis mit Ihrem Hund zu teilen. (Besonders wenn Ihr Hund laktoseintolerant ist) Wenn Sie es trotzdem möchten, können Sie hundefreundliche Eiscremes selbst herstellen oder kaufen.</string>
+
+    <string name="juice">Saft</string>
+    <string name="juice_article">Hunde können die meisten Fruchtsäfte trinken, aber sie sollten keinen trinken, da Fruchtsäfte viel Zucker und chemische Konservierungsstoffe enthalten, die ihrer Gesundheit schaden könnten. Daher sollten Sie Ihrem Hund frisches und köstliches Obst anstelle von Fruchtsaft geben.</string>
+
+    <string name="milk">Milch</string>
+    <string name="milk_article">Einige Hunde sind laktoseintolerant, daher sollten Sie vorsichtig sein, wenn Sie Milch/Milchprodukte füttern. Wenn Sie es möchten, können Sie Sojamilch ausprobieren, damit er/sie keine Bauchschmerzen bekommt. Bitte beachten Sie, dass Sojamilch kein Ersatz für die Muttermilch ist, wenn Ihr Hund ein Welpe ist.</string>
+
+    <string name="peanut">Erdnuss</string>
+    <string name="peanut_article">Toxisch für Ihren Hund, daher sollten Sie sie auf jeden Fall nicht geben.</string>
+
+    <string name="pomegranate">Granatapfel</string>
+    <string name="pomegranate_article">Ob Hunde Granatäpfel essen sollten oder nicht, ist oft eine Diskussion unter Tierärzten. Granatapfel ist nicht giftig für Hunde. Er ist auch sehr gesund in Bezug auf Antioxidantien, Vitamin C, Kalium und Ballaststoffe. Allerdings kann Granatapfel bei übermäßigem Verzehr bei Hunden zu Verdauungsproblemen (z. B. Bauchschmerzen, Erbrechen) oder Durchfall führen. Daher wäre es am logischsten, Ihrem Hund nur eine kleine Menge Granatapfel zu geben.</string>
+
+    <string name="tomato">Tomate</string>
+    <string name="tomato_article">Solange sie reif/rot sind, können Sie gelegentlich Tomaten an Ihren Hund geben. Unreife/grüne Tomaten enthalten Tomatin, das für Hunde schädlich ist: Es verursacht Bauchschmerzen, unregelmäßigen Herzschlag und Atemprobleme. Bei übermäßigem Verzehr kann es das Verdauungs- und Nervensystem Ihres Hundes negativ beeinflussen.</string>
+
+    <string name="yogurt">Joghurt</string>
+    <string name="yogurt_article">Einige Hunde können Joghurt nicht leicht verdauen, daher könnten sie Bauchschmerzen bekommen. Wenn Sie dennoch etwas geben möchten, stellen Sie bitte sicher, dass es sich nicht um Fruchtjoghurt handelt und keinen Zucker/Süßstoffe enthält.</string>
+
+
+    <string name="biting_text">Mein Hund beißt</string>
+    <string name="biting_text_article"> - Die Verwaltung und Kontrolle von Beißproblemen bei Welpen kann eine große Herausforderung für uns Hundeliebhaber sein. Das Beißen oder Nippen von Welpen beginnt als Spaß, muss jedoch schnell kontrolliert werden, um anhaltende Probleme zu vermeiden.\n\n
+        - Für die meisten jungen Welpen ist das Beißen eine völlig natürliche und wesentliche Phase, die sie durchlaufen müssen, insbesondere während des Zahnens.\n\n
+        - Welpen lieben es, ihre scharfen kleinen Zähne in fast alles zu graben, während dieser Zahnungsphase, einschließlich der Hände und Füße ihrer Besitzer. In manchen Fällen fühlt es sich an, als hättest du ein schnappendes Alligatorbaby in dein Haus gebracht, anstatt des kuscheligen kleinen Welpen, den du dir erhofft hast.\n\n
+        - Die gute Nachricht ist, dass die meisten Welpen relativ einfach trainiert werden können, um das Beißen zu regulieren und zu minimieren. Je früher du deinem Welpen das Beißverhalten (ein weicher Mund) beibringst, desto einfacher wird es – für alle Beteiligten.\n\n
+        Wie man Beißprobleme bei Welpen stoppt - Es gibt viele bewährte Trainingsmethoden, um die Verhaltensprobleme deines Welpen zu korrigieren. Bevor ich auf die spezifischen Techniken eingehe, die du verwenden kannst, um deinen Welpen vom Beißen abzuhalten, halte immer diese allgemeinen Regeln für das Hundeverhaltenstraining im Hinterkopf:\n\n
+        - Die Sozialisierung von Welpen und das Training zur Beißhemmung gehen Hand in Hand.\n\n
+        - Schlage oder schlage deinen Welpen niemals ins Gesicht. Das funktioniert nicht! Dein Welpe wird nur denken, dass du spielst, oder könnte Angst vor dir bekommen. Dies könnte sogar zu viel größeren Problemen führen als nur zum Nippen von Welpen.\n\n
+        - Die allgemeine Regel zur Beendigung von Beißproblemen bei Welpen ist, immer akzeptables Verhalten zu fördern und inakzeptables Verhalten immer abzulehnen. Um mehr über diese grundlegende Regel des Hundehaltungstrainings (einschließlich der Beendigung von Beißproblemen) zu erfahren, besuche die Geheimnisse eines professionellen Hundetrainers.\n\n
+        - Während du versuchst, deinen Welpen vom Beißen abzuhalten, spiele niemals Zerren, Ringen oder Verfolgungsspiele mit ihm. Das fördert nur das Beißen und Nippen.\n\n
+        - Welche Methode du auch immer wählst, um deinen Welpen zu trainieren, die goldene Regel ist, konsequent zu sein. Das bedeutet, dass du und jeder andere, der mit deinem Welpen in Kontakt kommt, eure gewählte Strategie jedes Mal durchsetzen müsst, wenn dein Welpe nippt.\n\n
+        - Wenn du deinem Hund nicht klar kommunizierst, dass das Beißen inakzeptabel ist, wird er nicht wissen, dass er etwas falsch macht. Es liegt an dir, ihm zu zeigen, welches Verhalten akzeptabel ist. Erwarten nicht einfach, dass dein Welpe das weiß! (Du übernimmst wirklich die Rolle seiner Wurfgeschwister für diese Aufgabe).\n\n
+        - Ein weiterer (extremer) Grund, warum Welpen beißen können, ist, wenn sie versuchen, ihre Dominanz über dich zu behaupten. Wenn das bei deinem Welpen der Fall ist, muss das sofort gestoppt werden. Wenn du einen dominanten Welpen hast, wird sein Beißen nur der Anfang vieler Verhaltensprobleme sein.\n\n
+        Stoppe deinen Welpen vom Beißen - Bewährte Techniken. Dein Ziel sollte es zu Beginn sein, deinem Welpen beizubringen, die Stärke seines Beißens zu kontrollieren. Die Wurfgeschwister deines Welpen werden diesen Prozess einleiten, und dann liegt es an dir, damit fortzufahren, wenn dein neuer Welpe nach Hause kommt. Das stellt sicher (garantiert es nicht), dass, wenn dein Hund in der Zukunft jemanden beißt, der Schaden minimiert wird. Sobald du deinem Welpen ausreichendes Feedback zur Stärke seines Bisses gegeben hast, kannst du beginnen, die Häufigkeit des Beißverhaltens zu reduzieren.\n\n
+        - Wenn du das Beißproblem frühzeitig erkennst, kann es einfach zu beheben sein. Versuche einfach, das Beißen von deinem Fleisch auf ein Spielzeug oder einen Kauartikel umzuleiten. Bei sehr jungen Welpen ist diese Methode oft alles, was du tun musst. Sobald dein Welpe beginnt, in deine Hände zu beißen, lass ein festes „Nein!“ hören und ersetze deine Finger durch das Kauspielzeug (oder einen Eiswürfel, wenn dein Welpe zahnt).\n\n
+        - Dies ist wahrscheinlich die beliebteste Methode und meine persönliche Lieblingsmethode. Lass deinen Welpen denken, dass er dir jedes Mal wehtut, wenn er dich anknabbert. Diese Methode imitiert, wie Hunde das Beißen untereinander klären. Wenn Welpen einander beißen und nippen, hört es nur auf, wenn ein Welpe einen Schrei auslässt. Wir können diese natürliche Lernweise der Hunde nutzen, indem wir jedes Mal ein „Aua!“ oder „Arrr!“ auslassen, wenn einer der Welpen beißt. Der Trick besteht darin, deinen Hund mit deiner Stimme zu erschrecken und dann wegzuziehen und für eine Weile mit dem Spielen aufzuhören. Dein Welpe wird bald lernen, dass, wenn er anfängt zu beißen, sein Spielpartner (du) weggeht.\n\n
+        - Bringe deinem Welpen den Gehorsamsbefehl „Lass es!“ bei. Diese Methode funktioniert großartig, ist aber eher für ältere Welpen geeignet.\n\n
+        Bei schweren Beißproblemen, sobald dein Welpe sich an deiner Hand festhält, sage „Nein!“ und lege schnell deinen Daumen in seinen Mund unter seiner Zunge und deinen anderen Finger unter sein Kinn. Halte es dort für etwa 10 Sekunden (nicht zu fest). Dies wird für deinen Welpen unangenehm sein und er kann dich nicht beißen.\n\n
+        - Bei schweren Beißproblemen, sobald dein Welpe sich an deiner Hand festhält, sage „Nein!“ und lege schnell deinen Daumen in seinen Mund unter seiner Zunge und deinen anderen Finger unter sein Kinn. Halte es dort für etwa 10 Sekunden (nicht zu fest). Dies wird für deinen Welpen unangenehm sein und er kann dich nicht beißen.\n\n
+        \'Lobe und belohne immer einen sanften Mund und ignoriere oder ziehe dich von unangemessenem Nippen zurück\'\n\n
+        - Wiederum, wenn dein Welpe ein schwerwiegendes Beißproblem hat, kannst du diese Trainingsmethode ausprobieren. Ziehe ein Paar Handschuhe an und trage eine unangenehm schmeckende Substanz darauf auf (etwas, das dein Hund nicht mag). Dein Hund wird bald lernen, dass es nicht schmackhaft ist, dich zu beißen! Diese Methode erzeugt eine starke negative Assoziation für deinen Hund, jedes Mal, wenn er sich entscheidet, dich zu beißen. Einige Hunde sind clever genug, um zu realisieren, dass es in Ordnung ist, ihre Zähne in dich zu versenken, wenn du die unangenehm schmeckenden Handschuhe abziehst!\n\n
+        - Für ältere Welpen (rund 6 Monate) ist dies eine todsichere Technik, um das Beißen von Welpen zu stoppen. Lege einen Würger oder einen Halti an deinen Welpen und ziehe jedes Mal, wenn er dich beißt, die Leine kurz und scharf. Diese Korrektur wird eine unangenehme Assoziation für deinen Hund jedes Mal bilden, wenn er dich beißt. Es wird nicht lange dauern, bis er aufhört. Einige Trainer glauben, dass diese Methode ziemlich extrem ist, und ich stimme zu, dass du sie nur in sehr seltenen Umständen anwenden solltest – ich habe nie das Bedürfnis gehabt, zu diesem Level zu greifen. Ich glaube, es ist viel effektiver, deinen Welpen zu erziehen, als Bestrafung zu verhängen oder zu versuchen, ein Verhalten ganz zu beseitigen.\n\n
+        Wie man einen Welpen vom Beißen abhält. Diese Methoden wurden mir empfohlen, aber ich habe sie selbst nie ausprobiert: - Sprühe deinen Welpen mit Wasser, jedes Mal, wenn er anfängt zu nippen.\n\n
+        - Fülle eine leere Dose mit Steinen oder Münzen. Jedes Mal, wenn dein Welpe beginnt zu beißen, sage Nein! und schüttele die Dose. Anscheinend hassen Welpen dieses Rasseln.\n\n
+        - Wenn du dir Sorgen machst, dass du einen übermäßig aggressiven Welpen hast, suche bitte den Rat eines erfahrenen Tierverhaltensforschers oder Hundetrainers.\n\n
+        - Wie ich bereits erwähnt habe, der wichtigste Ratschlag, unabhängig davon, welche Trainingsmethode du wählst, ist, konsequent zu sein und die klare Rückmeldung zu geben, die dein Welpe benötigt, um zu lernen.\n\n
+    </string>
+    <string name="obedience_text">Gehorsam</string>
+    <string name="obedience_text_article">Was ist Hundetraining zu Gehorsamszwecken? Ich glaube, wie die meisten Hundebesitzer, dass das Hundetraining für Gehorsam ein wesentlicher Bestandteil jeder gesunden Mensch-Hund-Beziehung ist. Aber was genau ist Hundehaltungstraining, und warum ist es so wichtig für Sie und Ihren Hund? Gehorsamstraining ist ein allgemeiner Begriff, der durch viele verschiedene Hundetrainingsmethoden erreicht werden kann. Unabhängig von der Trainingsmethode, die Sie wählen, oder den Hundeschulen, die Sie besuchen, sollte richtiges Hundehaltungstraining Folgendes erreichen:\n\n
+        - Eine enge, gesunde und angemessene Beziehung zwischen Ihnen und Ihrem Hund aufbauen oder stärken.\n\n
+        - Eine klare Kommunikationslinie zwischen Ihnen und Ihrem Hund öffnen. Das bedeutet, dass Sie wissen, was Sie in allen Situationen von Ihrem Hund erwarten können, und Ihr Hund versteht klar und respektiert, was von ihm/ihr erwartet wird.\n\n
+        - Hundetraining für Gehorsam legt eine Reihe von Regeln oder Grenzen fest, die Ihren Hund lehren, ein verantwortungsbewusstes Mitglied der Gesellschaft zu werden. Dazu gehört, wie man mit anderen Hunden, Tieren und Menschen umgeht, grundlegende Manieren und wie man sich in jeder Situation verhält.\n\n
+        - Legt das Fundament, das dazu beiträgt, die Entwicklung unakzeptabler problematischer Verhaltensweisen wie Springen, Bellen, Kauen, Graben usw. zu verhindern.\n\n
+        Die Vorteile des Hundetrainings für Gehorsam\n\n
+        - Grundlegendes Gehorsamstraining macht das Leben für Ihren Hund einfach und beseitigt Verwirrung. Ihr Hund wird seinen Platz in der Welt kennen und verstehen, was richtig und was falsch ist. Hunde scheinen diese schwarz-weiße Sicht der Welt wirklich zu schätzen und zu gedeihen.\n\n
+        - Spaß und lohnend für Sie und Ihren Hund - für mich ist das, worum es geht!\n\n
+        - Sie haben einen glücklichen, entspannten und selbstbewussten Hund, den Sie überallhin mitnehmen können und der angenehm in der Nähe ist. Ihrem Hund kann auch größere Freiheit gewährt werden, da er nach Gehorsam trainiert mehr vertrauenswürdig ist.\n\n
+        - Ein gehorchender Welpe oder Hund ist ein viel sichererer Hund. Wenn Ihr Hund vor die Haustür läuft, haben Sie dennoch die Sprachkontrolle über ihn. Sie können einen Ihrer Gehorsamstraining-Befehle wie \'komm\', \'runter\', \'sitz\' oder \'geh an deinen Platz\' abrufen. Das ist für jeden Hundeliebhaber sehr beruhigend.\n\n
+        - Sie gewinnen Vertrauen und gegenseitigen Respekt mit Ihrem Hund. Er versteht, was von ihm erwartet wird und weiß, dass Sie immer fair und konsequent sein werden.\n\n
+        - Wenn Ihr Hund im Gehorsam trainiert ist, wird er in der Nähe von Familie, Freunden und Kindern unter Aufsicht gut sein.\n\n
+        - Hundetraining für Gehorsam erfüllt einige wesentliche Bedürfnisse im Leben Ihres Hundes, einschließlich Bewegung, geistiger Anregung, Zeit mit Ihnen verbringen und Ihrem Hund eine \'Aufgabe\' geben.\n\n
+        - Hundetraining für Gehorsam verringert erheblich das Risiko, in einen Dominanzkampf mit Ihrem Hund verwickelt zu werden. Sie werden sein starker und immer fairer Führer sein, den er respektiert und nach dem er sucht, um Rat zu bekommen.\n\n
+        - Gehorsamstraining ist ein schrittweiser Prozess, auf dem Sie im Laufe der Zeit aufbauen. Es schafft eine solide Grundlage, damit Ihr Hund zusätzliche Fähigkeiten und Trainingsbefehle lernen kann. Während dieses Prozesses wird Ihr Hund Vertrauen gewinnen.\n
+        Die Gefahr, kein Hundetraining für Gehorsam zu geben - es ist eine unglückliche Realität, dass untrainierte Hunde die Hauptursache dafür sind, dass Welpen und Hunde weltweit in Tierheimen landen.\n\n
+        - Das ist gut für niemanden, besonders nicht für die armen Hunde.\n\n
+        - Ihr Hund kann nie wirklich nah bei Ihnen und Ihrer Familie sein. Damit meine ich, dass Ihr Hund nicht an Familientouren teilnehmen wird, sondern viel Zeit alleine im Garten verbringen wird. Dies kann zahlreiche Verhaltensprobleme hervorrufen und kann für Sie und sogar Ihre Nachbarn eine echte Plage sein.\n\n
+        - Ihr Hund wird unsicherer in der Nähe von Menschen, anderen Tieren und auf der Straße sein.\n\n
+        - Es ist ein häufiges Merkmal untrainierter Hunde, Ihre Führung oder Autorität herauszufordern. Gehorsam trainierte Hunde werden auch versuchen, Sie in dieser Hinsicht zu testen. Aber wenn Sie im Gehorsamstraining kompetent sind, haben Sie die Werkzeuge, um damit umzugehen.\n\n
+        - Ihr Hund wird ständig (aber nicht effektiv) angeschrien und weiter von seinem Rudel (Ihnen und Ihrer Familie) weggetrieben. Das ist keine Art, wie Sie und Ihr Hund leben sollten, und ist mit ein wenig Gehorsamstraining völlig vermeidbar.\n\n
+        Allgemeine Regeln für effektives Hundetraining für Gehorsam\n\n
+        Sie finden bewährte Trainingstechniken für spezifische Gehorsamsbefehle, indem Sie aus der Liste unten auswählen. Dies sind einige allgemeine Tipps, die in jeder Hundetraining-Situation für Gehorsam wahr sind:\n\n
+        - Loben und belohnen Sie Ihren Hund, wenn er das tut, was Sie von ihm verlangen, und geben Sie eine angemessene Korrektur, wenn er nicht tut, was ihm beigebracht wurde. Der Schlüssel ist, das richtige Gleichgewicht für Ihren Hund zu finden. Erwarten Sie nicht, dass Ihr Hund dies sofort weiß. Wiederholung des Befehls und der Handlung ist entscheidend. Glauben Sie an das, was Sie tun, und bleiben Sie dabei.\n\n
+        - Seien Sie immer konsequent (das gilt auch für alle, die mit Ihrem Hund leben), machen Sie es Ihrem Hund einfach. Geben Sie ihm eine einfache Entscheidung zu treffen und machen Sie ihm klar, welche Wahl akzeptabel und welche inakzeptabel ist - geben Sie sofortiges Feedback.\n\n
+        - Bestrafen oder korrigieren Sie Ihren Hund niemals für etwas, das er nicht richtig gelernt hat - seien Sie realistisch und fair.\n\n
+        - Machen Sie Ihre Trainingseinheiten kurz, prägnant und unterhaltsam - für Sie und Ihren Hund. Hier scheitern viele Hundeschulen.\n\n
+        - Nehmen Sie es langsam, meistern Sie einen einfachen Befehl, bevor Sie fortfahren und darauf aufbauen. Fordern Sie Ihren Hund weiterhin geistig heraus und stimulieren Sie ihn während des Trainingsprozesses.\n\n
+        - Sie sind die beste Person, die diese Aufgaben mit Ihrem Hund ausführen kann. Ihr Hund muss mit Ihnen leben, Sie sind sein Rudel, und Sie müssen die Person sein, die er als Führer respektiert.\n\n
+        - Testen oder beweisen Sie die Gehorsamsbefehle in verschiedenen Situationen, an verschiedenen Orten und mit zusätzlichen Ablenkungen. Integrieren Sie das Gehorsamstraining in Ihre tägliche Routine - Ihr Hund könnte \'sitz\' machen, bevor Sie ihm sein Futter geben, oder \'bleib liegen\', wenn Sie die Post holen.\n\n
+        - Versuchen Sie niemals, Ihren Hund zu korrigieren, wenn Sie ihn nicht auf frischer Tat ertappen. Das Timing Ihrer Korrektur ist entscheidend. Eine verspätete Korrektur verwirrt nur Ihren Hund und macht für ihn keinen Sinn.\n\n
+        - Finden Sie heraus, was Ihren Hund motiviert, das wird ein wichtiges Werkzeug in Ihren Trainingseinheiten sein. Meine Hunde lieben Käse, Leberleckerlis und einen Ballwurf.\n\n
+        - Arbeiten Sie mit den natürlichen Trieben und Instinkten Ihres Hundes - dies wird in den Artikeln unten näher erklärt.\n\n
+    </string>
+
+    <!--BELLENDE ARTIKEL-->
+    <string name="barking_text">Bellen</string>
+    <string name="barking_text_article">Es kann eine schwierige und zeitaufwändige Aufgabe sein, herauszufinden, wie man seinen Hund vom Bellen abhält. Hunde lieben es zu bellen. Es ist etwas ganz Natürliches für Ihren Hund, genau wie es für uns Menschen normal ist zu sprechen.\n\n
+- Wenn unsere Hunde jedoch übermäßig bellen, wird es für alle Beteiligten zum Problem – einschließlich unserer gereizten Nachbarn.\n\n
+- Vor diesem Hintergrund ist unser Ziel nicht, das Bellen von Hunden ganz zu stoppen, sondern das übermäßige Bellen zu kontrollieren. Denken Sie daran, dass es Situationen gibt, in denen wir möchten, dass unsere Hunde bellen (und ich denke, es gibt auch Zeiten, in denen ich meine redselige Tante gerne sprechen höre!;)\n\n
+- Der erste Schritt zur Modifizierung des Verhaltens eines übermäßig bellenden Hundes besteht darin, den Grund herauszufinden, warum der Hund überhaupt bellt. Sobald Sie diese Ursache oder Auslöser identifiziert haben, können Sie die richtige Trainingslösung planen.\n\n
+Warum bellen Hunde? Stoppen Sie Ihren Hund jetzt vom Bellen! - Um ihre Bedürfnisse auszudrücken (dominant zu sein).\n\n
+- Einige Hunde sind dazu gezüchtet zu bellen (einige Terrier und Jagdhunde).\n\n
+- Sie markieren ihr Territorium.\n\n
+- Um andere Mitglieder ihres Rudels (also Sie und Ihre Familie) vor drohender Gefahr zu warnen.\n\n
+- Beim Spielen, einfach aus purer Aufregung - dies ist eine sehr häufige Art von Welpenbellen.\n\n
+- Bellen bei anderen Tieren. Je nach Region, in der Sie sich befinden, könnten das Eichhörnchen oder Possums sein (ich bin in Australien - meine Hunde drehen bei Possums durch).\n\n
+- Wenn sie isoliert sind.\n\n
+- Einige Hunde bellen übermäßig, wenn sie von ihrem Rudel (Ihnen und Ihrer Familie) getrennt sind.\n\n
+- Wenn sie hinter einer Art Barriere wie einem Zaun oder Fenster eingesperrt sind.\n\n
+- Einfach aus Spaß!\n\n
+- Um Dominanz auszudrücken (Welpen testen normalerweise irgendwann mit einer Demonstration des Dominanzbellens).\n\n
+- Sie bellen, weil ihre Besitzer unbeabsichtigt übermäßiges Bellen in der Vergangenheit belohnt haben (das ist entscheidend zu verstehen).\n\n
+- Aus Langeweile oder einem Mangel an physischer und mentaler Stimulation.\n\n
+- Können aus irgendeinem Grund gestresst oder unwohl fühlen. Dinge wie das Gefühl, bedroht zu sein oder keinen geeigneten Platz zum Schlafen zu haben, können übermäßige Bellerprobleme verursachen.\n\n
+- Hunde, die nicht richtig sozialisiert wurden, werden oft zu Lärmbellern.\n\n
+- Suchen möglicherweise nach einer Reaktion oder etwas Aufmerksamkeit von ihrem Rudel.\n\n
+- Ein weiterer Punkt, den Sie beachten sollten, ist, dass es zwar so erscheinen mag, als würde Ihr Hund ins Nichts bellen, dies jedoch nicht unbedingt der Fall ist. Das liegt daran, dass Ihr Hund ein viel ausgeprägteres Gehör, Geruch und Sehen hat als wir Menschen. Das übermäßige Bellen Ihres Hundes wird höchstwahrscheinlich durch etwas ausgelöst.\n\n
+Der Hund bellt, wenn Sie nicht zu Hause sind - Ich werde nicht so tun, als ob diese Art des Bellens für Sie einfach zu kontrollieren wäre, denn in der Realität ist es oft ein schwieriger und langwieriger Prozess.\n\n
+- Denken Sie daran, dass Hunde soziale Wesen sind. Wenn sie von ihrem Rudel (Ihnen) getrennt sind, können sie gestresst, verletzlich und frustriert werden. Diese Art von übermäßigem Bellen wird oft durch Trennungsangst verursacht.\n\n
+- Zuerst würde ich sagen, verwenden Sie einfach Ihren gesunden Menschenverstand und bekommen Sie diese Grundlagen des Hundebesitzes richtig. Halten Sie Ihren Hund gut beschäftigt (physisch und mental) und stellen Sie frisches Wasser, Kauspielzeug und einen schönen, bequemen Schlafplatz zur Verfügung. Sie können auch versuchen, die Sicht Ihres Hundes auf die Straße und andere Ablenkungen/Auslöser zu blockieren. Im Grunde genommen, stellen Sie sicher, dass Ihr Hund glücklich ist.\n\n
+- Wenn Sie wissen, dass Ihr Hund gebellt hat, während Sie weg waren, müssen Sie ihn ignorieren, wenn Sie nach Hause zurückkehren. Ich verstehe, dass dies für viele Besitzer schwierig ist, aber andernfalls glaubt Ihr Hund, dass sein Bellen der Grund ist, warum Sie nach Hause gekommen sind. Gehen Sie einfach eine Weile Ihrem Geschäft nach, wenn Sie nach Hause kommen, und ignorieren Sie Ihren Hund. Wenn Ihr Hund sich beruhigt hat, können Sie den Kontakt zu ihm aufnehmen. Bitte beachten Sie, dass diese Methode für Hunde gilt, die im Moment Ihres Eintreffens gebellt haben.\n\n
+Sie müssen Ihrem Hund jederzeit eine klare und konsistente Botschaft übermitteln - Diese nächste Technik erfordert Zeit und Geduld, kann jedoch eine sehr effektive Methode sein, um Ihren Hund vom Bellen abzuhalten. Sie basiert auf dieser wichtigen Regel, die für alle Hundetrainingssituationen gilt. Loben oder belohnen Sie, wenn Ihr Hund etwas tut, das Sie ermutigen möchten, und schaffen Sie eine negative Assoziation, wenn er etwas tut, das Sie nicht mögen.\n\n
+- Verlassen Sie das Haus wie gewohnt, verstecken Sie sich jedoch in der Nähe. Wenn Ihr Hund zu bellen beginnt, sprühen Sie ihn mit Wasser ein oder werfen Sie eine Dose voller Münzen oder Steine in seine Richtung (das ist die negative Assoziation). Versuchen Sie, dabei aus dem Blickfeld Ihres Hundes zu bleiben, wenn möglich. Verstecken Sie sich wieder, wenn er eine Weile ruhig ist, gehen Sie hinein und belohnen Sie sein gutes Verhalten mit Lob und vielleicht einem Leckerli. Dieser Prozess muss möglicherweise immer wieder wiederholt werden, bis Sie die übermäßige Bellergewohnheit gebrochen haben.\n\n
+- Die oben genannten Techniken haben sich bei meinen eigenen Hunden als erfolgreich erwiesen, aber wenn sie bei Ihnen nicht funktionieren, könnten Sie versuchen, ein Citronella-Halsband ohne Bellen zu verwenden. Auch diese Methode nutzt die Kraft der negativen Assoziation. Jedes Mal, wenn Ihr Hund bellt, wird ein feiner Nebel von Citronella in die Luft gesprüht. Die meisten Hunde mögen den Geruch nicht, und bald erkennen sie, dass, wenn sie nicht bellen, der Geruch nicht da ist, um sie zu stören. *Wenn Sie mehr als einen Hund haben, ist diese Methode nicht wirklich geeignet. Ich befürworte immer ein richtiges Training, bevor ich überhaupt eine Option wie ein Citronella-Halsband ohne Bellen in Betracht ziehe.\n\n
+Der Hund bellt um Aufmerksamkeit oder um etwas zu fordern - Dies ist ein übermäßiges Bellenproblem, das sehr schnell behoben werden kann. - Wenn Sie sich als der Führer Ihres Hundes in der Beziehung zwischen Besitzer und Hund etablieren, wird dieses Bellenproblem nicht auftreten. Im Prozess des Trainings werden Sie auch eine starke Bindung aufbauen, die auf Vertrauen und gegenseitigem Respekt basiert. Um die beste Methode zu lernen, um Ihren Hund gehorsam zu trainieren.\n\n
+- Sie können Ihrem Hund auch das Kommando \'Stopp\' oder \'Ruhe\' beibringen, um dieses nervige Bellenproblem zu verhindern. Wenn Ihr Hund bellt, sagen Sie einfach "RUHE!" und winken Sie gleichzeitig mit einem schmackhaften Leckerli vor der Nase Ihres Hundes. Nachdem Ihr Hund ein paar Sekunden ruhig war, können Sie ihm das Leckerli geben. Schließlich müssen Sie nur noch "RUHE!" sagen, ohne dass ein Leckerli erforderlich ist.\n\n
+</string>
+    <!--ARTICLES-->
+    <string name="first_article">Mein Hund weint, wenn ich ihn/sie allein lasse</string>
+    <string name="first_article_description">
+    Wenn du den Raum/das Haus verlässt, beginnt dein Hund zu weinen, zu bellen und an der Tür zu kratzen. Kommt dir das bekannt vor? Keine Sorge, hier ist, was du tun kannst:\n\n
+    Schritt 1: Verlasse den Raum/das Haus und entferne dich von der Tür.\n\n
+    Schritt 2: Komm nach 2 Minuten wieder herein, aber kommuniziere nicht mit deinem Hund. (Rufe ihn nicht, lobe ihn nicht und sieh ihn nicht an - tue einfach so, als hättest du etwas vergessen.)\n\n
+    Schritt 3: Bleibe 10 bis 15 Sekunden im Raum und verlasse ihn dann wieder.\n\n
+    Schritt 4: Warte jedes Mal länger, bevor du wieder hineingehst (z.B. 5/15/30 Minuten), und wiederhole die Schritte. Nach einer Weile wird dein Hund verstehen, dass du ihn/sie nicht allein lassen wirst.\n\n
+    P.S.: Du musst geduldig sein, damit dein Hund schneller aufhört zu weinen.\n\n
+</string>
+
+    <string name="second_article">Mein Hund knabbert an Dingen</string>
+    <string name="second_article_description">
+    Diese Angewohnheit, an Dingen zu knabbern, hat mehrere Gründe. Zur Lösung brauchen wir nur ein leichtes und lautes Objekt, zum Beispiel einen Schlüsselbund. Dein Hund könnte Angst haben oder Aggression zeigen, wenn er einen anderen Gegenstand sieht. Mach dir keine Sorgen, das Ziel ist nicht, deinen Hund zu erschrecken, sondern ihn lediglich zu überraschen. Die folgenden Schritte solltest du befolgen:\n\n
+    - Wenn dein Hund kratzt oder knabbert, stelle dich hinter oder neben ihn.\n\n
+    - Nimm den Schlüsselbund in die Hand und wirf ihn sanft in die Nähe seiner Füße. (Wir wollen nicht, dass dein Hund verletzt wird. Wichtig ist, dass der Schlüssel leicht die Füße berührt und dabei ein Geräusch macht.)\n\n
+    - Schaue deinen Hund nach dem Werfen des Schlüssels nicht an. (Du kannst zur Decke schauen.) Der Grund ist, dass dein Hund nicht wissen soll, woher es kam, wer den Schlüssel geworfen hat oder was es war.\n\n
+    - Nach ein paar Wiederholungen wird dein Hund dieses Verhalten aufgeben, wenn du diese Methode anwendest, ohne ihm/ihr wehzutun.\n\n
+</string>
+
+    <string name="third_article">Mein Welpe weint</string>
+    <string name="third_article_description">
+    Welpen weinen meistens, weil sie nicht bei ihrer Mutter sind. Wenn das der Fall ist, kannst du nicht viel tun, aber du kannst versuchen, deinen Welpen mit einer Decke zuzudecken.\n\n
+    (Die Decke wird deinen Welpen warm halten und ihm/ihr das Gefühl geben, bei der Mutter zu sein.)\n\n
+</string>
+
+    <string name="fourth_article">Mein Hund weint, wenn ich nachts die Tür schließe</string>
+    <string name="fourth_article_description">
+    Wenn du nachts nicht im selben Zimmer mit deinem Hund schläfst und die Tür schließt, könnte er/sie weinen, bellen oder an der Tür/Kissen kratzen. Hier ist, was du tun kannst:\n\n
+    - Sei hartnäckig und ignoriere deinen Hund. Selbst wenn du nur eine Ausnahme machst, wird er/sie denken, dass du die Tür jedes Mal öffnen würdest, wenn er/sie sich so verhält.\n\n
+    - Du kannst ein Kleidungsstück von dir im Raum lassen, in dem dein Hund schläft, damit er/sie deinen Geruch wahrnimmt und sich weniger ängstlich fühlt.\n\n
+    P.S.: Du solltest deinen Hund nur hineinlassen, wenn er/sie ruhig und brav ist.\n\n
+</string>
+
+
+</resources>

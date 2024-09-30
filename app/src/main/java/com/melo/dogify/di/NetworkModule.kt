@@ -17,7 +17,7 @@ import java.util.concurrent.TimeUnit
 
 @Module
 @InstallIn(SingletonComponent::class)
-object NetworkModule  {
+object NetworkModule {
 
     @Singleton
     @Provides

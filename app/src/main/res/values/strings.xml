@@ -5,9 +5,75 @@
     <string name="translator">Translator</string>
     <string name="training">Training</string>
     <string name="whistle">Whistle</string>
+    <string name="article">Article</string>
     <string name="read_now"><u>Read now</u></string>
     <string name="terms"><u>Terms</u></string>
     <string name="privacy"><u>Privacy</u></string>
+    <string name="repeat_sound">Repeat Sound</string>
+    <string name="food">Food</string>
+    <string name="onboard_first_title">Understand the feelings of your dog.</string>
+    <string name="onboard_first_description">Do you want to know \n what the dog is thinking?</string>
+    <string name="onboard_second_title">Explore your dog\'s feelings.</string>
+    <string name="onboard_second_description">Wouldn\'t it be exciting to know what\'s going on in your dog\'s mind?</string>
+    <string name="next">Next</string>
+    <string name="get_premium">Get Premium</string>
+    <string name="premium_yearly">Premium - Yearly</string>
+    <string name="first_year">first year</string>
+    <string name="upgrade_to_pro">Upgrade to pro</string>
+    <string name="unlimited_translation">Unlimited Translation</string>
+    <string name="ads_free_using">Ads free using.</string>
+    <string name="start_3_days_free_trial">Start 3 days Free Trial</string>
+    <string name="continue_btn">Continue</string>
+    <string name="your_yearly_plan">Your \nYearly Plan</string>
+    <string name="your_weekly_plan">Your \nWeekly Plan</string>
+    <string name="USD_29">USD 29</string>
+    <string name="USD_09">USD 09</string>
+    <string name="start_weekly_free_trial">Start Weekly Free Trial</string>
+    <string name="purchase">Purchase</string>
+    <string name="subscription_is_auto">Subscription is auto-renewable. You can cancel\n
+your subscription at any time</string>
+    <string name="rate_your_dog">Rate Your Dog</string>
+    <string name="dog_translator">Dog Translator</string>
+    <string name="dog_training">Dog Training</string>
+    <string name="record_translate">Record \n &amp; Translate</string>
+    <string name="dog_whistle">Dog Whistle</string>
+    <string name="hz">10000 Hz</string>
+    <string name="safe_ones">Safe ones</string>
+    <string name="harmful_ones">Harmful ones</string>
+    <string name="careful_with_these">Careful with these</string>
+    <string name="food_description">When you make food at home for your dog, you are ensured that your dog is eating food tat meets your standards.</string>
+    <string name="articles">Articles</string>
+    <string name="article_description">Make sure you give your dog lot’s of attention when she/he’s doing the right thing.</string>
+    <string name="biting">Biting</string>
+    <string name="biting_description">Puppy biting or nipping starts out as a bit of fun, but needs to be controllled quickly to avoid ongoing problems.</string>
+    <string name="obidence">Obidence</string>
+    <string name="obidence_description">Biting</string>
+    <string name="barking">Barking</string>
+    <string name="barking_description">Propper dog obedience tarining Should accomplish opens up a clear line of.</string>
+
+
+    <string name="anxious">Anxious</string>
+    <string name="call">Call</string>
+    <string name="cold">Cold</string>
+    <string name="come_here">Come here</string>
+    <string name="comfortable">Comfortable</string>
+    <string name="feeding">Feeding</string>
+    <string name="happy">Happy</string>
+    <string name="hug">Hug</string>
+    <string name="hot">Hot</string>
+    <string name="hungry">Hungry</string>
+    <string name="joyful">Joyful</string>
+    <string name="love">Love</string>
+    <string name="know">Know</string>
+    <string name="playful">Playful</string>
+    <string name="surprised">Surprised</string>
+    <string name="scared">Scared</string>
+    <string name="i_love_you">I love you</string>
+    <string name="no_understand">No understand</string>
+    <string name="whining">Whining</string>
+    <string name="so_happy">So happy</string>
+    <string name="uncomfortable">Uncomfortable</string>
+    <string name="thirsty">Thirsty</string>
 
     <!--SAFE ONES-->
     <string name="apple">Apple</string>
@@ -280,22 +346,5 @@ P.S.: Doggies don\'t really enjoy the taste of it anyways.</string>
     <string name="fourth_article_description"> If you don\'t sleep in the same room with your doggie and close the door at night, he/she might cry, bark, or scratch the door/cushions. Here is what you need to do:\n\n -Be stubborn and ignore your doggie. Even if you make a one-time exception, he/she will think you\'d open the door anytime he/she behaves this way.\n\n
         You can leave one of your clothes in the room your doggie sleeps in so he/she can smell your scent and feel less anxious.\n\n
         P.S: You should let your doggie in only when he/she is calm and well-behaved.</string>
-
-    <string name="fifth_article">My Dog Barks When The Bell Rings</string>
-    <string name="fifth_article_description"> If your dog just barks it\'s an alarm not bark. This behavior can be seen in several different ways. You can avoid:\n\n
-        1-) Put a few coins in a glass or jar. Shake it every time there\'s a knock on the door to distract your dog. After a certain time he will be disturbed by the sound and stop barking.\n\n
-        2-) Every time the doorbell rings throw the keychain to your hips kindly and you can say HEY. (Make eye contact with your dog, It will not cause any harm.) If your dog starts to run and barks at the door when the bell rings, this is a more serious problem. The solution is as follows: When the bell rings, go to your dog and nudge kindly. Then slowly walk towards it. In this way, your dogs energy will drop and it will give upt o own the door.\n\n</string>
-
-    <string name="sixth_article">My Dog eats poop</string>
-    <string name="sixth_article_description"> If your dog eats poop then you may wonder why they do it, if it\’s a normal behaviour and whetherit could make them sick. Your dog may enjoy dining on their own dung, eating cat litter tray treats or they may prefer snacking onstools on their daily walks. It may be disgusting to us, but it\’s actually a relatively normal behaviour for many dogs, particularly puppies.\n\n
-        The question is, is it bad for them and should we stop them? How can I stop my dog eating poo?\n\n
-        If your dog regularly pigs out on poo then you should consider speaking to your local vet or behaviouristfor advice. To help you manage this behaviour you could try:\n\n
-        -Teaching them a good recall or to leave it, as these commands can help keep them away from poo when you\'re out on walks. Stay patient and keep using positive reinforcement. Make sure you give them plenty of praise to encourage them to behave differently.\n\n
-        -If you\’re having trouble with training, keep them on a lead when out for walks\n\n
-        -Wearing a basket style muzzle when out on a walk will help break the habit while still allowing your dog to pant\n\n
-        -If they choose not to eat a poo give them lots of praise and attention\n\n
-        -Make sure you always pick up your dog\’s stools as soon as possible and keep them on the lead when they\'re going to the toilet\n\n
-        -Try feeding them more regularly or try a diet that fills them up for longer. Always speak to your vet before changing your dog\’s diet\n\n
-        -Some people recommend feeding dogs food that makes their faces taste unpleasant, such as pineapple or courgette, but there is littlescientific evidence to suggest these work.\n\n</string>
 
 </resources>

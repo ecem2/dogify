@@ -1,0 +1,345 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Dogify</string>
+    <string name="hello_blank_fragment">Hola fragmento en blanco</string>
+    <string name="sounds">Sonidos</string>
+    <string name="translator">Traductor</string>
+    <string name="training">Entrenamiento</string>
+    <string name="whistle">Silbato</string>
+    <string name="article">Artículo</string>
+    <string name="read_now"><u>Leer ahora</u></string>
+    <string name="terms"><u>Términos</u></string>
+    <string name="privacy"><u>Privacidad</u></string>
+    <string name="repeat_sound">Repetir sonido</string>
+    <string name="food">Comida</string>
+    <string name="onboard_first_title">Entiende los sentimientos de tu perro.</string>
+    <string name="onboard_first_description">¿Quieres saber \n lo que piensa el perro?</string>
+    <string name="onboard_second_title">Explora los sentimientos de tu perro.</string>
+    <string name="onboard_second_description">¿No sería emocionante saber lo que pasa por la mente de tu perro?</string>
+    <string name="next">Siguiente</string>
+    <string name="get_premium">Obtener Premium</string>
+    <string name="premium_yearly">Premium - Anual</string>
+    <string name="first_year">primer año</string>
+    <string name="upgrade_to_pro">Actualizar a pro</string>
+    <string name="unlimited_translation">Traducción ilimitada</string>
+    <string name="ads_free_using">Uso sin anuncios.</string>
+    <string name="start_3_days_free_trial">Comienza prueba gratuita de 3 días</string>
+    <string name="continue_btn">Continuar</string>
+    <string name="your_yearly_plan">Tu \nPlan Anual</string>
+    <string name="your_weekly_plan">Tu \nPlan Semanal</string>
+    <string name="USD_29">USD 29</string>
+    <string name="USD_09">USD 09</string>
+    <string name="start_weekly_free_trial">Comienza prueba gratuita semanal</string>
+    <string name="purchase">Comprar</string>
+    <string name="subscription_is_auto">La suscripción se renueva automáticamente. Puedes cancelar \n tu suscripción en cualquier momento</string>
+    <string name="rate_your_dog">Califica a tu perro</string>
+    <string name="dog_translator">Traductor de perros</string>
+    <string name="dog_training">Entrenamiento de perros</string>
+    <string name="record_translate">Grabar \n &amp; Traducir</string>
+    <string name="dog_whistle">Silbato para perros</string>
+    <string name="hz">10000 Hz</string>
+    <string name="safe_ones">Seguros</string>
+    <string name="harmful_ones">Dañinos</string>
+    <string name="careful_with_these">Ten cuidado con estos</string>
+    <string name="food_description">Cuando preparas comida en casa para tu perro, te aseguras de que tu perro esté comiendo comida que cumple con tus estándares.</string>
+    <string name="articles">Artículos</string>
+    <string name="article_description">Asegúrate de darle a tu perro mucha atención cuando él/ella esté haciendo lo correcto.</string>
+    <string name="biting">Morder</string>
+    <string name="biting_description">El morder o morder suavemente en cachorros comienza como un poco de diversión, pero debe controlarse rápidamente para evitar problemas continuos.</string>
+    <string name="obidence">Obediencia</string>
+    <string name="obidence_description">Morder</string>
+    <string name="barking">Ladrar</string>
+    <string name="barking_description">Un adecuado entrenamiento de obediencia canina debería abrir una línea clara de.</string>
+
+    <string name="anxious">Ansioso</string>
+    <string name="call">Llamar</string>
+    <string name="cold">Frío</string>
+    <string name="come_here">Ven aquí</string>
+    <string name="comfortable">Cómodo</string>
+    <string name="feeding">Alimentación</string>
+    <string name="happy">Feliz</string>
+    <string name="hug">Abrazo</string>
+    <string name="hot">Caliente</string>
+    <string name="hungry">Hambriento</string>
+    <string name="joyful">Alegre</string>
+    <string name="love">Amor</string>
+    <string name="know">Saber</string>
+    <string name="playful">Juguetón</string>
+    <string name="surprised">Sorprendido</string>
+    <string name="scared">Asustado</string>
+    <string name="i_love_you">Te quiero</string>
+    <string name="no_understand">No entiendo</string>
+    <string name="whining">Lloriqueo</string>
+    <string name="so_happy">Tan feliz</string>
+    <string name="uncomfortable">Incomodidad</string>
+    <string name="thirsty">Sediento</string>
+
+
+    <!--SAFE ONES-->
+    <string name="apple">Manzana</string>
+    <string name="apple_article">Siempre que se le quiten las semillas (para evitar el envenenamiento por cianuro), la manzana es segura y saludable para los perritos. La manzana es una fruta llena de vitaminas, minerales, antioxidantes y fibra. También es un excelente bocadillo para los perritos. Sin embargo, contiene mucha azúcar, como el plátano, así que ten cuidado con el aumento de peso. Asegúrate de cortarla en trozos pequeños para evitar el riesgo de ahogamiento.</string>
+
+    <string name="banana">Plátano</string>
+    <string name="banana_article">El plátano es seguro y saludable para los perritos. Está lleno de potasio, lo cual es bueno para los riñones y el corazón. Pero también contiene muchos carbohidratos y azúcar, así que ten cuidado con el aumento de peso. Aunque no está científicamente comprobado, se dice que el plátano ayuda con las náuseas de los perritos. Asegúrate de cortarlo en rodajas pequeñas para evitar el riesgo de ahogamiento.</string>
+
+    <string name="beet">Remolacha</string>
+    <string name="beet_article">Es una excelente fuente de alimentos. La remolacha tiene muchos efectos positivos en la salud. Sin embargo, es especialmente efectiva en la regeneración de las células del hígado y en mantener la salud.</string>
+
+    <string name="blueberry">Arándano</string>
+    <string name="blueberry_article">Se recomiendan los arándanos en la dieta de los perros. Los arándanos son ricos en antioxidantes, selenio, zinc y hierro, así como en vitaminas C, E, A y B.</string>
+
+    <string name="bread">Pan</string>
+    <string name="bread_article">El pan blanco o integral es seguro para los perritos. (Asegúrate de que no haya uvas secas dentro). Si se consume con frecuencia, debes tener cuidado con el aumento de peso de tu perrito.</string>
+
+    <string name="broccoli">Brócoli</string>
+    <string name="broccoli_article">El brócoli es una de las verduras más importantes que pueden comer los perros, rico en vitaminas A, C, E y caroteno. Cuando el brócoli se hierve, se liberan enzimas que combaten el cáncer. Por lo tanto, ayuda a prevenir el cáncer. El brócoli contiene 33 estructuras diferentes anticancerígenas. Además, algunas de las estructuras que contiene tienen fitoquímicos que previenen la formación de células cancerígenas y atacan las células sanas. Fortalece el sistema de defensa del cuerpo. Es necesario ver los beneficios del brócoli y no excederse. El consumo excesivo de brócoli causa una disminución de la función tiroidea en los perros.</string>
+
+    <string name="carrot">Zanahoria</string>
+    <string name="carrot_article">La zanahoria (cruda o cocida) es segura y saludable para los perritos. Es una verdura baja en calorías llena de vitaminas, minerales y fibra. También puede ayudar con la digestión. Asegúrate de cortarla en rodajas pequeñas para evitar el riesgo de ahogamiento.</string>
+
+    <string name="cucumber">Pepino</string>
+    <string name="cucumber_article">El pepino es un bocadillo muy útil, bajo en calorías y fácil de digerir para el sistema digestivo de los perros. Pero cuando se consume en exceso, puede causar dolor de estómago. Corta el pepino en rodajas antes de dárselo a tu perro para evitar el riesgo de ahogamiento.</string>
+
+    <string name="green_peas">Guisantes verdes</string>
+    <string name="green_peas_article">Si le das a tu perro una dieta, definitivamente debes añadir guisantes a la lista. Son ricos en tiamina, fósforo y potasio. Puedes aumentar el valor nutricional añadiendo algunos guisantes cocidos a la comida diaria de tu perro. A él o ella le encantará más la comida cuando se cocine con un trozo de carne y caldo natural y sin sal.</string>
+
+    <string name="kiwi">Kiwi</string>
+    <string name="kiwi_article">Más de una rodaja de kiwi pequeño, que contiene fibra, potasio y altas cantidades de vitamina C, puede dañar a tu perro.</string>
+
+    <string name="lettuce">Lechuga</string>
+    <string name="lettuce_article">A tu perro le gustará porque la lechuga es crujiente. Dar demasiada puede causar diarrea a tu perro. Ten cuidado de dar estas verduras ya que son una fuente de fibra y un alimento rico.</string>
+
+    <string name="mango">Mango</string>
+    <string name="mango_article">La parte principal de la fruta de mango contiene vitaminas A, B6, C y E. Es muy útil para los perros.</string>
+
+    <string name="orange">Naranja</string>
+    <string name="orange_article">Siempre que esté pelada, la naranja es segura y saludable para los perritos. Es una fruta baja en calorías y nutritiva, pero evita darle demasiada para que tu perro no sufra un dolor de estómago. Asegúrate de cortarla en rodajas pequeñas para evitar el riesgo de ahogamiento.</string>
+
+    <string name="parsley">Perejil</string>
+    <string name="parsley_article">Proporciona a tu perro calcio, potasio y beta-caroteno. Reduce el mal aliento en los perros. Si tu perro tiene mal aliento, puedes agregar algunos trozos de perejil a su comida o puedes añadirlo a las galletas para perros que haces en casa.</string>
+
+    <string name="pear">Pera</string>
+    <string name="pear_article">Ayuda a la salud del sistema digestivo en los perros. Puedes picar las peras, que contienen vitaminas A, C, E, B1 y B2, así como fibra, ácido fólico, potasio y cobre, en cubos para tu perro.</string>
+
+    <string name="pineapple">Piña</string>
+    <string name="pineapple_article">Siempre que esté fresca, la piña es segura y saludable para los perritos. Está llena de vitaminas, minerales y fibra. También es un excelente bocadillo para los perritos. Asegúrate de cortarla en rodajas pequeñas para evitar el riesgo de ahogamiento. Además, no le des demasiada a tu perro para que no sufra náuseas.</string>
+
+    <string name="spinach">Espinaca</string>
+    <string name="spinach_article">La espinaca es rica en vitaminas K, A, C, E y B, así como en calcio, hierro, magnesio, fósforo, manganeso, potasio, folato, cobre y fibra. Si tu perro consume cantidades excesivas de espinaca, sus riñones pueden dañarse. Sin embargo, alimentar a tu perro con un puñado de espinacas al mes es saludable. Contiene fibra, vitaminas y antioxidantes. A tu perro le encantará tanto la espinaca que le pondrás el nombre de Popeye.</string>
+
+    <string name="strawberry">Fresa</string>
+    <string name="strawberry_article">La fresa es segura y saludable para los perritos. Es una fruta baja en calorías que contiene fibra y antioxidantes. Asegúrate de cortarla en dos o tres piezas para evitar el riesgo de ahogamiento.</string>
+
+    <string name="turnip">Nabo</string>
+    <string name="turnip_article">Es una verdura que puedes añadir a la lista de la dieta. El nabo mantiene a tus perros en forma con su alta fuente de nutrientes y su capacidad de limpieza tóxica.</string>
+
+    <string name="watermelon">Sandía</string>
+    <string name="watermelon_article">Siempre que esté pelada y sus semillas sean removidas, la sandía es segura y saludable para los perritos. Es una fruta baja en calorías llena de vitaminas A y C. También es un excelente bocadillo para los perritos. Asegúrate de cortarla en rodajas pequeñas para evitar el riesgo de ahogamiento.</string>
+
+    <!--ALIMENTOS PERJUDICIALES-->
+    <string name="alcohol">Alcohol</string>
+    <string name="alcohol_article">El alcohol contiene un compuesto químico llamado etanol, que es tóxico para los perros. Si se consume, puede causar malestar estomacal, problemas de coordinación, vómitos, diarrea y deshidratación. Si se consume en grandes cantidades, puede provocar insuficiencia pulmonar, coma y muerte.</string>
+
+    <string name="avocado">Aguacate</string>
+    <string name="avocado_article">El aguacate (incluyendo sus hojas) contiene un compuesto químico llamado persina, que es tóxico para los perros. Si se consume, puede causar malestar estomacal. Su semilla también puede bloquear los intestinos de su perro. Si se consume en grandes cantidades, puede causar problemas respiratorios y dañar el corazón y el hígado de su perro.</string>
+
+    <string name="candy">Caramelo</string>
+    <string name="candy_article">Muchos azúcares contienen edulcorantes artificiales y pasas, que son perjudiciales para su perro. Incluso los edulcorantes artificiales son tóxicos para su perro. Cuando se consumen en pequeñas cantidades, se pueden observar vómitos, diarrea y pérdida de apetito. Si la cantidad consumida aumenta, puede ser fatal.</string>
+
+    <string name="chocolate">Chocolate</string>
+    <string name="chocolate_article">El chocolate contiene cafeína y teobromina. Y los perros no pueden digerir estos estimulantes. (Los niveles de teobromina son especialmente altos en el chocolate negro y amargo). Si se consume un poco, probablemente solo causará malestar estomacal. A medida que aumenta la cantidad consumida, puede causar síntomas como hiperactividad, vómitos, diarrea, ritmo cardíaco irregular, temblores musculares y deshidratación. Si se consume en grandes cantidades, la cafeína puede provocar insuficiencia pulmonar o muerte; la teobromina puede causar hemorragias internas, ataque al corazón o muerte.</string>
+
+    <string name="coffee">Café</string>
+    <string name="coffee_article">El café contiene cafeína y teobromina. Y los perros no pueden digerir estos estimulantes. Si se consume un poco, probablemente solo causará malestar estomacal. A medida que aumenta la cantidad consumida, puede causar síntomas como hiperactividad, vómitos, diarrea, ritmo cardíaco irregular, temblores musculares y deshidratación. Si se consume en grandes cantidades, la cafeína puede provocar insuficiencia pulmonar o muerte; la teobromina puede causar hemorragias internas, ataque al corazón o muerte.</string>
+
+    <string name="bones">Huesos Cocidos</string>
+    <string name="bones_article">Siempre elija los huesos más grandes y recuerde que siempre deben ser crudos. Los huesos de cordero cocidos se rompen fácilmente y las astillas son problemáticas.</string>
+
+    <string name="fishbones">Huesos de Pescado</string>
+    <string name="fishbones_article">Los huesos de pescado que consume su perro viajan por el tracto digestivo como un pedazo de vidrio. Como resultado, pueden aparecer desgarros en el esófago y el estómago de los perros.</string>
+
+    <string name="garlic">Ajo</string>
+    <string name="garlic_article">El ajo es perjudicial para los perros. Según la Asociación Americana de Veterinarios, si bien los beneficios del ajo no han sido probados, sus daños y efectos tóxicos sí lo han sido. La orina de color naranja o rojo al ser consumido puede causar vómitos, diarrea, aumento de la respiración, debilidad, pérdida de apetito o palpitaciones. Cuando se consume en exceso, puede causar daño a los glóbulos rojos y deterioro de la estructura de la mucosa natural.</string>
+
+    <string name="grapes">Uvas</string>
+    <string name="grapes_article">Las uvas (frescas o secas) contienen algunos compuestos químicos que son tóxicos para los perros. (Las sustancias exactas que causan la reacción tóxica aún no se conocen). Si se consumen, pueden causar vómitos, entumecimiento, diarrea y temblores musculares. Si se consumen en grandes cantidades, pueden provocar un aumento de la micción, enfermedades renales a largo plazo o muerte.</string>
+
+    <string name="leek">Puerro</string>
+    <string name="leek_article">Para los perros, alimentos como los puerros y las cebollas causan enfermedades incluso si se ingieren pequeñas cantidades. Consumir grandes cantidades puede causar anemia.</string>
+
+    <string name="lemon">Limón</string>
+    <string name="lemon_article">El limón contiene compuestos químicos como linalool y limoneno que son tóxicos para los perros. Si se consume un poco, puede causar solo malestar estomacal e intestinal.
+P.D.: Los perros no disfrutan realmente de su sabor de todos modos.</string>
+
+    <string name="mushroom">Champiñón</string>
+    <string name="mushroom_article">Si los perros consumen champiñones, pueden causar dolor abdominal, vómitos y diarrea. Cuando se consumen en exceso, puede resultar en enfermedad renal, daño hepático, coma o muerte.</string>
+
+    <string name="onion">Cebolla</string>
+    <string name="onion_article">Las cebollas son perjudiciales para los perros. La orina de color naranja o rojo al ser consumido puede causar vómitos, diarrea, aumento de la respiración, debilidad, pérdida de apetito o palpitaciones. Cuando se consume en exceso, puede causar daño a los glóbulos rojos y deterioro de la estructura de la mucosa natural.</string>
+
+    <string name="tea">Té</string>
+    <string name="tea_article">El té contiene cafeína y teobromina. Y los perros no pueden digerir estos estimulantes. Si se consume un poco, probablemente solo causará malestar estomacal. A medida que aumenta la cantidad consumida, puede causar síntomas como hiperactividad, vómitos, diarrea, ritmo cardíaco irregular, temblores musculares y deshidratación. Si se consume en grandes cantidades, la cafeína puede provocar insuficiencia pulmonar o muerte; la teobromina puede causar hemorragias internas, ataque al corazón o muerte.</string>
+
+    <string name="tobacco">Tabaco</string>
+    <string name="tobacco_article">El tabaco puede causar espasmos o accidentes cerebrovasculares, salivación, pupilas constrictas, alucinaciones visuales y sonoras, ritmo cardíaco rápido, vómitos y diarrea en los perros.</string>
+
+    <!--CUIDADO CON ESTOS-->
+    <string name="cheese">Queso</string>
+    <string name="cheese_article">Por lo general, está bien que los perros coman pequeñas cantidades de queso. Sin embargo, la cantidad de grasa y lactosa varía mucho entre los diferentes tipos de queso. De hecho, algunos quesos pueden causar molestias en el tracto digestivo de tu perro y provocar dolor de estómago y diarrea. Por lo tanto, recomendamos aquellos con bajo contenido de grasa, como la mozzarella. Si deseas darle un poco a tu perro, puedes empezar con pequeños trozos para que se acostumbre.</string>
+
+    <string name="cherries">Cerezas</string>
+    <string name="cherries_article">La cereza no tiene ningún beneficio nutricional científicamente comprobado para los perros. Si decides darle algunas a tu perro, no debes darle más de unas pocas a la vez. Ten en cuenta que siempre debes quitar los huesos para evitar el atragantamiento y la intoxicación por cianuro (un compuesto químico que se encuentra en los huesos). Si se consumen en grandes cantidades, tu perro podría tener dolor de estómago y diarrea.</string>
+
+    <string name="egg">Huevo</string>
+    <string name="egg_article">La enzima avidina en los huevos crudos impide la absorción de la vitamina B7 (biotina). En caso de deficiencia de B7, la salud de la piel y el pelaje de tu perro se deteriora. Además, las bacterias de salmonela que se encuentran en los huevos crudos pueden causar intoxicación en los perros. Los huevos pueden provocar vómitos en los perros.</string>
+
+    <string name="honey">Miel</string>
+    <string name="honey_article">La miel contiene mucha azúcar, por lo que no sugerimos darle demasiada a tu perro. Si se consume en grandes cantidades, podría causar aumento de peso.</string>
+
+    <string name="ice_cream">Helado</string>
+    <string name="ice_cream_article">Los helados en las estanterías del mercado contienen mucha azúcar (y, obviamente, leche), por lo que no es muy saludable compartir tu helado con tu perro. (Especialmente si tu perro es intolerante a la lactosa). Pero si deseas, puedes hacer o comprar helados seguros para perros.</string>
+
+    <string name="juice">Jugo</string>
+    <string name="juice_article">Los perros pueden beber la mayoría de los jugos de frutas, pero no deberían beber cualquiera, ya que los jugos de frutas contienen mucha azúcar y conservantes químicos, que podrían perjudicar su salud. Por lo tanto, deberías darle frutas frescas y deliciosas a tu perro en lugar de jugo de frutas.</string>
+
+    <string name="milk">Leche</string>
+    <string name="milk_article">Algunos perros son intolerantes a la lactosa, así que debes tener cuidado al darle leche o derivados lácteos a tu perro. Si deseas, puedes probar con leche de soya para que no tenga dolor de estómago. Ten en cuenta que si tu perro es un cachorro, la leche de soya no es un sustituto de la leche materna.</string>
+
+    <string name="peanut">Cacahuate</string>
+    <string name="peanut_article">Tóxico para tu perro. Por lo tanto, definitivamente no deberías darle.</string>
+
+    <string name="pomegranate">Granada</string>
+    <string name="pomegranate_article">Si los perros deben comer granada o no es a menudo un tema de debate entre veterinarios. La granada no es tóxica para los perros. También es muy saludable en términos de antioxidantes, vitamina C, potasio y niveles de fibra. Sin embargo, la granada puede causar problemas digestivos (por ejemplo, dolor de estómago, vómitos) o diarrea debido a sus semillas cuando se consume en exceso. Por lo tanto, darle a tu perro una pequeña cantidad de granada sería la decisión más lógica.</string>
+
+    <string name="tomato">Tomate</string>
+    <string name="tomato_article">Siempre que estén maduros/rojos, puedes darle tomates a tu perro ocasionalmente. Sin embargo, los tomates inmaduros/verdes contienen tomatina, que es perjudicial para los perros: causa dolor de estómago, ritmo cardíaco anormal y problemas para respirar. Si se consumen en grandes cantidades, podría afectar gravemente el sistema digestivo y nervioso de tu perro.</string>
+
+    <string name="yogurt">Yogur</string>
+    <string name="yogurt_article">Algunos perros no pueden digerir el yogur fácilmente, por lo que pueden tener dolor de estómago. Pero si deseas darle un poco a tu perro, asegúrate de que no sea un yogur de frutas y que no contenga azúcar/sustitutos de azúcar.</string>
+
+    <string name="biting_text">Mi perro está mordiendo</string>
+    <string name="biting_text_article"> - Manejar y controlar los problemas de mordedura en cachorros puede ser un gran desafío para nosotros, amantes de los perros. La mordedura o el mordisqueo de un cachorro comienza como un poco de diversión, pero debe ser controlado rápidamente para evitar problemas continuos.\n\n
+        - Para la mayoría de los cachorros jóvenes, morder es una fase perfectamente natural y esencial, especialmente cuando están en la etapa de dentición.\n\n
+        - A los cachorros les encanta hundir sus afilados dientes en casi cualquier cosa durante esta etapa de dentición, incluidas las manos y pies de sus dueños. En algunos casos, es como si hubieras traído un cocodrilo mordedor a tu casa, en lugar del adorable cachorro que esperabas.\n\n
+        - La buena noticia es que la mayoría de los cachorros pueden ser entrenados para regular y minimizar la mordedura bastante fácilmente. Cuanto antes empieces a educar a tu cachorro en la inhibición de mordidas (tener una boca suave), más fácil será para todos los involucrados.\n\n
+        Cómo detener los problemas de mordedura en cachorros - Hay muchos métodos de entrenamiento probados para ayudar a corregir los problemas de comportamiento de tu cachorro. Antes de entrar en las técnicas específicas que puedes usar para detener a tu cachorro de morder, siempre ten en cuenta estas reglas generales de entrenamiento de comportamiento canino:\n\n
+        - La socialización de cachorros y el entrenamiento de inhibición de mordidas van de la mano.\n\n
+        - Nunca des un golpe o pegues a tu cachorro en la cara. ¡Esto no funciona! Tu cachorro solo pensará que estás jugando o podría tener miedo de ti. Esto puede incluso llevar a problemas mucho más grandes que el simple mordisqueo de cachorros.\n\n
+        - La regla general para detener los problemas de mordedura en cachorros es siempre fomentar el comportamiento aceptable y siempre desincentivar el comportamiento inaceptable. Para aprender más sobre esta regla fundamental de entrenamiento de obediencia canina (incluido cómo detener los problemas de mordedura), visita Secretos de un Entrenador Profesional de Perros.\n\n
+        - Mientras intentas detener a tus cachorros de morder, nunca juegues a tirar de la cuerda, lucha o juegos de persecución con ellos. Esto solo fomenta la mordida y el mordisqueo.\n\n
+        - Cualquiera que sea el método que elijas para entrenar a tu cachorro, la regla dorada es ser consistente. Esto significa que tú y cualquier otra persona que tenga contacto con tu cachorro deben hacer cumplir tu estrategia elegida cada vez que tu cachorro tome un mordisco.\n\n
+        - Si no comunicas claramente a tu perro que morder es inaceptable, él no sabrá que está haciendo algo mal. Depende de ti mostrarle cuál es el comportamiento aceptable, ¡no solo esperes que tu cachorro lo sepa! (Realmente estás asumiendo el papel de sus compañeros de camada para esta tarea).\n\n
+        - Otra razón (extrema) por la que los cachorros pueden morder es si están tratando de afirmar su dominio sobre ti. Si este es el caso con tu cachorro, debe ser detenido inmediatamente. Cuando tienes un cachorro dominante, su mordida será solo el comienzo de muchos problemas de comportamiento.\n\n
+        Detén a tu cachorro de morder - Técnicas probadas Tu objetivo, para comenzar, es enseñar a tu cachorro cómo controlar la fuerza de su mordida. Los compañeros de camada de tu cachorro iniciarán este proceso y luego dependerá de ti continuar cuando tu nuevo cachorro llegue a casa. Esto asegurará (no garantizará) que si tu perro muerde a alguien en el futuro, el daño se minimizará. Cuando le hayas dado a tu cachorro suficiente retroalimentación sobre la fuerza de su mordida, solo entonces podrás comenzar a reducir la prevalencia del comportamiento de morder.\n\n
+        - Si detectas el problema de morder desde el principio, puede ser fácil de rectificar. Solo intenta redirigir la mordida de tu carne a un juguete o un hueso para masticar. Para cachorros muy jóvenes, este método a menudo será todo lo que necesites hacer. Tan pronto como tu cachorro comience a morder tus manos, simplemente emite un firme "¡No!" y reemplaza tus dedos con el juguete para masticar (o un cubito de hielo si tu cachorro está en la etapa de dentición).\n\n
+        - Este es probablemente el método más popular y mi favorito personal. Haz que tu cachorro piense que te está lastimando cada vez que te muerde. Este método replica la forma en que los perros resuelven este mordisqueo entre ellos. Cuando los cachorros se muerden y mordisquean entre sí, solo se detiene cuando uno de los cachorros suelta un aullido. Podemos usar esta forma natural en que los perros aprenden al dejar escapar un ¡Ay! o un ¡Argh! cada vez que uno de nuestros cachorros muerde. El truco es asustar a tu perro con tu voz y luego alejarte y dejar de jugar con tu cachorro por un tiempo. Tu cachorro pronto aprenderá que cuando comienza a morder, su compañero de juego (tú) se va.\n\n
+        - Enseña a tu cachorro el comando de entrenamiento de obediencia "¡Déjalo!". Este método funciona muy bien pero es más adecuado para cachorros mayores.\n\n
+        En casos de mordida grave, tan pronto como tu cachorro se aferre a tu mano, di "¡No!" y rápidamente coloca tu pulgar dentro de su boca, debajo de su lengua, y tu otro dedo debajo de su barbilla. Manténlo ahí durante unos 10 segundos (no demasiado apretado). Esto se sentirá incómodo para tu cachorro y, además, no podrá morderte.\n\n
+        - En casos de mordida grave, tan pronto como tu cachorro se aferre a tu mano, di "¡No!" y rápidamente coloca tu pulgar dentro de su boca, debajo de su lengua, y tu otro dedo debajo de su barbilla. Manténlo ahí durante unos 10 segundos (no demasiado apretado). Esto se sentirá incómodo para tu cachorro y, además, no podrá morderte.\n\n
+        \'Siempre elogia y recompensa una boca suave e ignora o retírate de mordisqueos inapropiados\'\n\n
+        - Nuevamente, si tu cachorro tiene un problema de mordida severo, puedes intentar esta técnica de entrenamiento. Ponte un par de guantes y aplica una sustancia de mal sabor a ellos (algo que a tu perro no le guste). ¡Tu perro pronto aprenderá que si te muerde, no será sabroso! Este método produce una fuerte asociación negativa para tu perro cada vez que decide morderte. ¡Algunos perros son lo suficientemente inteligentes como para darse cuenta de que cuando te quitas los guantes de mal sabor, está bien hundir sus dientes en ti nuevamente!\n\n
+        - Para cachorros mayores (alrededor de 6 meses), esta es una técnica segura para detener el mordisqueo de cachorros. Coloca un collar de pinza o estrangulación en tu cachorro y cada vez que te muerda, da un tirón corto y firme de la correa. Esta corrección formará una asociación desagradable para tu perro cada vez que te muerda. No tomará mucho tiempo para que se detenga. Algunos entrenadores creen que este método es bastante extremo, y estoy de acuerdo en que solo deberías recurrir a él en circunstancias muy raras; nunca he necesitado llegar a este nivel. Creo que es mucho más efectivo educar a tu cachorro que infligir castigo o tratar de extinguir un comportamiento por completo.\n\n
+        Cómo detener a un cachorro de morder Estos métodos me han sido recomendados, pero nunca los he probado yo mismo:- Rocía a tu cachorro con agua cada vez que comience a mordisquear.\n\n
+        - Llena una lata vacía con piedras o monedas. Cada vez que tu cachorro comience a morder, di ¡No! y agita la lata. Aparentemente, a los cachorros les desagrada este ruido de tintineo.\n\n
+        - Si te preocupa que puedas tener un cachorro excesivamente agresivo, busca el consejo de un etólogo o entrenador de perros experimentado.\n\n
+        - Como mencioné antes, la pieza más importante de consejo, independientemente del método de entrenamiento que elijas, es ser consistente y proporcionar la retroalimentación clara que tu cachorro necesita para aprender.\n\n
+</string>
+
+    <!--ARTÍCULO SOBRE OBEDIENCIA-->
+    <string name="obedience_text">Obediencia</string>
+    <string name="obedience_text_article">¿Qué es el entrenamiento canino para fines de obediencia? Yo, como la mayoría de los dueños de perros, creo que el entrenamiento canino para la obediencia es un ingrediente esencial en cualquier relación saludable entre humanos y perros. Pero, ¿qué es exactamente el entrenamiento de obediencia canina y por qué es tan importante para ti y tu perro? El entrenamiento de obediencia es un término general que se puede lograr a través de las diversas técnicas de entrenamiento canino. Independientemente de qué técnica de entrenamiento elijas emplear o qué escuelas de entrenamiento canino frecuentes, esto es lo que un correcto entrenamiento de obediencia canina debería lograr:\n\n
+        - Construir o fortalecer una relación cercana, saludable y apropiada entre tú y tu perro.\n\n
+        - Abrir una línea de comunicación clara entre tú y tu perro. Esto incluye que tú sepas qué esperar de tu perro en todas las circunstancias, y que tu perro entienda y respete claramente lo que se espera de él/ella.\n\n
+        - El entrenamiento canino para la obediencia establece un conjunto de reglas o límites que educan a tu perro para convertirse en un miembro responsable de la sociedad. Incluyendo cómo relacionarse con otros perros, animales y personas, modales básicos y cómo comportarse en cualquier situación.\n\n
+        - Establecer las bases que ayudan a prevenir el desarrollo de comportamientos problemáticos inaceptables, como saltar, ladrar, masticar, cavar, etc.\n\n
+        Los beneficios del entrenamiento canino para la obediencia\n\n
+        - El entrenamiento básico de obediencia hace la vida más simple para tu perro y elimina la confusión. Tu perro sabrá su lugar en el mundo y entenderá lo que está bien y lo que está mal. Los perros parecen realmente apreciar y prosperar en esta visión en blanco y negro del mundo.\n\n
+        - Divertido y gratificante tanto para ti como para tu perro; para mí, ¡de esto se trata todo!\n\n
+        - Tendrás un perro feliz, relajado y seguro que puedes llevar a cualquier parte y será un placer estar cerca de él. También se le puede extender mayor libertad a tu perro, ya que será más confiable cuando esté entrenado en obediencia.\n\n
+        - Un cachorro o perro entrenado en obediencia es un perro mucho más seguro. Si tu perro sale corriendo por la puerta principal, aún tendrás control sobre él. Podrás llamar a uno de tus comandos de entrenamiento en obediencia, como \'ven\', \'abajo\', \'sentado\' o \'ve a tu lugar\'. Esto es muy tranquilizador para cualquier amante de los perros.\n\n
+        - Ganas confianza y respeto mutuo con tu perro. Él entiende lo que se espera de él y sabe que tú siempre serás justo y consistente con esto.\n\n
+        - Cuando tu perro está entrenado en obediencia, estará bien alrededor de familiares, amigos y niños bajo supervisión.\n\n
+        - El entrenamiento de obediencia canina satisface algunas necesidades cruciales en la vida de tu perro, incluyendo ejercicio, estimulación mental, pasar tiempo contigo y proporcionarle a tu perro un \'trabajo\'.\n\n
+        - El entrenamiento canino para la obediencia reduce enormemente el riesgo de entrar en una lucha de dominancia con tu perro. Serás su líder fuerte y siempre justo, a quien él respetará y buscará orientación.\n\n
+        - El entrenamiento de obediencia es un proceso paso a paso que construyes con el tiempo. Crea una base sólida para que tu perro aprenda habilidades adicionales y comandos de entrenamiento. A lo largo de este proceso, tu perro irá ganando confianza.\n
+        El peligro de no dar entrenamiento canino para la obediencia - es una realidad desafortunada que los perros no entrenados son la causa principal de que cachorros y perros terminen en refugios de animales en todo el mundo.\n\n
+        - Esto no es bueno para nadie, especialmente para los pobres perros.\n\n
+        - Tu perro nunca podrá estar realmente cerca de ti y tu familia. Con esto quiero decir que tu perro no estará involucrado en las salidas familiares, en cambio, pasará gran parte de su tiempo solo en el jardín. Esto puede provocar numerosos problemas de comportamiento y puede ser un verdadero problema para ti, e incluso para tus vecinos.\n\n
+        - Tu perro será más inseguro alrededor de personas, otros animales y en las carreteras.\n\n
+        - Es un rasgo común en los perros no entrenados desafiar tu liderazgo o autoridad. Los perros entrenados en obediencia también intentarán probarte de esta manera. Pero cuando seas competente en el entrenamiento de obediencia, tendrás las herramientas para lidiar con ello.\n\n
+        - Constantemente (pero no de manera efectiva) tu perro será gritado y alejado aún más de su manada (tú y tu familia). Esta no es forma de vivir para ti y tu perro, y es totalmente evitable con un simple entrenamiento de obediencia.\n\n
+        Reglas generales para un entrenamiento efectivo de obediencia canina\n\n
+        Encontrarás técnicas de entrenamiento probadas para comandos de obediencia específicos al seleccionar de la lista a continuación. Estos son algunos consejos generales a tener en cuenta que son válidos en cualquier situación de entrenamiento de obediencia canina:\n\n
+        - Elogia y recompensa a tu perro cuando haga lo que le pides, da una corrección apropiada cuando no haga lo que se le ha enseñado. La clave es encontrar el equilibrio adecuado para tu perro. No esperes que tu perro sepa esto de inmediato. La repetición del comando y la acción es crucial. Cree en lo que estás haciendo y mantente firme.\n\n
+        - Siempre sé consistente (esto incluye a todos los que viven con tu perro), facilítale la vida a tu perro. Dale una decisión simple que tomar y aclárale qué elección es aceptable y cuál es inaceptable: proporciona retroalimentación instantánea.\n\n
+        - Nunca corrijas o castigues a tu perro por no hacer algo que no se le ha enseñado adecuadamente: sé realista y justo.\n\n
+        - Haz que tus sesiones de entrenamiento sean cortas, directas y divertidas, tanto para ti como para tu perro. Aquí es donde muchas escuelas de entrenamiento canino fallan.\n\n
+        - Tómalo con calma, domina un comando fácil para comenzar y luego sigue avanzando y construyendo sobre ello. Continúa desafiando y estimulando mentalmente a tu perro a lo largo del proceso de entrenamiento.\n\n
+        - Eres la mejor persona para realizar estas tareas con tu perro. Tu perro tiene que vivir contigo, tú eres su manada y debes ser la persona a la que él mire en busca de liderazgo y a quien respete.\n\n
+        - Prueba o prueba los comandos de obediencia en diferentes situaciones, lugares y con distracciones añadidas. Incorpora el entrenamiento de obediencia en tu rutina diaria: tu perro podría realizar un \'sentado\' antes de darle su cena, o un \'quedado\' cuando vayas a recoger el correo.\n\n
+        - Nunca intentes corregir a tu perro si no lo atrapas en el acto de hacer algo malo; el momento de tu corrección es muy importante. Una corrección tardía solo confunde a tu perro y no tiene sentido para él.\n\n
+        - Descubre qué motiva a tu perro, esta será una herramienta importante en tus sesiones de entrenamiento. Mis perros aman el queso, las golosinas de hígado y lanzar la pelota.\n\n
+        - Trabaja con los instintos y drives naturales de tu perro: esto se explica más a fondo en los artículos a continuación.\n\n
+    </string>
+
+    <!--ARTÍCULO SOBRE LADRIDO-->
+    <string name="barking_text">Ladrido</string>
+    <string name="barking_text_article"> Descubrir cómo detener el ladrido de tu perro puede ser una tarea difícil y que consume mucho tiempo. A los perros les encanta ladrar. Es algo perfectamente natural para tu perro, así como es normal que nosotros, los humanos, hablemos.\n\n
+- Es cuando nuestros perros ladran excesivamente que se convierte en un problema para todos los involucrados, incluidos nuestros vecinos irascibles.\n\n
+- Considerando esto, nuestro objetivo realmente no es detener el ladrido del perro por completo, sino controlar el ladrido excesivo. Ten en cuenta que hay situaciones en las que queremos que nuestros perros ladren (y supongo que también hay momentos en los que me gusta que mi tía charlatana hable!;)\n\n
+- El primer paso para modificar el comportamiento de un ladrador excesivo es determinar la razón por la cual el perro está ladrando en primer lugar. Una vez que hayas identificado esta causa o desencadenante, puedes planificar la solución de entrenamiento correcta.\n\n
+¿Por qué ladran los perros? ¡Detén a tu perro de ladrar ahora!- Para expresar sus necesidades (siendo mandones).\n\n
+- Algunos perros están criados para ladrar (algunos terriers y sabuesos). detener el ladrido de los perros\n\n
+- Están marcando su territorio.\n\n
+- Para alertar a otros miembros de su manada (que eres tú y tu familia) sobre un peligro inminente.\n\n
+- Cuando juegan, simplemente por pura emoción; este es un tipo muy común de ladrido de cachorro.\n\n
+- Ladrando a otros animales. Dependiendo de dónde estés en el mundo, podría ser ardillas o zarigüeyas (estoy en Australia; mis perros se vuelven locos con las zarigüeyas).\n\n
+- Si están aislados.\n\n
+- Algunos perros ladran excesivamente cuando están separados de su manada (tú y tu familia).\n\n
+- Si están atrapados detrás de algún tipo de barrera, como una cerca o una ventana.\n\n
+- ¡Solo por diversión!\n\n
+- Para expresar dominancia (los cachorros normalmente te ponen a prueba en algún momento con una demostración de ladridos de dominancia).\n\n
+- Ladran porque sus dueños han recompensado inadvertidamente el ladrido excesivo en el pasado (esto es crucial para entender).\n\n
+- A través del aburrimiento o la falta de estimulación física y mental.\n\n
+- Pueden sentirse estresados o incómodos por alguna razón. Cosas como sentirse amenazados o si no tienen un lugar adecuado para dormir pueden causar problemas de ladrido excesivo.\n\n
+- Los perros que no han sido socializados adecuadamente a menudo se convierten en ladradores molestos.\n\n
+- Pueden estar buscando una respuesta o algo de atención de su manada.\n\n
+- Otra cosa a tener en cuenta es que, aunque te parezca que tu perro está ladrando a nada, no necesariamente es así. Esto se debe a que tu perro tiene un sentido del oído, olfato y vista mucho más agudo que nosotros, los humanos. Es muy probable que el ladrido excesivo de tu perro esté siendo desencadenado por algo.\n\n
+El perro ladra cuando no estás en casa- No voy a pretender que este tipo de ladrido será fácil de controlar para ti, porque en realidad, a menudo es un proceso difícil y prolongado.\n\n
+- Siempre recuerda que los perros son criaturas sociales; cuando están separados de su manada (tú), pueden volverse estresados, vulnerables y frustrados. Este tipo de ladrido excesivo a menudo es causado por ansiedad por separación.\n\n
+- Primero diría que uses tu sentido común y que hagas bien estos conceptos básicos de la tenencia de perros. Mantén a tu perro bien ejercitado (física y mentalmente) y proporciona agua fresca, juguetes para masticar y un lugar cómodo para dormir. También puedes intentar bloquear la vista de tu perro hacia la calle y otras distracciones/desencadenantes. Básicamente, asegúrate de que tu perro esté feliz.\n\n
+- Si sabes que tu perro ha estado ladrando mientras estuviste fuera, debes ignorarlo un rato cuando regreses a casa. Entiendo que esto es difícil para muchos dueños, pero de lo contrario, tu perro cree que su ladrido es la razón por la que regresaste a casa. Simplemente ocupa tu tiempo por un rato cuando llegues a casa, ignorando a tu perro. Cuando tu perro se haya calmado, inicia el contacto con él. Ten en cuenta que este método se aplica a los perros que ladraban en el momento en que llegaste a casa.\n\n
+Debes transmitir un mensaje claro y consistente a tu perro en todo momento- Esta siguiente técnica requiere tiempo y paciencia, pero puede ser una forma muy efectiva de detener el ladrido de tu perro. Se basa en esa importante regla aplicable a todas las situaciones de entrenamiento de perros. Elogia o recompensa cuando tu perro haga algo que desees alentar y crea una asociación negativa cuando haga algo que no te guste.\n\n
+- Sal de la casa como lo harías normalmente, pero solo escóndete en algún lugar cercano. Cuando tu perro empiece a ladrar, rocíalo con agua o lanza una lata llena de monedas o piedras en su dirección (esta es la asociación negativa). Trata de mantenerte fuera de la vista de tu perro mientras haces esto, si es posible. Ve y escóndete de nuevo; si está callado por un tiempo, entra y recompensa su buen comportamiento con algún elogio y quizás un premio. Este proceso puede necesitar repetirse una y otra vez hasta que hayas roto el hábito de ladrar excesivamente.\n\n
+- Las técnicas anteriores han demostrado ser exitosas con mis propios perros, pero si no funcionan para ti, quizás podrías probar un collar anti-ladrido de citronela. Nuevamente, este método utiliza el poder de la asociación negativa. Cada vez que tu perro ladra, se rocía una fina niebla de citronela en el aire. A la mayoría de los perros no les gusta el olor, y pronto se darán cuenta de que si no ladran, el olor no está ahí para molestarlos. *Si tienes más de un perro, este método no es realmente una solución adecuada. Siempre abogo por un entrenamiento adecuado antes de considerar una opción como un collar anti-ladrido de citronela.\n\n
+El perro ladra para llamar la atención o para exigir algo- Este es un problema de ladrido excesivo que se puede corregir muy rápidamente. Si te estableces como el líder de tu perro en la relación dueño-perro que compartes, este tipo de problema de ladrido no ocurrirá. En el proceso de entrenamiento también formarás un vínculo fuerte basado en la confianza y el respeto mutuo. Para aprender la mejor manera de entrenar a tu perro en obediencia.\n\n
+- También puedes enseñar a tu perro el comando \'¡Detente!\' o \'¡Silencio!\' para ayudar a prevenir este molesto tipo de ladrido problemático. Cuando tu perro esté ladrando, simplemente di "¡SILENCIO!" al mismo tiempo que agitas un sabroso premio frente a la nariz de tu perro. Después de que tu perro esté en silencio durante unos segundos, puedes darle el premio. Eventualmente, solo necesitarás decir "¡SILENCIO!", sin necesidad de un premio.\n\n
+</string>
+
+    <!--ARTICLES-->
+    <string name="first_article">Mi Perrito Llora Cuando Lo Dejo Solo</string>
+    <string name="first_article_description"> Cuando sales de la habitación/casa, tu perrito empieza a llorar, ladrar y rascar la puerta. ¿Te suena familiar? No te preocupes, aquí está lo que debes hacer:\n\n
+    Paso 1: Sal de la habitación/casa y aléjate de la puerta.\n\n
+    Paso 2: Entra después de 2 minutos y no te comuniques con tu perrito. (No lo llames, alabes o mires, solo finge que olvidaste algo.)\n\n
+    Paso 3: Pasa de 10 a 15 segundos adentro y sal de la habitación/casa nuevamente.\n\n
+    Paso 4: Espera más tiempo afuera cada vez que salgas (por ejemplo, 5/15/30 minutos) y repite los pasos. Después de un tiempo, tu perrito entenderá que no lo dejarás solo.\n\n
+    P.D: Necesitas ser paciente para que tu perrito deje de llorar más rápidamente.\n\n</string>
+
+    <string name="second_article">Mi Perro Está Roendo</string>
+    <string name="second_article_description"> Su hábito de morder cosas ocurre por varias razones. Para la solución, solo necesitamos algo ligero y ruidoso. Por ejemplo, puede ser un llavero. Puede que esté asustado o muestre agresividad al ver otro objeto. No te preocupes, este objeto no debe asustar a tu perro, solo asustarte a ti. Las etapas que necesitas seguir son las siguientes:\n\n
+    - Cuando tu perro esté rascando o mordiendo, quédate detrás o al lado de él.\n\n
+    - Toma el llavero en tu mano y tíralo suavemente hacia sus pies. (No queremos que tu perro se lastime tampoco. Lo importante aquí es que el pie toque ligeramente y haga ruido.)\n\n
+    - No establezcas contacto visual con tu perro después de lanzar la llave. (Puedes mirar hacia el techo.) Esto es porque tu perro no debe saber preguntas como de dónde vino, quién tiró la llave, qué es.\n\n
+    - Después de algunas repeticiones, tu perro abandonará este comportamiento cuando apliques este método sin lastimarlo/a.\n\n</string>
+
+    <string name="third_article">Mi Cachorro Llora</string>
+    <string name="third_article_description"> Los cachorros lloran principalmente porque no están con sus mamás. Si ese es el caso, no hay mucho que puedas hacer, pero puedes intentar cubrir a tu cachorro con una manta.\n\n
+    (La manta mantendrá a tu cachorro caliente y le hará sentir que está con su mamá.)</string>
+
+    <string name="fourth_article">Mi Perrito Llora Si Cierro La Puerta Por La Noche</string>
+    <string name="fourth_article_description"> Si no duermes en la misma habitación que tu perrito y cierras la puerta por la noche, él/ella podría llorar, ladrar o rascar la puerta/cojines. Aquí está lo que necesitas hacer:\n\n
+    -Sé obstinado e ignora a tu perrito. Incluso si haces una excepción, él/ella pensará que abrirás la puerta cada vez que se comporte de esta manera.\n\n
+    Puedes dejar una de tus prendas en la habitación donde duerme tu perrito para que pueda oler tu aroma y sentirse menos ansioso/a.\n\n
+    P.D: Solo debes dejar entrar a tu perrito cuando esté calmado y bien comportado.</string>
+
+</resources>

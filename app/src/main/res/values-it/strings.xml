@@ -1,0 +1,342 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Dogify</string>
+    <string name="hello_blank_fragment">Ciao frammento vuoto</string>
+    <string name="sounds">Suoni</string>
+    <string name="translator">Traduttore</string>
+    <string name="training">Addestramento</string>
+    <string name="whistle">Fischio</string>
+    <string name="article">Articolo</string>
+    <string name="read_now"><u>Leggi ora</u></string>
+    <string name="terms"><u>Termini</u></string>
+    <string name="privacy"><u>Privacy</u></string>
+    <string name="repeat_sound">Ripeti suono</string>
+    <string name="food">Cibo</string>
+    <string name="onboard_first_title">Comprendere i sentimenti del tuo cane.</string>
+    <string name="onboard_first_description">Vuoi sapere \n cosa sta pensando il cane?</string>
+    <string name="onboard_second_title">Esplora i sentimenti del tuo cane.</string>
+    <string name="onboard_second_description">Non sarebbe emozionante sapere cosa sta succedendo nella mente del tuo cane?</string>
+    <string name="next">Avanti</string>
+    <string name="get_premium">Ottieni Premium</string>
+    <string name="premium_yearly">Premium - Annuale</string>
+    <string name="first_year">primo anno</string>
+    <string name="upgrade_to_pro">Aggiorna a pro</string>
+    <string name="unlimited_translation">Traduzione illimitata</string>
+    <string name="ads_free_using">Uso senza pubblicità.</string>
+    <string name="start_3_days_free_trial">Inizia prova gratuita di 3 giorni</string>
+    <string name="continue_btn">Continua</string>
+    <string name="your_yearly_plan">Il tuo \nPiano annuale</string>
+    <string name="your_weekly_plan">Il tuo \nPiano settimanale</string>
+    <string name="USD_29">USD 29</string>
+    <string name="USD_09">USD 09</string>
+    <string name="start_weekly_free_trial">Inizia prova gratuita settimanale</string>
+    <string name="purchase">Acquista</string>
+    <string name="subscription_is_auto">L\'abbonamento è rinnovabile automaticamente. Puoi annullare\n
+il tuo abbonamento in qualsiasi momento</string>
+    <string name="rate_your_dog">Valuta il tuo cane</string>
+    <string name="dog_translator">Traduttore di cani</string>
+    <string name="dog_training">Addestramento canino</string>
+    <string name="record_translate">Registra \n &amp; Traduci</string>
+    <string name="dog_whistle">Fischio per cani</string>
+    <string name="hz">10000 Hz</string>
+    <string name="safe_ones">Sicuri</string>
+    <string name="harmful_ones">Pericolosi</string>
+    <string name="careful_with_these">Fai attenzione a questi</string>
+    <string name="food_description">Quando prepari cibo a casa per il tuo cane, sei sicuro che il tuo cane stia mangiando cibo che soddisfa i tuoi standard.</string>
+    <string name="articles">Articoli</string>
+    <string name="article_description">Assicurati di dare al tuo cane molta attenzione quando lui/lei fa la cosa giusta.</string>
+    <string name="biting">Mordere</string>
+    <string name="biting_description">Il morso o il pizzicamento dei cuccioli inizia come un gioco, ma deve essere controllato rapidamente per evitare problemi continui.</string>
+    <string name="obidence">Obbedienza</string>
+    <string name="obidence_description">Mordere</string>
+    <string name="barking">Abbaiare</string>
+    <string name="barking_description">Un corretto addestramento all\'obbedienza del cane dovrebbe aprire una linea chiara di comunicazione.</string>
+
+    <string name="anxious">Ansioso</string>
+    <string name="call">Chiamare</string>
+    <string name="cold">Freddo</string>
+    <string name="come_here">Vieni qui</string>
+    <string name="comfortable">Confortevole</string>
+    <string name="feeding">Nutrizione</string>
+    <string name="happy">Felice</string>
+    <string name="hug">Abbraccio</string>
+    <string name="hot">Caldo</string>
+    <string name="hungry">Fame</string>
+    <string name="joyful">Gioioso</string>
+    <string name="love">Amore</string>
+    <string name="know">Conoscere</string>
+    <string name="playful">Giocoso</string>
+    <string name="surprised">Sorprendente</string>
+    <string name="scared">Spaventato</string>
+    <string name="i_love_you">Ti amo</string>
+    <string name="no_understand">Non capire</string>
+    <string name="whining">Lamentarsi</string>
+    <string name="so_happy">Così felice</string>
+    <string name="uncomfortable">Scomodo</string>
+    <string name="thirsty">Assetato</string>
+
+    <!--SAFE ONES-->
+    <string name="apple">Mela</string>
+    <string name="apple_article">Finché i semi sono rimossi (per evitare avvelenamenti da cianuro), la mela è sicura e sana per i cani. La mela è un frutto pieno di vitamine, minerali, antiossidanti e fibre. È anche uno spuntino ottimo per i cani. Tuttavia, contiene molto zucchero, come la banana, quindi fai attenzione all\'aumento di peso. Assicurati di tagliarla a pezzi piccoli per evitare soffocamenti.</string>
+
+    <string name="banana">Banana</string>
+    <string name="banana_article">La banana è sicura e sana per i cani. È ricca di potassio, che è buono per i reni e il cuore. Ma contiene anche molti carboidrati e zuccheri, quindi fai attenzione all\'aumento di peso. Anche se non è scientificamente provato, si dice che la banana aiuti con la nausea nei cani. Assicurati di tagliarla in fette piccole per evitare soffocamenti.</string>
+
+    <string name="beet">Barbabietola</string>
+    <string name="beet_article">È una grande fonte di cibo. Le barbabietole hanno molti effetti positivi sulla salute. Tuttavia, sono particolarmente efficaci nel rigenerare le cellule epatiche e nel mantenere la salute.</string>
+
+    <string name="blueberry">Mirtillo</string>
+    <string name="blueberry_article">I mirtilli sono raccomandati per la dieta dei cani. I mirtilli sono ricchi di antiossidanti, selenio, zinco e ferro, oltre che di vitamine C, E, A e B.</string>
+
+    <string name="bread">Pane</string>
+    <string name="bread_article">Il pane bianco o integrale è sicuro per i cani. (Assicurati che non ci siano uva secca dentro, però.) Se consumato frequentemente, dovresti fare attenzione all\'aumento di peso del tuo cane.</string>
+
+    <string name="broccoli">Broccoli</string>
+    <string name="broccoli_article">Il broccolo è uno delle verdure più importanti per le vitamine che i cani possono mangiare. Ricco di A, C, E e carotene. Quando il broccolo è cotto, si liberano enzimi che combattono il cancro. Pertanto, aiuta a prevenire il cancro. Il broccolo contiene 33 strutture diverse anticancro. Inoltre, alcune delle strutture che contiene hanno fitochimici che impediscono la formazione e l\'attacco delle cellule cancerogene a quelle sane. Rafforza il sistema di difesa del corpo. È necessario vedere i benefici del broccolo e non esagerare. Un consumo eccessivo di broccoli causa una diminuzione della funzione tiroidea nei cani.</string>
+
+    <string name="carrot">Carota</string>
+    <string name="carrot_article">La carota (cruda o cotta) è sicura e sana per i cani. È una verdura a basso contenuto calorico, ricca di vitamine, minerali e fibre. Può anche aiutare con la digestione. Assicurati di tagliarla in fette piccole per evitare soffocamenti.</string>
+
+    <string name="cucumber">Cetriolo</string>
+    <string name="cucumber_article">Il cetriolo è uno spuntino molto utile, a basso contenuto calorico e facilmente digeribile per il sistema digestivo dei cani. Ma se consumato in eccesso, può causare dolore addominale. Taglia il cetriolo prima di darlo al tuo cane per evitare soffocamenti.</string>
+
+    <string name="green_peas">Piselli verdi</string>
+    <string name="green_peas_article">Se stai nutrendo il tuo cane con una dieta, dovresti sicuramente aggiungere i piselli alla lista. Sono ricchi di tiamina, fosforo e potassio. Puoi aumentare il valore nutrizionale aggiungendo alcuni piselli cotti ai pasti quotidiani del tuo cane. Lui o lei amerà di più il suo cibo se cotto con un pezzo di carne e brodo naturale e non salato.</string>
+
+    <string name="kiwi">Kiwi</string>
+    <string name="kiwi_article">Più di una fetta di kiwi, che contiene fibre, potassio e alte quantità di vitamina C, può danneggiare il tuo cane.</string>
+
+    <string name="lettuce">Lattuga</string>
+    <string name="lettuce_article">Il tuo cane la apprezzerà perché la lattuga è croccante. Darne troppa può causare diarrea. Fai attenzione a dare queste verdure poiché sono una fonte di fibre e cibo ricco.</string>
+
+    <string name="mango">Mango</string>
+    <string name="mango_article">La parte principale del frutto del mango contiene vitamine A, B6, C ed E. È molto utile per i cani.</string>
+
+    <string name="orange">Arancia</string>
+    <string name="orange_article">Finché è sbucciata, l\'arancia è sicura e sana per i cani. È un frutto a basso contenuto calorico e nutriente, ma evita di darne troppa affinché il tuo cane non abbia mal di stomaco. Assicurati di tagliarla in fette piccole per evitare soffocamenti.</string>
+
+    <string name="parsley">Prezzemolo</string>
+    <string name="parsley_article">Fornisce al tuo cane calcio, potassio e beta-carotene. Riduce l\'alito cattivo nei cani. Se il tuo cane ha l\'alito cattivo, puoi aggiungere alcuni pezzi di prezzemolo al suo cibo o puoi aggiungerlo ai biscotti per cani che fai a casa.</string>
+
+    <string name="pear">Pera</string>
+    <string name="pear_article">Aiuta la salute del sistema digestivo nei cani. Puoi tagliare le pere contenenti vitamine A, C, E, B1 e B2, nonché fibre, acido folico, potassio e rame a cubetti per il tuo cane.</string>
+
+    <string name="pineapple">Ananas</string>
+    <string name="pineapple_article">Finché è fresco, l\'ananas è sicuro e sano per i cani. È pieno di vitamine, minerali e fibre. È anche uno spuntino ottimo per i cani. Assicurati di tagliarlo in fette piccole per evitare soffocamenti. Inoltre, non dare troppa quantità al tuo cane affinché non si senta nauseato.</string>
+
+    <string name="spinach">Spinaci</string>
+    <string name="spinach_article">Gli spinaci sono ricchi di vitamine K, A, C, E e B, così come di calcio, ferro, magnesio, fosforo, manganese, potassio, folato, rame e fibre. Se il tuo cane consuma quantità eccessive di spinaci, i suoi reni possono essere danneggiati. Tuttavia, nutrire il tuo cane con una manciata di spinaci al mese è salutare. Contiene fibre, vitamine e antiossidanti. Il tuo cane amerà così tanto gli spinaci che potresti chiamarlo "Popeye".</string>
+
+    <string name="strawberry">Fragola</string>
+    <string name="strawberry_article">La fragola è sicura e sana per i cani. È un frutto a basso contenuto calorico che contiene fibre e antiossidanti. Assicurati di tagliarla in due o tre pezzi per evitare soffocamenti.</string>
+
+    <string name="turnip">Rapa</string>
+    <string name="turnip_article">È una verdura che puoi aggiungere alla lista della dieta. La rapa mantiene i tuoi cani in forma grazie alla sua alta fonte nutrizionale e alla sua capacità di pulire le tossine.</string>
+
+    <string name="watermelon">Anguria</string>
+    <string name="watermelon_article">Finché è sbucciata e i semi sono rimossi, l\'anguria è sicura e sana per i cani. È un frutto a basso contenuto calorico, pieno di vitamine A e C. È anche uno spuntino ottimo per i cani. Assicurati di tagliarla in fette piccole per evitare soffocamenti.</string>
+
+    <!--CIBI NOCIVI-->
+    <string name="alcohol">Alcol</string>
+    <string name="alcohol_article">L\'alcol contiene un composto chimico chiamato etanolo, che è tossico per i cani. Se consumato, può causare disagio gastrico, problemi di coordinazione, vomito, diarrea e disidratazione. Se consumato in grandi quantità, potrebbe portare a insufficienza polmonare, coma e morte.</string>
+
+    <string name="avocado">Avocado</string>
+    <string name="avocado_article">L\'avocado (comprese le sue foglie) contiene un composto chimico chiamato persina, che è tossico per i cani. Se consumato, può causare disagio gastrico. Il suo nocciolo potrebbe anche bloccare l\'intestino del tuo cane. Se consumato in grandi quantità, può causare problemi respiratori e danni al cuore e al fegato del tuo cane.</string>
+
+    <string name="candy">Caramelle</string>
+    <string name="candy_article">Molte caramelle contengono dolcificanti artificiali e uvetta, che sono dannosi per il tuo cane. Anche i dolcificanti artificiali sono tossici per il tuo cane. Se consumate in piccole quantità, si possono manifestare vomito, diarrea e perdita di appetito. Se la quantità consumata aumenta, può essere fatale.</string>
+
+    <string name="chocolate">Cioccolato</string>
+    <string name="chocolate_article">Il cioccolato contiene caffeina e teobromina. E i cani non possono digerire questi stimolanti. (I livelli di teobromina sono particolarmente alti nel cioccolato fondente e amaro.) Se consumato in piccole quantità, probabilmente causerà solo disagio gastrico. Con l\'aumento della quantità consumata, potrebbe causare sintomi come iperattività, vomito, diarrea, ritmo cardiaco irregolare, tremori muscolari e disidratazione. Se consumato in grandi quantità, la caffeina potrebbe portare a insufficienza polmonare o morte; la teobromina potrebbe causare emorragie interne, infarto o morte.</string>
+
+    <string name="coffee">Caffè</string>
+    <string name="coffee_article">Il caffè contiene caffeina e teobromina. E i cani non possono digerire questi stimolanti. Se consumato in piccole quantità, probabilmente causerà solo disagio gastrico. Con l\'aumento della quantità consumata, potrebbe causare sintomi come iperattività, vomito, diarrea, ritmo cardiaco irregolare, tremori muscolari e disidratazione. Se consumato in grandi quantità, la caffeina potrebbe portare a insufficienza polmonare o morte; la teobromina potrebbe causare emorragie interne, infarto o morte.</string>
+
+    <string name="bones">Ossa cotte</string>
+    <string name="bones_article">Scegli sempre le ossa più grandi e ricorda che devono sempre essere crude. Le ossa di agnello cotte si rompono facilmente e le schegge sono problematiche.</string>
+
+    <string name="fishbones">Ossa di pesce</string>
+    <string name="fishbones_article">Le ossa di pesce consumate dal tuo cane viaggiano nel tratto digestivo come un pezzo di vetro. Di conseguenza, si possono vedere lacerazioni nell\'esofago e nello stomaco dei cani.</string>
+
+    <string name="garlic">Aglio</string>
+    <string name="garlic_article">L\'aglio è nocivo per i cani. Secondo l\'Associazione Veterinaria Americana, mentre i benefici dell\'aglio non sono stati dimostrati, i suoi danni e effetti tossici sono stati provati. Urina arancione o rossa quando consumato può causare vomito, diarrea, aumento della respirazione, debolezza, perdita di appetito o palpitazioni. Se consumato in eccesso, può causare danni ai globuli rossi e deterioramento della struttura della mucosa naturale.</string>
+
+    <string name="grapes">Uva</string>
+    <string name="grapes_article">Le uve (fresche o secche) contengono alcuni composti chimici che sono tossici per i cani. (Le sostanze esatte che causano la reazione tossica non sono ancora note.) Se consumate, potrebbero causare vomito, intorpidimento, diarrea e tremori muscolari. Se consumate in grandi quantità, potrebbero portare a un aumento della minzione, malattie renali a lungo termine o morte.</string>
+
+    <string name="leek">Porro</string>
+    <string name="leek_article">Per i cani, cibi come porri e cipolle causano malattie anche se consumati in piccole quantità. Il consumo di grandi quantità può causare anemia.</string>
+
+    <string name="lemon">Limone</string>
+    <string name="lemon_article">Il limone contiene composti chimici come linalolo e limonene che sono tossici per i cani. Se consumato in piccole quantità, potrebbe causare solo disagio gastrico e intestinale. P.S.: I cani non apprezzano davvero il gusto comunque.</string>
+
+    <string name="mushroom">Fungo</string>
+    <string name="mushroom_article">Se il fungo viene consumato dai cani, può causare dolori addominali, vomito e diarrea. Se consumato in eccesso, potrebbe portare a malattie renali, danni al fegato, coma o morte.</string>
+
+    <string name="onion">Cipolla</string>
+    <string name="onion_article">Le cipolle sono nocive per i cani. Urina arancione o rossa quando consumata può causare vomito, diarrea, aumento della respirazione, debolezza, perdita di appetito o palpitazioni. Se consumate in eccesso, può causare danni ai globuli rossi e deterioramento della struttura della mucosa naturale.</string>
+
+    <string name="tea">Tè</string>
+    <string name="tea_article">Il tè contiene caffeina e teobromina. E i cani non possono digerire questi stimolanti. Se consumato in piccole quantità, probabilmente causerà solo disagio gastrico. Con l\'aumento della quantità consumata, potrebbe causare sintomi come iperattività, vomito, diarrea, ritmo cardiaco irregolare, tremori muscolari e disidratazione. Se consumato in grandi quantità, la caffeina potrebbe portare a insufficienza polmonare o morte; la teobromina potrebbe causare emorragie interne, infarto o morte.</string>
+
+    <string name="tobacco">Tabacco</string>
+    <string name="tobacco_article">Il tabacco può causare spasmi o ictus, salivazione, pupille dilatate, allucinazioni visive e sonore, battito cardiaco rapido, vomito e diarrea nei cani.</string>
+
+    <!--CAREFUL WITH THESE-->
+    <string name="cheese">Formaggio</string>
+    <string name="cheese_article">Di solito è ok per i cani mangiare piccole quantità di formaggio. Tuttavia, la quantità di grasso e lattosio varia notevolmente tra i diversi tipi di formaggio. Infatti, alcuni formaggi potrebbero provocare disagio nel tratto digestivo del tuo cane e causare dolore addominale e diarrea. Pertanto, ti suggeriamo quelli con un basso contenuto di grassi come la mozzarella. Se sei così disposto a dare un po\' al tuo cane, puoi iniziare con piccoli pezzi affinché si abitui.</string>
+
+    <string name="cherries">Ciliegie</string>
+    <string name="cherries_article">Le ciliegie non hanno benefici nutrizionali scientificamente provati per i cani. Se sei così disposto a dare alcune al tuo cane, non dovresti darne più di alcune alla volta. Tieni presente che dovresti sempre rimuovere i semi per evitare soffocamenti e avvelenamento da cianuro (un composto chimico presente nei semi). Se consumate in grandi quantità, le ciliegie possono causare mal di stomaco e diarrea al tuo cane.</string>
+
+    <string name="egg">Uovo</string>
+    <string name="egg_article">L\'enzima avidina presente nelle uova crude impedisce l\'assorbimento della vitamina B7 (biotina). In caso di carenza di B7, la salute della pelle e del pelo del tuo cane deteriora. Inoltre, i batteri della salmonella presenti nelle uova crude possono causare avvelenamento nei cani. Le uova possono causare vomito nei cani.</string>
+
+    <string name="honey">Miele</string>
+    <string name="honey_article">Il miele contiene molto zucchero, quindi non ti suggeriamo di darne troppo al tuo cane. Se consumato in grandi quantità, potrebbe causare aumento di peso.</string>
+
+    <string name="ice_cream">Gelato</string>
+    <string name="ice_cream_article">I gelati sugli scaffali del mercato contengono molto zucchero (e ovviamente latte), quindi non è molto salutare condividere il tuo gelato con il tuo cane. (Soprattutto se il tuo cane è intollerante al lattosio) Ma se sei così disposto, puoi preparare o acquistare gelati sicuri per i cani.</string>
+
+    <string name="juice">Succo</string>
+    <string name="juice_article">I cani possono bere la maggior parte dei succhi di frutta, ma non dovrebbero bere nessuno di essi poiché i succhi di frutta contengono molto zucchero e conservanti alimentari chimici, che potrebbero danneggiare la loro salute. Pertanto, dovresti dare frutta fresca e deliziosa al tuo cane piuttosto che succo di frutta.</string>
+
+    <string name="milk">Latte</string>
+    <string name="milk_article">Alcuni cani sono intolleranti al lattosio, quindi dovresti fare attenzione a dare latte/derivati del latte al tuo cane. Se sei così disposto, puoi provare il latte di soia al posto del latte vaccino in modo che non abbia mal di stomaco. Tieni presente che se il tuo cane è un cucciolo, il latte di soia non è un sostituto del latte materno.</string>
+
+    <string name="peanut">Arachidi</string>
+    <string name="peanut_article">Tossico per il tuo cane. Pertanto, non dovresti assolutamente darne.</string>
+
+    <string name="pomegranate">Melograno</string>
+    <string name="pomegranate_article">Se i cani dovrebbero mangiare il melograno o meno è spesso oggetto di dibattito tra i veterinari. Il melograno non è tossico per i cani. È anche molto salutare in termini di antiossidanti, vitamina C, potassio e fibre. Tuttavia, il melograno può causare problemi digestivi (ad esempio, mal di stomaco, vomito) o diarrea a causa dei suoi semi se consumato in grandi quantità nei cani. Pertanto, dare al tuo cane una piccola quantità di melograno sarebbe la decisione più logica.</string>
+
+    <string name="tomato">Pomodoro</string>
+    <string name="tomato_article">Finché sono maturi/rossi, puoi occasionalmente dare pomodori al tuo cane. Tuttavia, i pomodori immaturi/verdi contengono tomatina, che è dannosa per i cani: provoca mal di stomaco, ritmo cardiaco anormale e problemi respiratori. Se consumati in grandi quantità, possono influenzare negativamente il sistema digestivo e nervoso del tuo cane.</string>
+
+    <string name="yogurt">Yogurt</string>
+    <string name="yogurt_article">Alcuni cani non possono digerire facilmente lo yogurt, quindi potrebbero avere mal di stomaco. Ma se sei così disposto a darne un po\' al tuo cane, assicurati che non sia uno yogurt alla frutta e che non contenga zucchero/sweetener.</string>
+
+    <!--BITING ARTICLE-->
+    <string name="biting_text">Il Mio Cane Morde</string>
+    <string name="biting_text_article"> - Gestire e controllare i problemi di morso nei cuccioli può essere una grande sfida per noi amanti dei cani.\nIl morso o il pizzicamento dei cuccioli inizia come un po\' di divertimento, ma deve essere controllato rapidamente per evitare problemi futuri.\n\n
+- Per la maggior parte dei cuccioli giovani, il morso è una fase perfettamente naturale ed essenziale da affrontare, specialmente quando stanno mettendo i denti.\n\n
+- I cuccioli amano affondare i loro piccoli denti aguzzi in quasi tutto durante questa fase di dentizione, comprese le mani e i piedi dei loro padroni. In alcuni casi è come se avessi portato a casa un alligatore mordace, invece del cucciolo coccoloso che speravi di avere.\n\n
+- La buona notizia è che la maggior parte dei cuccioli può essere addestrata a regolare e minimizzare il morso piuttosto facilmente. Prima inizi a educare il tuo cucciolo all\'inibizione del morso (avere una bocca morbida), più facile sarà - per tutti.\n\n
+Come Fermare i Problemi di Morso nei Cuccioli - Ci sono molti metodi di addestramento provati per aiutare a correggere i problemi comportamentali del tuo cucciolo. Prima di entrare nelle tecniche specifiche che puoi usare per fermare il morso del tuo cucciolo, tieni sempre a mente queste regole generali di addestramento comportamentale per cani:\n\n
+- La socializzazione del cucciolo e l\'addestramento all\'inibizione del morso vanno di pari passo.\n\n
+- Non dare mai uno schiaffo o colpire il tuo cucciolo in faccia. Questo non funziona! Il tuo cucciolo penserà solo che stai giocando o potrebbe avere paura di te. Questo potrebbe portare a problemi molto più grandi rispetto a semplici pizzicamenti.\n\n
+- La regola generale per fermare i problemi di morso nei cuccioli è incoraggiare sempre i comportamenti accettabili e scoraggiare sempre i comportamenti inaccettabili. Per saperne di più su questa regola fondamentale dell\'addestramento all\'ubbidienza per cani (incluso come fermare i problemi di morso), visita i Segreti di un Addestratore Professionista di Cani.\n\n
+- Mentre cerchi di fermare i cuccioli dal mordere, non giocare mai a tira e molla, wrestling o giochi di inseguimento con loro. Questo incoraggia solo il morso e il pizzicamento.\n\n
+- Qualunque metodo tu scelga per addestrare il tuo cucciolo, la regola d\'oro è essere coerente. Questo significa che tu e chiunque altro venga a contatto con il tuo cucciolo dovete applicare la strategia scelta ogni volta che il tuo cucciolo prende un morso.\n\n
+- Se non comunichi chiaramente al tuo cane che il morso non è accettabile, non saprà che sta facendo qualcosa di sbagliato. Sta a te mostrargli quale comportamento è accettabile, non aspettarti solo che il tuo cucciolo lo sappia! (Stai realmente assumendo il ruolo dei suoi compagni di cucciolata per questo compito).\n\n
+- Un altro (estremo) motivo per cui i cuccioli possono mordere è se stanno cercando di affermare la loro dominanza su di te. Se questo è il caso con il tuo cucciolo, deve essere fermato immediatamente. Quando hai un cucciolo dominante, il suo morso sarà solo l\'inizio di molti problemi comportamentali.\n\n
+Fermare il Tuo Cucciolo dal Mordere - Tecniche Provate Il tuo obiettivo iniziale è insegnare al tuo cucciolo come controllare la forza del suo morso. I compagni di cucciolata del tuo cucciolo inizieranno questo processo e poi spetta a te continuarlo quando il tuo nuovo cucciolo arriva a casa. Questo garantirà (non garantirà) che se il tuo cane morde qualcuno in futuro, i danni saranno minimizzati. Quando hai dato al tuo cucciolo un feedback sufficiente riguardo alla forza del suo morso, solo allora puoi iniziare a ridurre la prevalenza del comportamento di morso.\n\n
+- Se intercetti il problema del morso all\'inizio, potrebbe essere facile da rettificare. Prova semplicemente a reindirizzare il morso dalla tua carne a un giocattolo o a un osso da masticare. Per i cuccioli molto giovani, questo metodo è spesso tutto ciò di cui hai bisogno. Non appena il tuo cucciolo inizia a morderti le mani, lascia andare un fermo "No!" e sostituisci le tue dita con il giocattolo da masticare (o un cubetto di ghiaccio se il tuo cucciolo sta mettendo i denti).\n\n
+- Questo è probabilmente il metodo più popolare e il mio preferito personale. Fai credere al tuo cucciolo che ti fa male ogni volta che ti pizzica. Questo metodo replica il modo in cui i cani risolvono questo morso tra loro. Quando i cuccioli mordono e pizzicano l\'uno l\'altro, smette solo quando un cucciolo emette un ululato. Possiamo usare questo modo naturale in cui i cani apprendono lasciando andare un "Ahi!" o un "Arrr!" ogni volta che uno dei nostri cuccioli morde. Il trucco è spaventare il tuo cane con la tua voce e poi allontanarti e smettere di giocare con il tuo cucciolo per un po\'. Il tuo cucciolo imparerà presto che quando inizia a mordere, il suo compagno di gioco (tu) se ne va.\n\n
+- Insegna al tuo cucciolo il comando di addestramento all\'ubbidienza "Lascia!". Questo metodo funziona bene ma è più adatto per cuccioli più grandi.\n\n
+Nei casi di morso grave, non appena il tuo cucciolo si attacca alla tua mano, dì "No!" e metti rapidamente il tuo pollice nella sua bocca sotto la lingua e il tuo altro dito sotto il mento. Tienilo lì per circa 10 secondi (non troppo stretto). Questo sarà scomodo per il tuo cucciolo e non potrà morderlo.\n\n
+- Nei casi di morso grave, non appena il tuo cucciolo si attacca alla tua mano, dì "No!" e metti rapidamente il tuo pollice nella sua bocca sotto la lingua e il tuo altro dito sotto il mento. Tienilo lì per circa 10 secondi (non troppo stretto). Questo sarà scomodo per il tuo cucciolo e non potrà morderlo.\n\n
+\'Premia e Ricompensa Sempre una Bocca Gentile e Ignora o Ritirati dai Pizzicamenti Inappropriati\'\n\n
+- Ancora una volta, se il tuo cucciolo ha un grave problema di morso, puoi provare questa tecnica di addestramento. Indossa un paio di guanti e applica una sostanza dal sapore sgradevole su di essi (qualcosa che il tuo cane non ama). Il tuo cane imparerà presto che se ti morde, non sarà gustoso! Questo metodo produce una forte associazione negativa per il tuo cane ogni volta che decide di morderti. Alcuni cani sono abbastanza intelligenti da capire che quando togli i guanti dal sapore sgradevole, va bene affondare di nuovo i denti in te!\n\n
+- Per i cuccioli più grandi (intorno ai 6 mesi), questa è una tecnica sicura per fermare il morso nei cuccioli. Metti un collare a pinza o a strangolo sul tuo cucciolo e ogni volta che ti morde dai un breve e deciso strattone al guinzaglio. Questa correzione creerà un\'associazione spiacevole per il tuo cane ogni volta che ti morde. Non ci vorrà molto perché smetta. Alcuni addestratori credono che questo metodo sia piuttosto estremo e concordo sul fatto che dovresti usarlo solo in circostanze molto rare - non ho mai dovuto arrivare a questo livello. Credo sia molto più efficace educare il tuo cucciolo piuttosto che infliggere punizioni o cercare di estinguere completamente un comportamento.\n\n
+Come fermare un cucciolo dal mordere Questi metodi mi sono stati raccomandati, ma non li ho mai provati personalmente:\n- Spruzza il tuo cucciolo con acqua ogni volta che inizia a pizzicare.\n\n
+- Riempire una lattina vuota con sassi o monete. Ogni volta che il tuo cucciolo inizia a mordere, dì No! e dai una scossa alla lattina. Apparentemente i cuccioli odiano questo rumore di rattling.\n\n
+- Se sei preoccupato che il tuo cucciolo possa mordere qualcuno, investi in un dispositivo di addestramento, come il Pet Corrector, per aiutarti. Questa è una bottiglia che emette un forte sibilo quando viene azionata e può aiutarti a interrompere un comportamento non desiderato.\n\n
+L\'addestramento per fermare i problemi di morso nei cuccioli non è facile, e non è una soluzione rapida, ma sarà uno sforzo che ti ripagherà in futuro. Insegna al tuo cucciolo a usare la bocca in modo gentile. Inoltre, ci vuole solo un po\' di tempo e attenzione da parte tua per ottenere i risultati desiderati! Quando sarai in grado di risolvere il problema del morso, potrai finalmente goderti il tuo cucciolo e il divertimento senza pensieri di un morso. Buona fortuna!</string>
+
+    <string name="obedience_text">Obbedienza</string>
+    <string name="obedience_text_article"> Cos\'è l\'addestramento del cane per scopi di obbedienza? Io, come la maggior parte di noi proprietari di cani, credo che l\'addestramento del cane per l\'obbedienza sia un ingrediente essenziale in ogni sana relazione tra umani e cani. Ma cos\'è esattamente l\'addestramento per l\'obbedienza e perché è così importante per te e il tuo cane? L\'addestramento all\'obbedienza è un termine generale che può essere raggiunto attraverso le molte varie tecniche di addestramento per cani. Indipendentemente dalla tecnica di addestramento che scegli di utilizzare o dalle scuole di addestramento per cani che frequenti, questo è ciò che un corretto addestramento per l\'obbedienza dovrebbe realizzare:\n\n
+        - Costruire o rafforzare una relazione stretta, sana e appropriata tra te e il tuo cane.\n\n
+        - Apre una chiara linea di comunicazione tra te e il tuo cane. Questo include conoscere cosa aspettarsi dal tuo cane in tutte le circostanze e il tuo cane che comprende e rispetta chiaramente ciò che ci si aspetta da lui/lei.\n\n
+        - L\'addestramento per l\'obbedienza stabilisce un insieme di regole o confini che educano il tuo cane a diventare un membro responsabile della società. Includendo come relazionarsi con altri cani, animali e persone, le buone maniere e come comportarsi in ogni situazione.\n\n
+        - Stabilisce le basi che aiutano a prevenire lo sviluppo di comportamenti problematici inaccettabili, come saltare, abbaiare, masticare, scavare, ecc.\n\n
+        I Vantaggi dell\'Addestramento per l\'Obbedienza del Cane\n\n
+        - L\'addestramento di base all\'obbedienza semplifica la vita del tuo cane ed elimina la confusione. Il tuo cane saprà qual è il suo posto nel mondo e comprenderà il giusto dal sbagliato. I cani sembrano apprezzare e prosperare in questa visione del mondo in bianco e nero.\n\n
+        - Divertente e gratificante sia per te che per il tuo cane - per me, questo è ciò che conta!\n\n
+        - Avrai un cane felice, rilassato e sicuro di sé che puoi portare ovunque e sarà un piacere stare in compagnia. Maggiore libertà può essere estesa anche al tuo cane, poiché sarà più affidabile quando addestrato all\'obbedienza.\n\n
+        - Un cucciolo o un cane addestrato all\'obbedienza è un cane molto più sicuro. Se il tuo cane scappa fuori dalla porta, avrai ancora il controllo vocale su di lui. Potrai richiamarlo con uno dei tuoi comandi di addestramento all\'obbedienza, come \'vieni\', \'giù\', \'seduto\' o \'vai nel tuo posto\'. Questo è molto rassicurante per ogni amante dei cani.\n\n
+        - Guadagni fiducia e rispetto reciproco con il tuo cane. Lui comprende cosa ci si aspetta da lui e sa che tu sarai sempre giusto e coerente con questo.\n\n
+        - Quando il tuo cane è addestrato all\'obbedienza, starà bene con familiari, amici e bambini sotto sorveglianza.\n\n
+        - L\'addestramento per l\'obbedienza soddisfa alcuni bisogni cruciali nella vita del tuo cane, inclusi esercizio fisico, stimolazione mentale, trascorrere tempo con te e fornire al tuo cane un \'lavoro\'.\n\n
+        - L\'addestramento per l\'obbedienza riduce notevolmente il rischio di essere coinvolti in una lotta per la dominanza con il tuo cane. Sarai il suo leader forte e sempre giusto, che lui rispetterà e cercherà come guida.\n\n
+        - L\'addestramento all\'obbedienza è un processo passo dopo passo che costruisci nel tempo. Crea una solida base per il tuo cane per apprendere ulteriori abilità e comandi di addestramento. Durante questo processo, il tuo cane guadagnerà fiducia lungo il cammino.
+        Il Rischio di Non Dare Addestramento per l\'Obbedienza ai Cani - È una realtà sfortunata che i cani non addestrati siano la causa principale per cui cuccioli e cani finiscono nei rifugi per animali in tutto il mondo.\n\n
+        - Questo non va bene per nessuno, specialmente per i poveri cani.\n\n
+        - Il tuo cane non può mai essere veramente vicino a te e alla tua famiglia. Con questo intendo dire che il tuo cane non parteciperà alle uscite familiari, trascorrendo invece gran parte del suo tempo da solo nel cortile. Questo può portare a numerosi problemi comportamentali e può essere un vero fastidio per te e persino per i tuoi vicini.\n\n
+        - Il tuo cane sarà più insicuro attorno a persone, altri animali e sulle strade.\n\n
+        - È una caratteristica comune nei cani non addestrati sfidare la tua leadership o autorità. I cani addestrati all\'obbedienza cercheranno anche di metterti alla prova in questo modo. Ma quando sei esperto nell\'addestramento all\'obbedienza, avrai gli strumenti per affrontarlo.\n\n
+        - Costantemente (ma non in modo efficace), il tuo cane sarà urlato e spinto sempre più lontano dal suo gruppo (tu e la tua famiglia). Questo non è il modo in cui tu e il tuo cane dovreste vivere, ed è totalmente evitabile con un semplice addestramento all\'obbedienza.\n\n
+        Regole Generali per un Efficace Addestramento per l\'Obbedienza dei Cani\n\n
+        Troverai tecniche di addestramento comprovate per comandi di obbedienza specifici selezionando dall\'elenco qui sotto. Questi sono alcuni suggerimenti generali da tenere a mente che sono veri in qualsiasi situazione di addestramento per l\'obbedienza:\n\n
+        - Loda e ricompensa il tuo cane quando fa ciò che gli chiedi, dai una correzione appropriata quando non fa ciò che è stato insegnato. La chiave è trovare il giusto equilibrio per il tuo cane. Non aspettarti che il tuo cane sappia subito queste cose. La ripetizione del comando e dell\'azione è cruciale. Credi in ciò che stai facendo e attieniti ad esso.\n\n
+        - Sii sempre coerente (questo include tutti coloro che vivono con il tuo cane), rendilo facile per il tuo cane. Dagli una decisione semplice da prendere e rendi chiaro a lui quale scelta è accettabile e quale scelta è inaccettabile - fornisci un feedback immediato.\n\n
+        - Non correggere o punire mai il tuo cane per non aver fatto qualcosa che non è stato adeguatamente insegnato a fare - sii realistico e giusto.\n\n
+        - Fai in modo che le tue sessioni di addestramento siano brevi, incisive e divertenti - per te e per il tuo cane. Qui è dove molte scuole di addestramento per cani falliscono.\n\n
+        - Prendila con calma, padroneggia un comando facile all\'inizio, poi passa oltre e costruisci su di esso. Continua a sfidare mentalmente e stimolare il tuo cane durante il processo di addestramento.\n\n
+        - Sei la persona migliore per svolgere questi compiti con il tuo cane. Il tuo cane deve vivere con te, tu sei il suo gruppo e devi essere la persona a cui lui guarda per la leadership e che rispetta.\n\n
+        - Testa o prova i comandi di obbedienza in diverse situazioni, luoghi e con distrazioni aggiuntive. Incorpora l\'addestramento all\'obbedienza nella tua routine quotidiana: il tuo cane potrebbe eseguire un \'seduto\' prima di dargli la cena, o un \'resta giù\' quando vai a prendere la posta.\n\n
+        - Non provare mai a correggere il tuo cane se non lo cogli sul fatto di sbagliare, il tempismo della tua correzione è molto importante. Una correzione tardiva confonde solo il tuo cane e non ha senso per lui.\n\n
+        - Scopri cosa motiva il tuo cane, questo sarà uno strumento importante nelle tue sessioni di addestramento. I miei cani amano il formaggio, i bocconcini di fegato e un lancio della palla.\n\n
+        - Lavora con le spinte e gli istinti naturali del tuo cane - questo viene spiegato ulteriormente negli articoli qui sotto.\n\n
+</string>
+
+    <string name="barking_text">Abbaiare</string>
+    <string name="barking_text_article">Scoprire come fermare il tuo cane dal abbaiare può essere un compito difficile e che richiede tempo. I cani amano abbaiare. È una cosa perfettamente naturale per il tuo cane, proprio come è normale per noi esseri umani parlare.\n\n
+- È quando i nostri cani abbaiano eccessivamente che diventa un problema per tutti, compresi i nostri vicini irritati.\n\n
+- Considerando questo, il nostro obiettivo non è davvero fermare completamente il abbaiare dei cani, ma piuttosto controllare l\'abbaiare eccessivo. Tieni presente che ci sono situazioni in cui vogliamo che i nostri cani abbaino (e credo ci siano anche momenti in cui mi piace che la mia zia chiacchierona parli!;)\n\n
+- Il primo passo per modificare il comportamento di un cane che abbaia eccessivamente è determinare il motivo per cui il cane sta abbaiare in primo luogo. Una volta identificata questa causa o innesco, puoi quindi pianificare la corretta soluzione di addestramento.\n\n
+Perché Abbaiano i Cani? Fai Fermare il Tuo Cane dal Abbaiare Ora!- Per esprimere i loro bisogni (essere autoritari).\n\n
+- Alcuni cani sono stati allevati per abbaiare (alcuni terrier e segugi). fermare l\'abbaiare dei cani\n\n
+- Stanno rivendicando il loro territorio.\n\n
+- Per allertare gli altri membri della loro famiglia (cioè tu e la tua famiglia) di un pericolo imminente.\n\n
+- Quando giocano, solo per pura eccitazione - questo è un tipo di abbaiare molto comune nei cuccioli.\n\n
+- Abbaiare ad altri animali. A seconda di dove ti trovi nel mondo, potrebbero essere scoiattoli o opossum (io sono in Australia - i miei cani vanno in estasi per gli opossum).\n\n
+- Se sono isolati.\n\n
+- Alcuni cani abbaiano eccessivamente quando sono separati dal loro gruppo (tu e la tua famiglia).\n\n
+- Se sono intrappolati dietro qualche tipo di barriera come una recinzione o una finestra.\n\n
+- Solo per divertimento!\n\n
+- Per esprimere dominanza (i cuccioli normalmente ti mettono alla prova a un certo punto con un comportamento di abbaio dominante).\n\n
+- Abbaiano perché i loro padroni hanno involontariamente premiato l\'abbaiare eccessivo in passato (questo è cruciale da comprendere)\n\n
+- Per noia o mancanza di stimolazione fisica e mentale.\n\n
+- Possono sentirsi stressati o a disagio per qualche motivo. Cose come sentirsi minacciati o se non hanno un posto appropriato dove dormire possono causare problemi di abbaiare eccessivo.\n\n
+- I cani che non sono stati socializzati correttamente spesso diventano abbaioni fastidiosi.\n\n
+- Possono cercare una risposta o attenzione dal loro gruppo.\n\n
+- Un\'altra cosa da tenere a mente è che anche se può sembrare che il tuo cane stia abbaiare a nulla, questo non è necessariamente il caso. Questo è dovuto al fatto che il tuo cane ha un senso dell\'udito, dell\'olfatto e della vista molto più acuto rispetto a noi umani. L\'abbaiare eccessivo del tuo cane è molto probabilmente innescato da qualcosa.\n\n
+Il Cane Abbaia Quando Non Sei a Casa- Non pretenderò che questo tipo di abbaiare sarà facile da controllare, perché in realtà è spesso un processo difficile e lungo.\n\n
+- Ricorda sempre che i cani sono creature sociali, quando sono separati dal loro gruppo (tu) possono diventare stressati, vulnerabili e frustrati. Questo tipo di abbaiare eccessivo è spesso causato dall\'ansia da separazione.\n\n
+- Innanzitutto, direi di usare il buon senso e di avere in mente questi fondamentali per la proprietà dei cani. Mantieni il tuo cane ben esercitato (fisicamente e mentalmente) e fornisci acqua fresca, giocattoli da masticare e un bel posto confortevole dove dormire. Puoi anche provare a bloccare la vista del tuo cane sulla strada e su altre distrazioni/inneschi. Fondamentalmente, assicurati che il tuo cane sia felice.\n\n
+- Se sai che il tuo cane ha abbaiare mentre eri via, devi ignorarlo per un po\' quando torni a casa. Capisco che questo sia difficile per molti proprietari, ma altrimenti il tuo cane crede che il suo abbaiare sia il motivo per cui sei tornato a casa da lui. Fai semplicemente le tue cose per un po\' quando arrivi a casa, ignorando il tuo cane. Quando il tuo cane si sarà calmato, allora puoi iniziare a contattarlo. Si prega di notare che questo metodo si applica ai cani che abbaiano nel momento in cui sei arrivato a casa.\n\n
+Devi Trasmettere un Messaggio Chiaro e Coerente al Tuo Cane in Ogni Momento"- Questa prossima tecnica richiede tempo e pazienza, ma può essere un modo molto efficace per fermare il tuo cane dal abbaiare. Si basa su quella regola importante applicabile a tutte le situazioni di addestramento dei cani. Lodare o premiare quando il tuo cane fa qualcosa che vuoi incoraggiare e creare un\'associazione negativa quando fa qualcosa che non ti piace.\n\n
+- Esci di casa come faresti normalmente, ma nasconditi da qualche parte nelle vicinanze. Quando il tuo cane inizia ad abbaiare, spruzzalo con acqua o lancia una lattina piena di monete o sassi nella sua direzione (questa è l\'associazione negativa). Cerca di rimanere fuori dalla vista del tuo cane mentre lo fai, se possibile. Vai a nasconderti di nuovo, se è tranquillo per un po\', entra e premia il suo buon comportamento con un po\' di lode e magari un trattamento. Questo processo potrebbe dover essere ripetuto più e più volte fino a quando non hai rotto l\'abitudine di abbaiare eccessivamente.\n\n
+- Le tecniche sopra menzionate si sono dimostrate efficaci con i miei stessi cani, ma se non funzionano per te, potresti provare un collare antiabbaio a citronella. Anche questo metodo utilizza il potere dell\'associazione negativa. Ogni volta che il tuo cane abbaia, una sottile nebbia di citronella viene spruzzata nell\'aria. La maggior parte dei cani odia l\'odore, e presto si rende conto che se non abbaia, l\'odore non c\'è per infastidirli. *Se hai più di un cane, questo metodo non è davvero una soluzione adatta. Sostengo sempre un corretto addestramento prima di considerare anche un\'opzione come un collare antiabbaio a citronella.\n\n
+Il Cane Abbaia per Attenzione o per Richiedere Qualcosa Questo è un problema di abbaiare eccessivo che può essere corretto molto rapidamente.- Se ti stabilisci come il leader del tuo cane nella relazione che condividi, questo tipo di problema di abbaiare non si verificherà. Nel processo di addestramento formerai anche un forte legame basato sulla fiducia e sul rispetto reciproco. Per imparare il modo migliore per addestrare il tuo cane all\'ubbidienza.\n\n
+- Puoi anche insegnare al tuo cane il comando \'Fermati\' o \'Silenzio\' per aiutare a prevenire questo tipo di problema di abbaiare fastidioso. Quando il tuo cane sta abbaiare, semplicemente dì "QUIETO!" mentre agiti un trattamento gustoso davanti al naso del tuo cane. Dopo che il tuo cane è stato tranquillo per alcuni secondi, puoi poi dargli il trattamento. Alla fine, avrai solo bisogno di dire "QUIETO!", senza la necessità di un trattamento.\n\n
+</string>
+
+    <!--ARTICOLI-->
+    <string name="first_article">Il mio cane piange quando lo lascio solo</string>
+    <string name="first_article_description">Quando esci dalla stanza/casa, il tuo cane inizia a piangere, abbaiare e graffiare la porta. Ti suona familiare? Non c\'è bisogno di preoccuparsi, ecco cosa devi fare:\n\n
+    Passo 1: Esci dalla stanza/casa e allontanati dalla porta.\n\n
+    Passo 2: Rientra dopo 2 minuti e non comunicare con il tuo cane. (Non chiamarlo, lodarlo o guardarlo - Fai finta di aver dimenticato qualcosa.)\n\n
+    Passo 3: Trascorri 10-15 secondi dentro e esci di nuovo dalla stanza/casa.\n\n
+    Passo 4: Aspetta più a lungo ogni volta che esci (es. 5/15/30 minuti) dalla stanza/casa e ripeti i passaggi. Dopo un po\', il tuo cane capirà che non lo lascerai solo.\n\n
+    P.S: Devi essere paziente affinché il tuo cane smetta di piangere più rapidamente.\n\n</string>
+
+    <string name="second_article">Il mio cane sta rosicchiando</string>
+    <string name="second_article_description">Il suo abitudine di masticare avviene per diversi motivi. Per la soluzione, abbiamo solo bisogno di un oggetto leggero e rumoroso. Ad esempio, potrebbe essere un portachiavi. Potrebbe avere paura o mostrare aggressività quando vede un altro oggetto. Non preoccuparti, questo oggetto non deve spaventare il tuo cane, ma solo stupirlo. Le fasi da seguire sono le seguenti:\n\n
+    - Quando il tuo cane sta graffiando o rosicchiando, stai dietro o accanto a lui.\n\n
+    - Prendi il portachiavi in mano e gettalo gentilmente verso i suoi piedi. (Non vogliamo che il tuo cane si faccia male. L\'importante qui è dargli un leggero tocco e fare dei rumori.)\n\n
+    - Non stabilire un contatto visivo con il tuo cane dopo aver lanciato la chiave. (Puoi guardare verso il soffitto.) Questo perché il tuo cane non deve sapere domande come da dove è venuto, chi ha lanciato la chiave, cosa è.\n\n
+    - Dopo alcune ripetizioni, il tuo cane rinuncerà a questo comportamento quando applichi questo metodo senza fargli male.\n\n</string>
+
+    <string name="third_article">Il mio cucciolo piange</string>
+    <string name="third_article_description">I cuccioli piangono principalmente perché non sono con le loro mamme. Se è così, non c\'è molto che tu possa fare, ma puoi provare a coprire il tuo cucciolo con una coperta.\n\n
+    (La coperta terrà il tuo cucciolo caldo e lo farà sentire come se fosse con la mamma.)</string>
+
+    <string name="fourth_article">Il mio cane piange se chiudo la porta di notte</string>
+    <string name="fourth_article_description">Se non dormi nella stessa stanza con il tuo cane e chiudi la porta di notte, lui/lei potrebbe piangere, abbaiare o graffiare la porta/i cuscini. Ecco cosa devi fare:\n\n
+    - Sii testardo e ignora il tuo cane. Anche se fai un\'eccezione una sola volta, lui/lei penserà che aprirai la porta ogni volta che si comporta in questo modo.\n\n
+    Puoi lasciare un tuo indumento nella stanza in cui dorme il tuo cane in modo che possa annusare il tuo profumo e sentirsi meno ansioso.\n\n
+    P.S: Dovresti far entrare il tuo cane solo quando è calmo e ben educato.</string>
+
+</resources>

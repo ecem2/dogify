@@ -130,5 +130,10 @@
             android:id="@+id/action_onboardTwoFragment_to_soundsFragment"
             app:destination="@id/soundsFragment" />
     </fragment>
+    <fragment
+        android:id="@+id/premiumScreenFragment"
+        android:name="com.melo.dogify.subscription.PremiumScreenFragment"
+        android:label="fragment_premium_screen"
+        tools:layout="@layout/fragment_premium_screen" />
 
 </navigation>

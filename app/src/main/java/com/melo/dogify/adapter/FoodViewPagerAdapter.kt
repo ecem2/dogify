@@ -17,38 +17,20 @@ class FoodViewPagerAdapter(fm: FragmentManager) : FragmentPagerAdapter(fm) {
             0 -> {
                 SafeOnesFragment()
             }
+
             1 -> {
                 HarmfulOnesFragment()
             }
+
             2 -> {
                 CarefulWithTheseFragment()
             }
+
             else -> {
-               throw IllegalArgumentException("Invalid position")
+                throw IllegalArgumentException("Invalid position")
 
             }
         }
     }
 }
 
-//class FoodViewPagerAdapter(activity: FragmentActivity) : FragmentStateAdapter(activity) {
-//
-//    override fun getItemCount() = 3
-//
-//    override fun createFragment(position: Int): Fragment {
-//        return when (position) {
-//            0 -> {
-//                SafeOnesFragment()
-//            }
-//            1 -> {
-//                HarmfulOnesFragment()
-//            }
-//            2 -> {
-//                CarefulWithTheseFragment()
-//            }
-//            else -> {
-//                SafeOnesFragment()
-//            }
-//        }
-//    }
-//}

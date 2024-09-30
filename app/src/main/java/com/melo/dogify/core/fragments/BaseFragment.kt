@@ -25,7 +25,8 @@ abstract class BaseFragment<VM : DogBaseViewModel, DB : ViewDataBinding> :
         WindowCompat.setDecorFitsSystemWindows(requireActivity().window, false)
         WindowInsetsControllerCompat(requireActivity().window, viewBinding.root).let { controller ->
             controller.hide(WindowInsetsCompat.Type.systemBars())
-            controller.systemBarsBehavior = WindowInsetsControllerCompat.BEHAVIOR_SHOW_TRANSIENT_BARS_BY_SWIPE
+            controller.systemBarsBehavior =
+                WindowInsetsControllerCompat.BEHAVIOR_SHOW_TRANSIENT_BARS_BY_SWIPE
         }
     }
 

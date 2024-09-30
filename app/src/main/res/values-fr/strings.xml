@@ -1,0 +1,345 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Dogify</string>
+    <string name="hello_blank_fragment">Bonjour fragment vide</string>
+    <string name="sounds">Sons</string>
+    <string name="translator">Traducteur</string>
+    <string name="training">Entraînement</string>
+    <string name="whistle">Sifflet</string>
+    <string name="article">Article</string>
+    <string name="read_now"><u>Lire maintenant</u></string>
+    <string name="terms"><u>Conditions</u></string>
+    <string name="privacy"><u>Confidentialité</u></string>
+    <string name="repeat_sound">Répéter le son</string>
+    <string name="food">Nourriture</string>
+    <string name="onboard_first_title">Comprenez les sentiments de votre chien.</string>
+    <string name="onboard_first_description">Voulez-vous savoir \n ce que pense le chien?</string>
+    <string name="onboard_second_title">Explorez les sentiments de votre chien.</string>
+    <string name="onboard_second_description">Ne serait-il pas excitant de savoir ce qui se passe dans l’esprit de votre chien?</string>
+    <string name="next">Suivant</string>
+    <string name="get_premium">Obtenir Premium</string>
+    <string name="premium_yearly">Premium - Annuel</string>
+    <string name="first_year">première année</string>
+    <string name="upgrade_to_pro">Passer à Pro</string>
+    <string name="unlimited_translation">Traduction illimitée</string>
+    <string name="ads_free_using">Utilisation sans publicité.</string>
+    <string name="start_3_days_free_trial">Commencez 3 jours d\'essai gratuit</string>
+    <string name="continue_btn">Continuer</string>
+    <string name="your_yearly_plan">Votre \nPlan Annuel</string>
+    <string name="your_weekly_plan">Votre \nPlan Hebdomadaire</string>
+    <string name="USD_29">USD 29</string>
+    <string name="USD_09">USD 09</string>
+    <string name="start_weekly_free_trial">Commencez l\'essai hebdomadaire gratuit</string>
+    <string name="purchase">Acheter</string>
+    <string name="subscription_is_auto">L\'abonnement est renouvelable automatiquement. Vous pouvez annuler\n
+votre abonnement à tout moment</string>
+    <string name="rate_your_dog">Évaluez votre chien</string>
+    <string name="dog_translator">Traducteur de chiens</string>
+    <string name="dog_training">Entraînement pour chiens</string>
+    <string name="record_translate">Enregistrer \n &amp; Traduire</string>
+    <string name="dog_whistle">Sifflet pour chiens</string>
+    <string name="hz">10000 Hz</string>
+    <string name="safe_ones">Sans danger</string>
+    <string name="harmful_ones">Nocifs</string>
+    <string name="careful_with_these">À manipuler avec soin</string>
+    <string name="food_description">Lorsque vous préparez de la nourriture maison pour votre chien, vous êtes assuré que votre chien mange une nourriture qui respecte vos normes.</string>
+    <string name="articles">Articles</string>
+    <string name="article_description">Assurez-vous de donner beaucoup d’attention à votre chien lorsqu\'il/elle fait les bonnes choses.</string>
+    <string name="biting">Morsures</string>
+    <string name="biting_description">Les morsures ou les pincements des chiots commencent comme un jeu, mais doivent être contrôlés rapidement pour éviter des problèmes continus.</string>
+    <string name="obidence">Obéissance</string>
+    <string name="obidence_description">Morsures</string>
+    <string name="barking">Aboyer</string>
+    <string name="barking_description">L’entraînement à l’obéissance canine approprié doit ouvrir une ligne de communication claire.</string>
+
+    <string name="anxious">Anxieux</string>
+    <string name="call">Appel</string>
+    <string name="cold">Froid</string>
+    <string name="come_here">Viens ici</string>
+    <string name="comfortable">Confortable</string>
+    <string name="feeding">Nourriture</string>
+    <string name="happy">Heureux</string>
+    <string name="hug">Câlin</string>
+    <string name="hot">Chaud</string>
+    <string name="hungry">Affamé</string>
+    <string name="joyful">Joyeux</string>
+    <string name="love">Amour</string>
+    <string name="know">Savoir</string>
+    <string name="playful">Joueur</string>
+    <string name="surprised">Surpris</string>
+    <string name="scared">Effrayé</string>
+    <string name="i_love_you">Je t\'aime</string>
+    <string name="no_understand">Ne comprends pas</string>
+    <string name="whining">Gémissement</string>
+    <string name="so_happy">Très heureux</string>
+    <string name="uncomfortable">Inconfortable</string>
+    <string name="thirsty">Assoiffé</string>
+
+    <!--SAFE ONES-->
+    <string name="apple">Pomme</string>
+    <string name="apple_article">Tant que ses pépins sont enlevés (pour éviter une intoxication au cyanure), la pomme est sans danger et saine pour les chiens. La pomme est un fruit plein de vitamines, de minéraux, d\'antioxydants et de fibres. C\'est aussi une excellente collation pour les chiens. Cependant, elle contient beaucoup de sucre comme la banane, alors attention à la prise de poids. Assurez-vous de la couper en petits morceaux pour éviter les risques d\'étouffement.</string>
+
+    <string name="banana">Banane</string>
+    <string name="banana_article">La banane est sans danger et saine pour les chiens. Elle est riche en potassium, ce qui est bon pour les reins et le cœur. Mais elle contient également beaucoup de glucides et de sucre, alors attention à la prise de poids. Bien que cela ne soit pas scientifiquement prouvé, on dit que la banane aide à soulager la nausée chez les chiens. Veillez à la couper en petites tranches pour éviter les risques d\'étouffement.</string>
+
+    <string name="beet">Betterave</string>
+    <string name="beet_article">C\'est une excellente source de nourriture. Les betteraves ont de nombreux effets positifs sur la santé. Elles sont particulièrement efficaces pour régénérer les cellules du foie et maintenir la santé.</string>
+
+    <string name="blueberry">Myrtille</string>
+    <string name="blueberry_article">Les myrtilles sont recommandées pour le régime des chiens. Elles sont riches en antioxydants, sélénium, zinc et fer, ainsi qu\'en vitamines C, E, A et B.</string>
+
+    <string name="bread">Pain</string>
+    <string name="bread_article">Le pain blanc ou complet est sans danger pour les chiens. (Assurez-vous qu\'il n\'y a pas de raisins secs à l\'intérieur.) Si consommé fréquemment, surveillez la prise de poids de votre chien.</string>
+
+    <string name="broccoli">Brocoli</string>
+    <string name="broccoli_article">Le brocoli est l\'un des légumes les plus importants pour les vitamines que les chiens peuvent manger. Riche en vitamines A, C, E et en carotène. Lorsque le brocoli est cuit, des enzymes anti-cancer sont libérées, ce qui aide à prévenir le cancer. Le brocoli contient 33 structures anti-cancer différentes. De plus, certaines des structures qu\'il contient empêchent la formation de cellules cancérigènes et leur attaque contre les cellules saines. Il renforce le système de défense du corps. Il est nécessaire de ne pas en abuser, car une consommation excessive de brocoli diminue la fonction thyroïdienne chez les chiens.</string>
+
+    <string name="carrot">Carotte</string>
+    <string name="carrot_article">La carotte (crue ou cuite) est sans danger et saine pour les chiens. C\'est un légume faible en calories, plein de vitamines, de minéraux et de fibres. Elle peut également aider à la digestion. Veillez à la couper en petites tranches pour éviter les risques d\'étouffement.</string>
+
+    <string name="cucumber">Concombre</string>
+    <string name="cucumber_article">Le concombre est une collation très utile, faible en calories et facilement digestible pour le système digestif des chiens. Mais lorsqu\'il est consommé en excès, il peut causer des douleurs d\'estomac. Coupez-le en tranches avant de le donner à votre chien pour éviter les risques d\'étouffement.</string>
+
+    <string name="green_peas">Petits pois</string>
+    <string name="green_peas_article">Si vous nourrissez votre chien avec un régime, vous devez absolument ajouter des pois à la liste. Ils sont riches en thiamine, en phosphore et en potassium. Vous pouvez augmenter la valeur nutritionnelle en ajoutant quelques pois bouillis au repas quotidien de votre chien. Elle ou il aimera encore plus sa nourriture quand elle sera bouillie avec un morceau de viande et du bouillon naturel non salé.</string>
+
+    <string name="kiwi">Kiwi</string>
+    <string name="kiwi_article">Plus d\'une tranche du petit kiwi, qui contient du potassium et de grandes quantités de vitamine C, peut nuire à votre chien.</string>
+
+    <string name="lettuce">Laitue</string>
+    <string name="lettuce_article">Votre chien aimera la laitue car elle est croustillante. En donner trop peut provoquer la diarrhée chez votre chien. Prenez soin de donner ces légumes comme source de fibres et d\'aliments riches.</string>
+
+    <string name="mango">Mangue</string>
+    <string name="mango_article">La chair de la mangue contient des vitamines A, B6, C et E. Elle est très utile pour les chiens.</string>
+
+    <string name="orange">Orange</string>
+    <string name="orange_article">Tant qu\'elle est pelée, l\'orange est sans danger et saine pour les chiens. C\'est un fruit peu calorique et nutritif, mais évitez d\'en donner trop afin que votre chien n\'ait pas de maux d\'estomac. Veillez à la couper en petites tranches pour éviter les risques d\'étouffement.</string>
+
+    <string name="parsley">Persil</string>
+    <string name="parsley_article">Le persil fournit du calcium, du potassium et du bêta-carotène à votre chien. Il réduit la mauvaise haleine chez les chiens. Si votre chien a mauvaise haleine, vous pouvez ajouter quelques morceaux de persil à sa nourriture, ou l\'ajouter aux biscuits faits maison pour chiens.</string>
+
+    <string name="pear">Poire</string>
+    <string name="pear_article">Aide à la santé du système digestif chez les chiens. Vous pouvez couper les poires, contenant des vitamines A, C, E, B1 et B2, ainsi que des fibres, de l\'acide folique, du potassium et du cuivre, en cubes pour votre chien.</string>
+
+    <string name="pineapple">Ananas</string>
+    <string name="pineapple_article">Tant qu\'il est frais, l\'ananas est sans danger et sain pour les chiens. Il est plein de vitamines, de minéraux et de fibres. C\'est aussi une excellente collation pour les chiens. Veillez à le couper en petites tranches pour éviter les risques d\'étouffement. De plus, ne donnez pas trop d\'ananas pour éviter la nausée de votre chien.</string>
+
+    <string name="spinach">Épinard</string>
+    <string name="spinach_article">Les épinards sont riches en vitamines K, A, C, E et B, ainsi qu\'en calcium, fer, magnésium, phosphore, manganèse, potassium, folate, cuivre et fibres. Si votre chien consomme une quantité excessive d\'épinards, ses reins peuvent être endommagés. Cependant, donner à votre chien une poignée d\'épinards par mois est sain. Cela contient des fibres, des vitamines et des antioxydants. Votre chien aimera tellement les épinards que vous l\'appellerez Popeye.</string>
+
+    <string name="strawberry">Fraise</string>
+    <string name="strawberry_article">La fraise est sans danger et saine pour les chiens. C\'est un fruit faible en calories qui contient des fibres et des antioxydants. Veillez à la couper en deux ou trois morceaux pour éviter les risques d\'étouffement.</string>
+
+    <string name="turnip">Navet</string>
+    <string name="turnip_article">C\'est un légume que vous pouvez ajouter à la liste de régime. Le navet garde vos chiens en forme grâce à sa haute source nutritionnelle et à sa capacité à nettoyer les toxines.</string>
+
+    <string name="watermelon">Pastèque</string>
+    <string name="watermelon_article">Tant qu\'elle est pelée et que ses graines sont enlevées, la pastèque est sans danger et saine pour les chiens. C\'est un fruit faible en calories, plein de vitamines A et C. C\'est aussi une excellente collation pour les chiens. Veillez à la couper en petites tranches pour éviter les risques d\'étouffement.</string>
+
+    <!--HARMFUL ONES-->
+    <string name="alcohol">Alcool</string>
+    <string name="alcohol_article">L\'alcool contient un composé chimique appelé éthanol, qui est toxique pour les chiens. S\'il est consommé, cela peut provoquer des maux d\'estomac, des problèmes de coordination, des vomissements, de la diarrhée et une déshydratation. Si une grande quantité est consommée, cela peut entraîner une insuffisance pulmonaire, un coma ou la mort.</string>
+
+    <string name="avocado">Avocat</string>
+    <string name="avocado_article">L\'avocat (y compris ses feuilles) contient un composé chimique appelé persine, qui est toxique pour les chiens. S\'il est consommé, cela peut provoquer des maux d\'estomac. Son noyau peut également bloquer les intestins de votre chien. S\'il est consommé en grande quantité, cela peut entraîner des problèmes respiratoires et endommager le cœur et le foie de votre chien.</string>
+
+    <string name="candy">Bonbons</string>
+    <string name="candy_article">Beaucoup de bonbons contiennent des édulcorants artificiels, des raisins secs, qui sont nocifs pour votre chien. Même les édulcorants artificiels sont toxiques pour lui. En petites quantités, des vomissements, de la diarrhée et une perte d\'appétit peuvent être observés. Si la quantité consommée augmente, cela peut être fatal.</string>
+
+    <string name="chocolate">Chocolat</string>
+    <string name="chocolate_article">Le chocolat contient de la caféine et de la théobromine, et les chiens ne peuvent pas digérer ces stimulants. (Les niveaux de théobromine sont particulièrement élevés dans le chocolat noir et amer.) S\'il est consommé en petite quantité, cela provoquera probablement uniquement des maux d\'estomac. Plus la quantité consommée augmente, plus les symptômes peuvent inclure une hyperactivité, des vomissements, de la diarrhée, un rythme cardiaque irrégulier, des tremblements musculaires et une déshydratation. En grande quantité, la caféine peut entraîner une insuffisance pulmonaire ou la mort ; la théobromine peut provoquer des hémorragies internes, une crise cardiaque ou la mort.</string>
+
+    <string name="coffee">Café</string>
+    <string name="coffee_article">Le café contient de la caféine et de la théobromine, et les chiens ne peuvent pas digérer ces stimulants. S\'il est consommé en petite quantité, cela provoquera probablement uniquement des maux d\'estomac. Plus la quantité consommée augmente, plus les symptômes peuvent inclure une hyperactivité, des vomissements, de la diarrhée, un rythme cardiaque irrégulier, des tremblements musculaires et une déshydratation. En grande quantité, la caféine peut entraîner une insuffisance pulmonaire ou la mort ; la théobromine peut provoquer des hémorragies internes, une crise cardiaque ou la mort.</string>
+
+    <string name="bones">Os cuit</string>
+    <string name="bones_article">Choisissez toujours les plus gros os et rappelez-vous qu\'ils doivent toujours être crus. Les os cuits d\'agneau se cassent rapidement et les éclats peuvent être problématiques.</string>
+
+    <string name="fishbones">Arrêtes de poisson</string>
+    <string name="fishbones_article">Les os et arêtes de poisson consommés par votre chien traversent le tube digestif comme un morceau de verre. Cela peut provoquer des déchirures dans l\'œsophage et l\'estomac des chiens.</string>
+
+    <string name="garlic">Ail</string>
+    <string name="garlic_article">L\'ail est nocif pour les chiens. Selon l\'Association vétérinaire américaine, bien que les bienfaits de l\'ail n\'aient pas été prouvés, ses effets nocifs et toxiques ont été prouvés. Lorsqu\'il est consommé, l\'urine orange ou rouge peut provoquer des vomissements, de la diarrhée, une respiration accrue, de la faiblesse, une perte d\'appétit ou des palpitations. Lorsqu\'il est consommé en excès, il peut endommager les globules rouges et détériorer la structure naturelle de la muqueuse.</string>
+
+    <string name="grapes">Raisins</string>
+    <string name="grapes_article">Les raisins (frais ou secs) contiennent des composés chimiques qui sont toxiques pour les chiens. (Les substances exactes qui provoquent cette réaction toxique ne sont pas encore connues.) S\'ils sont consommés, cela peut provoquer des vomissements, un engourdissement, de la diarrhée et des tremblements musculaires. En grande quantité, cela peut entraîner une augmentation de la miction, des maladies rénales à long terme ou la mort.</string>
+
+    <string name="leek">Poireau</string>
+    <string name="leek_article">Pour les chiens, des aliments comme les poireaux et les oignons provoquent des maladies même s\'ils sont consommés en petites quantités. En grande quantité, cela peut entraîner une anémie.</string>
+
+    <string name="lemon">Citron</string>
+    <string name="lemon_article">Le citron contient des composés chimiques tels que le linalol et le limonène qui sont toxiques pour les chiens. S\'il est consommé en petite quantité, cela peut seulement provoquer des maux d\'estomac et des troubles intestinaux.
+PS : Les chiens n\'aiment pas vraiment le goût de toute façon.</string>
+
+    <string name="mushroom">Champignon</string>
+    <string name="mushroom_article">Si le champignon est consommé par les chiens, cela peut provoquer des douleurs abdominales, des vomissements et de la diarrhée. En excès, cela peut entraîner des maladies rénales, des dommages au foie, un coma ou la mort.</string>
+
+    <string name="onion">Oignon</string>
+    <string name="onion_article">Les oignons sont nocifs pour les chiens. L\'urine orange ou rouge lorsqu\'ils sont consommés peut provoquer des vomissements, de la diarrhée, une respiration accrue, de la faiblesse, une perte d\'appétit ou des palpitations. En grande quantité, cela peut endommager les globules rouges et détériorer la structure naturelle de la muqueuse.</string>
+
+    <string name="tea">Thé</string>
+    <string name="tea_article">Le thé contient de la caféine et de la théobromine. Et les chiens ne peuvent pas digérer ces stimulants. S\'il est consommé en petite quantité, cela provoquera probablement uniquement des maux d\'estomac. Plus la quantité consommée augmente, plus les symptômes peuvent inclure une hyperactivité, des vomissements, de la diarrhée, un rythme cardiaque irrégulier, des tremblements musculaires et une déshydratation. En grande quantité, la caféine peut entraîner une insuffisance pulmonaire ou la mort ; la théobromine peut provoquer des hémorragies internes, une crise cardiaque ou la mort.</string>
+
+    <string name="tobacco">Tabac</string>
+    <string name="tobacco_article">Le tabac peut provoquer des convulsions ou des AVC, de la salivation, des pupilles dilatées, des hallucinations auditives et visuelles, une accélération du rythme cardiaque, des vomissements et de la diarrhée chez les chiens.</string>
+    <!--FAITES ATTENTION AVEC CELA-->
+    <string name="cheese">Fromage</string>
+    <string name="cheese_article">Il est généralement acceptable que les chiens mangent de petites quantités de fromage. Cependant, la teneur en matières grasses et en lactose varie beaucoup selon les types de fromage. En fait, certains fromages peuvent perturber le tube digestif de votre chien et causer des douleurs à l\'estomac et de la diarrhée. Ainsi, nous vous suggérons ceux à faible teneur en matières grasses, comme la mozzarella. Si vous souhaitez vraiment en donner à votre chien, commencez par de petits morceaux pour qu\'il/elle s\'y habitue.</string>
+
+    <string name="cherries">Cerises</string>
+    <string name="cherries_article">Les cerises n\'ont pas de bienfaits nutritionnels scientifiquement prouvés pour les chiens. Si vous souhaitez vraiment en donner à votre chien, ne lui en donnez pas plus de quelques-unes à la fois. N\'oubliez pas de toujours retirer les noyaux pour éviter tout risque d\'étouffement et d\'empoisonnement au cyanure (un composé chimique présent dans les noyaux). Si consommées en grande quantité, elles peuvent provoquer des douleurs à l\'estomac et de la diarrhée chez votre chien.</string>
+
+    <string name="egg">Œuf</string>
+    <string name="egg_article">L\'enzyme avidine dans les œufs crus empêche l\'absorption de la vitamine B7 (biotine). En cas de carence en B7, la santé de la peau et du pelage de votre chien se détériore. De plus, les bactéries salmonelles présentes dans les œufs crus peuvent provoquer une intoxication chez les chiens. Les œufs peuvent également provoquer des vomissements chez les chiens.</string>
+
+    <string name="honey">Miel</string>
+    <string name="honey_article">Le miel contient beaucoup de sucre, donc nous ne vous conseillons pas d\'en donner trop à votre chien. S\'il est consommé en grande quantité, il peut provoquer une prise de poids.</string>
+
+    <string name="ice_cream">Glace</string>
+    <string name="ice_cream_article">Les glaces du commerce contiennent beaucoup de sucre (et évidemment du lait), il n\'est donc pas très sain de partager votre glace avec votre chien. (Surtout si votre chien est intolérant au lactose.) Mais si vous le souhaitez vraiment, vous pouvez fabriquer ou acheter des glaces spécialement conçues pour les chiens.</string>
+
+    <string name="juice">Jus de fruit</string>
+    <string name="juice_article">Les chiens peuvent boire la plupart des jus de fruits, mais ils ne devraient pas en consommer car les jus de fruits contiennent beaucoup de sucre et de conservateurs alimentaires chimiques, qui peuvent nuire à leur santé. Il est donc préférable de donner des fruits frais et délicieux à votre chien plutôt que du jus de fruit.</string>
+
+    <string name="milk">Lait</string>
+    <string name="milk_article">Certains chiens sont intolérants au lactose, donc vous devez faire attention en leur donnant du lait ou des produits laitiers. Si vous souhaitez vraiment en donner, vous pouvez essayer du lait de soja pour éviter les maux d\'estomac. Veuillez noter que si votre chien est un chiot, le lait de soja ne remplace pas le lait maternel.</string>
+
+    <string name="peanut">Cacahuète</string>
+    <string name="peanut_article">Toxique pour votre chien. Vous ne devriez donc absolument pas en donner.</string>
+
+    <string name="pomegranate">Grenade</string>
+    <string name="pomegranate_article">Que les chiens puissent ou non manger de la grenade est souvent un sujet de débat entre vétérinaires. La grenade n\'est pas toxique pour les chiens. Elle est également très saine en termes de teneur en antioxydants, en vitamine C, en potassium et en fibres. Cependant, la grenade peut provoquer des problèmes digestifs (par exemple, des douleurs à l\'estomac, des vomissements) ou de la diarrhée à cause de ses graines si elle est consommée en grande quantité. Par conséquent, donner une petite quantité de grenade à votre chien serait la décision la plus logique.</string>
+
+    <string name="tomato">Tomate</string>
+    <string name="tomato_article">Tant qu\'elles sont mûres/rouges, vous pouvez donner des tomates à votre chien de temps en temps. Cependant, les tomates immatures/vertes contiennent de la tomatine, qui est nocive pour les chiens : elle provoque des douleurs à l\'estomac, un rythme cardiaque anormal et des troubles respiratoires. Si consommée en grande quantité, elle peut affecter gravement le système digestif et nerveux de votre chien.</string>
+
+    <string name="yogurt">Yaourt</string>
+    <string name="yogurt_article">Certains chiens ne digèrent pas facilement le yaourt, ce qui peut leur causer des maux d\'estomac. Mais si vous souhaitez vraiment en donner à votre chien, assurez-vous qu\'il ne s\'agit pas d\'un yaourt aux fruits et qu\'il ne contient pas de sucre ou d\'édulcorants.</string>
+
+
+    <!--BITING ARTICLE-->
+    <string name="biting_text">Mon chien mord</string>
+    <string name="biting_text_article">
+    - Gérer et contrôler les problèmes de morsure chez les chiots peut être un défi majeur pour nous, les amoureux des chiens. Mordre ou mordiller chez le chiot commence souvent comme un jeu, mais doit être contrôlé rapidement pour éviter des problèmes futurs.\n\n
+    - Pour la plupart des jeunes chiots, mordre est une phase tout à fait naturelle et essentielle, surtout lorsqu\'ils font leurs dents.\n\n
+    - Les chiots adorent planter leurs petites dents pointues dans à peu près n\'importe quoi pendant cette phase de dentition, y compris dans les mains et les pieds de leurs propriétaires. Dans certains cas, c\'est comme si vous aviez ramené chez vous un petit alligator mordant au lieu du chiot câlin que vous espériez.\n\n
+    - La bonne nouvelle, c\'est que la plupart des chiots peuvent être entraînés à réguler et à minimiser les morsures assez facilement. Plus tôt vous commencerez à éduquer votre chiot à l\'inhibition de la morsure (avoir une bouche douce), plus ce sera facile - pour tout le monde.\n\n
+    Comment arrêter les problèmes de morsure chez les chiots - Il existe de nombreuses méthodes d\'entraînement éprouvées pour corriger les problèmes de comportement de votre chiot. Avant d\'entrer dans les techniques spécifiques que vous pouvez utiliser pour empêcher votre chiot de mordre, gardez toujours ces règles générales de dressage de comportement canin à l\'esprit:\n\n
+    - La socialisation des chiots et l\'entraînement à l\'inhibition de la morsure vont de pair.\n\n
+    - Ne giflez jamais ou ne frappez jamais votre chiot au visage. Cela ne fonctionne pas ! Votre chiot pensera simplement que vous jouez ou pourrait avoir peur de vous. Cela pourrait même entraîner des problèmes bien plus graves que de simples mordillements de chiot.\n\n
+    - La règle générale pour arrêter les problèmes de morsure des chiots est d\'encourager toujours un comportement acceptable et de décourager toujours un comportement inacceptable. Pour en savoir plus sur cette règle fondamentale du dressage de l\'obéissance des chiens (y compris comment arrêter les problèmes de morsure), visitez les Secrets d\'un dresseur de chiens professionnel.\n\n
+    - Pendant que vous essayez d\'empêcher vos chiots de mordre, ne jouez jamais à des jeux de tir à la corde, de lutte ou de poursuite avec eux. Cela ne fait qu\'encourager les morsures et les mordillements.\n\n
+    - Quelle que soit la méthode que vous choisissez pour entraîner votre chiot, la règle d\'or est d\'être cohérent. Cela signifie que vous et toutes les personnes en contact avec votre chiot devez appliquer votre stratégie choisie à chaque fois que votre chiot mord.\n\n
+    - Si vous ne communiquez pas clairement à votre chien que mordre est inacceptable, il ne saura pas qu\'il fait quelque chose de mal. C\'est à vous de lui montrer ce qui est un comportement acceptable, ne vous attendez pas simplement à ce que votre chiot le sache ! (Vous prenez vraiment le rôle de ses compagnons de portée pour cette tâche).\n\n
+    - Une autre raison (extrême) pour laquelle les chiots peuvent mordre est s\'ils essaient d\'affirmer leur dominance sur vous. Si c\'est le cas avec votre chiot, cela doit être arrêté immédiatement. Quand vous avez un chiot dominant, sa morsure ne sera que le début de nombreux problèmes de comportement.\n\n
+    Arrêtez votre chiot de mordre - Techniques éprouvéesVotre objectif au départ est d\'apprendre à votre chiot à contrôler la force de sa morsure. Les compagnons de portée de votre chiot initieront ce processus, puis il vous appartiendra de le continuer lorsque votre nouveau chiot arrivera à la maison. Cela garantira (sans assurer) que si votre chien mord quelqu\'un à l\'avenir, les dommages seront minimisés. Lorsque vous avez donné à votre chiot suffisamment de rétroaction concernant la force de sa morsure, alors seulement pouvez-vous commencer à réduire la prévalence du comportement de morsure.\n\n
+    - Si vous attrapez le problème de morsure tôt, il peut être facile à rectifier. Essayez simplement de rediriger la morsure de votre peau vers un jouet ou un os à mâcher. Pour les très jeunes chiots, cette méthode est souvent tout ce que vous aurez à faire. Dès que votre chiot commence à mordre vos mains, dites un "Non!" ferme et remplacez vos doigts par le jouet à mâcher (ou un glaçon si votre chiot fait ses dents).\n\n
+    - C\'est probablement la méthode la plus populaire et ma préférée. Faites croire à votre chiot qu\'il vous fait mal à chaque fois qu\'il vous mordille. Cette méthode imite la façon dont les chiens se règlent entre eux. Quand les chiots se mordillent les uns les autres, cela ne s\'arrête que lorsqu\'un chiot pousse un cri. Nous pouvons utiliser cette façon naturelle dont les chiens apprennent en laissant échapper un "Aïe!" ou un "Arr!" chaque fois qu\'un de nos chiots mord. Le secret est de surprendre votre chien avec votre voix, puis de vous retirer et d\'arrêter de jouer avec lui pendant un moment. Votre chiot apprendra vite que lorsqu\'il commence à mordre, son compagnon de jeu (vous) disparaît.\n\n
+    - Apprenez à votre chiot le commandement d\'obéissance "Laisse!". Cette méthode fonctionne bien mais est plus adaptée aux chiots plus âgés.\n\n
+    Dans les cas graves de morsure, dès que votre chiot s\'accroche à votre main, dites "Non!" et mettez rapidement votre pouce dans sa bouche sous sa langue, et votre autre doigt sous son menton. Tenez-le ainsi pendant environ 10 secondes (pas trop fort). Cela sera inconfortable pour votre chiot et il ne pourra pas vous mordre.\n\n
+    - Dans les cas graves de morsure, dès que votre chiot s\'accroche à votre main, dites "Non!" et mettez rapidement votre pouce dans sa bouche sous sa langue, et votre autre doigt sous son menton. Tenez-le ainsi pendant environ 10 secondes (pas trop fort). Cela sera inconfortable pour votre chiot et il ne pourra pas vous mordre.\n\n
+    \'Toujours féliciter et récompenser une bouche douce et ignorer ou se retirer des mordillements inappropriés.\'\n\n
+    - Encore une fois, si votre chiot a un problème de morsure grave, vous pouvez essayer cette technique d\'entraînement. Mettez une paire de gants et appliquez-y une substance au goût désagréable (quelque chose que votre chien n\'aime pas). Votre chien apprendra vite que s\'il vous mord, le goût ne sera pas agréable! Cette méthode crée une forte association négative pour votre chien à chaque fois qu\'il décide de vous mordre. Certains chiens sont assez intelligents pour comprendre que lorsque vous enlevez vos gants au goût désagréable, ils peuvent à nouveau vous mordre!\n\n
+    - Pour les chiots plus âgés (environ 6 mois), voici une technique infaillible pour arrêter les morsures. Mettez un collier étrangleur ou à pincement sur votre chiot, et à chaque fois qu\'il vous mord, donnez une petite secousse rapide à la laisse. Cette correction créera une association désagréable pour votre chien à chaque fois qu\'il vous mordra. Il n\'aura pas besoin de beaucoup de temps pour arrêter. Certains dresseurs considèrent cette méthode comme assez extrême, et je suis d\'accord pour dire que vous n\'auriez besoin de l\'utiliser que dans de très rares circonstances - je n\'ai jamais eu besoin d\'en arriver à ce niveau. Je pense qu\'il est bien plus efficace d\'éduquer votre chiot plutôt que de punir ou de tenter de supprimer un comportement complètement.\n\n
+    Comment arrêter un chiot de mordreCes méthodes m\'ont été recommandées, mais je ne les ai jamais essayées moi-même :\n\n
+    - Vaporisez votre chiot avec de l\'eau chaque fois qu\'il commence à mordiller.\n\n
+    - Remplissez une boîte vide avec des cailloux ou des pièces de monnaie. Chaque fois que votre chiot commence à mordre, dites "Non!" et secouez la boîte. Apparemment, les chiots détestent ce bruit de cliquetis.\n\n
+    - Si vous craignez que votre chiot soit excessivement agressif, veuillez consulter un comportementaliste animalier ou un dresseur de chiens expérimenté.\n\n
+    - Comme je l\'ai mentionné plus tôt, le conseil le plus important, peu importe la méthode d\'entraînement que vous choisissez, est d\'être cohérent et de fournir à votre chiot les retours clairs dont il a besoin pour apprendre.
+</string>
+    <string name="obedience_text">Obéissance</string>
+    <string name="obedience_text_article">Qu\'est-ce que le Dressage de Chiens à des Fins d\'Obéissance ? Comme la plupart des propriétaires de chiens, je crois que le dressage de chiens à des fins d\'obéissance est un ingrédient essentiel dans toute relation saine entre un humain et son chien. Mais qu\'est-ce exactement que le dressage à l\'obéissance et pourquoi est-il si important pour vous et votre chien ? Le dressage à l\'obéissance est un terme général qui peut être réalisé à travers diverses techniques de dressage de chiens. Peu importe la technique de dressage que vous choisissez ou les écoles de dressage que vous fréquentez, voici ce que le dressage à l\'obéissance devrait accomplir :\n\n
+    - Construire ou renforcer une relation étroite, saine et appropriée entre vous et votre chien.\n\n
+    - Ouvrir une ligne de communication claire entre vous et votre chien. Cela inclut que vous sachiez ce que vous attendez de votre chien dans toutes les circonstances, et que votre chien comprenne et respecte clairement ce qui est attendu de lui/elle.\n\n
+    - Le dressage à l\'obéissance établit un ensemble de règles ou de limites qui éduquent votre chien à devenir un membre responsable de la société. Cela inclut comment se comporter avec les autres chiens, les animaux et les personnes, les bonnes manières et comment se comporter dans n\'importe quelle situation.\n\n
+    - Établir les bases qui aident à prévenir le développement de comportements problématiques inacceptables - tels que sauter, aboyer, mâcher, creuser, etc.\n\n
+    Les Avantages du Dressage de Chiens à des Fins d\'Obéissance\n\n
+    - Le dressage de base à l\'obéissance simplifie la vie de votre chien et élimine toute confusion. Votre chien saura quelle est sa place dans le monde et comprendra ce qui est bien ou mal. Les chiens semblent vraiment apprécier et s\'épanouir dans cette vision en noir et blanc du monde.\n\n
+    - C\'est amusant et gratifiant pour vous et votre chien - pour moi, c\'est tout ce qui compte !\n\n
+    - Vous aurez un chien heureux, détendu et confiant que vous pourrez emmener partout et qui sera un plaisir à côtoyer. Une plus grande liberté peut également être accordée à votre chien, car il sera plus digne de confiance lorsqu\'il sera dressé à l\'obéissance.\n\n
+    - Un chiot ou un chien dressé à l\'obéissance est un chien beaucoup plus sûr. Si votre chien se précipite hors de la porte, vous aurez toujours un contrôle vocal sur lui. Vous pourrez utiliser l\'un de vos ordres d\'obéissance, tels que \'viens\', \'couché\', \'assis\' ou \'va à ta place\'. Cela est très rassurant pour tout amoureux des chiens.\n\n
+    - Vous gagnerez en confiance et en respect mutuel avec votre chien. Il comprendra ce qui est attendu de lui et saura que vous serez toujours juste et cohérent à cet égard.\n\n
+    - Lorsque votre chien est dressé à l\'obéissance, il se comportera bien autour de la famille, des amis et des enfants sous supervision.\n\n
+    - Le dressage à l\'obéissance répond à certains besoins cruciaux dans la vie de votre chien, y compris l\'exercice, la stimulation mentale, passer du temps avec vous et fournir à votre chien un \'travail\'.\n\n
+    - Le dressage de chiens à des fins d\'obéissance réduit considérablement le risque d\'être enfermé dans une lutte de dominance avec votre chien. Vous serez son leader fort et toujours juste, qu\'il respectera et à qui il se tournera pour obtenir des conseils.\n\n
+    - Le dressage à l\'obéissance est un processus étape par étape que vous construisez au fil du temps. Il crée une base solide pour que votre chien puisse apprendre des compétences supplémentaires et des commandes d\'entraînement. Tout au long de ce processus, votre chien gagnera en confiance.\n\n
+    Le Danger de Ne Pas Faire de Dressage de Chiens à des Fins d\'Obéissance - C\'est une réalité malheureuse que les chiens non dressés soient la principale cause de l\'abandon de chiots et de chiens dans des refuges pour animaux à travers le monde.\n\n
+    - Cela ne fait de bien à personne, surtout aux pauvres chiens.\n\n
+    - Votre chien ne pourra jamais vraiment être proche de vous et de votre famille. Par là, je veux dire que votre chien ne participera pas aux sorties familiales, passant plutôt beaucoup de temps seul dans la cour. Cela peut entraîner de nombreux problèmes de comportement et peut être un véritable fléau pour vous, et même pour vos voisins.\n\n
+    - Votre chien sera plus dangereux autour des gens, des autres animaux et sur les routes.\n\n
+    - Il est courant que les chiens non dressés remettent en question votre leadership ou votre autorité. Les chiens dressés à l\'obéissance essayeront également de vous tester de cette manière. Mais lorsque vous maîtriserez le dressage à l\'obéissance, vous aurez les outils pour y faire face.\n\n
+    - Constamment (mais pas efficacement), votre chien sera grondé et s\'éloignera davantage de sa meute (vous et votre famille). Ce n\'est pas une façon de vivre pour vous et votre chien, et cela est totalement évitable avec un peu de dressage à l\'obéissance.\n\n
+    Règles Générales pour un Dressage Efficace à l\'Obéissance\n\n
+    Vous trouverez des techniques de dressage éprouvées pour des commandes d\'obéissance spécifiques en sélectionnant dans la liste ci-dessous. Voici quelques conseils généraux à garder à l\'esprit qui s\'appliquent dans n\'importe quelle situation de dressage à l\'obéissance :\n\n
+    - Félicitez et récompensez votre chien lorsqu\'il fait ce que vous lui demandez, donnez une correction appropriée lorsqu\'il ne fait pas ce qu\'il a été enseigné à faire. La clé est de trouver le bon équilibre pour votre chien. Ne vous attendez pas à ce que votre chien sache tout de suite. La répétition de la commande et de l\'action est cruciale. Croyez en ce que vous faites et tenez bon.\n\n
+    - Soyez toujours cohérent (cela inclut tout le monde qui vit avec votre chien), facilitez la tâche pour votre chien. Donnez-lui une décision simple à prendre et montrez-lui clairement quel choix est acceptable et quel choix est inacceptable - fournissez un retour instantané.\n\n
+    - Ne corrigez jamais votre chien pour ne pas avoir fait quelque chose qu\'il n\'a pas été correctement enseigné à faire - soyez réaliste et juste.\n\n
+    - Faites en sorte que vos séances d\'entraînement soient courtes, percutantes et amusantes - pour vous et votre chien. C\'est là que de nombreuses écoles de dressage échouent.\n\n
+    - Allez lentement, maîtrisez une commande simple au début puis passez à autre chose et construisez dessus. Continuez à défier mentalement et à stimuler votre chien tout au long du processus de dressage.\n\n
+    - Vous êtes la meilleure personne pour accomplir ces tâches avec votre chien. Votre chien doit vivre avec vous, vous êtes sa meute et vous devez être la personne à qui il se tourne pour obtenir du leadership et qu\'il respecte.\n\n
+    - Testez ou validez les commandes d\'obéissance dans différentes situations, endroits et avec des distractions supplémentaires. Incorporez le dressage à l\'obéissance dans votre routine quotidienne - votre chien pourrait effectuer un \'assis\' avant que vous ne lui donniez son dîner, ou un \'couché\' lorsque vous allez chercher le courrier.\n\n
+    - Ne corrigez jamais votre chien si vous ne le surprenez pas en train de faire quelque chose de mal, le timing de votre correction est très important. Une correction tardive ne fait que confondre votre chien et ne fait aucun sens pour lui.\n\n
+    - Découvrez ce qui motive votre chien, cela sera un outil important dans vos séances d\'entraînement. Mes chiens adorent le fromage, les friandises au foie et une balle lancée.\n\n
+    - Travaillez avec les instincts et les pulsions naturelles de votre chien - cela est expliqué plus en détail dans les articles ci-dessous.\n\n
+</string>
+    <!--ARTICLE SUR LES ABOIEMENTS-->
+    <string name="barking_text">Aboiements</string>
+    <string name="barking_text_article"> Travailler sur la manière d\'empêcher votre chien d\'aboyer peut être une tâche difficile et longue. Les chiens adorent aboyer. C\'est tout à fait naturel pour eux, tout comme il est normal pour nous, les humains, de parler.\n\n
+- C\'est lorsque nos chiens aboient de manière excessive que cela devient un problème pour tous, y compris nos voisins grincheux.\n\n
+- Compte tenu de cela, notre objectif n\'est pas d\'arrêter complètement les aboiements des chiens, mais plutôt de contrôler les aboiements excessifs. N\'oubliez pas qu\'il y a des situations où nous voulons que nos chiens aboient (et je suppose qu\'il y a aussi des moments où j\'aime bien que ma tante bavarde parle! ;)\n\n
+- La première étape pour modifier le comportement d\'un chien qui aboie de manière excessive est de déterminer la raison pour laquelle il aboie en premier lieu. Une fois que vous avez identifié cette cause ou ce déclencheur, vous pouvez alors planifier la bonne solution d\'entraînement.\n\n
+Pourquoi Les Chiens Aboient-ils? Arrêtez Votre Chien d’Aboyer Maintenant ! - Pour exprimer leurs besoins (en se montrant autoritaires).\n\n
+- Certains chiens sont élevés pour aboyer (comme certains terriers et chiens de chasse). arrêter les aboiements des chiens\n\n
+- Ils défendent leur territoire.\n\n
+- Pour alerter les autres membres de leur meute (c\'est-à-dire vous et votre famille) d\'un danger imminent.\n\n
+- Lorsqu\'ils jouent, juste par excitation pure - c\'est un type d\'aboiement très courant chez les chiots.\n\n
+- Aboyer sur d\'autres animaux. Selon l\'endroit où vous êtes dans le monde, cela peut être des écureuils ou des opossums (je suis en Australie - mes chiens deviennent fous avec les opossums).\n\n
+- S\'ils sont isolés.\n\n
+- Certains chiens aboient de manière excessive lorsqu\'ils sont séparés de leur meute (vous et votre famille).\n\n
+- S\'ils sont piégés derrière un type de barrière comme une clôture ou une fenêtre.\n\n
+- Juste pour s\'amuser!\n\n
+- Pour exprimer leur dominance (les chiots testent souvent leurs maîtres avec des aboiements de dominance).\n\n
+- Ils aboient parce que leurs maîtres ont involontairement récompensé les aboiements excessifs par le passé (c\'est crucial à comprendre)\n\n
+- Par ennui ou manque de stimulation physique et mentale.\n\n
+- Ils peuvent se sentir stressés ou mal à l\'aise pour une raison quelconque. Des choses comme se sentir menacé ou ne pas avoir un endroit approprié pour dormir peuvent provoquer des problèmes d\'aboiements excessifs.\n\n
+- Les chiens qui n\'ont pas été correctement socialisés deviennent souvent des aboyeurs gênants.\n\n
+- Ils peuvent chercher une réponse ou de l\'attention de leur meute.\n\n
+- Une autre chose à garder à l\'esprit est que même s\'il peut vous sembler que votre chien aboie sans raison, ce n\'est pas nécessairement le cas. Cela est dû au fait que votre chien a des sens auditifs, olfactifs et visuels beaucoup plus aiguisés que nous, les humains. Les aboiements excessifs de votre chien sont très probablement déclenchés par quelque chose.\n\n
+Le Chien Aboie Quand Vous N\'êtes Pas à la Maison- Je ne vais pas prétendre que ce type d\'aboiement sera facile à contrôler pour vous, car en réalité, c\'est souvent un processus difficile et long.\n\n
+- Souvenez-vous toujours que les chiens sont des créatures sociales ; lorsqu\'ils sont séparés de leur meute (vous), ils peuvent devenir stressés, vulnérables et frustrés. Ce type d\'aboiement excessif est souvent causé par l\'anxiété de séparation.\n\n
+- Tout d\'abord, je dirais simplement d\'utiliser votre bon sens et de vous assurer que les bases de la possession d\'un chien sont respectées. Gardez votre chien bien exercé (physiquement et mentalement) et fournissez de l\'eau fraîche, des jouets à mâcher et un endroit confortable pour dormir. Vous pouvez également essayer de bloquer la vue de votre chien sur la rue et autres distractions/déclencheurs. En gros, assurez-vous que votre chien est heureux.\n\n
+- Si vous savez que votre chien a aboyé pendant que vous étiez absent, vous devez l\'ignorer un moment à votre retour. Je comprends que cela soit difficile pour beaucoup de propriétaires, mais sinon, votre chien croira que ses aboiements sont la raison pour laquelle vous êtes rentré chez lui. Continuez simplement à faire vos affaires pendant un moment à votre arrivée, en ignorant votre chien. Une fois que votre chien s\'est calmé, vous pouvez alors établir un contact avec lui. Veuillez noter que cette méthode s\'applique aux chiens qui aboyaient au moment où vous êtes rentré.\n\n
+Vous Devez Transmettre Un Message Clair Et Cohérent À Votre Chien En Toutes Circonstances- Cette technique suivante demande du temps et de la patience, mais peut être très efficace pour arrêter les aboiements de votre chien. Elle repose sur cette règle importante applicable à toutes les situations d\'entraînement des chiens. Louez ou récompensez lorsque votre chien fait quelque chose que vous voulez encourager, et créez une association négative lorsqu\'il fait quelque chose que vous n\'aimez pas.\n\n
+- Quittez la maison comme vous le feriez normalement, mais cachez-vous quelque part à proximité. Lorsque votre chien commence à aboyer, vaporisez-le avec de l\'eau ou lancez une boîte de conserve remplie de pièces de monnaie ou de cailloux dans sa direction (c\'est l\'association négative). Essayez de rester hors de vue de votre chien en faisant cela si possible. Allez vous cacher à nouveau, s\'il est silencieux pendant un moment, entrez et récompensez son bon comportement avec des éloges et peut-être une friandise. Ce processus peut devoir être répété encore et encore jusqu\'à ce que vous ayez brisé l\'habitude d\'aboyer excessivement.\n\n
+- Les techniques ci-dessus se sont avérées efficaces avec mes propres chiens, mais si elles ne fonctionnent pas pour vous, peut-être pourriez-vous essayer un collier anti-aboiements à la citronnelle. Encore une fois, cette méthode utilise la puissance de l\'association négative. Chaque fois que votre chien aboie, une fine brume de citronnelle est pulvérisée dans l\'air. La plupart des chiens détestent l\'odeur et se rendent vite compte que s\'ils n\'aboient pas, l\'odeur n\'est pas là pour les déranger. *Si vous avez plus d\'un chien, cette méthode n\'est pas vraiment une solution appropriée. Je recommande toujours un véritable entraînement avant même de considérer une option telle qu\'un collier anti-aboiements à la citronnelle.\n\n
+Le Chien Aboie Pour Attirer L\'Attention Ou Exiger Quelque ChoseC\'est un problème d\'aboiement excessif qui peut être corrigé très rapidement.- Si vous vous établissez en tant que leader dans la relation propriétaire-chien que vous partagez, ce type de problème d\'aboiement ne se produira pas. Dans le processus d\'entraînement, vous formerez également un lien fort basé sur la confiance et le respect mutuel. Pour apprendre la meilleure façon d\'éduquer votre chien.\n\n
+- Vous pouvez également apprendre à votre chien l\'ordre "Stop" ou "Silence" pour aider à prévenir ce type ennuyeux d\'aboiements. Lorsque votre chien aboie, dites simplement "SILENCE!" en agitant une friandise savoureuse devant son museau. Après que votre chien est silencieux pendant quelques secondes, vous pouvez alors lui donner la friandise. Finalement, vous n\'aurez plus besoin de la friandise et il suffira de dire "SILENCE!"\n\n
+</string>
+    <!--ARTICLES-->
+    <string name="first_article">Mon chien pleure quand je le laisse seul</string>
+    <string name="first_article_description">Quand vous quittez la pièce ou la maison, votre chien commence à pleurer, aboyer et gratter la porte. Cela vous semble familier ? Ne vous inquiétez pas, voici ce que vous devez faire :\n\n
+Étape 1 : Quittez la pièce ou la maison et éloignez-vous de la porte.\n\n
+Étape 2 : Rentrez après 2 minutes et ne communiquez pas avec votre chien. (Ne l\'appelez pas, ne le félicitez pas, ne le regardez même pas - Faites semblant d\'avoir oublié quelque chose.)\n\n
+Étape 3 : Restez à l\'intérieur pendant 10 à 15 secondes puis repartez.\n\n
+Étape 4 : Attendez dehors plus longtemps chaque fois que vous quittez la pièce/la maison (par exemple 5/15/30 minutes) et répétez les étapes. Au bout d\'un moment, votre chien comprendra que vous ne l\'abandonnerez pas.\n\n
+P.S. : Vous devez être patient pour que votre chien arrête de pleurer plus rapidement.\n\n</string>
+
+    <string name="second_article">Mon chien ronge</string>
+    <string name="second_article_description">Son habitude de mâchouiller des objets a plusieurs raisons. Pour la solution, nous n\'avons besoin que d\'un objet léger et bruyant. Par exemple, un porte-clés. Il peut avoir peur ou montrer de l\'agressivité lorsqu\'il voit un autre objet. Ne vous inquiétez pas, cet objet ne sert pas à effrayer votre chien, mais juste à le surprendre. Voici les étapes à suivre :\n\n
+- Quand votre chien gratte ou ronge, placez-vous derrière ou à côté de lui.\n\n
+- Prenez le porte-clés dans votre main et jetez-le gentiment vers ses pattes. (Nous ne voulons pas blesser votre chien. L\'important est de toucher légèrement les pattes et de faire du bruit.)\n\n
+- Ne faites pas de contact visuel avec votre chien après avoir lancé le porte-clés. (Vous pouvez regarder le plafond.) Cela parce que votre chien ne doit pas savoir d\'où cela vient, qui a lancé le porte-clés ou ce que c\'est.\n\n
+- Après quelques répétitions, votre chien abandonnera ce comportement si vous appliquez cette méthode sans le blesser.\n\n</string>
+
+    <string name="third_article">Mon chiot pleure</string>
+    <string name="third_article_description">Les chiots pleurent principalement parce qu\'ils ne sont pas avec leur mère. Si c\'est le cas, il n\'y a pas grand-chose que vous puissiez faire, mais vous pouvez essayer de couvrir votre chiot avec une couverture.\n\n
+(La couverture gardera votre chiot au chaud et lui donnera l\'impression d\'être avec sa mère.)</string>
+
+    <string name="fourth_article">Mon chien pleure si je ferme la porte la nuit</string>
+    <string name="fourth_article_description">Si vous ne dormez pas dans la même pièce que votre chien et fermez la porte la nuit, il/elle pourrait pleurer, aboyer ou gratter la porte/les coussins. Voici ce que vous devez faire :\n\n
+- Soyez têtu et ignorez votre chien. Même si vous faites une exception une seule fois, il/elle pensera que vous ouvrirez la porte chaque fois qu\'il/elle se comportera ainsi.\n\n
+- Vous pouvez laisser un de vos vêtements dans la pièce où dort votre chien, afin qu\'il/elle puisse sentir votre odeur et se sentir moins anxieux.\n\n
+P.S. : Vous ne devriez laisser entrer votre chien que lorsqu\'il/elle est calme et bien élevé(e).</string>
+
+</resources>

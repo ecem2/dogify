@@ -33,8 +33,11 @@ class FoodFragment : BaseFragment<SoundsViewModel, FragmentFoodBinding>() {
         val tabLayout = viewBinding.tabLayout
         tabLayout.setupWithViewPager(viewPager)
 
-        val tabTitles = arrayOf("Safe ones", "Harmful ones", "Careful with these")
-
+        val tabTitles = arrayOf(
+            getString(R.string.safe_ones),
+            getString(R.string.harmful_ones),
+            getString(R.string.careful_with_these)
+        )
         for (i in tabTitles.indices) {
             val tab = tabLayout.getTabAt(i)
             if (tab != null) {

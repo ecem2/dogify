@@ -13,32 +13,33 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="16dp"
-            android:src="@drawable/ic_back"
             android:padding="4dp"
+            android:src="@drawable/ic_back"
             app:layout_constraintBottom_toBottomOf="@+id/dogi_article"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="@+id/dogi_article" />
+
         <androidx.appcompat.widget.AppCompatTextView
             android:id="@+id/dogi_article"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="16dp"
+            android:layout_marginTop="20dp"
             android:fontFamily="@font/tt_firs_neue_trial_black"
-            android:text="Article"
+            android:text="@string/article"
             android:textAllCaps="false"
             android:textColor="@color/black"
             android:textSize="36sp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"  />
+            app:layout_constraintTop_toTopOf="parent" />
 
         <androidx.recyclerview.widget.RecyclerView
             android:id="@+id/rv_article"
             android:layout_width="0dp"
             android:layout_height="0dp"
             android:layout_marginTop="12dp"
-            app:layoutManager="androidx.recyclerview.widget.GridLayoutManager"
             android:layout_marginBottom="50dp"
+            app:layoutManager="androidx.recyclerview.widget.GridLayoutManager"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"

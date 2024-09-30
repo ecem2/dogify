@@ -1,23 +1,12 @@
 package com.melo.dogify.fragment
 
 import android.os.Bundle
-import androidx.fragment.app.Fragment
-import android.view.LayoutInflater
-import android.view.View
-import android.view.ViewGroup
-import androidx.recyclerview.widget.GridLayoutManager
 import com.melo.dogify.R
 import com.melo.dogify.adapter.ArticleAdapter
-import com.melo.dogify.adapter.SoundsAdapter
 import com.melo.dogify.core.fragments.BaseFragment
 import com.melo.dogify.databinding.FragmentArticleBinding
-import com.melo.dogify.databinding.FragmentSoundsBinding
 import com.melo.dogify.model.ArticleDescriptionModel
 import com.melo.dogify.model.ArticleModel
-import com.melo.dogify.model.CardModel
-import com.melo.dogify.model.FoodDescriptionModel
-import com.melo.dogify.model.FoodModel
-import com.melo.dogify.model.TrainingModel
 import com.melo.dogify.viewmodel.SoundsViewModel
 import dagger.hilt.android.AndroidEntryPoint
 
@@ -90,7 +79,6 @@ class ArticleFragment : BaseFragment<SoundsViewModel, FragmentArticleBinding>(),
                 putParcelable("articleDescription", it)
             }
 
-            // FragmentTransaction ile geçiş yapıyoruz
             val articleDescriptionFragment = ArticleDescriptionFragment().apply {
                 arguments = bundle
             }

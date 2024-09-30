@@ -8,36 +8,22 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
-        <androidx.appcompat.widget.AppCompatTextView
-            android:id="@+id/dogi"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="10dp"
-            android:fontFamily="@font/tt_firs_neue_trial_demibold"
-            android:text="Dogi."
-            android:textAllCaps="false"
-            android:textColor="@color/black"
-            android:textSize="24sp"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent" />
-
         <androidx.appcompat.widget.AppCompatImageView
             android:id="@+id/img_premium_screen"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="3dp"
+            android:layout_marginTop="20dp"
             android:src="@drawable/premium_screen"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/dogi" />
+            app:layout_constraintTop_toTopOf="parent" />
 
         <androidx.constraintlayout.widget.Guideline
             android:id="@+id/gl"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:orientation="horizontal"
-            app:layout_constraintGuide_percent="0.36" />
+            app:layout_constraintGuide_percent="0.3" />
 
         <androidx.appcompat.widget.AppCompatImageView
             android:id="@+id/icon_premium"
@@ -55,9 +41,9 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="15dp"
+            android:layout_marginTop="8dp"
             android:background="@drawable/bg_pro"
             android:orientation="vertical"
-            android:layout_marginTop="1dp"
             app:layout_constraintEnd_toStartOf="@+id/bg_weekly"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/icon_premium">
@@ -76,7 +62,7 @@
                 android:layout_marginTop="12dp"
                 android:fontFamily="@font/tt_firs_neue_trial_demibold"
                 android:gravity="center"
-                android:text="Your \nYearly Plan"
+                android:text="@string/your_yearly_plan"
                 android:textColor="@color/black"
                 android:textSize="20sp" />
 
@@ -87,7 +73,7 @@
                 android:layout_marginTop="12dp"
                 android:fontFamily="@font/tt_firs_neue_trial_bold"
                 android:gravity="center"
-                android:text="USD 29"
+                android:text="@string/USD_29"
                 android:textColor="@color/black"
                 android:textSize="24sp" />
         </androidx.appcompat.widget.LinearLayoutCompat>
@@ -97,7 +83,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="15dp"
-            android:layout_marginTop="1dp"
+            android:layout_marginTop="8dp"
             android:background="@drawable/bg_selected_yearly"
             android:orientation="vertical"
             android:visibility="gone"
@@ -138,7 +124,7 @@
             android:id="@+id/bg_weekly"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="1dp"
+            android:layout_marginTop="8dp"
             android:layout_marginEnd="15dp"
             android:background="@drawable/bg_pro"
             android:orientation="vertical"
@@ -160,7 +146,7 @@
                 android:layout_marginTop="12dp"
                 android:fontFamily="@font/tt_firs_neue_trial_demibold"
                 android:gravity="center"
-                android:text="Your \nWeekly Plan"
+                android:text="@string/your_weekly_plan"
                 android:textColor="@color/black"
                 android:textSize="20sp" />
 
@@ -171,7 +157,7 @@
                 android:layout_marginTop="12dp"
                 android:fontFamily="@font/tt_firs_neue_trial_bold"
                 android:gravity="center"
-                android:text="USD 09"
+                android:text="@string/USD_09"
                 android:textColor="@color/black"
                 android:textSize="24sp" />
         </androidx.appcompat.widget.LinearLayoutCompat>
@@ -180,7 +166,7 @@
             android:id="@+id/bg_selected_weekly"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="1dp"
+            android:layout_marginTop="8dp"
             android:layout_marginEnd="15dp"
             android:background="@drawable/bg_selected_weekly"
             android:orientation="vertical"
@@ -218,30 +204,24 @@
                 android:textSize="24sp" />
         </androidx.appcompat.widget.LinearLayoutCompat>
 
-        <androidx.constraintlayout.widget.Guideline
-            android:id="@+id/gl_bottom"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:orientation="horizontal"
-            app:layout_constraintGuide_percent="0.77" />
 
         <androidx.appcompat.widget.AppCompatTextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="28dp"
-            android:layout_marginTop="8dp"
+            android:layout_marginTop="12dp"
             android:fontFamily="@font/tt_firs_neue_trial_medium"
-            android:text="Start Weekly Free Trial"
+            android:text="@string/start_weekly_free_trial"
             android:textColor="#1F1F1F"
             android:textSize="16sp"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/gl_bottom" />
+            app:layout_constraintTop_toBottomOf="@+id/bg_yearly" />
 
         <Switch
             android:id="@+id/ic_switch"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="6dp"
+            android:layout_marginTop="10dp"
             android:layout_marginEnd="28dp"
             android:padding="4dp"
             android:thumb="@drawable/premium_thumb"
@@ -255,48 +235,52 @@
             android:layout_width="match_parent"
             android:layout_height="58dp"
             android:layout_marginHorizontal="28dp"
-            android:layout_marginTop="4dp"
-            android:text="Purchase"
+            android:layout_marginTop="12dp"
+            android:background="@drawable/bg_purchase"
+            android:fontFamily="@font/tt_firs_neue_trial_bold"
+            android:text="@string/purchase"
             android:textAllCaps="false"
             android:textColor="@color/white"
-            android:fontFamily="@font/tt_firs_neue_trial_bold"
-            android:textSize="20sp"
-            android:background="@drawable/bg_purchase"
+            android:textSize="18sp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/ic_switch" />
+
         <androidx.appcompat.widget.AppCompatTextView
             android:id="@+id/description"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Subscription is auto-renewable. You can cancel\n
-your subscription at any time"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/btn_purchase"
+            android:layout_marginTop="12dp"
+            android:fontFamily="@font/tt_firs_neue_trial_regular"
             android:gravity="center"
-            android:layout_marginTop="2dp"
-            android:fontFamily="@font/tt_firs_neue_trial_regular"
-            android:textSize="14sp"/>
-        <androidx.appcompat.widget.AppCompatTextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/description"
-            android:text="@string/terms"
-            android:layout_marginTop="4dp"
-            android:layout_marginStart="28dp"
-            android:fontFamily="@font/tt_firs_neue_trial_regular"
-            android:textSize="12sp"/>
-        <androidx.appcompat.widget.AppCompatTextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:text="@string/subscription_is_auto"
+            android:textSize="14sp"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/description"
-            android:text="@string/privacy"
-            android:layout_marginTop="4dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/btn_purchase" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="28dp"
+            android:layout_marginTop="8dp"
+            android:fontFamily="@font/tt_firs_neue_trial_regular"
+            android:padding="2dp"
+            android:text="@string/terms"
+            android:textSize="12sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/description" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
             android:layout_marginEnd="28dp"
             android:fontFamily="@font/tt_firs_neue_trial_regular"
-            android:textSize="12sp"/>
+            android:padding="2dp"
+            android:text="@string/privacy"
+            android:textSize="12sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/description" />
     </androidx.constraintlayout.widget.ConstraintLayout>
 </layout>
