@@ -229,7 +229,7 @@ class SoundsViewModel @Inject constructor(
                 premiumPhoto = R.drawable.ic_advert,
                 text = R.string.surprised,
                 mp3Title = R.raw.sound_feeding_dog,
-                isPremium = true
+                isPremium = false
             )
         )
         _cardList.add(
