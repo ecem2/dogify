@@ -77,8 +77,6 @@ class SoundsFragment : BaseFragment<SoundsViewModel, FragmentSoundsBinding>(),
     }
 
 
-
-
     private fun getCardStatus(mp3Title: Int): Boolean {
         val sharedPreferences =
             requireContext().getSharedPreferences("sound_prefs", Context.MODE_PRIVATE)
@@ -91,7 +89,7 @@ class SoundsFragment : BaseFragment<SoundsViewModel, FragmentSoundsBinding>(),
         sharedPreferences.edit().putBoolean("premium_status_$mp3Title", isPremium).apply()
     }
 
-    private fun loadInterAd() {
+    private fun loadInterAd(onAdLoadedCallback: (() -> Unit)? = null) {
         val adRequest = AdRequest.Builder().build()
         InterstitialAd.load(
             requireContext(),
@@ -104,28 +102,54 @@ class SoundsFragment : BaseFragment<SoundsViewModel, FragmentSoundsBinding>(),
 
                 override fun onAdLoaded(interstitialAd: InterstitialAd) {
                     mInterstitialAd = interstitialAd
+                    onAdLoadedCallback?.invoke()
+
                 }
             })
     }
 
     private fun showVideoAd(onAdCompleted: () -> Unit) {
-        mInterstitialAd?.fullScreenContentCallback = object : FullScreenContentCallback() {
-            override fun onAdDismissedFullScreenContent() {
-                onAdCompleted()
-                mInterstitialAd = null
-                loadInterAd()
-            }
+        if (mInterstitialAd == null) {
+            loadInterAd {
+                mInterstitialAd?.let { ad ->
+                    ad.fullScreenContentCallback = object : FullScreenContentCallback() {
+                        override fun onAdDismissedFullScreenContent() {
+                            onAdCompleted()
+                            mInterstitialAd = null
+                            loadInterAd()
+                        }
 
-            override fun onAdFailedToShowFullScreenContent(adError: AdError) {
-                mInterstitialAd = null
-                loadInterAd()
-            }
+                        override fun onAdFailedToShowFullScreenContent(adError: AdError) {
+                            mInterstitialAd = null
+                            loadInterAd()
+                        }
 
-            override fun onAdShowedFullScreenContent() {
-                mInterstitialAd = null
+                        override fun onAdShowedFullScreenContent() {
+                            mInterstitialAd = null
+                        }
+                    }
+                    ad.show(requireActivity())
+                }
             }
+        } else {
+            mInterstitialAd?.fullScreenContentCallback = object : FullScreenContentCallback() {
+                override fun onAdDismissedFullScreenContent() {
+                    onAdCompleted()
+                    mInterstitialAd = null
+                    loadInterAd()
+                }
+
+                override fun onAdFailedToShowFullScreenContent(adError: AdError) {
+                    mInterstitialAd = null
+                    loadInterAd()
+                }
+
+                override fun onAdShowedFullScreenContent() {
+                    mInterstitialAd = null
+                }
+            }
+            mInterstitialAd?.show(requireActivity())
         }
-        mInterstitialAd?.show(requireActivity())
     }
 
     private fun hasAccessToSound(mp3Title: Int): Boolean {
@@ -197,6 +221,11 @@ class SoundsFragment : BaseFragment<SoundsViewModel, FragmentSoundsBinding>(),
 
     private fun navigateToSubscriptionScreen() {
         findNavController().navigate(R.id.action_soundsFragment_to_premiumScreenPurchaseFragment)
+    }
+
+    override fun onResume() {
+        super.onResume()
+        loadInterAd()
     }
 
     override fun onItemClick(item: CardModel) {
